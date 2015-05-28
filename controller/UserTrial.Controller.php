@@ -5,28 +5,22 @@
 */
 
 if(!class_exists('Error')) {
-	require_once($_SERVER['DOCUMENT_ROOT'].'/shymansky/demo/model/Error.class.php');
+	require_once($_SERVER['DOCUMENT_ROOT'].'/model/Error.class.php');
 }
 
-if(!class_exists('Utils')) {<?php
-/**
- * UserFactory class
- * Created by: Raina Gamboa
-*/
-
 if(!class_exists('Error')) {
-	require_once($_SERVER['DOCUMENT_ROOT'].'/shymansky/demo/model/Error.class.php');
+	require_once($_SERVER['DOCUMENT_ROOT'].'/model/Error.class.php');
 }
 
 if(!class_exists('Utils')) {
-	require_once($_SERVER['DOCUMENT_ROOT'].'/shymansky/demo/model/Utils.class.php');
+	require_once($_SERVER['DOCUMENT_ROOT'].'/model/Utils.class.php');
 }
 
 if(!class_exists('DB')) {
-	require_once($_SERVER['DOCUMENT_ROOT'].'/shymansky/demo/model/db.inc.trial.php');
+	require_once($_SERVER['DOCUMENT_ROOT'].'/model/db.inc.trial.php');
 }
 
-require_once($_SERVER['DOCUMENT_ROOT'].'/shymansky/demo/includes/User.class.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/includes/User.class.php');
 
 ini_set('track_errors', true);
 

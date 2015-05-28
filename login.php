@@ -5,7 +5,7 @@
 
 	include_once 'controller/User.Controller.php'; 
 	include_once 'controller/Language.Controller.php';
-	require_once($_SERVER['DOCUMENT_ROOT'].'/shymansky/demo/includes/User.class.php');
+	require_once($_SERVER['DOCUMENT_ROOT'].'/includes/User.class.php');
 
 	$lc = new LanguageController();
 	$uc = new UserController();
