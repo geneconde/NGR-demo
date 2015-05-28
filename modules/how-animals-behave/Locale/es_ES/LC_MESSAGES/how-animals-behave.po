@@ -1,0 +1,1159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: how-animals-behave\n"
+"POT-Creation-Date: 2013-09-06 17:31+0800\n"
+"PO-Revision-Date: 2015-05-12 14:43+0800\n"
+"Last-Translator: Raina\n"
+"Language-Team:  <ask@jigzen.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"Language: ar\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# Global
+msgid "Quick Check #1"
+msgstr "Revisión Rápida #1"
+
+msgid "Quick Check #2"
+msgstr "Revisión Rápida #2"
+
+msgid "Quick Check #3"
+msgstr "Revisión Rápida #3"
+
+msgid "Quick Check #4"
+msgstr "Revisión Rápida #4"
+
+msgid "Quiz Question #1"
+msgstr "Pregunta de Cuestionario #1"
+
+msgid "Quiz Question #2"
+msgstr "Pregunta de Cuestionario #2"
+
+msgid "Quiz Question #3"
+msgstr "Pregunta de Cuestionario #3"
+
+msgid "Quiz Question #4"
+msgstr "Pregunta de Cuestionario #4"
+
+msgid "Quiz Question #5"
+msgstr "Pregunta de Cuestionario #5"
+
+msgid "Quiz Question #6"
+msgstr "Pregunta de Cuestionario #6"
+
+# 1
+msgid "Start"
+msgstr "Inicio"
+
+msgid "Welcome to the How Animals Behave module, "
+msgstr "Bienvenido/a a la revisión Cómo se Comportan los Animales,"
+
+msgid "Are you ready"
+msgstr "¿Está listo/a?"
+
+msgid "How Animals Behave"
+msgstr "Cómo se Comportan los Animales"
+
+# 2
+msgid "Thinking about... how animals behave"
+msgstr "Pensando sobre... cómo se comportan los animales"
+
+msgid ""
+"Want to know where your dog or cat is? Open a can of pet food. Is the fish in the bowl still alive? Tap the glass. Are there ants "
+"in the park? Open the picnic basket."
+msgstr ""
+"¿Desea saber dónde está su perro o gato? Abra una lata de comida para perro o mascota. ¿Aún está vivo el pez en la pecera? Dé una "
+"palmadita al vidrio. ¿Las hormigas están en el parque? Abra la cesta del picnic."
+
+msgid ""
+"When you open the can, tap the glass, or bring out the picnic you get a quick response. The animals sense chemicals wafting into "
+"the air from the food substances. The fish moves in response to vibrations transmitted through the glass bowl into the water. The "
+"stimulus you provide causes a response in the animals. All animals are able to respond to their environments in some manner."
+msgstr ""
+"Cuando usted abre la lata, da una palmadita al vidrio o saca el picnic, obtiene una respuesta rápida. Los animales sienten los "
+"químicos que flotan en el aire provenientes de las sustancias de los alimentos. El pez se mueve en respuesta a las vibraciones "
+"trasmitidas al agua a través del vidrio de la pecera. Los estímulos que usted proporciona causan una respuesta en los animales. "
+"Todos los animales son capaces de responder a sus ambientes en cierta forma."
+
+msgid "Back"
+msgstr "Atrás"
+
+msgid "Next"
+msgstr "Siguiente"
+
+msgid "Go Back to Dashboard"
+msgstr "Regresar al tablero"
+
+msgid "English"
+msgstr "Inglés"
+
+msgid "Arabic"
+msgstr "Árabe"
+
+msgid "Spanish"
+msgstr "Español"
+
+msgid "Chinese"
+msgstr "Chino"
+
+# 3
+msgid "Checking what you already know… about how animals behave"
+msgstr "Verificando lo que usted ya conoce... acerca de cómo se comportan los organismos"
+
+msgid "Check Answer"
+msgstr "Verificar Respuesta"
+
+msgid "Click on <span class='blink'>all</span> the correct statements below."
+msgstr "Haga click sobre <span class='blink'>todas</span> las oraciones correctas a continuación."
+
+msgid "All animals have brains."
+msgstr "Todos los animales tienen cerebros."
+
+msgid "All animals are able to respond to their environments."
+msgstr "Todos los animales son capaces de responder a sus ambientes."
+
+msgid "Animals only respond to food and danger."
+msgstr "Los animales solo responden a la comida y al peligro."
+
+msgid "Animals do not have memories like humans do."
+msgstr "Los animales no tienen recuerdos como los tienen los humanos."
+
+msgid ""
+"Some animals have specialized cells, tissues, and organs that control their interactions like the brain does, and others have "
+"brains more or less similar to our own.  Animals can sense the world around them, and sometimes even remember and learn.  Some "
+"animals have long memories. All animals are able to respond to their environments.  Read on to learn more about how organisms "
+"respond to their environment."
+msgstr ""
+"Algunos animales tienen células, tejidos y órganos especializados que controlan sus interacciones tal como lo hace el cerebro y "
+"otros tienen cerebros más o menos similares al nuestro. Los animales pueden sentir el mundo que los rodea y algunas veces, incluso "
+"recuerdan y aprenden. Algunos animales tienen una gran memoria. Todos los animales son capaces de responder a sus ambientes. Siga "
+"leyendo para aprender más acerca de cómo los organismos responden a su ambiente."
+
+# 4
+msgid "Reviewing big ideas... about how animals behave"
+msgstr "Revisando ideas centrales... acerca de cómo se comportan los organismos"
+
+msgid "Have you ever been told to be on your best behavior? What is behavior and what do parents and teachers mean by that?"
+msgstr "¿Alguna vez le han dicho que se comporte bien? ¿Qué es comportamiento y cómo lo definen los padres y maestros ?"
+
+msgid ""
+"<span class='key'> Behavior </span> is the way that an organism acts and responds in the environment. In your case, there are many "
+"things going on inside and around you. You might feel hungry as soon as you get in the car, or need to use to the bathroom as soon "
+"as your teacher starts the lesson. These feelings are internal cues signaling a need you have. The next step is what you do about "
+"it, how you respond at this point is your behavior."
+msgstr ""
+"<span class='key'> Comportamiento </span> es la forma en que un organismo actúa y responde en el ambiente. En su caso, muchas "
+"cosas están sucediendo dentro y alrededor suyo. Used podría sentir hambre tan pronto como se sube al auto o necesitar ir al baño "
+"tan pronto como su profesor comienza la clase. Estos sentimientos son señales internas que indican que usted tiene una necesidad. "
+"El siguiente paso es lo que usted hace al respecto, cómo responde en ese momento es su comportamiento."
+
+msgid ""
+"Sometimes those cues come from inside you like hunger, and sometimes they come from the environment, like when your sister pokes "
+"you and you feel pain. A cue like this is called a <span class='key'>stimulus</span>."
+msgstr ""
+"Algunas veces esas señales vienen de su interior, tal como el hambre y algunas veces vienen del ambiente, como cuando su hermana "
+"le da un pinchazo y usted siente dolor. Una señal como esta es llamada un <span class='key'> estímulo</span>."
+
+msgid ""
+"A stimulus is anything that causes a reaction or change in an organism or any part of an organism. Behaviors are actions living "
+"things take in <span class='key'>response</span> to stimuli (plural form of stimulus). Stimuli can be either internal or external, "
+"and include anything like heat, cold, pain, noise, anything that arouses the senses."
+msgstr ""
+"Un estímulo es cualquier cosa que causa una reacción o cambio en un organismo o cualquier parte de un organismo. Los "
+"comportamientos son acciones que los organismos vivos toman en <span class='key'>respuesta</span> a los estímulos (forma plural de "
+"estímulo). Los estímulos pueden ser internos o externos e incluir cualquier cosa como calor, frío, dolor, ruido, lo que sea que "
+"estimule los sentidos."
+
+msgid "Read more"
+msgstr "Leer más"
+
+# 5
+msgid "Question A. Click on the statement that best explains behavior. "
+msgstr "Pregunta A. Haga click sobre la oración que mejor define el comportamiento."
+
+msgid "You answered..."
+msgstr "Usted respondió..."
+
+msgid "All the good and bad actions a person does."
+msgstr "Todas las acciones buenas y malas que realiza una persona"
+
+msgid "The way an organism acts in an environment."
+msgstr "La forma en que un organismo actúa en su ambiente"
+
+msgid "All an organism has learned to survive in an environment."
+msgstr "Todo lo que un organismo ha aprendido para sobrevivir en un ambiente."
+
+msgid "The way an organism fights off their predators."
+msgstr "La forma en que un organismo lucha con sus predadores."
+
+msgid "Question B. Drag the items up or down (left column) to match the most probable response."
+msgstr "Pregunta B. Arrastre los elementos arriba o abajo (columna derecha) para emparejar la respuesta más probable."
+
+msgid "Stimuli"
+msgstr "Estímulos"
+
+msgid "Response"
+msgstr "Respuesta"
+
+msgid "Predator attacking"
+msgstr "Predador atacando"
+
+msgid "Attract a mate (courtship)"
+msgstr "Atraer a una pareja (cortejo)"
+
+msgid "Change in temperature"
+msgstr "Cambio en la temperatura"
+
+msgid "Friendship and conversation"
+msgstr "Amistad y conversación"
+
+msgid "Singing, fluffing up, spreading out feathers"
+msgstr "Cantar, esponjarse, extender las plumas"
+
+msgid "Use social media sites"
+msgstr "Usar redes sociales"
+
+msgid "Camouflage"
+msgstr "Camuflaje"
+
+msgid "Migration"
+msgstr "Migración"
+
+msgid "No, behavior is the way an organism acts, not necessarily if the actions are good or bad."
+msgstr "No, el comportamiento es la forma en que un organismo actúa, no necesariamente si la acción es buena o mala."
+
+msgid "Correct, different organisms respond to their environment in many ways, which is considered behavior. "
+msgstr "Correcto, diferentes organismos responden a su ambiente de muchas formas, lo cual se considera comportamiento."
+
+msgid ""
+"No, behavior is not just learned behavior, it includes instinct as well. Behavior is the way an organism acts in an environment. "
+msgstr ""
+"No, el comportamiento no es solamente aprendido, también incluye el instinto. El comportamiento es la forma en que un organismo "
+"actúa en un ambiente."
+
+msgid ""
+"Not quite, the way they fight off predators is just an example, not the entire definition of behavior. Behavior is the way an "
+"organism acts in an environment. "
+msgstr ""
+"No exactamente, la forma en que ellos se enfrentan a los predadores es solo un ejemplo, no la definición completa de "
+"comportamiento. El comportamiento es la forma en que un organismo actúa en un ambiente."
+
+msgid ""
+"Correct!  Even predators use their natural camouflage to blend in with their surroundings. Birds use songs and feathers to attract "
+"mates, but so do humans when they groom themselves to look nice. Since humans are the only organism that know how to heat and cool "
+"their homes, other animals such as ducks and geese migrate to warmer or cooler places.  Today, many people use social media sites "
+"and actual gathering places to meet and talk with other people."
+msgstr ""
+"¡Correcto! Incluso los predadores usan su camuflaje natural para mezclarse con su entorno. Las aves utilizan las canciones y el "
+"plumaje para atraer a la pareja, pero también lo hacen los humanos cuando se arreglan para lucir bien. Debido a que los humanos "
+"son los únicos organismos que saben cómo calentar y enfriar sus hogares, otros animales tales como patos y gansos migran a lugares "
+"más tibios o frescos. Actualmente, muchas personas usan las redes sociales y los sitios de reunión modernos para conocer y hablar "
+"con otras personas."
+
+msgid ""
+"Check your matches again.  Even predators use their natural camouflage to blend in with their surroundings. Birds use songs and "
+"feathers to attract mates, but so do humans when they groom themselves to look nice. Since humans are the only organism that know "
+"how to heat and cool their homes, other animals such as ducks and geese migrate to warmer or cooler places.  Today, many people "
+"use social media sites and actual gathering places to meet and talk with other people."
+msgstr ""
+"Revise sus aciertos de nuevo. Incluso los predadores usan su camuflaje natural para mezclarse con su entorno. Las aves utilizan "
+"las canciones y el plumaje para atraer a la pareja, pero también lo hacen los humanos cuando se arreglan para lucir bien. Debido a "
+"que los humanos son los únicos organismos que saben cómo calentar y enfriar sus hogares, otros animales tales como patos y gansos "
+"migran a lugares más tibios o frescos. Actualmente, muchas personas usan las redes sociales y los sitios de reunión modernos para "
+"conocer y hablar con otras personas."
+
+# 6
+msgid "More big ideas... about how animals behave"
+msgstr "Más ideas centrales... acerca de cómo se comportan los organismos"
+
+msgid "Let's look at behaviors of different organisms."
+msgstr "Demos un vistazo a los comportamientos de diferentes organismos."
+
+msgid ""
+"Hungry? Microorganisms and plants that use light to make food will automatically move toward light to get more for their food "
+"making process (photosynthesis)."
+msgstr ""
+"¿Hambriento? Los microorganismos y las plantas que usan luz para fabricar su alimento se moverán automáticamente hacia la luz para "
+"obtener mejor rendimiento en su proceso de fabricación del mismo (fotosíntesis)."
+
+msgid ""
+"The Venus fly trap is a plant and makes its own food. However, it lives in poor soil and is healthier if it gets nutrients from "
+"insects."
+msgstr ""
+"La Venus atrapamoscas es una planta y fabrica su propio alimento. Sin embargo, vive  en un suelo pobre y es más saludable si "
+"obtiene los nutrientes de los insectos."
+
+msgid ""
+"Scared? If a skunk is threatened it will warn the predator to stand down. If all the stomping and high tailing does not work, the "
+"skunk sprays an odor that will cause even bears to leave them alone."
+msgstr ""
+"¿Asustado/a? Si un zorrillo se siente amenazado, advertirá al predador para que se retire. Si todo el zapateo y el levantar la "
+"cola en alto no funcionan, el zorrillo esparcirá un olor que hará que incluso los osos le dejen en paz."
+
+msgid ""
+"When a person is scared, their heart rate increases, and the body releases stress hormones in response to something it sees is "
+"dangerous. People show different behavior in response to fear. Some people scream to scare off the one harming the person and to "
+"call for help at the same time. What do you do?"
+msgstr ""
+"Cuando una persona está asustada, aumenta su frecuencia cardiaca y el cuerpo libera hormonas del estrés en respuesta a algo que "
+"parece peligroso. Las personas muestran diferente comportamiento en respuesta al miedo. Algunas personas gritan para ahuyentar a "
+"quien le está haciendo daño y para pedir ayuda al mismo tiempo. ¿Qué hace usted?"
+
+msgid ""
+"Animals develop complex behaviors to help them survive in the wild. Those who have the most useful behaviors are more likely to "
+"survive and reproduce than those who don't. Those same useful behaviors are passed on to later generations. Eventually, an <span "
+"class='key'>inherited behavior</span> becomes common in a population of animals.  Not all behavior is inherited, although some is. "
+"The ability to learn is inherited.<span class='key'> Instinctual behavior </span> is any behavior that is inherited and not "
+"learned during life."
+msgstr ""
+"Los animales desarrollan comportamientos complejos para ayudarlos a sobrevivir en la naturaleza. Los que tienen los "
+"comportamientos más útiles, tienen mayor probabilidad de sobrevivir y reproducirse que aquellos que no los tienen. Estos "
+"comportamientos útiles son trasmitidos a la siguiente generación. Finalmente, un <span class='key'>comportamiento heredado</span> "
+"comportamiento heredado se vuelve común en una población de animales. No todo el comportamiento es heredado, aunque cierta parte "
+"lo es. La habilidad de aprender es heredada. <span class='key'> El comportamiento instintivo </span> es cualquier comportamiento "
+"que es heredado y no aprendido durante la vida."
+
+msgid ""
+"Over many generations, dogs have gained abilities that make them desirable to people. They kill pests, help us hunt other animals, "
+"and even use their natural hunting abilities to herd our animals. Dogs are even able to learn new behaviors and associate them "
+"with words or actions."
+msgstr ""
+"Durante muchas generaciones, los perros han adquirido habilidades que los hacen atractivos para las personas. Ellos matan plagas, "
+"nos ayudan a cazar a otros animales e incluso utilizan sus habilidades naturales de caza para pastorear nuestros animales. Los "
+"perros incluso son capaces de aprender nuevos comportamientos y asociarlos con palabras o acciones. "
+
+# 7
+msgid "Check answer"
+msgstr "Revisar respuesta"
+
+msgid "Question A. Which of the following behaviors is most likely inherited, rather than learned?"
+msgstr "Pregunta A. ¿Cuál de los siguientes comportamientos es más probablemente heredado en lugar de aprendido?"
+
+msgid "Select an image"
+msgstr "Seleccione una imagen"
+
+msgid "Click each image to view the corresponding descriptions."
+msgstr "Haga click en cada imagen para ver las descripciones correspondientes."
+
+msgid "Useful behaviors that help organisms survive are passed on to later generations."
+msgstr "Los comportamientos útiles que ayudan a los organismos a sobrevivir son trasmitidos a las generaciones posteriores."
+
+msgid "Plants and animals will move to get enough sunlight and food."
+msgstr "Las plantas y los animales se moverán para obtener suficiente luz solar y comida."
+
+msgid "All behavior is inherited and it is passed on from generation to generation."
+msgstr "Todo comportamiento es heredado y se trasmite de generación en generación."
+
+msgid "All animals respond differently to their internal needs and changes in the environment."
+msgstr "Todos los animales responden de manera diferente a sus necesidades internas y a los cambios en el ambiente."
+
+msgid ""
+"Monarch butterflies require at least three generations to migrate from Canada and the northern US to Mexico and back each year."
+msgstr ""
+"Las mariposas Monarca necesitan al menos tres generaciones para migrar desde Canadá y el norte de los Estados Unidos a Méjico y de "
+"regreso cada año."
+
+msgid "Bears know which foods to eat by watching their mothers for 2-3 years after birth."
+msgstr "Los osos saben qué alimentos deben comer observando a sus madres por 2-3 años después del nacimiento."
+
+msgid "After weeks of training, dogs are able to find truffles, an underground type of mushroom, for their owners."
+msgstr ""
+"Después de semanas de entrenamiento, los perros son capaces de encontrar trufas, un tipo de hongo subterráneo, para sus dueños."
+
+msgid "By the time they are four years old, crows react differently to as many as 300 different people."
+msgstr ""
+"Para el momento en que alcanzan los cuatro años de edad, los cuervos reaccionan de manera diferente hasta a 300 personas distintas."
+
+msgid "Yes! The second generation of Monarchs has never been to their destination, nor as the third generation."
+msgstr "¡Sí! La segunda generación de Monarcas nunca ha estado en su destino, ni tampoco la tercera generación."
+
+msgid "Not this one. The little bears are learning from their moms."
+msgstr "No es esta. Los osos pequeños están aprendiendo de sus madres."
+
+msgid "No... The key word here is training. That’s learning."
+msgstr "No... La palabra clave aquí es entrenamiento. Eso es aprendizaje."
+
+msgid "If it takes time, it’s learning. This time, it takes years."
+msgstr "Si toma tiempo, es aprendizaje. Esta vez, toma años"
+
+msgid ""
+"Not quite. The complex behaviors they have developed caused them to stay alive. These behaviors take time (generations) to really "
+"be part of the organism."
+msgstr ""
+"No exactamente. Los comportamientos complejos que han desarrollado les ha permitido sobrevivir. Estos comportamientos toman tiempo "
+"(generaciones) para ser realmente parte del organismo."
+
+# I don´t know what kind of organism is refered the sentence, so I can´t determine  if the translation of they is "ellos" or "ellas".
+msgid "Not quite. The internal cue for hunger is the stimulus, they respond by moving to get more sunlight, or by getting food."
+msgstr ""
+"No exactamente. La señal interna para el hambre es el estímulo, ellos responden moviéndose para obtener más luz solar o mediante "
+"la obtención de alimento."
+
+msgid "Correct! Some behavior is learned, not all behavior is inherited."
+msgstr "¡Correcto! Parte del comportamiento es aprendido, no todo el comportamiento se hereda."
+
+msgid "Not quite. Animals respond differently for example to temperature change: some hibernate, some migrate."
+msgstr ""
+"No exactamente. Los animales responden de manera diferente por ejemplo, al cambio de temperatura: algunos hibernan, algunos migran."
+
+msgid "Question B. Click on the statement that is <span class='blink'>not</span> correct."
+msgstr "Pregunta B. Haga click sobre la oración <span class='blink'>not</span> correcta"
+
+msgid "Please select your answers."
+msgstr "Por favor seleccione sus respuestas."
+
+# 8
+msgid ""
+"Organisms respond to different stimuli in different ways. All organisms have the ability to sense change in their environment, and "
+"to respond to that change accordingly."
+msgstr ""
+"Los organismos responden a diferentes estímulos en diferentes formas. Todos los organismos tienen la habiilidad de sentir los "
+"cambios en su ambiente y de responder en consonancia con tales cambios."
+
+msgid ""
+"Humans have a well-developed nervous system, and respond to light, mechanical, and chemical stimuli in different ways. <span "
+"class='key'>Mechanical stimuli</span> include anything that cause sensations of touch, pain, sound, or temperature. <span "
+"class='key'>Chemical stimuli</span> are molecules in our environment that make us sense taste or smell."
+msgstr ""
+"Los humanos tienen un sistema nervioso bien desarrollado y responden a la luz y los estímulos mecánicos y químicos en diferentes "
+"formas. <span class='key'>Estímulos mecánicos </span> incluyen cualquier cosa que cause sensaciones de tacto, dolor, sonido o "
+"temperatura. <span class='key'>Estímulos químicos</span> son moléculas en nuestro ambiente que nos hacen percibir el gusto o el "
+"olfato."
+
+msgid "Pain"
+msgstr "Dolor"
+
+msgid "Sound"
+msgstr "Sonido"
+
+msgid "Temperature"
+msgstr "Temperatura"
+
+msgid "Taste"
+msgstr "Gusto"
+
+msgid "Smell"
+msgstr "Olor"
+
+msgid ""
+"Our ears are sensitive to disturbances in the air, water, or solid surfaces around us. Sound is the result of vibrations set up in "
+"a substance that are transmitted from one point to another. These vibrations are picked up by our eardrums and then transmitted "
+"through three very small bones and into fluids in the ear. The pattern of vibration to the brain is transmitted as an electrical "
+"signal.  The brain receives this and interprets the pattern as sound."
+msgstr ""
+"Nuestros oídos son sensibles a las alteraciones en el aire, el agua o las superficies sólidas a nuestro alrededor. El sonido es el "
+"resultado de las vibraciones creadas en una sustancia que son trasmitidas de un punto a otro. Estas vibraciones son captadas por "
+"nuestros tímpanos y luego trasmitidas a través de tres pequeños huesos y hacia los fluídos en el oído. El patrón de vibración es "
+"trasmitido al cerebro como una señal eléctrica. El cerebro la recibe e interpreta el patrón como sonido."
+
+msgid ""
+"Smell and taste are both the result of chemical stimulation. People can taste thanks to structures on our tongues called taste "
+"buds."
+msgstr ""
+"El olfato y el gusto son el resultado de la estimulación química. Las personas podemos degustar gracias a estructuras en nuestras "
+"lenguas llamadas papilas gustativas."
+
+msgid ""
+"Between 2000 and 5000 taste buds are located on a typical person's tongue. There are five different sorts of taste: <span "
+"class='key'>sweet</span>, <span class='key'>sour</span>, <span class='key'>bitter</span>, <span class='key'>salty</span>, and "
+"<span class='key'>umami</span>. Umami is a flavor associated with various meats and Asian foods. Much of what we understand as "
+"flavor is actually a combination of taste and smell combined and interpreted by the brain together."
+msgstr ""
+"En la lengua de una persona común se ubican entre 2000 y 5000 papilas gustativas. Existen cinco diferentes tipos de gusto: <span "
+"class='key'>dulce</span>, <span class='key'>ácido</span>, <span class='key'>amargo</span>, <span class='key'>salado</span>, and "
+"<span class='key'>umami</span>. El umami es un sabor asociado con varias carnes y comidas asiáticas. Gran parte de lo que "
+"comprendemos como sabor es de hecho una combinación de gusto y olfato mezclados e interpretados al mismo tiempo por el cerebro "
+
+msgid ""
+"Much of what we understand as flavor is actually a combination of taste and smell combined and interpreted by the brain together."
+msgstr ""
+"Gran parte de lo que comprendemos como sabor es de hecho una combinación de gusto y olfato mezclados e interpretados al mismo "
+"tiempo por el cerebro."
+
+# 9
+msgid ""
+"Question A. Many people say that when they have colds their foods taste bad.  Which of the following is the best possible "
+"explanation for this?"
+msgstr ""
+"Pregunta A. Muchas personas dicen que cuando tienen resfriados, sus alimentos saben mal. ¿Cuál de las siguientes es la mejor "
+"explicación posible para esto?"
+
+msgid "A food’s smell is an important part of how we think it tastes. Stuffy noses have a hard time detecting smell."
+msgstr ""
+"El olor de la comida es una parte importante de cómo pensamos acerca de su sabor. Las narices congestionadas tienen dificultades "
+"para detectar el olor."
+
+msgid "A food’s smell is not an important part of how we think it tastes. Stuffy noses have a hard time detecting smell."
+msgstr ""
+"El olor de la comida no es una parte importante de cómo pensamos acerca de su sabor. Las narices congestionadas tienen "
+"dificultades para detectar el olor."
+
+msgid "A food’s smell is an important part of how we think it tastes.  Stuffy noses detect smells better than clear noses."
+msgstr ""
+"El olor de la comida es una parte importante de cómo pensamos acerca de su sabor. Las narices congestionadas detectan mejor los "
+"olores que las narices sin congestión."
+
+msgid "A food’s smell is not an important part of how we think it tastes. Stuffy noses detect smells better than clear noses."
+msgstr ""
+"El olor de la comida no es una parte importante de cómo pensamos acerca de su sabor. Las narices congestionadas detectan mejor los "
+"olores que las narices sin congestión."
+
+msgid "Question B. Click on “True” or “False” next to each statement."
+msgstr "Pregunta B. Haga click sobre \"Verdadero\" o \"Falso\" al lado de cada oración."
+
+msgid "Statement"
+msgstr "Oración"
+
+msgid "True"
+msgstr "Verdadero"
+
+msgid "False"
+msgstr "Falso"
+
+msgid "All animals can smell, see, and hear with equal power."
+msgstr "Todos los animales pueden oler, ver y oir con la misma habilidad."
+
+msgid "We hear sound when an object vibrates and causes a disturbance in air particles. "
+msgstr "Escuchamos un sonido cuando un objeto vibra y causa una alteración en las partículas del aire."
+
+msgid "Correct! Most foods don’t taste very good if we can’t smell them."
+msgstr "¡Correcto! La mayoría de los alimentos no saben muy bien si no podemos olerlos."
+
+msgid "Not quite. Smell is an important part of what we think of as taste."
+msgstr "No exactamente. El olor es una parte importante de lo que consideramos como gusto."
+
+msgid "Read carefully... Stuffy noses don’t detect smells very well."
+msgstr "Lea cuidadosamente... Las narices congestionadas no detectan los olores muy bien."
+
+msgid "Sorry. Smell is important, and stuffy noses don’t work well."
+msgstr "Lo siento. El olor es importante y las narices congestionadas no funcionan bien."
+
+# 10
+msgid ""
+"Your body has a network, and it works just like the network that makes a cell phone work. When you send a text or make a cell "
+"phone call, the first thing that happens is that you touch your phone in a pattern, and the touch-sensitive keypad translates into "
+"an electronic message. That message is then transmitted through a complex system of radio towers, microwave relays, cable lines, "
+"and even satellites. Eventually, it is received by the cell phone you were calling, where it is translated back into the message "
+"you meant to send."
+msgstr ""
+"Su cuerpo tiene una red y funciona tal como la red que hace funcionar a un teléfono celular. Cuando usted envía un texto o hace "
+"una llamada, lo primero que ocurre es que usted toca el teléfono siguiendo  un patrón y el teclado sensible al tacto lo traduce en "
+"un mensaje electrónico. Ese mensaje se trasmite luego a través de un sistema complejo de torres de radio, retransmisión por "
+"mircroondas, líneas de cable e incluso satélites. Finalmente, es recibida por el teléfono celular al que usted está llamando, "
+"donde se traduce de nuevo en el mensaje que usted quería enviar."
+
+msgid ""
+"Your nervous system works the same way. A group of sensitive cells somewhere in your body is stimulated by something from the "
+"outside world. These nerve cells respond and send a tiny electrical signal to the brain. Nerve cells are called <span class='key'> "
+"neurons</span>. Once in the brain, the signal is interpreted by the brain. The sensation may be one of sight, sound, smell, taste, "
+"or touch."
+msgstr ""
+"Su sistema nervioso trabaja de la misma forma. Un grupo de células sensitivas en algún lugar de su cuerpo es estimulado por algo "
+"del mundo exterior. Estas células nerviosas responden y envían una pequeña señal eléctrica al cerebro. Las células nerviosas son "
+"llamadas <span class='key'> neuronas</span>. Una vez en el cerebro, este interpreta la señal. La sensación puede ser de visión, "
+"sonido, olor, gusto o tacto."
+
+msgid ""
+"After the brain makes sense of the stimulus, it responds by creating a memory, and often sending a response signal out to the "
+"body. The response works like the stimulus, only in reverse. A message in the form of an electrical signal goes out and causes "
+"muscle cells to contract, making the body move."
+msgstr ""
+"Después de que el cerebro percibe el estímulo, responde creando una memoria y con frecuencia, enviando una señal de respuesta "
+"fuera del cuerpo. La respuesta trabaja como el estímulo, solo que en sentido contrario. Un mensaje en la forma de una señal "
+"eléctrica sale y produce la contracción de las células musculares, haciendo que el cuerpo se mueva."
+
+# 11
+msgid "Question A. In what way is the nervous system <span class='blink'>not</span> similar to a cell phone network?"
+msgstr "Pregunta A. ¿En qué formas el sistema nervioso <span class='blink'>no</span> es similar a una red de telefonía celular?"
+
+msgid "There is a clear pathway for sending messages in both networks."
+msgstr "Existe un patrón claro para el envío de mensajes en ambas redes."
+
+msgid "Both networks can send or receive information."
+msgstr "Ambas redes pueden enviar o recibir información."
+
+msgid "Both networks have a desired target when they send messages."
+msgstr "Ambas redes tienen un blanco deseado cuando envían un mensaje."
+
+msgid "Both networks have a center that combines all the incoming and outgoing messages."
+msgstr "Ambas redes tienen un centro que combina todos los mensajes entrantes y salientes."
+
+msgid ""
+"Question B. How does the brain interpret a feeling or sensation of pain? Re-arrange the sentences by dragging them up and down "
+"from first to last."
+msgstr ""
+"Pregunta B. ¿Cómo interpreta el cerebro un sentimiento o sensación de dolor? Reorganice las frases arrastrándolas hacia arriba y "
+"hacia abajo de la primera a la última."
+
+msgid ""
+"Correct! First the nerve cells are stimulated by something like heat or pain. Then they respond and send an electrical signal to "
+"the brain.  The brain makes sense of the stimulus, and responds by creating a memory, and sending a response signal out to the "
+"body.  This message gets to a muscle cell (for instance) and causes muscle cells to contract."
+msgstr ""
+"¡Correcto! Primero, las células nerviosas son estimuladas por algo como el calor o el dolor. Luego responden y envían una señal "
+"eléctrica al cerebro. El cerebro percibe el estímulo y responde creando una memoria y enviando una señal de respuesta al cuerpo. "
+"Este mensaje alcanza a una célula muscular (por ejemplo) y hace que las células musculares se contraigan."
+
+msgid ""
+"Not quite. First the nerve cells are stimulated by something like heat or pain. Then they respond and send an electrical signal to "
+"the brain.  The brain makes sense of the stimulus, and responds by creating a memory, and sending a response signal out to the "
+"body.  This message gets to a muscle cell (for instance) and causes muscle cells to contract."
+msgstr ""
+"No exactamente. Primero las células nerviosas son estimuladas por algo como el calor o el dolor. Luego estas responden y envían "
+"una señal eléctrica al cerebro. El cerebro percibe el estímulo y responde creando una memoria y enviando una señal de respuesta al "
+"cuerpo. Este mensaje alcanza una célula muscular (por ejemplo) y causa la contracción de las células musculares. "
+
+msgid "The brain sends a response electrical signal to the body."
+msgstr "El cerebro envía una señal eléctrica de respuesta al cuerpo."
+
+msgid "Nerve cells send an electrical signal to the brain."
+msgstr "Las células nerviosas envían una señal eléctrica al cerebro."
+
+msgid "Nerve cells are stimulated by an object."
+msgstr "Las células nerviosas son estimuladas por un objeto."
+
+msgid "Muscles receive and interpret the signal from the brain."
+msgstr "Los músculos reciben e interpretan la señal del cerebro."
+
+msgid "The brain interprets the electrical signal and creates a memory."
+msgstr "El cerebro interpreta la señal eléctrica y crea una memoria."
+
+msgid ""
+"Correct, an electrical signal gets taken to the brain, and the message is interpreted there- then a new signal is sent out and the "
+"brain’s command is interpreted by the cell (muscle, skin, … ). "
+msgstr ""
+"Correcto, una señal eléctrica es llevada al cerebro y el mensaje se interpreta allí- entonces se envía una nueva señal y la orden "
+"del cerebro es interpretado por la célula (músculo, piel,...)"
+
+msgid "No, both networks can send AND receive information. Electrical signals are sent both ways on the pathway."
+msgstr "No, ambas redes pueden enviar Y recibir información. La señales eléctricas son enviadas en ambos sentidos de la vía."
+
+msgid ""
+"Correct, when you make a call you dial a specific number. In the nervous system the message goes to the brain or a command to a "
+"certain cell on the way back."
+msgstr ""
+"Correcto, cuando usted hace una llamada marca un número específico. En el sistema nervioso el mensaje va al cerebro o una orden a "
+"cierta célula en la vía de regreso."
+
+msgid "Correct, the brain is the control center for the nervous system as the telecommunication center is for the phone network."
+msgstr ""
+"Correcto, el cerebro es el centro de control para el sistema nervioso como el centro de telecomunicaciones es para la red "
+"telefónica."
+
+msgid ""
+"Sorry... This is a correct statement... an electrical signal gets taken to the brain, and the message is interpreted there, then a "
+"new signal is sent out and the brain’s command is interpreted by the cell (muscle, skin, etc.)"
+msgstr ""
+"Lo siento... Esta es una afirmación correcta... Una señal eléctrica es llevada al cerebro y el mensaje se interpreta allí, "
+"entonces se envía una nueva señal y la orden del cerebro es interpretada por la célula (músculo, piel, etc)."
+
+msgid ""
+"Sorry... This is a correct statement... when you make call, you dial a specific number. In the nervous system, the message goes to "
+"the brain or a command to a certain cell on the way back."
+msgstr ""
+"Lo siento… este enunciado es correcto… cuando usted hace una llamada marca un número específico. En el sistema nervioso, el "
+"mensaje va al cerebro o una orden a cierta célula en la vía de regreso."
+
+msgid ""
+"Sorry... This is a correct statement... the brain is the control center for the nervous system as the telecommunication center is "
+"for the phone network."
+msgstr ""
+"Lo siento… este enunciado es correcto… el cerebro es el centro de control del sistema nervioso, como el centro de "
+"telecomunicaciones lo es para la red telefónica."
+
+msgid "You got it! Both networks can send AND receive information. Electrical signals are sent both ways on the pathway."
+msgstr "¡Acertó! Ambas redes pueden enviar Y recibir información. Las señales eléctricas son enviadas en ambos sentidos de la vía"
+
+# 12
+msgid "Using what you know... about how animals behave... to solve a problem"
+msgstr "Utilizando los que usted sabe... acerca de cómo se comportan los organismos... para resolver un problema"
+
+msgid "The Scenario"
+msgstr "El escenario"
+
+msgid ""
+"You are working for a family to interview and hire a babysitter for twin girls. As a behavioral psychologist, you understand what "
+"a demanding position this is. You decide to test the candidates on many levels, most importantly how they react to different "
+"stimuli. Not everyone works well under pressure: decision making, safety issues, being able to entertain the children, are just "
+"some issues to consider."
+msgstr ""
+"Usted está trabajando para una familia con el fin de entrevistar y contratar a una niñera para dos niñas gemelas. Como psicólogo "
+"comportamental, usted entiende lo demandante de esta posición. Usted decide evaluar a las candidatas en muchos niveles, "
+"principalmente cómo reaccionan a diferentes estímulos. No todo el mundo trabaja bien bajo presión: la toma de desiciones, los "
+"aspectos de seguridad, ser capaz de entretener a los niños, son solo algunos aspectos a considerar."
+
+msgid "Your Task"
+msgstr "Su tarea"
+
+msgid "Please type your answer."
+msgstr "Por favor escriba su respuesta."
+
+msgid ""
+"Using what you now know about how everyone acts and responds in different ways to changes and stimuli, come up with three "
+"scenarios about how you would test the interviewees for the babysitting job. Explain what you are testing with each stimulus you "
+"suggest in the textbox below."
+msgstr ""
+"Utilizando lo que usted sabe acerca de como actúa y responde cada uno en diferentes formas a los cambios y los estímulos, proponga "
+"tres escenarios acerca de cómo usted evaluaría a las entrevistadas para el trabajo de niñera. Explique qué está evaluando con cada "
+"estímulo que sugiere en el cuadro de abajo."
+
+msgid "Click here to start typing your answer..."
+msgstr "Haga click aquí para comenzar a escribir su respuesta..."
+
+# 13
+msgid "Summarizing big ideas... about how animals behave"
+msgstr "Resumiendo ideas centrales... acerca de cómo se comportan los organismos"
+
+msgid ""
+"<span class='key'>Behavior</span> is the way that an organism acts and responds in the environment. Organisms’ behavior occurs as "
+"a reaction to a <span class='key'>stimulus</span>. Stimuli can either be external, as in a change in the environment, or internal, "
+"as in a signal within the animal. Many behaviors are adaptations that help organisms survive and reproduce. Useful behaviors are "
+"passed on to later generations and eventually an <span class='key'>inherited behavior </span>  becomes common. Not all behavior is "
+"inherited, the ability to learn is inherited. <span class='key'> Instinctual behavior </span> is any behavior that is inherited "
+"and not learned during life. <span class='key'> Mechanical stimuli </span> include anything that causes a sensation of touch, "
+"pain, sound, or temperature. <span class='key'> Chemical stimuli </span>  are molecules in our environment that make us sense "
+"taste or smell. Flavor is a combination of taste and smell combined and interpreted by the brain together. The brain is part of a "
+"system in which messages are taken from all parts of the body to the brain and back. First the nerve cells are stimulated, then "
+"they respond and send an electrical signal to the brain. The brain interprets it and sends a <span class='key'> response </span> "
+"signal out to the body. This is how organisms respond to their environment. "
+msgstr ""
+"<span class='key'>Comportamiento</span> es la manera en que un organismo actúa y responde en el ambiente. El comportamiento de los "
+"organismos se produce como una reacción a un <span class='key'>estímulo</span>. Los estímulos pueden ser externos, como un cambio "
+"en el ambiente, o internos, como en una señal dentro del animal. Muchos comportamientos son adaptaciones que ayudan a los "
+"organismos a sobrevivir y reproducirse. Los comportamientos útiles son trasmitidos a las generaciones posteriores y finalmente un "
+"<span class='key'>comportamiento heredado </span> se vuelve común. No todo el comportamiento es heredado, la habilidad para "
+"aprender es heredada. <span class='key'> Comportamiento instintivo </span> es cualquier comportamiento que es heredado y no "
+"aprendido durante la vida. <span class='key'> Estímulos mecánicos </span> incluyen cualquier cosa que cause una sensación de "
+"tacto, dolor, sonido o temperatura. <span class='key'>Estímulos químicos </span>  son moléculas en nuestro ambiente que nos hacen "
+"percibir gusto u olor. El sabor es una mezcla de gusto y olor combinada e interpretada al mismo tiempo por el cerebro. El cerebro "
+"es parte de un sistema en el que se llevan mensajes de todas las partes del cuerpo hacia el cerebro y de regreso. Primero las "
+"células nerviosas son estimuladas, luego responden y envían una señal eléctrica al cerebro. El cerebro la interpreta y envía una "
+"señal de <span class='key'> respuesta </span> al cuerpo. Así es como los organismos responden a su ambiente."
+
+# 14
+msgid "Reviewing key vocabulary related to... how animals behave"
+msgstr "Revisando el vocabulario clave relacionado con... cómo se comportan los oganismos"
+
+msgid "BEHAVIOR"
+msgstr "COMPORTAMIENTO"
+
+msgid ""
+"The way that an animal responds to its environment is called behavior. An animal's behavior, or actions, often changes in response "
+"to changes in its environment."
+msgstr ""
+"La forma en que un animal responde a su ambiente se denomina comportamiento. El comportamiento o acciones de un animal, cambian "
+"con frecuencia en respuesta a los cambios en su ambiente."
+
+msgid ""
+"Behavior is not limited to just one individual. Animals can change their behavior as a group, too. For example, a flock of birds "
+"may not fly south for the winter as early as they normally would if an area is experiencing unusually warm temperatures. Or, a "
+"group of deer that normally travel on one path to find food may change their behavior and find another route if the path is "
+"flooded or blocked."
+msgstr ""
+"El comportamiento no está limitado solamente a un individuo. Los animales pueden cambiar también su comportamiento como grupo. Por "
+"ejemplo, una bandada de aves puede no volar al sur para el invierno como lo hacen normalmente si un área está experimentando "
+"temperaturas cálidas inusuales. O un grupo de venados que viajan normalmente por una ruta para encontrar alimento, pueden cambiar "
+"su comportamiento y encontrar otro camino si la ruta está inundada o bloqueada."
+
+msgid "CLOSE ME!"
+msgstr "¡CIÉRRAME!"
+
+msgid "INHERITED BEHAVIOR"
+msgstr "COMPORTAMIENTO HEREDADO"
+
+msgid ""
+"Inherited behaviors are behaviors that are passed on to later generations.  Eventually, an inherited behavior becomes common in a "
+"population of animals.  Not all behavior is inherited, although some is."
+msgstr ""
+"Los comportamientos heredados son comportamientos que pasan a las generaciones posteriores. Finalmente, un comportamiento heredado "
+"se vuelve común en una población de animales. No todo el comportamiento es heredado, aunque una parte lo es."
+
+msgid "STIMULUS"
+msgstr "ESTÍMULO"
+
+msgid ""
+"A stimulus is something that produces a reaction or a change. Light is a stimulus that can cause the size of the pupil in your eye "
+"to change."
+msgstr ""
+"Un estímulo es algo que produce una reacción o cambio. La luz es un estímulo que puede causar un cambio en el tamaño de la pupila "
+"en su ojo. "
+
+msgid ""
+"Sometimes rewards are used as a stimulus to cause a desired action or response. For example, your school may reward students for "
+"the numbers of books read during the school year. This reward can act as a stimulus to get students to read more books."
+msgstr ""
+"Algunas veces las recompensas se usan como un estímulo para provocar una acción o respuesta deseada. Por ejemplo, en su escuela "
+"pueden recompensar a los estudiantes por el número de libros que leen durante el año escolar. Esta recompensa puede funcionar como "
+"un estímulo para lograr que los estudiantes lean más libros. "
+
+msgid "INSTINCTUAL BEHAVIOR"
+msgstr "COMPORTAMIENTO INSTINTIVO"
+
+msgid "Instinctual behavior is any behavior that is inherited and not learned during life."
+msgstr "El comportamiento intintivo es cualquier comportamiento que es heredado y no aprendido durante la vida. "
+
+msgid "MECHANICAL STIMULUS"
+msgstr "ESTÍMULO MECÁNICO"
+
+msgid "Mechanical stimuli include anything that causes a sensation of touch, pain, sound, or temperature."
+msgstr "Los estímulos mecánicos incluyen cualquier cosa que causa una sensación de tacto, dolor, sonido o temperatura."
+
+msgid "NEURON"
+msgstr "NEURONA"
+
+msgid ""
+"Neurons are nerve cells.  Neurons respond to a stimulus, send a tiny electrical signal to the brain, and the signal is interpreted "
+"by the brain as a response is generated."
+msgstr ""
+"Las neuronas son células nerviosas. Las neuronas responden a los estímulos, envían una pequeña señal eléctrica al cerebro y la "
+"señal es interpretada por el cerebro mientras se genera la respuesta."
+
+msgid "CHEMICAL STIMULUS"
+msgstr "ESTÍMULO QUÍMICO"
+
+msgid "Chemical stimuli are molecules in our environment that make us sense taste or smell."
+msgstr "Los estímulos químicos son moléculas en nuestro ambiente que que nos hacen percibir gusto u olor."
+
+msgid "RESPONSE"
+msgstr "RESPUESTA"
+
+msgid ""
+"A response is generated in the brain after it receives a tiny electrical signal from the neurons. The response works like the "
+"stimulus, only in reverse."
+msgstr ""
+"Una respuesta es generada en el cerebro después de que este recibe una pequeña señal eléctrica de las neuronas. La respuesta "
+"trabaja como el estímulo, solo que en sentido contrario. "
+
+# 15
+msgid "Checking what you now know... about how animals behave"
+msgstr "Revisando que sabe usted... acerca de cómo se comportan los organismos"
+
+msgid "Answering the following six (6) quiz questions will give you an idea of what you now know and what you still need to study."
+msgstr "Contestar las siguientes seis (6) preguntas del cuestionario le dará una idea acerca de qué sabe y necesita estudiar aún."
+
+msgid "Click the NEXT button when you are ready."
+msgstr "Haga click en  el botón SIGUIENTE cuando esté listo."
+
+# 16
+msgid "Choose the <span class='blink'> incorrect </span> statement from the following."
+msgstr "Elija el  nunciado <span class='blink'> incorrecto </span> para lo siguiente."
+
+msgid "A. Organisms’ behavior occurs as a reaction to a stimulus."
+msgstr "A. El comportamiento de los organismos se produce como reacción a un estímulo."
+
+msgid "B. Animals are not capable of learned behavior."
+msgstr "B. Los animales no son capaces de aprender el comportamiento."
+
+msgid "C. The brain is part of the central nervous system."
+msgstr "C. El cerebro es parte del sistema nervioso central."
+
+msgid "D. Neurons are all over the body."
+msgstr "D. Las neuronas están en todo el cuerpo."
+
+msgid "Organisms’ behavior occurs as a reaction to a stimulus."
+msgstr "El comportamiento de los organismos se produce como reacción a un estímulo."
+
+msgid "Animals are not capable of learned behavior."
+msgstr "Los animales no son capaces de aprender el comportamiento."
+
+msgid "The brain is part of the central nervous system."
+msgstr "El cerebro es parte del sistema nervioso central."
+
+msgid "Neurons are all over the body."
+msgstr "Las neuronas están por todo el cuerpo."
+
+msgid "Rotate or flip the 3D box below either up or down to set your answer."
+msgstr "Rote o gire la siguiente caja 3D hacia arriba o abajo para marcar su respuesta."
+
+msgid "No. Stimulus from inside or outside the organism triggers it to respond."
+msgstr "No. Los estímulos del interior o exterior del organismo se activan para responder."
+
+msgid "That’s the one... Many animals certainly are able to learn."
+msgstr "Esa es la correcta... Muchos animales sin duda son capaces de aprender."
+
+msgid "This one is true. The brain is part of the central nervous system."
+msgstr "Esta es verdadera. El cerebro es parte del sistema nervioso central."
+
+msgid "No. Neurons, or nerve cells, are located all over the body to send and receive messages to and from the brain."
+msgstr ""
+"No. Las neuronas, o células nerviosas, están localizadas en todo el cuerpo para enviar y recibir mensajes hacia y desde el cerebro."
+
+# 17
+msgid "Which behavior of the bat is most likely a learned behavior?"
+msgstr "¿Qué comportamiento del murciélago es más probablemente un comportamiento aprendido?"
+
+msgid "Click on an image."
+msgstr "Haga click sobre una imagen"
+
+msgid "Sleeping upside down"
+msgstr "Dormir boca abajo"
+
+msgid "No, this is instinctive, so it is an inherited behavior."
+msgstr "No, esto es instintivo, así que es un comportamiento heredado."
+
+msgid "Flying to move around"
+msgstr "Volar para moverse"
+
+msgid "No, flying is an instinct. This is an inherited behavior, not a learned one."
+msgstr "No, volar es un instinto. Este es un comportamiento heredado, no aprendido."
+
+msgid "Avoiding humans"
+msgstr "Evitar a los humanos"
+
+msgid "Correct. Bats have to interact with their environment and learn to avoid humans."
+msgstr "Correcto. Los murciélagos tienen que interactuar con su ambiente y aprender a evitar a los humanos."
+
+msgid "Using sound to find objects"
+msgstr "Usar el sonido para encontrar objetos"
+
+msgid " No, bats do not have strong eyesight and they use sound and vibrations to find objects."
+msgstr "No, los murciélagos no tienen una visión potente y utilizan el sonido y las vibraciones para encontrar objetos. "
+
+# 18
+msgid "Complete the sentences by selecting the right words from the drop down menus."
+msgstr "Complete las oraciones seleccionando las palabras correctas del menú desplegable."
+
+msgid "select"
+msgstr "seleccionar"
+
+msgid "response"
+msgstr "Respuesta"
+
+msgid "stimulus"
+msgstr "estímulo"
+
+msgid "mechanical stimulus"
+msgstr "estímulo mecánico"
+
+msgid "The reaction to an occurrence or event is a "
+msgstr "La reacción a un acontecimiento o evento es una"
+
+msgid "Anything that can cause a response is a "
+msgstr "Cualquier cosa que pueda causar una respuesta es un"
+
+msgid "Anything that causes a sensation of touch, pain, sound, or temperature is a "
+msgstr "Cualquier cosa que cause una sensación de tacto, dolor, sonido o temperatura es un"
+
+msgid ""
+"Great job! A reaction is a response; the thing that produces a response is a stimulus; and anything that causes sensations of "
+"touch, pain, sound or temperature is a special kind of mechanical stimulus."
+msgstr ""
+"¡Excelente trabajo! Una reacción es una respuesta; lo que produce una respuesta es un estímulo y cualquier cosa que cause una "
+"sensación de tacto, dolor, sonido o temperatura es un tipo especial de estímulo mecánico."
+
+msgid ""
+"Too bad. A reaction is a response; the thing that produces a response is a stimulus; and anything that causes sensations of touch, "
+"pain, sound or temperature is a special kind of mechanical stimulus."
+msgstr ""
+"Muy mal. Una reacción es una respuesta; lo que produce una respuesta es un estímulo y cualquier cosa que cause una sensación de "
+"tacto, dolor, sonido o temperatura es un tipo especial de estímulo mecánico."
+
+# 19
+msgid ""
+"A small city's water treatment plant is located near a small river, which is the home to a type of bass popular with fishermen. "
+"The plant takes a majority of its water from the river. During warmer months, the number of bass in the river decreases by 6 %."
+msgstr ""
+"Una planta de tratamiento de agua de una ciudad pequeña está localizada cerca a un pequeño río, el cual es el hogar de un tipo de "
+"róbalo popular entre los pescadores. La planta toma la mayor parte del agua del río. Durante los meses más cálidos, el número de "
+"róbalos en el río disminuye en un 6%."
+
+msgid "Which of the following is probably the most reasonable stimulus for decreased bass population in the lake?"
+msgstr ""
+"¿Cuál de los siguientes probablemente es el estímulo más razonable que provoca la disminución de la población de róbalos en el "
+"lago?"
+
+msgid "Bass don’t like the loud sounds of the machines in the water treatment plant."
+msgstr "A los róbalos no les gustan los ruidos fuertes de las máquinas en la planta de tratamiento de agua."
+
+msgid "More water is used by consumers during warmer months, which decreases the amount of water the bass can live in."
+msgstr ""
+"La mayor parte del agua es utilizada por los consumidores durante los meses más cálidos, lo cual disminuye la cantidad de agua en "
+"la que el róbalo puede vivir."
+
+msgid "Less water is filtered by the water treatment plant during warmer months, allowing the bass to travel upstream."
+msgstr "La planta de tratamiento filtra menos agua durante los meses más cálidos, permitiendo al róbalo viajar corriente arriba."
+
+msgid ""
+"Correct, not all bass can adapt to this change in their habitat. The plant takes more water and the amount left for the bass is "
+"not enough for all of them."
+msgstr ""
+"Correcto, no todos los róbalos pueden adaptarse a este cambio en su hábitat. La planta toma más agua y la cantidad que queda para "
+"el róbalo no es suficiente para todos ellos. "
+
+msgid ""
+"No, it seems more water would be used by the plant. We do not have information about the ability the bass have to travel upstream."
+msgstr ""
+"No, parece que la planta utilizaría más agua. No tenemos información acerca de la habilidad del róbalo para viajar corriente "
+"arriba."
+
+msgid "No, that wouldn’t be specific to only the warm months."
+msgstr "No, eso no sería específica sólo para los meses cálidos."
+
+msgid "No, if anything all of the above stimuli are reasonable."
+msgstr "No, en todo caso todos los estímulos anteriores son razonables."
+
+msgid "None of the above are reasonable stimuli."
+msgstr "Ninguna de las anteriores son estímulos razonables."
+
+# 20
+msgid "Select the <span class='blink'>correct</span> statement."
+msgstr "Seleccione el enunciado <span class='blink'>correcto</span>."
+
+msgid "A. Neurons interpret electrical signals that are messages of stimulus and response."
+msgstr "A. Las neuronas interpretan las señales eléctricas que son mensajes de estímulo y respuesta. "
+
+msgid "B. Only messages to the brain are in the form of electrical signals."
+msgstr "B. Solo los mensajes enviados al cerebro están en la forma de señales eléctricas. "
+
+msgid "C. Senses help us gather information about our surroundings."
+msgstr "C. Los sentidos nos ayudarn a reunir información acerca de nuestro entorno."
+
+msgid "D. Our nervous system is a network, connecting all the blood flow in the body."
+msgstr "D. Nuestro sistema nervioso es una red que conecta todo el flujo sanguíneo en el cuerpo."
+
+msgid "Neurons interpret electrical signals that are messages of stimulus and response."
+msgstr "Las neuronas interpretan las señales eléctricas que son mensajes de estímulo y respuesta. "
+
+msgid "Only messages to the brain are in the form of electrical signals."
+msgstr "Solo los mensajes enviados al cerebro están en la forma de señales eléctricas. "
+
+msgid "Senses help us gather information about our surroundings."
+msgstr " Los sentidos nos ayudarn a reunir información acerca de nuestro entorno."
+
+msgid "Our nervous system is a network, connecting all the blood flow in the body."
+msgstr "Nuestro sistema nervioso es una red que conecta todo el flujo sanguíneo en el cuerpo."
+
+msgid "No, neurons take the messages to the brain and they are interpreted there."
+msgstr "No, las neuronas llevan los mensajes al cerebro y estos se interpretan allí. "
+
+msgid "No, messages to and from the brain are in the form of electrical signals."
+msgstr "No, los mensajes hacia y desde el cerebro están en la forma de señales eléctricas."
+
+msgid "Correct, we collect data to be interpreted by our brain in the form of sight, sound, smell, taste, and touch."
+msgstr ""
+"Correcto, nosotros recolectamos información en forma de vista, sonido, olor, gusto y tacto para que nuestro cerebro la interprete ."
+
+msgid ""
+"Not quite, it is a network, but it connects nerve cells in the body so the body can send and receive messages to and from the "
+"brain."
+msgstr ""
+"No exactamente, es una red, pero conecta las células nerviosas en el cuerpo, por lo que este último puede enviar y recibir "
+"mensajes hacia y desde el cerebro."
+
+# 21
+msgid "Instinctual behaviors would <span class='blink'>not</span> include which of the following?"
+msgstr "¿A cuál de los siguientes <span class='blink'>no</span> incluirían los comportamientos instintivos?"
+
+msgid "Baby sea turtles, having never seen their mothers, always leave their nests at night."
+msgstr "Las tortugas marinas bebé jamás han visto a sus madres, siempre dejan sus nidos durante la noche."
+
+msgid "Snow leopard cubs live with their mothers for up to two years to learn to hunt and survive for themselves."
+msgstr ""
+"Los cachorros del leopardo de las nieves viven con sus madres hasta por dos años para aprender a cazar y sobrevivir por sí mismos."
+
+msgid "Honeybees always build their combs in the shape of hexagons."
+msgstr "Las abejas siempre construyen sus panales con forma de hexágonos."
+
+msgid "Baby kangaroos immediately climb into their mother’s pouch after birth."
+msgstr "Los canguros bebés suben  inmediatamente a la bolsa de su madre después del nacimiento."
+
+msgid "Sorry.  The baby turtles haven’t had time to learn anything yet.  This is instinctual."
+msgstr "Lo siento. Las tortugas bebés no han tenido tiempo de aprender nada aún. Esto es instintivo."
+
+msgid "That’s it.  The cubs have little chance if their mothers don’t teach them well."
+msgstr "Así es. Los cachorros tienen poca oportunidad si sus madres no les enseñan bien."
+
+msgid "Nope.  This behavior is instinctual."
+msgstr "No. Este comportamiento es instintivo."
+
+msgid "Not this one.  The baby are newly born.  No time to learn."
+msgstr "No es esta. El bebé es recién nacido. No hay tiempo para aprender."
+
+# 22
+msgid "Congratulations, "
+msgstr "Felicitaciones,"
+
+msgid "You've completed this How Animals Behave module."
+msgstr "Ha completado esta revisión acerca de Cómo se Comportan los Animales."
+
+msgid "You can check how you did on the 'Quick Checks' and 'Quiz Questions' for this review by clicking the button below."
+msgstr ""
+"Usted puede verificar su desempeño en la \"Revisión Rápida\" y en las \"Preguntas de Cuestionario\" para esta revisión haciendo "
+"click en el botón de abajo."
+
+msgid "How did I do?"
+msgstr "¿Cómo lo hice?"
+
+# preloaders
+msgid "Let's begin"
+msgstr "Comencemos"
+
+msgid "Thinking about... the life cycle of plants"
+msgstr "Pensando sobre... el ciclo de vida de las plantas"
+
+msgid "Preparing dog food..."
+msgstr "Preparando comida para perro..."
+
+msgid "Crumpling papers..."
+msgstr "Arrugando papeles..."
+
+msgid "Preparing your first quick check!"
+msgstr "¡Preparando su primera revisión rápida!"
+
+msgid "Trapping insects..."
+msgstr "Atrapando insectos..."
+
+msgid "Inherited or learned?"
+msgstr "¿Heredado o aprendido?"
+
+msgid "The five senses"
+msgstr "Los cinco sentidos"
+
+msgid "Another quick check on the way!"
+msgstr "¡Otra revisión rápida en camino!"
+
+msgid "Sending text message..."
+msgstr "Enviando mensaje de texto..."
+
+msgid "Last quick check!"
+msgstr "¡Última revisión rápida!"
+
+msgid "Tiny twins"
+msgstr "Gemelos diminutos"
+
+msgid "Putting it all together..."
+msgstr "Juntando todo..."
+
+msgid "Words and explanations"
+msgstr "Palabras y explicaciones"
+
+msgid "Let's check what you now know"
+msgstr "Revisemos lo que sabe ahora"
+
+msgid "And the first quiz question is..."
+msgstr "Y la primera pregunta de cuestionario es..."
+
+msgid "Bats, bats, and more bats!"
+msgstr "¡Murciélagos, murciélagos y más murciélagos!"
+
+msgid "Stimulus and response"
+msgstr "Estímulo y respuesta"
+
+msgid "Flying fishes"
+msgstr "Peces voladores"
+
+msgid "Sending signals to the brain..."
+msgstr "Enviando señales al cerebro..."
+
+msgid "What does your instinct say?"
+msgstr "¿Qué dice su instinto?"
+
+msgid "You're done!"
+msgstr "¡Ha terminado!"
+
+msgid "Go to dashboard"
+msgstr "Ir al tablero"

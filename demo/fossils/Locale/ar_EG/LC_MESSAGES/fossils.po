@@ -1,0 +1,963 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fossils\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"Language: ar\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: ruba <raboosh_246@hotmail.com>\n"
+"Language-Team: \n"
+
+# Common Translations
+msgid "Go Back to Dashboard"
+msgstr "إذهب إلى اللوحة المخططة"
+
+msgid "Start"
+msgstr "إبدأ"
+
+msgid "Next"
+msgstr "التالي"
+
+msgid "Back"
+msgstr "السابق"
+
+msgid "Read More"
+msgstr "إقرأ المزيد"
+
+msgid "Check Answer"
+msgstr "تأكد من الإجابة"
+
+msgid "Please select your answer."
+msgstr "من فضلك إختر إجابتك."
+
+msgid "Please select your answers."
+msgstr "من فضلك إختر إجاباتك."
+
+msgid "Please type your answer."
+msgstr "من فضلك إطبع إجابتك"
+
+msgid "Quick Check #1"
+msgstr "إختبار سريع رقم 1"
+
+msgid "Quick Check #2"
+msgstr "إختبار سريع رقم 2"
+
+msgid "Quick Check #3"
+msgstr "إختبار سريع رقم 3"
+
+msgid "Quick Check #4"
+msgstr "إختبار سريع رقم 4"
+
+msgid "Please check your answers."
+msgstr "من فضلك تأكد من إجاباتك."
+
+msgid "How did I do?"
+msgstr "كيف أجبت؟"
+
+msgid "You answered..."
+msgstr "إجابتك كانت..."
+
+msgid "select"
+msgstr "اختر"
+
+msgid "Rotate or flip the box below either up or down to set your answer. Click, hold and slide mouse up or down."
+msgstr "دَوِّر أو إقلب الصندوق في الأسفل إما للأعلى أو  للأسفل لتضع إجابتك، انقر، وإمسك، واسحب الفأرة إلى الأعلى أو للإسفل."
+
+msgid "Click, hold and slide your mouse up and down to rotate the box and select your answer."
+msgstr "انقر فوق، وعقد وحرك الماوس صعودا وهبوطا لتدوير مربع وحدد إجابتك."
+
+msgid "Browse through the slides below by clicking the left and right arrows."
+msgstr "من خلال تصفح الشرائح أدناه بالضغط على الأسهم اليسار واليمين."
+
+msgid "The Situation"
+msgstr "الحالة"
+
+msgid "The Scenario"
+msgstr "السيناريو"
+
+msgid "Your Task"
+msgstr "مهمتك هي"
+
+msgid "The Task"
+msgstr "في العمل"
+
+msgid "The Problem"
+msgstr "مشكلة"
+
+msgid "Your Assignment"
+msgstr "واجبك "
+
+msgid "Close me!"
+msgstr "أغلق الشاشة!"
+
+msgid "Click here to start typing your answer..."
+msgstr "انقر هنا لتبدأ بطباعة إجابتك..."
+
+msgid ""
+"Answering the following six (6) quiz questions will give you an idea of what you now know and what you still need to "
+"study."
+msgstr "إجابة الأسئلة القصيرة الستة ستعطيك فكرة عما تعرف الآن وماذا تحتاج لأن تعرف."
+
+msgid "Click the NEXT button when you are ready."
+msgstr "انقر على زر التالي عندما تكون مستعدا."
+
+msgid "Quiz Question #1"
+msgstr "سؤال سريع رقم 1"
+
+msgid "Quiz Question #2"
+msgstr "سؤال سريع رقم 2"
+
+msgid "Quiz Question #3"
+msgstr "سؤال سريع رقم 3"
+
+msgid "Quiz Question #4"
+msgstr "سؤال سريع رقم 4"
+
+msgid "Quiz Question #5"
+msgstr "سؤال سريع رقم 5"
+
+msgid "Quiz Question #6"
+msgstr "سؤال سريع رقم 6"
+
+msgid "Congratulations,"
+msgstr "مبروك، "
+
+msgid "You can check how you did on the 'Quick Check' and 'Quiz Questions' for this review by clicking the button below."
+msgstr "بإمكانك التأكد من كيفية إجابتك للإختبار السريع وبالأسئلة القصيرة لهذه المراجعة بالنقر على الزر في الأسفل. "
+
+msgid "Go to dashboard"
+msgstr "انتقل إلى لوحة القيادة"
+
+msgid "Let's begin!"
+msgstr "دعنا نبدأ!"
+
+msgid "Are you ready,"
+msgstr "هل أنت مستعد،"
+
+msgid "Preparing your first quick check..."
+msgstr "تحضير اختبارك القصير الأول!"
+
+msgid "Ready for your last quick check?"
+msgstr "هل انت مستعد للتحقق بشكل سريع وأخير."
+
+msgid "Ready for your last quiz question?"
+msgstr "هل انت مستعد لاخر سؤال في الاختبار؟"
+
+msgid "Putting it all together..."
+msgstr "إجمعها مع بعضها"
+
+msgid "Words and explanations"
+msgstr "كلمات وتفسيرات"
+
+msgid "Let's check what you now know"
+msgstr "دعنا نتأكد مما تعرف الآن"
+
+msgid "And the first quiz question is..."
+msgstr "وأول سؤال قصير هو... "
+
+msgid "You're done!"
+msgstr "أنهيت!"
+
+# 1
+msgid "Fossils"
+msgstr "أحافير"
+
+msgid "Welcome to the Fossils review"
+msgstr "مرحبا بكم في مراجعة حول الأحافير"
+
+msgid "Welcome to the Fossils module, "
+msgstr "مرحبا بكم في وحدة أحافير"
+
+# 2
+msgid "Thinking about... fossils"
+msgstr "التفكير بالأحافير"
+
+msgid ""
+"You have probably heard lots of different things about what the Earth was like millions of years ago. You may have read "
+"there were animals, like dinosaurs, that lived then that were much different than animals living today. And that there "
+"were seas and beaches where today there are deserts. And mountains where today there are plains. But I don't know of "
+"anyone who was alive that long ago! Do you? So how do we know ANYTHING at all about what the Earth was like in the far "
+"distant past and what living things existed thousands and millions of years ago? Fossils help scientists figure all of "
+"this out! Plus – fossils are just cool to collect and look at."
+msgstr ""
+"ربما قد سمعت الكثير من الأشياء المختلفة عما كانت الأرض عليه منذ ملايين السنين.  ربما قرأت أنه كان هناك حيوانات، مثل "
+"الديناصورات،والتي كانت تعيش آنذاك تختلف كثيرا عن الحيوانات التي تعيش اليوم.  كانت هنالك البحار والشواطئ واليوم  توجد "
+"الصحاري.  والجبال التي هي اليوم سهولا.  ولكن أنا لا أعرف أي شخص كان على قيد الحياة هذه المدة الطويلة! أليس كذلك؟ فكيف "
+"لنا أن نعرف أي شيء على الإطلاق حول ما كانت الأرض عليه في الماضي البعيد  وما إذا الكائنات الحية موجودة منذ الآف وملايين "
+"السنين؟ الأحافير تساعد العلماء معرفة كل ذلك! بالإضافة إلى أن الأحافير هي شيء ممتع في جمعها وفي النظر إليها."
+
+# 3
+msgid "Checking what you know... about fossils"
+msgstr "التأكد مما تعرف ... بالأحافير"
+
+msgid ""
+"We know there were no people around to tell us about the ancient past. But we have some remains that might give us "
+"clues about what it was like if we can piece them all together."
+msgstr ""
+"نحن نعلم أنه لم يكن هنالك بشر من حولنا ليخبرونا عن الماضي القديم.  ولكن لدينا بقايا أشياء قد تعطينا أدلة حول ما كانت "
+"عليه اذا استطعنا جمعها مع بعضها البعض."
+
+msgid "The picture to the right shows a fossil of an animal. Where do you think this animal lived?"
+msgstr "الصورة الى اليمين تظهر أحفورة حيوان.  أين باعتقادك عاش هذا الحيوان؟"
+
+msgid "In the ground"
+msgstr "في الأرض"
+
+msgid "In the trees"
+msgstr "في الأشجار"
+
+msgid "In the desert"
+msgstr "في الصحراء"
+
+msgid "In the ocean"
+msgstr "في المحيط"
+
+msgid "What is the <span class='blink'>best</span> way to describe what fossils are?"
+msgstr "ما هي الطريقة <span class='blink'>الأفضل</span>  لوصف ماهية الأحافير؟"
+
+msgid "Fossils are"
+msgstr "الأحافير هي"
+
+msgid "buried plants and animals"
+msgstr "نباتات وحيوانات مدفونة"
+
+msgid "evidence of dead plants and animals"
+msgstr "أدلة من النباتات والحيوانات الميتة"
+
+msgid "skeletons of dead plants and animals"
+msgstr "هياكل عظمية من النباتات والحيوانات الميتة"
+
+msgid "extinct plants and animals"
+msgstr "نباتات وحيوانات منقرضة"
+
+msgid ""
+"Fossils are evidence of dead plants or animals that lived thousands or even millions of years ago. Fossils might be "
+"skeletons, or shells, or footprints of extinct animals, or of animals that still roam the earth. The photo of the shell "
+"you saw on the previous page was a fossil of an animal that lived in the ocean a long time ago."
+msgstr ""
+"الأحافير هي دليل على النباتات الميتة أو الحيوانات التي عاشت آلاف أو حتى ملايين السنين الماضية.  الأحافير قد تكون هياكل "
+"عظمية، أو أصداف أو آثار أقدام من الحيوانات المنقرضة، أو من الحيوانات التي لا تزال تجوب الأرض.  صورة الصدفة التي رأيتها "
+"في الصفحة السابقة من حيوان عاش  في المحيط منذ زمن طويل."
+
+msgid "Brushing shell fossil..."
+msgstr "تنظيف صدفة الأحفورة بالفرشاة..."
+
+# 4
+msgid "Reviewing core ideas... about fossils"
+msgstr "مراجعة الافكار الاساسية... حول الأحافير"
+
+msgid "Reviewing big ideas... about fossils"
+msgstr "مراجعة الافكار الاساسية... حول الأحافير"
+
+msgid ""
+"<span class='key'>Fossils</span> are the preserved evidence of organisms (living things like plants or animals) that "
+"were once alive a long time ago. This evidence might be the preserved remains of the plant or animal or the traces the "
+"animal or plant leaves behind like footprints or burrows. Fossils are usually found in <span class='key'>sedimentary "
+"rock</span> that is formed by deposition of layers of mud and sand from rivers, streams, lakes and oceans over a long, "
+"long time. Not all dead plants and animals turn into fossils, but most fossils are found in or near deposits of "
+"sedimentary rock."
+msgstr ""
+"<span class='key'>الأحافير</span>  هي أدلة للحفاظ على الكائنات (الكائنات مثل النباتات أو الحيوانات الحية) التي كانت على "
+"قيد الحياة منذ زمن طويل.  هذه الأدلة قد تكون بقايا محفوظة من نبات أو حيوان أو آثار الحيوان أو النبات الذي يترك وراءه "
+"مثل آثار أقدام أو الجحور. وعادة ما يتم العثور على أحافير في <span class='key'> الصخور الرسوبية</span> التي يتم تشكلها "
+"من قبل ترسب طبقات من الطين والرمل من الأنهار والجداول والبحيرات والمحيطات على مدى فترة طويلة، منذ وقت طويل.  ليس كل "
+"النباتات والحيوانات الميتة تتحول إلى أحافير، ولكن وجدت معظم الأحافيرفي طبقات رسوبية أو بالقرب من الصخور الرسوبية."
+
+msgid "There are 4 common types of fossils. Hover on the images to know more."
+msgstr "هناك 4 أنواع شائعة من الأحافير.  حرك المؤشر على الصور لمعرفة المزيد."
+
+msgid ""
+"Sometimes the actual organism or parts of the organism are preserved. This kind of fossil is called a <span "
+"class='key'>true form fossil</span>. Insects preserved in tree sap are true form fossils. So are woolly mammoths found "
+"trapped and frozen in glacial ice. These true form fossils are very rare."
+msgstr ""
+"في بعض الأحيان يتم الاحتفاظ بالكائن الفعلي أو أجزاء منه.  ويسمى هذا النوع من الوقود الأحفوري <span class='key'> شكل "
+"الأحفورة الصحيح</span>.  الحشرات المحفوظة في نسغ شجرة هي أحافير ذات شكل صحيح.  وحتى الماموث المغطى بالصوف وجدت محاصرة "
+"ومجمدة في الأنهار الجليدية.  هذه الأحافير ذات الشكل الحقيقي نادرة جدا."
+
+msgid ""
+"A fossil can also consist of some mark or evidence of an organism such as a footprint, a nest or even its waste (poop). "
+"This type of fossil is called a <span class='key'>trace fossil</span>."
+msgstr ""
+"ويمكن للأحفورة أن تحتوي بعض علامات ودلائل على وجود كائن مثل البصمة، عش أو حتى في القذارة (البراز). ويسمى هذا النوع من "
+"الأحافير ب <span class='key'>الأحافير الأثر </span> ."
+
+msgid ""
+"In some cases the remains of an organism trapped in the rock formation just leave an impression of the organism. This "
+"type of fossil is called a <span class='key'>mold</span>."
+msgstr ""
+"في بعض الحالات تترك بقايا الكائن الحي المحصورة في الصخور انطباعا . ويسمى هذا النوع من الأحافير ب <span "
+"class='key'>القالب</span>."
+
+msgid "If the mold then later fills with other materials, the fossil formed is called a <span class='key'>cast</span>."
+msgstr "إذا امتلأ القالب لاحقا بمواد أخرى، فتسمى الأحفورة التي تتشكل  ب <span class='key'>المنصبة</span> ."
+
+msgid "Types of fossils..."
+msgstr "أنواع الأحافير"
+
+# 5
+msgid "Question A. Click on <span class='blink'>all</span> the <span class='blink'>true</span> statements about fossils."
+msgstr "السؤال أ. انقر على <span class='blink'>جميع</span> العبارات <span class='blink'>الصحيح</span>ة حول الأحافير."
+
+msgid "Most fossils are found in formations of layered rock."
+msgstr "توجد معظم الأحافير في تشكيلات من طبقات الصخور ."
+
+msgid "All dead plants and animals eventually become fossils."
+msgstr "تصبح جميع النباتات والحيوانات الميتة في نهاية المطاف أحافير."
+
+msgid "A fossilized shark's tooth is an example of a trace fossil."
+msgstr "أسنان سمكة قرش الأحفورية هي مثال على  لأحفورة أثر  ."
+
+msgid "A mold and cast fossil has the same shape as the original organism."
+msgstr "القالب والصب لهما نفس شكل الكائن الأصلي."
+
+msgid ""
+"Question B. Trace fossils can reveal information about an animal's behavior and activities. Which of the following is "
+"<span class='blink'>not</span> an example of a trace fossil?"
+msgstr ""
+"السؤال ب. الأحافير الأثرية ممكن أن تكشف عن معلومات حول سلوك وأنشطة الحيوان.  أي من التالي <span class='blink'>ليس</"
+"span> مثالا لأحفورة أثر ؟"
+
+msgid "Footprint"
+msgstr "آثار قدم"
+
+msgid "Cast"
+msgstr "صبة"
+
+msgid "Burrow"
+msgstr "جحر"
+
+msgid "Tracks"
+msgstr "آثار"
+
+msgid ""
+"Correct! Most fossils are found in formations of layered rock. Not all animals can become fossils. For example, some "
+"plants and animals get eaten before they can become fossils. A fossil tooth is evidence of the shark but is not a trace "
+"fossil because it's a fossil of part of the shark not evidence of the shark's activity. A mold and cast fossil has the "
+"same shape as the original organism. The impression that is left behind is just like the original plant or animal; then "
+"it is filled in with other materials and keeps its shape."
+msgstr ""
+"صحيح! توجد معظم الأحافير بتشكيلات في طبقات الصخور.  لا يمكن لجميع الحيوانات أن تصبح أحافير.  على سبيل المثال، بعض "
+"النباتات والحيوانات تؤكل قبل أن تصبح أحافير.  الأسنان الأحفورية دليلا على القرش لكنها ليست أحافير أثر لأنها أحفورة من "
+"جزء من سمك القرش وليست  دليل على نشاط القرش.  الاحفورة  القالب أو المنصبة لها نفس شكل الكائن الأصلي.  الطبعة التي تركت "
+"هي تماما مثل النبات أو الحيوان الأصلي؛ ثم يتم تعبئتها بمواد أخرى وتبقي على شكلها."
+
+msgid ""
+"Not quite... Most fossils are found in formations of layered rock. Not all animals can become fossils. For example, "
+"some plants and animals get eaten before they can become fossils. And a fossil shark tooth is evidence of the shark, "
+"but it isn't considered to be a trace fossil because it's part of the shark not evidence of the shark's activity. A "
+"mold and cast fossil has the same shape as the original organism. The impression that is left behind is just like the "
+"original plant or animal; then it is filled in with other materials and keeps its shape."
+msgstr ""
+"ليس تماما.... توجد معظم الأحافير في تشكلات من طبقات الصخور.  لا يمكن لجميع الحيوانات أن تصبح أحافير.  على سبيل المثال، "
+"بعض النباتات والحيوانات تؤكل قبل أن تصبح أحافير.  وأسنان القرش الأحفورية دليل على سمك القرش، ولكن لا تعتبر من أحافير "
+"الأثر لانها  جزءا من سمك القرش وليست دليلاً على نشاط القرش.  القوالب الأحفورية لديها نفس شكل الكائن الأصلي.  الطبعة "
+"المتبقية هي تماما مثل النبات أو الحيوان الأصلي؛ ثم يتم تعبئتها بمواد أخرى وتبقي على شكلها."
+
+msgid "Nope... footprints are considered a trace fossil as they are evidence of the animal's activity."
+msgstr "كلا ... وتعتبر آثار الأقدام  الأحفورية من أحافير الأثر كما هي دليل على نشاط الحيوان."
+
+msgid "Correct, brachiopod shell fossil is an example of a cast fossil not trace fossil."
+msgstr "صحيح، الأصداف ذات القوائم الذراعية هي مثال على الأحافير المصبوبة وليست أحافير أثر."
+
+msgid "No, a burrow is a trace fossil as it is evidence of the animal's activity."
+msgstr "لا،الجحر هو شكل من لأحفورة أثر وهي دليل على نشاط الحيوان."
+
+msgid "No, tracks are considered a trace fossil as they are evidence of the animal's activity."
+msgstr "لا، تعتبر أثار الأقدام أحافير آثر لأنها أدلة على نشاط الحيوان."
+
+# 6
+msgid "More core ideas... about fossils"
+msgstr "المزيد من الافكار الاساسية ... حول الأحافير."
+
+msgid "More big ideas... about fossils"
+msgstr "المزيد من الافكار الاساسية ... حول الأحافير."
+
+msgid ""
+"<span class='key'>Paleontologists</span> study fossils because they can learn lots of useful things about the Earth and "
+"how it has changed. They also can learn many useful things about the living organisms that inhabited the Earth many "
+"years ago. These scientists study the collection of all the fossils that have ever been found. The collection is called "
+"the <span class='key'>fossil record</span>."
+msgstr ""
+" <span class='key'>علماء الإحاثة</span> يدرسون الأحافير لأنهم يتعلمون الكثير من الأشياء المفيدة حول الأرض وكيف تغيرت.  "
+"كما أنهم يتعلمون أشياء كثيرة ومفيدة عن الكائنات الحية التي سكنت الأرض منذ سنوات عديدة.  يدرس هؤلاء العلماء مجموعة "
+"الأحافير كلها والتي تم العثور عليها من أي وقت مضى.  تسمى هذه المجموعة ب <span class='key'>سجلات الأحافير</span>."
+
+msgid ""
+"The fossil record is the collective set of the remains of organisms that are at least 10,000 years old. When the record "
+"of all fossils from around the world is viewed as a whole, it can provide interesting information about how life on "
+"Earth has changed over time – like when the dinosaurs became extinct. Scientists consider the fossil evidence they have "
+"found to be extremely valuable and they keep looking for more new fossil discoveries to try to fill in gaps in the "
+"fossil record to have a better understanding of the history of the earth."
+msgstr ""
+"سجل الأحفورة هو مجموعة من بقايا الكائنات الحية التي تعود الى 10،000 سنة على الأقل.  عند عرض سجل جميع الحفريات من جميع "
+"أنحاء العالم ، فيمكن أن توفر معلومات مثيرة للاهتمام حول كيفية تغير الحياة على الأرض بمرور الوقت - مثال: عندماانقرضت "
+"الديناصورات.  ينظر العلماء للأدلة الأحفورية التي عثروا عليها على أنها قيمة للغاية ويبقون على البحث عن مزيد من "
+"الاكتشافات الحفريةالجديدة في محاولة لملء الثغرات في السجل الأحفوري لديهم فهي أفضل لتاريخ الأرض."
+
+msgid ""
+"Here are some things that scientists can learn about the Earth itself and its inhabitants over time by studying the "
+"fossil record."
+msgstr "وها هي  بعض الأشياء التي يمكن للعلماء تعلمها عن الأرض نفسها وسكانها على مر الزمن من خلال دراسة سجل الأحافير."
+
+msgid "How living things changed or evolved over time."
+msgstr "كيف تغيرت الكائنات الحية أو تطورت مع مرور الوقت."
+
+msgid "When certain species became <span class='key'>extinct</span>."
+msgstr "عندما تصبح بعض الأنواع <span class='key'>منقرضة</span>."
+
+msgid "The habits and activities of different organisms."
+msgstr "عادات وأنشطة الكائنات الحية المختلفة."
+
+msgid "The relative ages of rock layers beneath the earth's surface."
+msgstr "الأعمار النسبية لطبقات الصخور تحت سطح الأرض."
+
+msgid "Changes in the climate at different places on the earth."
+msgstr "تغيرات في المناخ في أماكن مختلفة على الأرض."
+
+msgid "Changes in the locations of the continents and other land masses."
+msgstr "تغييرات في مواقع القارات والكتل الأرضية الأخرى."
+
+msgid "Locations of bodies of water like rivers, lakes, seas and oceans."
+msgstr "مواقع المسطحات المائية كالأنهار والبحيرات والبحار والمحيطات."
+
+msgid "Studying fossil records..."
+msgstr "دراسة سجلات الأحفور ..."
+
+# 7
+msgid "Question A. Click on <span class='blink'>all</span> the ways finding and studying fossils help."
+msgstr "السؤال أ. انقر على <span class='blink'>جميع</span> الطرق التي تجدها مناسبة لدراسة الأحافير  ."
+
+msgid "Add information to the fossil record"
+msgstr "إضافة معلومات إلى سجل الأحفورة"
+
+msgid "Learn about changes in the Earth's climate and geography"
+msgstr "معرفة التغيرات في مناخ الأرض والجغرافيا"
+
+msgid "Connect species of today to their ancestors"
+msgstr "توصيل الأنواع المختلفة من الكائنات الحالية مع أسلافها"
+
+msgid "Identify good places to build cities"
+msgstr "تحديد أماكن جيدة لبناء مدن"
+
+msgid "Question B. Click on the correct statement describing the fossil record."
+msgstr "السؤال ب. انقر على العبارة الصحيحة التي تصف السجل الأحفوري."
+
+msgid "Provides clues to earth's history"
+msgstr "توفر أدلة عن تاريخ الأرض"
+
+msgid "Is fully complete"
+msgstr "اكتملت تماما"
+
+msgid "Reveals major periods of extinction"
+msgstr "يكشف فترات رئيسية للانقراض"
+
+msgid "A and C"
+msgstr "أ مع ب"
+
+msgid "Verifying collected data..."
+msgstr "التحقق من البيانات التي تم جمعها ..."
+
+msgid ""
+"Correct! Fossils help scientists fill in the fossil record, learn about changes in the Earth's climate, geography and "
+"other things, and figure out how plants and animals from today and plants and animals from long ago are connected and "
+"they can even help engineers and architects decide the best places to build cities because fossils tell things about "
+"the earth below."
+msgstr ""
+"صحيح! الأحافير تساعد العلماء في تعبأة السجل الأحفوري، والتعرف على التغيرات في مناخ الأرض والجغرافيا وغيرها من الأمور، "
+"ومعرفة كيف ترتبط النباتات والحيوانات الموجودة في الوقت الحالي مع النباتات والحيوانات التي كانت موجودة منذ فترة طويلة "
+"وأنها يمكن أن تساعد حتى المهندسين والمهندسين المعماريين تقرير ما هي أفضل الأماكن لبناء المدن لأن الأحافير تتحدث عما في "
+"الأرض ."
+
+msgid ""
+"Not quite. Fossils help scientists fill in the fossil record, learn about changes in the Earth's climate, geography and "
+"other things, and figure out how plants and animals of today are connected with plants and animals of long ago. They "
+"can even help engineers and architects decide the best places to build cities, because fossils tell things about the "
+"earth below."
+msgstr ""
+"ليس تماماً! الأحافير تساعد العلماء في تعبأة السجل الأحفوري، والتعرف على التغيرات في مناخ الأرض والجغرافيا وغيرها من "
+"الأمور، ومعرفة كيف ترتبط النباتات والحيوانات من اليوم والنباتات والحيوانات التي كانت موجودة منذ فترة طويلة وأنها يمكن "
+"أن تساعد حتى المهندسين والمهندسين المعماريين تقرير ما هي أفضل الأماكن لبناء المدن لأن الأحافير تتحدث عما في الأرض ."
+
+msgid "Not quite. The fossil record does provide clues to the earth's history, but what else does the fossil record do?"
+msgstr "ليس تماما. السجل الأحفوري  يوفر أدلة لتاريخ الأرض، ولكن ماذا يفعل السجل الأحفوري أيضا؟"
+
+msgid "No, scientists are always discovering more fossils; the fossil record is not complete."
+msgstr "لا، العلماء يكتشفون دائما أحافير جديدة؛ السجل الأحفوري ليس مكتملا بعد."
+
+msgid "Not quite. The fossil record does reveal major periods of extinction, but what else does the fossil record do?"
+msgstr "ليس تماما. السجل الأحفوري لا يكشف فترات رئيسية من الانقراض، ولكن ماذا يفعل السجل الأحفوري غير ذلك؟"
+
+msgid "Correct, the fossil record reveals major periods of extinction and provides clues to the Earth's history as well."
+msgstr "صحيح، السجل الأحفوري يكشف فترات رئيسية من الانقراض ويوفر أدلة لتاريخ الأرض كذلك."
+
+# 8
+msgid ""
+"Another important topic related to fossils is fossil fuels. Millions of years ago, many plants and animals died and "
+"sank to the bottom of the ocean or fell and died in huge swamps. They didn't become fossils but just rotted and "
+"decomposed. After a long period of time, layers and layers of mud, sand and stone covered the decomposed plants and "
+"animals and heat and pressure went to work on them until they became deposits of fossil fuel in the sedimentary rock "
+"layers. Depending on what kinds of plants and animals were buried, and the conditions of temperature and pressure, "
+"different types of fossil fuel were formed – like petroleum (another name for oil), coal, and natural gas."
+msgstr ""
+" موضوع آخرمهم متعلق بالأحافير هو الوقود الأحفوري.  منذ ملايين السنين، العديد من النباتات والحيوانات ماتت و غرقت في قاع "
+"المحيط أو سقطت وماتت في مستنقعات ضخمة.  ولم تصبح أحافير ولكنها فسدت وتحللت فقط .  بعد فترة طويلة من الزمن، غطت طبقات "
+"وطبقات من الطين والرمل والحجر النباتات والحيوانات المتحللة وتعرضها للحرارة  حتى أصبحت الرواسب من الوقود الأحفوري في "
+"طبقات الصخور الرسوبية.  اعتمادا على  أنواع النباتات والحيوانات التي دفنت، ودرجة الحرارة والضغط، وتشكلت لأنواع مختلفة من "
+"الوقود الأحفوري - مثل البترول (اسم آخر للنفط) والفحم، والغاز الطبيعي."
+
+msgid ""
+"Petroleum, natural gas, and coal are three types of fossil fuels. They are all very valuable resources. Even though "
+"they are called fossil fuels, they are not really fossils. These fuels are just made from dead plants and animals that "
+"lived long ago."
+msgstr ""
+"البترول والغاز الطبيعي والفحم هي ثلاثة أنواع من الوقود الأحفوري.  انها جميعا موارد قيمة للغاية. على الرغم من أنها تسمى "
+"بالوقود الأحفوري، فهي ليست حقا أحافير.  يتم تكوين هذه الأنواع من الوقود من النباتات والحيوانات الميتة التي عاشت منذ "
+"فترة طويلة جداً فقط ."
+
+msgid "Petroleum"
+msgstr "البترول"
+
+msgid "Natural Gas"
+msgstr "الغاز الطبيعي"
+
+msgid "Coal"
+msgstr "الفحم"
+
+msgid ""
+"The sun is the main source of energy for all fossil fuels. Plants and animals get energy from the sun and that energy "
+"becomes the energy in fossil fuels. Today, miners and oilmen use big drills and other heavy equipment to dig or drill "
+"into the earth's crust to find fossil fuels. Natural gas is usually found near oil deposits that were created under "
+"similar conditions. Oil, gas, and coal can be converted to electricity – another form of energy. Oil can be made into "
+"gasoline to run our cars. We use fossil fuels every day, but the process of forming them inside the earth takes a long "
+"time – millions of years. That means these resources are <span class='key'>non-renewable</span>; they cannot be "
+"replaced once they are used up."
+msgstr ""
+"الشمس هي المصدر الرئيسي للطاقة لجميع أنواع الوقود الأحفوري.  النباتات والحيوانات تحصل على الطاقة من الشمس وتصبح هذه "
+"الطاقة هي الطاقة في الوقود الأحفوري.  اليوم، عمال المناجم ورجال النفط يستخدمون المثاقب الكبيرة والمعدات الثقيلة الأخرى "
+"للتنقيب او الحفر في القشرة الأرضية للعثور على الوقود الأحفوري.  وعادة يتم العثور على الغاز الطبيعي بالقرب من حقول النفط "
+"التي تم إنشاؤها في ظل ظروف مماثلة. النفط والغاز، والفحم يمكن تحويلها إلى كهرباء - وهي شكل آخر من أشكال الطاقة. ويمكن أن "
+"يصنع النفط البنزين لتشغيل سياراتنا. نستخدم الوقود الأحفوري كل يوم، ولكن عملية تشكيلها داخل الأرض يستغرق وقتا طويلا - "
+"ملايين السنين.  وهذا يعني أن هذه الموارد هي <span class='key'>غير متجددة</span> : لا يمكن استبدالها ما دامت قد استخدمت."
+
+msgid "Conducting pressure-meter test..."
+msgstr "اجراء إختبار قياس الضغط ..."
+
+# 9
+msgid "Question A. Click on <span class='blink'>all</span> the fossil fuels below."
+msgstr "السؤال أ. انقر على <span class='blink'>جميع</span> أنواع الوقود الأحفوري أدناه."
+
+msgid "Question B. Click on the <span class='blink'>false</span> statement about fossil fuels."
+msgstr "السؤال ب. اضغط على العبارة <span class='blink'>الخاطئة</span> عن الوقود الأحفوري."
+
+msgid "Burning fossil fuel is bad for the environment."
+msgstr "حرق الوقود الأحفوري هو سيء بالنسبة للبيئة."
+
+msgid "Fossil fuels can be extracted with machinery from various parts of the earth."
+msgstr "ويمكن استخراج الوقود الأحفوري عن طريق  الآلات من أجزاء مختلفة من الأرض."
+
+msgid "Fossil fuels are continually made inside the earth but very slowly over millions of years."
+msgstr "يصنع الوقود الأحفوري باستمرار داخل الأرض ولكن ببطء شديد على مدى ملايين السنين."
+
+msgid "Petroleum, natural gas, and coal are renewable sources of energy."
+msgstr "البترول والغاز الطبيعي، والفحم هي مصادر للطاقة المتجددة."
+
+msgid ""
+"Correct. Three types of fossil fuels are petroleum, natural gas, and coal. They are from decayed plant and animal "
+"material covered in sand and stone, then heated and pressured over millions of years."
+msgstr ""
+"صحيح.  ثلاثة أنواع من الوقود الأحفوري هي النفط والغاز الطبيعي، والفحم.  وهي من المواد النباتية والحيوانيةالفاسدة التي "
+"تغطيها الرمال والحجارة، ثم تعرضت للحرارة والضغط على مدى ملايين السنين."
+
+msgid ""
+"Not quite. Three types of fossil fuels are petroleum, natural gas, and coal. They are from decayed plant and animal "
+"material covered in sand and stone, then heated and pressured over millions of years. Fossils themselves are not energy "
+"resources, rather what they have turned into under certain conditions are."
+msgstr ""
+"ليس تماما.  ثلاثة أنواع من الوقود الأحفوري هي النفط والغاز الطبيعي، والفحم.  وهي من المواد النباتية والحيوانيةالفاسدة "
+"التي تغطيها الرمال والحجارة، ثم تعرضت للحرارة والضغط على مدى ملايين السنين.  الأحافير بحد ذاتها ليست من موارد الطاقة،"
+"لكنها تحولت نتيجة لتعرضها لظروف معينة."
+
+msgid ""
+"No, the gases released from burning fossil fuel cause pollution and lead to global climate change. This statement is "
+"true."
+msgstr "لا، الغازات المنبعثة من حرق الوقود الأحفوري تسبب التلوث وتؤدي إلى تغير المناخ العالمي. هذه العبارة صحيحة."
+
+msgid "No, drills and pumps are used on land and offshore around the world to extract these valuable resources."
+msgstr "لا، تستخدم المثاقيب والمضخات في البر والبحر في جميع أنحاء العالم لاستخراج هذه الموارد القيمة."
+
+msgid ""
+"No, this is true. Fossil fuels are produced continually, but humans are using up the resources much faster than they "
+"are being produced."
+msgstr ""
+"لا، هذا صحيح.  يتم إنتاج أنواع من الوقود الأحفوري باستمرار، ولكن البشر يستخدمون هذه الموارد بشكل أسرع أكثر من إنتاجها."
+
+msgid ""
+"Correct. This statement is false. Petroleum, natural gas, and coal are sources of energy, but they are non-renewable. "
+"They will run out when we use them all."
+msgstr ""
+"صحيح.  هذه العبارة خاطئة. البترول، والغاز الطبيعي، والفحم هي مصادر الطاقة، لكنها غير متجددة.  فهي ستنفد عندما نستخدمها "
+"كلها."
+
+# 10
+msgid "Using what you know... about fossils... to solve a problem"
+msgstr "استخدام ما تعرفه ... عن الأحافير... من أجل حل مشكلة"
+
+msgid ""
+"You are a paleontologist digging for fossils in a huge cliff along a road through a mountain forest. In rocks at the "
+"bottom of the cliff, you find fossils of an extinct fish and some shell fossils. Further up the cliff, in a different "
+"rock layer, you find a fossil of an ancient species of cactus. At first, these finds don't make sense to you."
+msgstr ""
+"أنت عالم إحاثة تحفر لإيجاد الأحافير في منحدر ضخم على طول الطريق من خلال الغابات الجبلية.  تجد  في الصخور في قاع "
+"المنحدرأحافير للأسماك التي انقرضت وبعض أحافير الأصداف.  في أعلى المنحدر، في طبقة الصخور المختلفة، تجد أحافير من الأنواع "
+"القديمة للصبار.  في البداية، هذه الاكتشافات لا تعني لك شيء."
+
+msgid "Please type your answer here..."
+msgstr "يرجى كتابة إجابتك هنا ..."
+
+msgid "The Assignment"
+msgstr "الواجب "
+
+msgid ""
+"From your fossil discoveries in the rock layers of the cliff, how would you interpret the fossil evidence you found to "
+"tell how past climate and geography changed over time at this location? Explain your reasoning in a report in the text "
+"box provided."
+msgstr ""
+"من إكتشافاتك للأحفور  في طبقات الصخور على المنحدر، كيف يمكنك تفسير الدليل الأحفوري الذي وجدته لتقول كيف تغير المناخ "
+"والجغرافيا الماضية مع مرور الوقت في هذا المكان؟ اشرح تعليلك الخاص في تقرير داخل صندوق النص المبين."
+
+msgid "Probing assumptions..."
+msgstr "إفتراضات متعمقة"
+
+# 11
+msgid "Summarizing core ideas... about fossils"
+msgstr "تلخيص الأفكار الأساسية ... حول الأحافير."
+
+msgid "Summarizing big ideas... about fossils"
+msgstr "تلخيص الأفكار الأساسية ... حول الأحافير."
+
+msgid ""
+"When a living organism dies, it sometimes is covered by soil, sand, mud or other sediments. These sediments may harden "
+"into <span class='key'>sedimentary rock</span>, preserving some remains of the organism or some type of trace or trail "
+"of the organism's activity. These remains or other evidence of an ancient dead plant or animal are called <span "
+"class='key'>fossils</span>. They can be a bone, a shell print in rock, a track, a burrow or a tunnel. There are several "
+"main types of fossils, including <span class='key'>molds</span>, <span class='key'>casts</span>, <span class='key'>true "
+"form fossils</span>, and <span class='key'>trace fossils</span>. Fossils indicate that many different life forms have "
+"existed at different times throughout the geological history of the earth. Scientists called <span "
+"class='key'>paleontologists</span> use fossils to study the plants and animals that lived on the Earth a long time ago "
+"and to study what the Earth was like in the far distant past and how it has changed. Over millions of years, heat and "
+"pressure went to work on the dead plants and animals in rocks formed in ancient seas and swamps until they became "
+"pockets of fossil fuel in the earth. Petroleum (oil), natural gas, and coal are three types of fossil fuels. Today, "
+"miners and oilmen use big drills and other heavy equipment to dig or drill into the earth's crust to find fossil fuels. "
+"Natural gas is usually found near oil deposits that were created under similar conditions. Oil, gas, and coal can be "
+"converted to electricity – another form of energy. Oil can be made into gasoline to run our cars. We use fossil fuels "
+"every day, but the process of forming them inside the earth takes a long time – millions of years. That means these "
+"resources are <span class='key'>non-renewable</span>; they cannot be replaced once they are used up."
+msgstr ""
+"عندما يموت الكائن الحي، فإنه في بعض الأحيان يغطى بالتربة والرمل والطين أو الرواسب الأخرى.  هذه الرواسب قد تتصلب في "
+"<span class='key'> الصخور الرسوبية </span>، محافظة على بعض بقايا الكائن الحي أو أي نوع من أثر الكائن الحي.  وتسمى هذه "
+"البقايا أو الأدلة  من النباتات أو الحيوانات الميتة القديمة <span class='key'>الأحافير </span>. يمكن أن تكون عظاما، أو "
+"صدفة مطبوعة في الصخر، أو أثر أقدام، أو جحور أو أنفاق.  هناك عدة أنواع رئيسية من الأحافير، بما في ذلك <span class='key'> "
+"القوالب </span> و <span class='key'>المصبوب</span> و <span class='key'>أشكال الأحافير الحقيقية </span>، و <span "
+"class='key'>أحافير أثر </span>.  وتشير الأحافير بأن العديد من أشكال الحياة المختلفة قد وجدت في أوقات مختلفة طوال "
+"التاريخ الجيولوجي للأرض.  <span class='key'> علماء الإحاثة </span> يستخدمون الأحافير لدراسة النباتات والحيوانات التي "
+"عاشت على الأرض منذ زمن طويل ودراسة ما كانت عليه الأرض في الماضي البعيد وكيف تغيرت .  على مدى ملايين السنين، عملت "
+"الحرارة والضغط ما عملت على النباتات والحيوانات النافقة في الصخور التي تشكلت في البحار القديمة والمستنقعات حتى أصبحت "
+"تجاويف من الوقود الأحفوري في الأرض.  البترول (النفط)، والغاز الطبيعي، والفحم ثلاثة أنواع من الوقود الأحفوري.  اليوم، "
+"عمال المناجم ورجال النفط يستخدمون المثاقيب الكبيرة والمعدات الثقيلة الأخرى لحفر أو للتنقيب في القشرة الأرضية للعثور على "
+"الوقود الأحفوري.  وعادة ما يتم العثور على الغاز الطبيعي بالقرب من حقول النفط التي تم إنشاؤها في ظل ظروف مماثلة.  النفط "
+"والغاز، والفحم يمكن تحويلها إلى كهرباء - شكل آخر من أشكال الطاقة.  ويمكن صنع البنزين من النفط  لتشغيل سياراتنا.  نستخدم "
+"الوقود الأحفوري كل يوم، ولكن عملية تشكيله داخل الأرض تستغرق وقتا طويلا - ملايين السنين.   وهذا يعني أن هذه الموارد "
+"<span class='key'>غير متجددة </span>؛ لا يمكن استبدالها عندما تستخدم."
+
+# 12
+msgid "Reviewing key vocabulary related to... fossils"
+msgstr "استعراض المفردات الأساسية ذات الصلة ... بالأحافير."
+
+msgid "Sedimentary Rock"
+msgstr "الصخر الرسوبي"
+
+msgid ""
+"Sedimentary rock is rock formed from deposits of mud and sand from rivers, streams, lakes and oceans. Most fossils are "
+"found in or near deposits of sedimentary rock."
+msgstr ""
+"الصخور الرسوبية هي الصخور  التي تشكلت من رواسب الطين والرمل من الأنهار والجداول والبحيرات والمحيطات.  توجد معظم "
+"الأحافير في أو بالقرب من طبقة الصخور الرسوبية ."
+
+msgid ""
+"Fossils are the preserved remains or traces of organisms that were once alive. The organism became a fossil through its "
+"body being quickly buried in sediment."
+msgstr ""
+"الأحافير هي بقايا أو آثار  للكائنات الحية المحفوظة والتي كانت على قيد الحياة.  أصبح الكائن الاحفوري من خلال دفن جسده "
+"بسرعة في الرواسب."
+
+msgid "Mold"
+msgstr "قالب"
+
+msgid ""
+"In some cases, the remains of an organism trapped in a rock formation just leave an impression of the organism. This "
+"type of fossil is called a mold."
+msgstr ""
+"في بعض الحالات، بقايا الكائن الحي المحاصرفي تشكيل الصخور تترك انطباعا للكائن.  ويسمى هذا النوع من الأحافير بالقالب."
+
+msgid "If a mold fossil later fills with other materials, the fossil formed is then called a cast."
+msgstr "إذا كان القالب الأحفوري يمتلئ في وقت لاحق مع مواد أخرى، تسمى الأحفورة المتشكلة بالمصبوبة."
+
+msgid "True form fossil"
+msgstr "الأحفورة صحيحة الشكل"
+
+msgid "Trace fossil"
+msgstr "أحفورة أثر "
+
+msgid ""
+"A fossil can consist of some mark or evidence of an organism such as a footprint, a nest or even its waste (poop). This "
+"type of fossil is called a trace fossil."
+msgstr ""
+"يمكن أن تتكون بعض الأحافير من علامة أو دليل على وجود كائن مثل آثار القدم، العش أو حتى في القذارات (البراز).  ويسمى هذا "
+"النوع من الأحافير تسمى بأحافير الأثر ."
+
+msgid "Paleontologist"
+msgstr "عالم إحاثة"
+
+msgid ""
+"Paleontologists study fossils because they can learn lots of useful things about the Earth and how it has changed. "
+"Paleontologists also can learn many useful things about the living organisms that inhabited the Earth in the past."
+msgstr ""
+"علماء الإحاثة يدرسون الأحافير لأنه من الممكن أن يتعلموا الكثير من الأشياء المفيدة حول الأرض وكيف تغيرت.  علماء الإحاثة "
+"يتعلمون أيضا أشياء كثيرة مفيدة عن الكائنات الحية التي سكنت الأرض في الماضي."
+
+msgid "Fossil record"
+msgstr "سجل الأحافير"
+
+msgid ""
+"The collection of all the fossils that have ever been found is called the fossil record. The fossil record consists of "
+"billions of dead things, buried in rock layers, buried by water and sediment, all over the Earth!"
+msgstr ""
+"تسمى مجموعة الأحافير التي تم العثور عليها في أي وقت مضى بالسجل الأحفوري .  يتكون السجل الأحفوري من مليارات الأشياء "
+"الميتة، دفنت في طبقات الصخور، ودفنت بالمياه والرواسب، في جميع أنحاء الأرض!"
+
+msgid "Extinct"
+msgstr "منقرض"
+
+msgid ""
+"A species of organisms is said to have gone extinct when no more individuals remain alive. An extinct species has no "
+"living individuals in it; all have died out."
+msgstr ""
+" إن بعض أنواع  الكائنات الحية انقرضت  عندما  لا يبقى أي فرد على قيد الحياة منها.  الأنواع المنقرضة لا يوجد لها أفراد "
+"على قيد الحياة ؛ جميعها ماتت."
+
+msgid "Non-renewable resources"
+msgstr "موارد غير متجددة"
+
+msgid ""
+"Some natural resources, such as fossil fuels, are replenished slowly or not at all, making them non-renewable. Non-"
+"renewable resources cannot be quickly or easily replaced once they are all used up."
+msgstr ""
+"يتم تجديد بعض الموارد الطبيعية مثل الوقود الأحفوري، ببطء أو لا تجدد على الاطلاق، مما يجعلها غير قابلة للتجديد.  الموارد "
+"غير المتجددة لا يمكن استبدالها بسرعة أو بسهولة  عندما ُتستخدم كلها."
+
+# 13
+msgid "Checking what you now know... about fossils"
+msgstr "التأكد من مدى معرفتك ...بالأحافير"
+
+# 14
+msgid "Your first quiz question is..."
+msgstr "سؤالك القصير الاول هو..."
+
+msgid "What do you call a person who studies fossils?"
+msgstr "ماذا تسمي الشخص الذي يدرس الأحافير؟"
+
+# archaeologist
+msgid "Archeologist"
+msgstr "عالم الآثار"
+
+msgid "Cosmetologist"
+msgstr "طبيب التجميل"
+
+msgid "Taxidermist"
+msgstr "محنط الحيوانات"
+
+msgid "Not quite, archeologists study prehistoric human activity and their culture."
+msgstr "ليس تماما، علماء الآثار يدرسون النشاط البشري والثقافة في عصور ما قبل التاريخ."
+
+msgid "Correct, a paleontologist studies fossils and the history of life."
+msgstr "صحيح، يدرس علماء الإحاثة الأحافير وتاريخ الحياة."
+
+msgid "No, a cosmetologist provides skincare and make-up."
+msgstr "لا، يوفر طبيب التجميل العناية بالبشرة والماكياج...."
+
+msgid "No, a taxidermist preserves dead animals for display."
+msgstr "لا، يحفظ المحنط الحيوانات النافقة للعرض."
+
+# 15
+msgid "Which of the following is <span class='blink'>not</span> an example of a trace fossil?"
+msgstr "أي من التالي هو <span class='blink'>ليس </span> مثال على أحفورة أثر؟"
+
+msgid "Fossilized poop"
+msgstr "براز أحفوري"
+
+msgid "Fossilized skull"
+msgstr "جمجمة أحفورية"
+
+msgid "Claw marks"
+msgstr "علامات مخلب"
+
+msgid "Know more about trace fossil..."
+msgstr "اعرف أكثر عن أحفور الأثر..."
+
+msgid "No, a footprint is a trace fossil, evidence of the organism's activity."
+msgstr "لا،أثر القدم هي من أحافير الأثر، ودليل على نشاط الحيوان."
+
+msgid "No, fossilized poop is a trace fossil, evidence of the organism's activity."
+msgstr "لا، البراز المتحجر هو أحفور أثر، دليل على نشاط الكائن الحي."
+
+msgid "Correct, a skull is part of the organism's body, not evidence of their activity."
+msgstr "صحيح، الجمجمة هي جزء من جسم الكائن الحي، وليست دليلا على نشاطه."
+
+msgid "No, claw marks are a trace fossil, evidence of the organism's activity."
+msgstr "لا، علامات المخلب هي من أحفور أثر، ودليل على نشاط الكائن الحي."
+
+# 16
+msgid "The presence of an animal fossil in a rock gives evidence of..."
+msgstr "وجود أُحفورة حيوان في صخرة يعطي دليلا على ..."
+
+msgid "What other animals hunted the animal in the fossil"
+msgstr "الحيوان الذي اصطادته حيوانات أخرى في الأحفورة."
+
+msgid "Total number of babies the animal had given birth to"
+msgstr "العدد الإجمالي لأطفال الحيوانات التي ولدت"
+
+msgid "The date the animal was born"
+msgstr "تاريخ ولادة الحيوان"
+
+msgid "The time period in which the animal lived"
+msgstr "الفترة الزمنية التي عاش فيها الحيوان"
+
+msgid "Excavating sedimentary rocks..."
+msgstr "حفر صخور رسوبية ..."
+
+msgid "No, the fossil will not show what animal hunted it."
+msgstr "لا، الأُحفورة لن تبين ما الحيوان الذي تم اصطياده."
+
+msgid ""
+"No, the fossil will not show the total number of babies it had given birth to even if some baby fossils were found with "
+"it. Can you think why?"
+msgstr "لا، لا تُظهر الأحفورة العدد الإجمالي للأطفال التي  أنجبتها حتى لو وجدت بعض أحافير الطفل معها. يمكنك أن تفكر لماذا؟"
+
+msgid "No, the animal fossil can show the time period when it was born, but not an exact date."
+msgstr "لا، يمكن لأحفورة الحيوان أن تظهر الفترة الزمنية لولادتها، ولكن ليس موعدا محددا."
+
+msgid ""
+"Correct, a plant or animal fossil in a rock can help paleontologists determine the general geological time period it "
+"might have lived in because the age of the rock can usually be approximately determined."
+msgstr ""
+"صحيح، أحفورة النبات أو الحيوان في صخرة يمكن أن تساعد علماء الإحاثة  تحديد الفترة الزمنية الجيولوجية العامة والتي قد "
+"عاشوا فيها لأن عمر الصخر عادة يمكن تحديده."
+
+# 17
+msgid "Select <span class='blink'>all</span> the <span class='blink'>correct</span> statements about the fossil record."
+msgstr "اختر <span class='blink'>جميع</span> العبارات <span class='blink'>الصحيحة</span> عن السجل الأحفوري."
+
+msgid "A list of the oldest fossilized specimens that have been found for each species."
+msgstr "قائمة من أقدم العينات الأحفورية التي تم العثور عليها لكل الأنواع."
+
+msgid "A database of all the species that have ever existed."
+msgstr "قاعدة بيانات لجميع الأنواع التي وجدت من أي وقت مضى."
+
+msgid "A database of all the fossils that have ever been found and reported."
+msgstr "قاعدة بيانات لجميع الأحافيرالتي تم العثور عليها في كل وقت مضى والإبلاغ عنها."
+
+msgid "What scientists study to learn about the history of the earth."
+msgstr "ما يدرسه العلماء لمعرفة المزيد عن تاريخ الأرض."
+
+msgid "Evidence that life has existed in different forms and changed over geological time."
+msgstr "دليل على أن الحياة كانت موجودة في أشكال مختلفة وتتغير بمرور الزمن الجيولوجي."
+
+msgid "Keeping fossil records..."
+msgstr "الإحتفاظ بالسجل الأحفوري..."
+
+msgid ""
+"Correct! The fossil record is a database of all the fossils that have been found, not all the ones that have ever "
+"existed. By studying the fossil record, scientists learn about the history of the earth and how life has changed over "
+"geological time."
+msgstr ""
+"صحيح! السجل الأحفوري هو قاعدة بيانات لجميع الأحافير التي تم العثور عليها، وليست كل تلك التي وجدت في أي وقت مضى.  من "
+"خلال دراسة سجل الأحافير، يتعلم العلماء عن تاريخ الأرض وكيفية تغير الحياة  على مر الزمن الجيولوجي."
+
+msgid "Not quite, the answer you gave is TRUE - but there are more true statements that you can check in addition."
+msgstr "ليس تماما، فإن الجواب الذي أعطيته هو الصحيح - ولكن هناك عبارات أكثر صحة يمكنك أن تتحقق منها."
+
+msgid ""
+"Not quite, a fossil record is a database of all the fossils that have been found, not all the ones that have ever "
+"existed. By studying the fossil record, scientists learn about the history of the earth."
+msgstr ""
+"ليس تماما، السجل الأحفوري هو قاعدة بيانات لجميع الأحافير التي تم العثور عليها، وليس كل تلك التي وجدت في أي وقت مضى.  من "
+"خلال دراسة السجل الأحفوري، يتعلم العلماء عن تاريخ الأرض."
+
+# 18
+msgid "A paleontologist finds a wooly mammoth completely preserved and frozen in the ice. What type of fossil is this?"
+msgstr "يجد عالم الإحاثة الماموث كثيف الصوف محفوظاً بشكل كامل ومجمد في الجليد.  ما هو نوع هذه الأحفورة؟"
+
+msgid "Investigating mammoth on ice..."
+msgstr "التحقيق في الماموث على الجليد ..."
+
+msgid "No, a mold is an impression left by the organism."
+msgstr "لا، القالب هو الانطباع الذي تركه الكائن الحي."
+
+msgid "No, a cast is when a mold is filled and hardens into an exact replica of the organism."
+msgstr "لا، الصب هو عندما يتم تعبئة القالب ويتصلب ويكون نسخة طبق الأصل عن الكائن الحي."
+
+msgid "Correct, the actual wooly mammoth being preserved is a true form fossil."
+msgstr "صحيح، الماموث كثيف الصوف الحقيقي والذي يجري الحفاظ عليه هو شكل الأحفورةالصحيح."
+
+msgid "No, a trace fossil is evidence of the organism's activity."
+msgstr "لا، آثار الأحفورة مثال على نشاط الكائن."
+
+# 19
+msgid ""
+"Which of the following is <span class='blink'>not</span> something that scientists could learn by studying fossil "
+"records?"
+msgstr "أي من التالي هو <span class='blink'>ليس</span> شيء يمكن أن يتعلمه العلماء من خلال دراسة السجلات الأحفورية؟..."
+
+msgid "The climate of Location 'X' was very hot and dry at some time in the geological past."
+msgstr "لقد كان مناخ الموقع 'X' حار جدا وجاف في وقت ما في الماضي الجيولوجي."
+
+msgid "Location 'X' was covered by water at one point in Earth's history."
+msgstr "وتمت تغطية موقع 'X' بالمياه عند مرحلة معينة في تاريخ الأرض."
+
+msgid "A certain species of flowering plant produced yellow flowers."
+msgstr "هناك أنواع معينة من النباتات المزهرة تنتج الزهور الصفراء."
+
+msgid "A certain species of plant became extinct about 60 million years ago."
+msgstr " بعض الأنواع من النباتات أصبحت منقرضة قبل حوالي 60 مليون سنة."
+
+msgid "No, scientists can determine things about the climate of an area a long time ago from fossils."
+msgstr "لا، يمكن للعلماء تحديد أشياء حول مناخ منطقة منذ زمن طويل من الأحافير."
+
+msgid "No, scientists can get an idea of the amount of water an area had a long time ago."
+msgstr "لا، يمكن للعلماء الحصول على فكرة عن كمية المياه في منطقة ما قبل فترة طويلة."
+
+msgid ""
+"Correct, scientists cannot identify the color of a flower that existed a long time ago because colors would likely "
+"change in the fossilization process."
+msgstr ""
+"صحيح، لا يمكن للعلماء تحديد لون الزهرة التي كانت موجودة منذ وقت طويل لأن الألوان من الممكن أن تتغير في عملية التحجر."
+
+msgid "No, scientists can estimate when a plant became extinct by studying the fossil record."
+msgstr "لا،يمكن للعلماء تقدير متى أصبح النبات منقرضا عن طريق دراسة السجل الأحفوري."
+
+# 20
+msgid "You've completed the Fossils review."
+msgstr "لقد اتممت مراجعة الأحافير."
+
+msgid "You've completed the Fossils module."
+msgstr "لقد اتممت مراجعة الأحافير."
+
+msgid "You've completed this Fossils module."
+msgstr "لقد اتممت مراجعة الأحافير."
+
+msgid "You can check how you did on the 'Quick Checks' and 'Quiz Questions' for this review by clicking the button below."
+msgstr "بإمكانك التأكد من كيفية إجابتك للإختبار السريع وبالأسئلة القصيرة لهذه المراجعة بالنقر على الزر في الأسفل."

@@ -1,0 +1,1146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: how-animals-behave\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-06 17:31+0800\n"
+"PO-Revision-Date: 2015-03-13 11:58+0800\n"
+"Last-Translator: \n"
+"Language-Team:  <ask@jigzen.com>\n"
+"Language: zh\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Loco-Source-Locale: zh_TW\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Loco-Target-Locale: zh_CN\n"
+"X-Poedit-Bookmarks: 181,143,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
+#. 1
+msgid "Start"
+msgstr "開始"
+
+msgid "Welcome to the How Animals Behave module, "
+msgstr "歡迎來到「瞭解動物行為」單元，"
+
+msgid "Are you ready"
+msgstr "你準備好了嗎"
+
+msgid "How Animals Behave"
+msgstr "動物行為是如何產生的呢"
+
+#. 2
+msgid "Thinking about... how animals behave"
+msgstr "想一想，關於...生物是如何反應的"
+
+msgid ""
+"Want to know where your dog or cat is? Open a can of pet food. Is the fish in the bowl still alive? Tap the glass. Are "
+"there ants in the park? Open the picnic basket."
+msgstr ""
+"想知道你的狗或貓在哪裡嗎？打開寵物食品罐頭吧！想瞭解在魚缸裡的魚還活著嗎？彈一下玻璃缸壁吧！公園裡有螞蟻嗎？打開野餐籃看"
+"看吧！"
+
+msgid ""
+"When you open the can, tap the glass, or bring out the picnic you get a quick response. The animals sense chemicals "
+"wafting into the air from the food substances. The fish moves in response to vibrations transmitted through the glass "
+"bowl into the water. The stimulus you provide causes a response in the animals. All animals are able to respond to "
+"their environments in some manner."
+msgstr ""
+"當你打開罐頭、輕彈玻璃缸壁或者拿出野餐盒等，你就可很快得到答案了。動物可感受到由食物中所散發到空氣中的特殊化學成份。魚類"
+"可因為玻璃缸壁的震波傳遞到水中而產生反應，你所製造的刺激引起這些動物產生反應。在某些情況下，動物對於環境的變化都會有所反"
+"應。"
+
+msgid "Back"
+msgstr "返回"
+
+msgid "Next"
+msgstr "繼續"
+
+msgid "Go Back to Dashboard"
+msgstr "返回到主選單"
+
+msgid "English"
+msgstr "英文"
+
+msgid "Arabic"
+msgstr "阿拉伯文"
+
+msgid "Spanish"
+msgstr "西班牙文"
+
+msgid "Chinese"
+msgstr "中文"
+
+#. 3
+msgid "Checking what you already know… about how organisms behave"
+msgstr "看看你了解了多少…關於「為什麼生物體能有行為呢？"
+
+msgid "Checking what you already know… about how animals behave"
+msgstr "看看你了解了多少…關於「生物體如何反應」"
+
+msgid "Check Answer"
+msgstr "查看答案"
+
+msgid "Click on <span class='blink'>all</span> the correct statements below."
+msgstr "請點擊<span class='blink'>所有</span>下方的正確敘述。"
+
+msgid "All animals have brains."
+msgstr "所有的動物都具有的大腦。"
+
+msgid "All animals are able to respond to their environments."
+msgstr "所有的動物都能夠針對他們所在的環境做出反應。"
+
+msgid "Animals only respond to food and danger."
+msgstr "動物只對食物和危險做出反應。"
+
+msgid "Animals do not have memories like humans do."
+msgstr "動物無法像人類有一樣的記憶能力。"
+
+msgid ""
+"Some animals have specialized cells, tissues, and organs that control their interactions like the brain does, and "
+"others have brains more or less similar to our own.  Animals can sense the world around them, and sometimes even "
+"remember and learn.  Some animals have long memories. All animals are able to respond to their environments.  Read on "
+"to learn more about how organisms respond to their environment."
+msgstr ""
+"有些動物具有特化的細胞，組織，以及器官，可以像大腦一般操控制它們與環境間的交互作用；有些動物則有與我們類似的大腦。而動物"
+"可以感知他們周圍的世界，有時還能記憶和學習，更有些動物還具有長期記憶。所有的動物都能夠對他們所處的環境做出反應。請仔細閱"
+"讀本單元，以更加了解生物是如何對他們所處的環境產生反應的。"
+
+#. 4
+msgid "Reviewing core ideas... about how organisms behave"
+msgstr "複習核心觀念...關於「為什麼生物體能有行為呢？"
+
+msgid "Reviewing big ideas... about how animals behave"
+msgstr "回顧核心觀念...關於「生物體如何反應」"
+
+msgid ""
+"Have you ever been told to be on your best behavior? What is behavior and what do parents and teachers mean by that?"
+msgstr "你是否曾經被告知要表現出最好的行為？什麼是行為？家長和老師所說的有事什麼意思呢？"
+
+msgid ""
+"<span class='key'> Behavior </span> is the way that an organism acts and responds in the environment. In your case, "
+"there are many things going on inside and around you. You might feel hungry as soon as you get in the car, or need to "
+"use to the bathroom as soon as your teacher starts the lesson. These feelings are internal cues signaling a need you "
+"have. The next step is what you do about it, how you respond at this point is your behavior."
+msgstr ""
+"<span class='key'>行為</span>是一個生物體對於所處的環境所表現出的方式。以你為例，有很多事情在你身體裡面和身體周圍發生。"
+"只要一上車，你也許就覺得餓了；或者老師一開始上課，你就想要上廁所。這些感受，就是身體內的需求；而接下來，你做什麼、你如何"
+"回應，這就是你的「行為」了。"
+
+msgid ""
+"Sometimes those cues come from inside you like hunger, and sometimes they come from the environment, like when your "
+"sister pokes you and you feel pain. A cue like this is called a <span class='key'>stimulus</span>."
+msgstr ""
+"有時候，這些信號來自你身體本身，例如飢餓感；有時，他們來自環境，就像當你的姊姊戳你，你感到疼痛。像這樣的信號被稱為<span "
+"class='key'>刺激</span>。"
+
+msgid ""
+"A stimulus is anything that causes a reaction or change in an organism or any part of an organism. Behaviors are "
+"actions living things take in <span class='key'>response</span> to stimuli (plural form of stimulus). Stimuli can be "
+"either internal or external, and include anything like heat, cold, pain, noise, anything that arouses the senses."
+msgstr ""
+"「刺激」是指任何能導致生物體或其任何部份產生反應或變化的因素；「行為」則是生物體對刺激所產生的行動。刺激可以是由內部或外"
+"部而來，包括如熱、冷、痛、噪音，也就是任何能引起感官反應之因素都是。"
+
+msgid "Read more"
+msgstr "繼續閱讀"
+
+#. 5
+msgid "Question A. Click on the statement that best explains behavior. "
+msgstr "問題A. 我們說「生物的行為」，請問何者是「行為」的最好的解釋。"
+
+msgid "You answered..."
+msgstr "你的回答是..."
+
+msgid "All the good and bad actions a person does."
+msgstr "一個人表現出來所有好和壞的行為。"
+
+msgid "The way an organism acts in an environment."
+msgstr "在某種環境下生物所表現的行動。"
+
+msgid "All an organism has learned to survive in an environment."
+msgstr "生物所學到在環境中生存的事情。"
+
+msgid "The way an organism fights off their predators."
+msgstr "生物擊退他們的天敵的方式。"
+
+msgid "Question B. Drag the items up or down (left column) to match the most probable response."
+msgstr "問題B. 將左列項目中的「刺激」項目向上或向下拉動，以符合最有可能的「反應」。"
+
+msgid "Stimuli"
+msgstr "刺激"
+
+msgid "Response"
+msgstr "反應"
+
+msgid "Predator attacking"
+msgstr "掠食者攻擊"
+
+msgid "Attract a mate (courtship)"
+msgstr "吸引配偶（求愛）"
+
+msgid "Change in temperature"
+msgstr "溫度變化"
+
+msgid "Friendship and conversation"
+msgstr "友誼和交談"
+
+msgid "Singing, fluffing up, spreading out feathers"
+msgstr "鳴叫、振羽、伸翅"
+
+msgid "Use social media sites"
+msgstr "使用社交網站"
+
+msgid "Camouflage"
+msgstr "偽裝"
+
+msgid "Migration"
+msgstr "遷移"
+
+msgid "No, behavior is the way an organism acts, not necessarily if the actions are good or bad."
+msgstr "不對喔！生物行為中的「行為」指的是生物體的行動；和日常生活講的──好行為或壞行為，不太一樣。"
+
+msgid "Correct, different organisms respond to their environment in many ways, which is considered behavior. "
+msgstr "正確的，不同的生物會以不同方式對其環境產生反應，而此即是稱作行為。"
+
+msgid ""
+"No, behavior is not just learned behavior, it includes instinct as well. Behavior is the way an organism acts in an "
+"environment. "
+msgstr "不，行為不只是學習的行為，它還包括本能。而行為即是生物在某種環境下所產生的動作或行動。"
+
+msgid ""
+"Not quite, the way they fight off predators is just an example, not the entire definition of behavior. Behavior is the "
+"way an organism acts in an environment. "
+msgstr "不完全是，他們擊退掠食者的方式僅僅是一個例子，而不是行為的全部定義。行為是生物在某種環境下所產生的動作或行動。"
+
+msgid ""
+"Correct!  Even predators use their natural camouflage to blend in with their surroundings. Birds use songs and feathers "
+"to attract mates, but so do humans when they groom themselves to look nice. Since humans are the only organism that "
+"know how to heat and cool their homes, other animals such as ducks and geese migrate to warmer or cooler places.  "
+"Today, many people use social media sites and actual gathering places to meet and talk with other people."
+msgstr ""
+"正確!  掠食者會利用自己的天然偽裝，融入周圍的環境。鳥類會使用歌曲與羽毛吸引異性，而人類也會將自己打扮的很整潔。人類是唯"
+"一懂得如何使房子內更溫暖或涼爽的生物，而其他動物如鴨與鵝就只能靠著遷移去到溫暖與涼爽的地方。如今，很多人還會利用社交網站"
+"與聚會場所來見面及溝通。 "
+
+msgid ""
+"Check your matches again.  Even predators use their natural camouflage to blend in with their surroundings. Birds use "
+"songs and feathers to attract mates, but so do humans when they groom themselves to look nice. Since humans are the "
+"only organism that know how to heat and cool their homes, other animals such as ducks and geese migrate to warmer or "
+"cooler places.  Today, many people use social media sites and actual gathering places to meet and talk with other "
+"people."
+msgstr ""
+"請再次檢查你的答案。掠食者會利用自己的天然偽裝，融入周圍的環境。鳥類會使用歌曲與羽毛吸引異性，而人類也會將自己打扮的很整"
+"潔。人類是唯一懂得如何使房子內更溫暖或涼爽的生物，而其他動物如鴨與鵝就只能靠著遷移去到溫暖與涼爽的地方。如今，很多人還會"
+"利用社交網站與聚會場所來見面及溝通。 "
+
+#. 6
+msgid "More core ideas... about how organisms behave"
+msgstr "更多的核心觀念...關於「為什麼生物體能有行為呢？」"
+
+msgid "More big ideas... about how animals behave"
+msgstr "更多的核心觀念...關於「生物體如何反應」"
+
+msgid "Let's look at behaviors of different organisms."
+msgstr "讓我們來看看不同生物的行為吧。"
+
+msgid ""
+"Hungry? Microorganisms and plants that use light to make food will automatically move toward light to get more for "
+"their food making process (photosynthesis)."
+msgstr "餓了嗎？使用陽光製造食物的微生物和植物會自動朝著陽光移動以獲得更多的光源，供他們的製造食物（光合作用）。"
+
+msgid ""
+"The Venus fly trap is a plant and makes its own food. However, it lives in poor soil and is healthier if it gets "
+"nutrients from insects."
+msgstr ""
+"捕蠅草是一種植物，它會製造自己的食物。然而，它因生活在貧瘠的土壤中，如果能捕捉到一些昆蟲作為養份的話，它將能長得更健康。"
+
+msgid ""
+"Scared? If a skunk is threatened it will warn the predator to stand down. If all the stomping and high tailing does not "
+"work, the skunk sprays an odor that will cause even bears to leave them alone."
+msgstr ""
+"害怕嗎？如果有一隻臭鼬受到威脅時，它會警告捕食者別靠近。如果所有的跺腳與高舉尾巴不起作用時，臭鼬即會噴出一種連熊都會退避"
+"三舍的惡臭氣體。"
+
+msgid ""
+"When a person is scared, their heart rate increases, and the body releases stress hormones in response to something it "
+"sees is dangerous. People show different behavior in response to fear. Some people scream to scare off the one harming "
+"the person and to call for help at the same time. What do you do?"
+msgstr ""
+"當一個人害怕時，他們的心跳速率會增加，而且身體會釋放一些壓力激素，以作為對於他認為危險的東西的反應。人們會以不同的行為回"
+"應恐懼。有人會尖叫嚇跑想要傷害你的人並求救。請問你的反應是什麼？"
+
+msgid ""
+"Animals develop complex behaviors to help them survive in the wild. Those who have the most useful behaviors are more "
+"likely to survive and reproduce than those who don't. Those same useful behaviors are passed on to later generations. "
+"Eventually, an <span class='key'>inherited behavior</span> becomes common in a population of animals.  Not all behavior "
+"is inherited, although some is. The ability to learn is inherited.<span class='key'> Instinctual behavior </span> is "
+"any behavior that is inherited and not learned during life."
+msgstr ""
+"動物發展出複雜的行為模式，以幫助他們在野外生存。在世界上，擁有更有利於生存行為的動物更容易生存和繁殖。而這些<span "
+"class='key'>继承的行为</span>將傳遞給他們的後代，這最後使得某一個遺傳行為在動物的群體中變得普遍。雖然有些行為是遺傳的，"
+"但並非全部。例如，學習的能力、<span class='key'>本能行為</span>都是遺傳的，這而非從生活中學到的行為。"
+
+msgid ""
+"Over many generations, dogs have gained abilities that make them desirable to people. They kill pests, help us hunt "
+"other animals, and even use their natural hunting abilities to herd our animals. Dogs are even able to learn new "
+"behaviors and associate them with words or actions."
+msgstr ""
+"經歷很多代後，狗獲得了多種對於人類有用的能力。他們殺死害蟲、幫助我們捕獵其他動物，甚至利用自己天然的狩獵能力，幫助人類放"
+"牧。狗甚至可以學習新的行為並和指令與動作連結在一起。"
+
+#. 7
+msgid "Check answer"
+msgstr "查看答案"
+
+msgid "Question A. Which of the following behaviors is most likely inherited, rather than learned?"
+msgstr "問題A，下列哪種行為是最有可能「來自遺傳」，而非學習而來的呢？"
+
+msgid "Select an image"
+msgstr "選擇一個圖像"
+
+msgid "Click each image to view the corresponding descriptions."
+msgstr "點擊每個圖片以查看相對應的說明。"
+
+msgid "Useful behaviors that help organisms survive are passed on to later generations."
+msgstr "可幫助生物存活的有用行為會被傳遞給後代。"
+
+msgid "Plants and animals will move to get enough sunlight and food."
+msgstr "植物和動物會進行遷移以得到足夠的陽光和食物。"
+
+msgid "All behavior is inherited and it is passed on from generation to generation."
+msgstr "所有的行為是遺傳的而且是代代相傳的。"
+
+msgid "All animals respond differently to their internal needs and changes in the environment."
+msgstr "動物會針對內部需要和環境的變化產生不同的反應。"
+
+msgid ""
+"Monarch butterflies require at least three generations to migrate from Canada and the northern US to Mexico and back "
+"each year."
+msgstr "每年，帝王蝶至少需要傳承三代後，才可從加拿大和美國北部遷移到墨西哥後再返回加拿大和美國北部。"
+
+msgid "Bears know which foods to eat by watching their mothers for 2-3 years after birth."
+msgstr "幼熊出生後，需通過觀察它們母親的行為2-3年後才知哪些食物可食。"
+
+msgid "After weeks of training, dogs are able to find truffles, an underground type of mushroom, for their owners."
+msgstr "經由幾週的訓練後，狗能夠幫主人找到一種長在地下的蘑菇─松露。"
+
+msgid "By the time they are four years old, crows react differently to as many as 300 different people."
+msgstr "烏鴉到達4歲時，它已能對多達300個不同的人做出不同的反應了。"
+
+msgid "Yes! The second generation of Monarchs has never been to their destination, nor as the third generation."
+msgstr "沒錯！第二代帝王蝶從來沒有到過目的地，而第三代也是。"
+
+msgid "Not this one. The little bears are learning from their moms."
+msgstr "不是這一個。小熊是從它媽媽那裏學習來的。"
+
+msgid "No... The key word here is training. That’s learning."
+msgstr "不..這裡的關鍵字提到了訓練，那就是學習...。"
+
+msgid "If it takes time, it’s learning. This time, it takes years."
+msgstr "如果需要時間的，那就是學習。而這一次，它需要數年時間。"
+
+msgid ""
+"Not quite. The complex behaviors they have developed caused them to stay alive. These behaviors take time (generations) "
+"to really be part of the organism."
+msgstr ""
+"你選錯囉，這敘述是正確的喔！它們發展出複雜的行為能使他們繼續生存。這些行為經過很長的時間（多代）發展，會成為它們遺傳的行"
+"為。"
+
+msgid ""
+"Not quite. The internal cue for hunger is the stimulus, they respond by moving to get more sunlight, or by getting food."
+msgstr ""
+"你選錯囉，這敘述是正確的喔！身體內部需求和飢餓的信息是種刺激，所以它們進行遷移作為回應，以獲得更多的陽光，或者獲得食物。"
+
+msgid "Correct! Some behavior is learned, not all behavior is inherited."
+msgstr "正確！有些行為是學習得到，並非所有的行為是遺傳的。"
+
+msgid "Not quite. Animals respond differently for example to temperature change: some hibernate, some migrate."
+msgstr "你選錯囉，這敘述是正確的喔！動物對溫度變化有不同的反應：有些會休眠，有些會遷移。"
+
+msgid "Question B. Click on the statement that is <span class='blink'>not</span> correct."
+msgstr "問題B. 請選擇下列中<span class='blink'>不正確</span>的敘述。"
+
+msgid "Please select your answers."
+msgstr "請選擇你的答案。"
+
+#. 8
+msgid ""
+"Organisms respond to different stimuli in different ways. All organisms have the ability to sense change in their "
+"environment, and to respond to that change accordingly."
+msgstr "生物對不同刺激的反應方式不同。所有的生物都能感覺到環境的變化，並作出適當的反應。"
+
+msgid ""
+"Humans have a well-developed nervous system, and respond to light, mechanical, and chemical stimuli in different ways. "
+"<span class='key'>Mechanical stimuli</span> include anything that cause sensations of touch, pain, sound, or "
+"temperature. <span class='key'>Chemical stimuli</span> are molecules in our environment that make us sense taste or "
+"smell."
+msgstr ""
+"人類有一個發達的神經系統，可對光、機械和化學刺激做出不同的反應。 <span class='key'>機械刺激</span>包括任何會引起觸覺痛"
+"覺、聲音或溫度的感覺。 <span class='key'>化學刺激</span>那是一種存在我們環境中的分子，可使我們感覺到味道或氣味。"
+
+msgid "Pain"
+msgstr "疼痛"
+
+msgid "Sound"
+msgstr "聲音"
+
+msgid "Temperature"
+msgstr "溫度"
+
+msgid "Taste"
+msgstr "味道"
+
+msgid "Smell"
+msgstr "氣味"
+
+msgid ""
+"Our ears are sensitive to disturbances in the air, water, or solid surfaces around us. Sound is the result of "
+"vibrations set up in a substance that are transmitted from one point to another. These vibrations are picked up by our "
+"eardrums and then transmitted through three very small bones and into fluids in the ear. The pattern of vibration to "
+"the brain is transmitted as an electrical signal.  The brain receives this and interprets the pattern as sound."
+msgstr ""
+"我們的耳朵對於所處周遭的環境無論是空氣、水、或者在我們身邊固體表面，所產生的波動非常敏感。聲音是因物質由一個點傳輸至另一"
+"個點時產生震動所呈現的結果，而這些振動被我們的耳膜所接收，然後通過三個非常小的聽骨和耳內的流體所傳輸。此種方式產生的振動"
+"將以電流訊號傳遞至大腦，大腦接收到這些訊號後，將其解讀後讓我們瞭解有某種聲音產生了。"
+
+msgid ""
+"Smell and taste are both the result of chemical stimulation. People can taste thanks to structures on our tongues "
+"called taste buds."
+msgstr "嗅覺和味覺都是化學刺激的結果。而人們可以品嚐到美味都要感謝我們的舌頭上的一種結構，叫做「味蕾」。"
+
+msgid ""
+"Between 2000 and 5000 taste buds are located on a typical person's tongue. There are five different sorts of taste: "
+"<span class='key'>sweet</span>, <span class='key'>sour</span>, <span class='key'>bitter</span>, <span "
+"class='key'>salty</span>, and <span class='key'>umami</span>. Umami is a flavor associated with various meats and Asian "
+"foods. Much of what we understand as flavor is actually a combination of taste and smell combined and interpreted by "
+"the brain together."
+msgstr ""
+"通常一個人舌頭上有約2000-5000個味蕾。人類有五種不同類型的味覺：<span class='key'>甜</span>、<span class='key'>酸</"
+"span>、<span class='key'>苦</span>、<span class='key'>鹹</span>、和<span class='key'>鮮味</span>──鮮味，是有關於各種肉類"
+"和亞洲食品的一種風味。而許多我們所理解的味道其實是味覺和嗅覺所組合而成，再經由大腦解讀出而讓我們感受到。"
+
+msgid ""
+"Much of what we understand as flavor is actually a combination of taste and smell combined and interpreted by the brain "
+"together."
+msgstr "許多我們所理解的味道其實是味覺和嗅覺所組合而成，再經由大腦解讀出而讓我們感受到。"
+
+#. 9
+msgid ""
+"Question A. Many people say that when they have colds their foods taste bad.  Which of the following is the best "
+"possible explanation for this?"
+msgstr "問題A：許多人說，當他們感冒了，他們的味覺也變差了。下列哪一項是最好的可能解釋？"
+
+msgid "A food’s smell is an important part of how we think it tastes. Stuffy noses have a hard time detecting smell."
+msgstr "食物的氣味是讓我們瞭解它味道的重要因素；鼻塞讓我們很難去感覺氣味。"
+
+msgid "A food’s smell is not an important part of how we think it tastes. Stuffy noses have a hard time detecting smell."
+msgstr "食物的氣味並非是讓我們瞭解它味道的重要因素；鼻塞讓我們很難去發現氣味。"
+
+msgid ""
+"A food’s smell is an important part of how we think it tastes.  Stuffy noses detect smells better than clear noses."
+msgstr "食物的氣味是讓我們瞭解它味道的重要因素；鼻塞時比鼻道順暢時更易發現氣味。"
+
+msgid ""
+"A food’s smell is not an important part of how we think it tastes. Stuffy noses detect smells better than clear noses."
+msgstr "食物的氣味並非是可以讓我們瞭解它味道的重要因素；鼻塞時比鼻道順暢時更易發現氣味。"
+
+msgid "Question B. Click on “True” or “False” next to each statement."
+msgstr "問題B. 依據每個敘述判斷“對”或“錯”。"
+
+msgid "Statement"
+msgstr "文字敘述"
+
+msgid "True"
+msgstr "對"
+
+msgid "False"
+msgstr "錯"
+
+msgid "All animals can smell, see, and hear with equal power."
+msgstr "所有的動物都具有相同聞、看、聽的能力。"
+
+msgid "We hear sound when an object vibrates and causes a disturbance in air particles. "
+msgstr "我們能聽到聲音是因為物體振動時導致空氣中的顆粒被擾動所產生的。"
+
+msgid "Correct! Most foods don’t taste very good if we can’t smell them."
+msgstr "正確！如果我們不能聞到食物的味道的話，我們就無法品嘗到美味了。"
+
+msgid "Not quite. Smell is an important part of what we think of as taste."
+msgstr "不完全是。當品嚐美味時，氣味是判斷味道重要的因素。"
+
+msgid "Read carefully... Stuffy noses don’t detect smells very well."
+msgstr "請仔細閱讀...鼻塞會使我們無法好好品嚐到味道。"
+
+msgid "Sorry. Smell is important, and stuffy noses don’t work well."
+msgstr "抱歉，你答錯囉！氣味是很重要的，鼻塞使我們無法好好去使用嗅覺。"
+
+#. 10
+msgid ""
+"Your body has a network, and it works just like the network that makes a cell phone work. When you send a text or make "
+"a cell phone call, the first thing that happens is that you touch your phone in a pattern, and the touch-sensitive "
+"keypad translates into an electronic message. That message is then transmitted through a complex system of radio "
+"towers, microwave relays, cable lines, and even satellites. Eventually, it is received by the cell phone you were "
+"calling, where it is translated back into the message you meant to send."
+msgstr ""
+"你的身體像一個網絡，它的工作原理就類似手機的網絡一般。當您發送文字訊息或進行手機通話時，首先你在你的手機上按一按，然後手"
+"機的觸摸感應按鍵立即轉換成電子訊息。此訊息就通過複雜的系統傳輸如無線電發射塔、微波繼電器、電纜線、甚至衛星。最終，它就被"
+"你要連絡的手機所接收，在那裡它被翻譯成你要發送的訊息，供人閱讀。"
+
+msgid ""
+"Your nervous system works the same way. A group of sensitive cells somewhere in your body is stimulated by something "
+"from the outside world. These nerve cells respond and send a tiny electrical signal to the brain. Nerve cells are "
+"called <span class='key'> neurons</span>. Once in the brain, the signal is interpreted by the brain. The sensation may "
+"be one of sight, sound, smell, taste, or touch."
+msgstr ""
+"你的神經系統以相同的方式工作。在你的身體中有一群感應細胞，被外界刺激後，這些神經細胞開始反應且發送一些微小電流訊號到大腦"
+"中解讀。這些神經細胞被稱為<span class='key'>神經元</span>。一旦傳遞入大腦，這些訊號就由大腦進行解讀成感覺。這種感覺可能"
+"是視覺、聽覺、嗅覺、味覺、或觸摸之一。"
+
+msgid ""
+"After the brain makes sense of the stimulus, it responds by creating a memory, and often sending a response signal out "
+"to the body. The response works like the stimulus, only in reverse. A message in the form of an electrical signal goes "
+"out and causes muscle cells to contract, making the body move."
+msgstr ""
+"大腦感受到「刺激」後，它立即「反應」去建立記憶且常會發送反應訊息到身體中。而此「反應」的傳送過程和「刺激」的傳送過程一"
+"樣，只不過方向相反。此電流訊號消息由大腦傳出後，導致肌肉細胞收縮，使身體移動。"
+
+#. 11
+msgid "Question A. In what way is the nervous system <span class='blink'>not</span> similar to a cell phone network?"
+msgstr "問題A. 神經系統的網絡和行動電話系統的網絡<span class='blink'>並不相同的是</span>下列哪一項？"
+
+msgid "There is a clear pathway for sending messages in both networks."
+msgstr "這兩種系統的網絡，都有著暢通的訊息傳送管道。"
+
+msgid "Both networks can send or receive information."
+msgstr "這兩種系統的網絡，只能傳送或只能接收訊息。"
+
+msgid "Both networks have a desired target when they send messages."
+msgstr "這兩種系統的網絡，發送訊息時，都有明確的目標或對象。"
+
+msgid "Both networks have a center that combines all the incoming and outgoing messages."
+msgstr "這兩種系統的網絡，都具有一個中樞，可以整合所有傳入和送出的訊息。"
+
+msgid ""
+"Question B. How does the brain interpret a feeling or sensation of pain? Re-arrange the sentences by dragging them up "
+"and down from first to last."
+msgstr "問題B.大腦是如何感受到感覺或痛覺？請拖動這些敘述句子，從第一個依序到最後一個句子，重新排列正確之順序。"
+
+msgid ""
+"Correct! First the nerve cells are stimulated by something like heat or pain. Then they respond and send an electrical "
+"signal to the brain.  The brain makes sense of the stimulus, and responds by creating a memory, and sending a response "
+"signal out to the body.  This message gets to a muscle cell (for instance) and causes muscle cells to contract."
+msgstr ""
+"正確！首先，神經細胞是由類似熱或疼痛刺激。然後，他們反應和發送電流訊信號到大腦。大腦感受到刺激後，透過建立記憶來產生反"
+"應，並發送反應信號到身體。此訊號到達目標（例如）肌肉細胞，而導致肌肉細胞收縮。"
+
+msgid ""
+"Not quite. First the nerve cells are stimulated by something like heat or pain. Then they respond and send an "
+"electrical signal to the brain.  The brain makes sense of the stimulus, and responds by creating a memory, and sending "
+"a response signal out to the body.  This message gets to a muscle cell (for instance) and causes muscle cells to "
+"contract."
+msgstr ""
+"不完全是喔！首先，神經細胞是由類似熱或疼痛刺激。然後，他們反應和發送電流訊信號到大腦。大腦感受到刺激後，透過建立記憶來產"
+"生反應，並發送反應信號到身體。此訊號到達目標（例如）肌肉細胞，而導致肌肉細胞收縮。"
+
+msgid "The brain sends a response electrical signal to the body."
+msgstr "大腦發送一個反應電流訊號到身體。"
+
+msgid "Nerve cells send an electrical signal to the brain."
+msgstr "神經細胞傳送電流訊信號給大腦。"
+
+msgid "Nerve cells are stimulated by an object."
+msgstr "神經細胞被某種物體所刺激。"
+
+msgid "Muscles receive and interpret the signal from the brain."
+msgstr "肌肉從大腦接收信號並且加以解讀。"
+
+msgid "The brain interprets the electrical signal and creates a memory."
+msgstr "大腦解讀電流訊號，並建立記憶。"
+
+msgid "Nope! Both systems use electrical signals that move over clear pathways in the systems.  "
+msgstr "不對喔，這個敘述是正確的。這兩種系統都使用明確的系統中途徑傳送電流訊號。"
+
+msgid "You got it! Both networks can send AND receive information. Electrical signals are sent both ways on the pathway."
+msgstr "你選對了，這是錯誤的敘述！兩個網絡都可以發送和接收電訊號信息。"
+
+msgid ""
+"Nope! When you make a call you dial a specific number. In the nervous system the message goes to the brain or a command "
+"to a certain cell on the way back."
+msgstr ""
+"不對喔，這個敘述是正確的。在您撥打電話時，你會撥一個特定號碼。在神經系統中的訊息也是以大腦為特定目標，反過來說，大腦的指"
+"令訊息也是會回送到特定的細胞上。"
+
+msgid ""
+"Nope! The brain is the control center for the nervous system as the telecommunication center is for the phone network."
+msgstr "不對喔，這個敘述是正確的。大腦是神經系統的控制中心和電話網絡的控制中心相類似。"
+
+#. 12
+msgid "Using what you know... about how organisms behave... to solve a problem"
+msgstr "利用你已知...為什麼生物體能有行為呢？…來解決問題"
+
+msgid "Using what you know... about how animals behave... to solve a problem"
+msgstr "利用你已知的知識...「生物體如何反應」.....來解決問題"
+
+msgid "The Scenario"
+msgstr "任務背景"
+
+msgid ""
+"You are working for a family to interview and hire a babysitter for twin girls. As a behavioral psychologist, you "
+"understand what a demanding position this is. You decide to test the candidates on many levels, most importantly how "
+"they react to different stimuli. Not everyone works well under pressure: decision making, safety issues, being able to "
+"entertain the children, are just some issues to consider."
+msgstr ""
+"您正在為某個家庭聘請雙胞胎男孩的保姆進行面談工作。作為一個行為心理學家，你知道這個工作的的要求很高，且並不是每個人在壓力"
+"都能表現的很好，例如在：下決定，安全問題、帶領孩子玩樂，等等方面。所以，你決定在許多方面上來測試面試者，其中最重要的是要"
+"看看，他們對不同的刺激是怎麼樣反應的。"
+
+msgid "Your Task"
+msgstr "你的任務"
+
+msgid "Please type your answer."
+msgstr "請輸入您的答案。"
+
+msgid ""
+"Using what you now know about how everyone acts and responds in different ways to changes and stimuli, come up with "
+"three scenarios about how you would test the interviewees for the babysitting job. Explain what you are testing with "
+"each stimulus you suggest in the textbox below."
+msgstr ""
+"人們遇到環境「變化」和「刺激」時都會有「反應」或「行動」。你需要提出三個有關照護小雙胞胎時可能的狀況給受訪者，請在下面文"
+"字框中輸入──你的三種假想狀況並分別解釋各狀況所要測試的是什麼呢。"
+
+msgid "Click here to start typing your answer..."
+msgstr "點擊這裡開始輸入你的答案..."
+
+#. 13
+msgid "Summarizing core ideas... about how organisms behave"
+msgstr "總結重要觀念...為什麼生物體能有行為呢？"
+
+msgid "Summarizing big ideas... about how animals behave"
+msgstr "總結重要觀念...關於「生物體如何反應」"
+
+msgid ""
+"<span class='key'>Behavior</span> is the way that an organism acts and responds in the environment. Organisms’ behavior "
+"occurs as a reaction to a <span class='key'>stimulus</span>. Stimuli can either be external, as in a change in the "
+"environment, or internal, as in a signal within the animal. Many behaviors are adaptations that help organisms survive "
+"and reproduce. Useful behaviors are passed on to later generations and eventually an <span class='key'>inherited "
+"behavior </span>  becomes common. Not all behavior is inherited, the ability to learn is inherited. <span class='key'> "
+"Instinctual behavior </span> is any behavior that is inherited and not learned during life. <span class='key'> "
+"Mechanical stimuli </span> include anything that causes a sensation of touch, pain, sound, or temperature. <span "
+"class='key'> Chemical stimuli </span>  are molecules in our environment that make us sense taste or smell. Flavor is a "
+"combination of taste and smell combined and interpreted by the brain together. The brain is part of a system in which "
+"messages are taken from all parts of the body to the brain and back. First the nerve cells are stimulated, then they "
+"respond and send an electrical signal to the brain. The brain interprets it and sends a <span class='key'> response </"
+"span> signal out to the body. This is how organisms respond to their environment. "
+msgstr ""
+"<span class='key'>行為</span>是一個生物體對於環境所產生的行動和反應方式。生物行為是一種對<span class='key'>刺激</span> "
+"的「反應」。刺激可以是外部的──如環境中的變化、或內部的──如動物體內的訊號。很多生物行為是因為要適應環境而學習得到，這有助"
+"於生物體生存和繁殖。對生物有用的一些行為有些會傳遞給後代，最終還可能成為一種<span class='key'>遺傳的行為</span>。但，並"
+"非所有的行為是遺傳的，例如，動物可以進行學習的能力，是遺傳的； 一些<span class='key'>本能的行為， </span>也是遺傳的，這"
+"些不必透過生活來學習。 <span class='key'>機械刺激</span>指的是任何導致了觸覺、痛覺、聲覺或溫覺的刺激； <span "
+"class='key'>化學刺激</span>指的則是由生活環境中的化學分子造成的刺激，化學刺激讓我們能感覺到味覺或嗅覺，而「味道」是味覺"
+"和嗅覺的結合，由大腦解讀出這一種刺激。大腦是動物體感官系統的一部分，在這個系統中，當身體的各個部位取得訊息送到大腦；大腦"
+"也能回送訊息到身體各個部位。這過程，體內的神經細胞受到「刺激」，立刻神經細胞就產生「反應」並發送電子信號到大腦，在大腦解"
+"讀信號後，大腦發送<span class='key'>反應</span>的訊息到人體各部位，這就是生物體對環境的刺激(變化)如何反應的情形。"
+
+#. 14
+msgid "Reviewing key vocabulary related to... how organisms behave"
+msgstr "複習重要詞彙... 為什麼生物體能有行為呢？"
+
+msgid "Reviewing key vocabulary related to... how animals behave"
+msgstr "複習重要詞彙......「生物體如何反應」"
+
+msgid "BEHAVIOR"
+msgstr "行為"
+
+msgid ""
+"The way that an animal responds to its environment is called behavior. An animal's behavior, or actions, often changes "
+"in response to changes in its environment."
+msgstr "動物對環境的反應被稱為動物的行為。動物的行為(或動作)常隨著環境的變化而變化。"
+
+msgid ""
+"Behavior is not limited to just one individual. Animals can change their behavior as a group, too. For example, a flock "
+"of birds may not fly south for the winter as early as they normally would if an area is experiencing unusually warm "
+"temperatures. Or, a group of deer that normally travel on one path to find food may change their behavior and find "
+"another route if the path is flooded or blocked."
+msgstr ""
+"這裡所說的「行為」並不侷限於一個單獨的個體而已；動物也可能是以群體的方式改變行為。例如，如果一個地區今年突然異常的溫暖，"
+"鳥群可能不會像往年一樣那麼早飛到南方過冬；或者，如果鹿群去覓食時的經常行走路徑被積水淹沒或被阻礙的話，它們也會改變他們的"
+"行為──也就是尋找另一條路線去覓食。"
+
+msgid "CLOSE ME!"
+msgstr "關閉！"
+
+msgid "INHERITED BEHAVIOR"
+msgstr "遺傳行為"
+
+msgid ""
+"Inherited behaviors are behaviors that are passed on to later generations.  Eventually, an inherited behavior becomes "
+"common in a population of animals.  Not all behavior is inherited, although some is."
+msgstr ""
+"「遺傳行為」是指透過遺傳將行為傳遞給後代的現象。最後，遺傳行為會在動物的群體中將變得很普遍。生物的行為中，有些是遺傳行"
+"為；但有些不是。"
+
+msgid "STIMULUS"
+msgstr "刺激"
+
+msgid ""
+"A stimulus is something that produces a reaction or a change. Light is a stimulus that can cause the size of the pupil "
+"in your eye to change."
+msgstr "「刺激」，是指會使動物產生反應或改變的因素。「光」可以是一種刺激，它可引起瞳孔放大或縮小。"
+
+msgid ""
+"Sometimes rewards are used as a stimulus to cause a desired action or response. For example, your school may reward "
+"students for the numbers of books read during the school year. This reward can act as a stimulus to get students to "
+"read more books."
+msgstr ""
+"有時後，獎勵被用來作為刺激以引起想要發生的動作或反應。例如，你的學校也許會獎勵學生在學年內多閱讀書籍。這個獎勵可以作為刺"
+"激，以讓學生多讀點書。"
+
+msgid "INSTINCTUAL BEHAVIOR"
+msgstr "本能行為"
+
+msgid "Instinctual behavior is any behavior that is inherited and not learned during life."
+msgstr "本能行為是遺傳的；它不是在生活中學到的。"
+
+msgid "MECHANICAL STIMULUS"
+msgstr "機械性的刺激"
+
+msgid "Mechanical stimuli include anything that causes a sensation of touch, pain, sound, or temperature."
+msgstr "機械性的刺激包括任何會引起觸感、痛覺、音感或溫感的因素。也就是，由物理性因素引起的刺激。"
+
+msgid "NEURON"
+msgstr "神經元"
+
+msgid ""
+"Neurons are nerve cells.  Neurons respond to a stimulus, send a tiny electrical signal to the brain, and the signal is "
+"interpreted by the brain as a response is generated."
+msgstr "「神經元」是神經細胞。神經元受到刺激發生反應，發送一個微小電流訊號到大腦，由大腦解讀後，反應就產生了。"
+
+msgid "CHEMICAL STIMULUS"
+msgstr "化學性刺激"
+
+msgid "Chemical stimuli are molecules in our environment that make us sense taste or smell."
+msgstr "「化學性刺激」指的是存在我們環境中的分子物質所造成的刺激，有些化學物質能觸動我們的味覺或嗅覺。"
+
+msgid "RESPONSE"
+msgstr "反應"
+
+msgid ""
+"A response is generated in the brain after it receives a tiny electrical signal from the neurons. The response works "
+"like the stimulus, only in reverse."
+msgstr ""
+"「反應」，會在大腦接收到從神經元發出之微小電流訊號之後所產生。人體傳送反應的順序，是從大腦到身體的各部份；這跟傳送刺激的"
+"方向相反，但經過的路徑都是相同的。"
+
+#. 15
+msgid "Checking what you now know... about how organisms behave"
+msgstr "看看你了解多少…... 關於「為什麼生物體能有行為呢？」"
+
+msgid "Checking what you now know... about how animals behave"
+msgstr "看看你現在了解了多少…關於「生物體如何反應」..."
+
+msgid ""
+"Answering the following six (6) quiz questions will give you an idea of what you now know and what you still need to "
+"study."
+msgstr "回答以下6個問題，可以了解哪些是你已經知道的...哪些是還要再學習的？"
+
+msgid "Click the NEXT button when you are ready."
+msgstr "當您準備好了時，就請按下一步..."
+
+#. 16
+msgid "Choose the <span class='blink'> incorrect </span> statement from the following."
+msgstr "選擇下列<span class='blink'>不正確</span>的敘述。"
+
+msgid "A. Organisms’ behavior occurs as a reaction to a stimulus."
+msgstr "A. 當生物因為受到刺激而發生反應時，也就產生了生物行為。"
+
+msgid "B. Animals are not capable of learned behavior."
+msgstr "B. 動物是無法學習行為。"
+
+msgid "C. The brain is part of the central nervous system."
+msgstr "C. 大腦是中樞神經系統的一部分。"
+
+msgid "D. Neurons are all over the body."
+msgstr "D. 神經元是遍布全身的。"
+
+msgid "Organisms’ behavior occurs as a reaction to a stimulus."
+msgstr "生物的行為發生是對刺激的反應。"
+
+msgid "Animals are not capable of learned behavior."
+msgstr "動物是無法學習行為。"
+
+msgid "The brain is part of the central nervous system."
+msgstr "大腦是中樞神經系統的一部分。"
+
+msgid "Neurons are all over the body."
+msgstr "神經元是遍布全身的。"
+
+msgid "Rotate or flip the 3D box below either up or down to set your answer."
+msgstr "請向上或向下翻轉方盒子，以選擇你的答案。"
+
+msgid "No. Stimulus from inside or outside the organism triggers it to respond."
+msgstr "你選錯了，這是正確。訊號是從生物體的內部或外部產生，進而刺激生物體作出反應。"
+
+msgid "That’s the one... Many animals certainly are able to learn."
+msgstr "這是一個答案.....許多動物肯定能夠學習。"
+
+msgid "This one is true. The brain is part of the central nervous system."
+msgstr "這是正確的。大腦是中樞神經系統的一部分。"
+
+msgid "No. Neurons, or nerve cells, are located all over the body to send and receive messages to and from the brain."
+msgstr "不，神經元或神經細胞是遍布全身的且發送或接收由大腦而來的訊息"
+
+#. 17
+msgid "Which behavior of the bat is most likely a learned behavior?"
+msgstr "蝙蝠的行為中，何者最可能是後天習得？"
+
+msgid "Click on an image."
+msgstr "點擊圖片。"
+
+msgid "Sleeping upside down"
+msgstr "以倒吊方式睡眠"
+
+msgid "No, this is instinctive, so it is an inherited behavior."
+msgstr "不，這是本能的，所以它是一種遺傳性的行為。"
+
+msgid "Flying to move around"
+msgstr "飛來飛去"
+
+msgid "No, flying is an instinct. This is an inherited behavior, not a learned one."
+msgstr "不，飛行是一種本能。是一種遺傳行為而非學習而來。"
+
+msgid "Avoiding humans"
+msgstr "避開人類。"
+
+msgid "Correct. Bats have to interact with their environment and learn to avoid humans."
+msgstr "正確。蝙蝠必須和周遭互動，然後學會避開人類。"
+
+msgid "Using sound to find objects"
+msgstr "使用聲音尋找物體"
+
+msgid " No, bats do not have strong eyesight and they use sound and vibrations to find objects."
+msgstr "不，蝙蝠並沒有強大的視力，他們用聲音和振動來尋找物體。這是它們的本能。"
+
+#. 18
+msgid "Complete the sentences by selecting the right words from the drop down menus."
+msgstr "請從下拉選單中選擇正確的單字，完成句子。"
+
+msgid "select"
+msgstr "請選擇"
+
+msgid "response"
+msgstr "反應"
+
+msgid "stimulus"
+msgstr "刺激"
+
+msgid "mechanical stimulus"
+msgstr "機械性刺激"
+
+msgid "The reaction to an occurrence or event is a "
+msgstr "對應於一個事件，生物體常會有"
+
+msgid "Anything that can cause a response is a "
+msgstr "會造成反應的因素，稱為"
+
+msgid "Anything that causes a sensation of touch, pain, sound, or temperature is a "
+msgstr "凡是會引起觸覺、痛覺、聲覺、溫覺，稱為"
+
+msgid ""
+"Great job! A reaction is a response; the thing that produces a response is a stimulus; and anything that causes "
+"sensations of touch, pain, sound or temperature is a special kind of mechanical stimulus."
+msgstr "很棒！刺激經常就會造成反應。而導致觸覺、痛覺、聲覺或溫絕的物理性刺激，就稱為機械性刺激。"
+
+msgid ""
+"Too bad. A reaction is a response; the thing that produces a response is a stimulus; and anything that causes "
+"sensations of touch, pain, sound or temperature is a special kind of mechanical stimulus."
+msgstr "不對喔！「刺激」經常就會造成「反應」。而導致觸覺、痛覺、聲覺或溫絕的物理性刺激，就稱為機械性刺激。"
+
+#. 19
+msgid ""
+"A waste treatment plant is located near a bayou, which houses many types of flying fish. The plant receives a majority "
+"of its water from the bayou. During warmer months, the amount of flying fish decreases by 6%."
+msgstr ""
+"**一個位於湖畔的自來水廠，其大部分的進水都取自湖內，淨化後供居民使用。這一個湖內也棲息著很多種類的魚。在溫暖的月份時，飛"
+"魚數量下降6％。"
+
+msgid "Which of the following provides a reasonable stimulus for the decrease in flying fish population in the bayou?"
+msgstr "下列哪一項敘述，比較可能是造成湖裡面飛魚數量下降的刺激？"
+
+msgid "The flying fish don’t like the loud sounds of the machines in the waste treatment plant."
+msgstr "飛魚不喜歡自來水廠所產生的機器噪音。"
+
+msgid ""
+"More water is used by consumers during warmer months, which decreases the amount of water the flying fish can live in."
+msgstr "在溫暖的月份，居民使用較多的水，進而減少飛魚能存活的水量。"
+
+msgid "Less water is filtered by the water treatment plant during warmer months, allowing the fish to travel upstream."
+msgstr "在溫暖的月份，自來水廠過濾的水較少，而使得魚遷移到上游。"
+
+msgid "None of the above are reasonable stimuli."
+msgstr "以上都不是合理的刺激因素。"
+
+msgid "No, that wouldn’t be specific to only the warm months."
+msgstr "不對喔！如果是噪音的話，不會只是在溫暖的月份才影響的。"
+
+msgid ""
+"Correct, not all fish can adapt to this change in their habitat. The plant takes more water and the amount left for the "
+"fish is not enough for all of them."
+msgstr ""
+"正確！不是所有的魚類都能適應這種棲息地的變化。在夏天，該工廠需要更多的水讓局民使用，進而使得剩下的水量不足以讓魚類生存。"
+
+msgid ""
+"No, it seems more water would be used by the plant. We do not have information about the ability the fish have to "
+"travel upstream."
+msgstr "不對喔！比較可能的是自來水廠需要使用更多的湖水，以供居民使用。而且，我們也沒有資訊判斷是否魚類必須遷移至上游。"
+
+msgid "No, if anything all of the above stimuli are reasonable."
+msgstr "不，除非所有上述刺激是合理的。"
+
+#. 20
+msgid "Select the <span class='blink'>correct</span> statement."
+msgstr "選擇<span class='blink'>正確的</span>敘述。"
+
+msgid "A. Neurons interpret electrical signals that are messages of stimulus and response."
+msgstr "A. 神經元能解讀由刺激和反應所傳遞的訊息。"
+
+msgid "B. Only messages to the brain are in the form of electrical signals."
+msgstr "B. 只有發送到大腦的訊息是電流訊號的形式。"
+
+msgid "C. Senses help us gather information about our surroundings."
+msgstr "C. 感官幫助我們收集有關我們周遭環境的訊息。"
+
+msgid "D. Our nervous system is a network, connecting all the blood flow in the body."
+msgstr "D. 我們的神經系統是一個網絡，連接我們身體內所有的血流。"
+
+msgid "Neurons interpret electrical signals that are messages of stimulus and response."
+msgstr "神經元能解讀由刺激和反應所傳遞的訊息。"
+
+msgid "Only messages to the brain are in the form of electrical signals."
+msgstr "只有發送到大腦的訊息是電流訊號的形式。"
+
+msgid "Senses help us gather information about our surroundings."
+msgstr "感官幫助我們收集有關我們周遭環境的訊息。"
+
+msgid "Our nervous system is a network, connecting all the blood flow in the body."
+msgstr "我們的神經系統是一個網絡，連接我們身體內所有的血流。"
+
+msgid "No, neurons take the messages to the brain and they are interpreted there."
+msgstr "不，神經元接收傳遞到大腦的訊息，且在大腦中解讀。"
+
+msgid "No, messages to and from the brain are in the form of electrical signals."
+msgstr "不，傳遞到大腦或傳出大腦的訊息皆是以電流訊號的形式傳遞。"
+
+msgid "Correct, we collect data to be interpreted by our brain in the form of sight, sound, smell, taste, and touch."
+msgstr "正確，我們以視覺、聽覺、嗅覺、味覺和觸覺的形式收集的資訊，最後是由我們大腦解讀。"
+
+msgid ""
+"Not quite, it is a network, but it connects nerve cells in the body so the body can send and receive messages to and "
+"from the brain."
+msgstr "不全然是喔！神經系統是一個網絡沒錯；但它連接體內神經細胞，使身體能發送和接收由大腦傳出或傳入大腦的訊息。"
+
+#. 21
+msgid "Instinctual behaviors would <span class='blink'>not</span> include which of the following?"
+msgstr "本能的行為<span class='blink'>不包括</span>下列哪一項？"
+
+msgid "Baby sea turtles, having never seen their mothers, always leave their nests at night."
+msgstr "從未見過自己的母親的小海龜總是在晚上離開自己的巢穴。"
+
+msgid "Snow leopard cubs live with their mothers for up to two years to learn to hunt and survive for themselves."
+msgstr "雪豹幼仔與母親一起生活長達兩年以學習捕獵和生存。"
+
+msgid "Honeybees always build their combs in the shape of hexagons."
+msgstr "蜜蜂總是建造六邊形形狀的蜂巢。"
+
+msgid "Baby kangaroos immediately climb into their mother’s pouch after birth."
+msgstr "袋鼠寶寶出生後立即爬上母親的育兒袋裡。"
+
+msgid "Sorry.  The baby turtles haven’t had time to learn anything yet.  This is instinctual."
+msgstr "答錯了，這是正確的敘述。小海龜還沒來得及學到什麼東西呢！這是本能。"
+
+msgid "That’s it.  The cubs have little chance if their mothers don’t teach them well."
+msgstr "就是這樣。幼崽具有較少機會，如果他們的母親沒有機會好好教導它的話。"
+
+msgid "Nope.  This behavior is instinctual."
+msgstr "答錯了，這是正確的敘述。此行為是本能。"
+
+msgid "Not this one.  The baby are newly born.  No time to learn."
+msgstr "不是這一個喔！這是正確的敘述。寶寶是剛出生的，沒有時間學習。"
+
+#. 22
+msgid "Congratulations, "
+msgstr "恭喜您！"
+
+msgid "You've completed this How Animals Behave module."
+msgstr "您已經完成了「瞭解動物行為」單元的學習了！"
+
+msgid "You've completed this How Animals Behave review."
+msgstr "您已經完成了「瞭解動物行為」單元的學習了！"
+
+msgid "You can check how you did on the 'Quick Check' and 'Quiz Questions' for this review by clicking the button below."
+msgstr "你可以點擊按鈕來檢查你對在此單元中“小練習”和“小測驗”的表現。"
+
+msgid "You can check how you did on the 'Quick Checks' and 'Quiz Questions' for this review by clicking the button below."
+msgstr "你可以點擊按鈕來檢查你對在此單元中“小練習”和“小測驗”的表現。"
+
+msgid "How did I do?"
+msgstr "我答的如何呢？"
+
+#. preloaders
+msgid "Let's begin"
+msgstr "我們開始囉！"
+
+msgid "Thinking about... the life cycle of plants"
+msgstr "想一想，關於...植物的生命週期"
+
+msgid "Preparing dog food..."
+msgstr "準備狗糧..."
+
+msgid "Crumpling papers..."
+msgstr "揉皺紙..."
+
+msgid "Preparing your first quick check!"
+msgstr "準備你的第一個小練習！"
+
+msgid "Trapping insects..."
+msgstr "誘捕昆蟲..."
+
+msgid "Inherited or learned?"
+msgstr "「遺傳」還是「學習」？"
+
+msgid "The five senses"
+msgstr "五種感官..."
+
+msgid "Another quick check on the way!"
+msgstr "另一個小練習來囉！"
+
+msgid "Sending text message..."
+msgstr "發送訊息..."
+
+msgid "Last quick check!"
+msgstr "最後一個小練習！"
+
+msgid "Tiny twins"
+msgstr "小小雙胞胎..."
+
+msgid "Putting it all together..."
+msgstr "整理一下囉..."
+
+msgid "Words and explanations"
+msgstr "名詞與解釋"
+
+msgid "Let's check what you now know"
+msgstr "讓我們來看看你現在知道什麼"
+
+msgid "And the first quiz question is..."
+msgstr "第一個測驗題是..."
+
+msgid "Bats, bats, and more bats!"
+msgstr "蝙蝠...蝙蝠...好多的蝙蝠！"
+
+msgid "Stimulus and response"
+msgstr "刺激與反應"
+
+msgid "Flying fishes"
+msgstr "水廠與魚..."
+
+msgid "Sending signals to the brain..."
+msgstr "發送信號到大腦..."
+
+msgid "What does your instinct say?"
+msgstr "你的本能告訴你了什麼？"
+
+msgid "You're done!"
+msgstr "大功告成！"
+
+msgid "Quick Check #1"
+msgstr "問題#1"
+
+msgid "Quick Check #2"
+msgstr "問題#2"
+
+msgid "Quick Check #3"
+msgstr "問題#3"
+
+msgid "Quick Check #4"
+msgstr "問題#4"
+
+msgid "Quiz Question #1"
+msgstr "問題#1"
+
+msgid "Quiz Question #2"
+msgstr "問題#2"
+
+msgid "Quiz Question #3"
+msgstr "問題#3"
+
+msgid "Quiz Question #4"
+msgstr "問題#4"
+
+msgid "Quiz Question #5"
+msgstr "問題#5"
+
+msgid "Quiz Question #6"
+msgstr "問題#6"
+
+msgid "Go to dashboard"
+msgstr "回到主選單"
+
+msgid ""
+"Sorry... This is a correct statement... an electrical signal gets taken to the brain, and the message is interpreted "
+"there, then a new signal is sent out and the brain’s command is interpreted by the cell (muscle, skin, etc.)"
+msgstr ""
+"選錯囉，這是正確的敘述！這兩系統內的訊息傳送管道都很暢通。行動電話系統一般來說都很暢通，神經系統內的訊息傳遞也是一樣。在"
+"神經系統中，當電流訊號傳送到大腦後，進行解讀；大腦解讀後，送出命令，當這新的訊號傳送到細胞（例如肌肉、皮膚裡的細胞等），"
+"這些細胞也可以進行解讀。"
+
+msgid ""
+"Sorry... This is a correct statement... when you make call, you dial a specific number. In the nervous system, the "
+"message goes to the brain or a command to a certain cell on the way back."
+msgstr ""
+"選錯囉，這是正確的敘述！當你打電話時，你就是要打給一個特定的號碼，那就是你的目標；在神經系統中，訊息傳送也有明確的目標，"
+"例如由皮膚傳送訊息到大腦或者大腦傳送命令給細胞，都是相當明確的。"
+
+msgid ""
+"Sorry... This is a correct statement... the brain is the control center for the nervous system as the telecommunication "
+"center is for the phone network."
+msgstr "選錯囉，這是正確的敘述！大腦是神經系統的控制中心，就像是電話網路的機房一般。"
+
+msgid ""
+"A small city's water treatment plant is located near a small river, which is the home to a type of bass popular with "
+"fishermen. The plant takes a majority of its water from the river. During warmer months, the number of bass in the "
+"river decreases by 6 %."
+msgstr ""
+"一個小城它居民的日常用水是由位於湖畔的一座自來水廠提供，這座水廠的水大部分就取自這座湖。這湖裏面棲息著一種釣魚者喜歡釣的"
+"鱸魚，經過調查發現，在比較溫暖的月份時，鱸魚數量下降6％。"
+
+msgid "Which of the following is probably the most reasonable stimulus for decreased bass population in the lake?"
+msgstr "下列哪一項敘述，比較可能是造成湖裡面鱸魚數量下降的一種「刺激」？"
+
+msgid "More water is used by consumers during warmer months, which decreases the amount of water the bass can live in."
+msgstr "在溫暖的月份，居民使用較多的水，進而減少鱸魚賴以生存的湖水量。"
+
+msgid "Bass don’t like the loud sounds of the machines in the water treatment plant."
+msgstr "鱸魚不喜歡自來水廠所產生的機器噪音。"
+
+msgid ""
+"Correct, not all bass can adapt to this change in their habitat. The plant takes more water and the amount left for the "
+"bass is not enough for all of them."
+msgstr ""
+"正確！不是所有的魚類都能適應這種棲息地的變化。在較溫暖的月份，該自來水廠需要從湖中取用更多的水讓居民使用，進而使得剩下的"
+"水量不足以讓魚類生存。"
+
+msgid "Less water is filtered by the water treatment plant during warmer months, allowing the bass to travel upstream."
+msgstr "在溫暖的月份，自來水廠取用的水較少，而使得魚遷游到上游。"
+
+msgid ""
+"No, it seems more water would be used by the plant. We do not have information about the ability the bass have to "
+"travel upstream."
+msgstr ""
+"不對喔！比較可能的是自來水廠需要使用更多的湖水，以供居民使用，造成湖水變少，於的生存較為困難。而且，我們也沒有資訊可以用"
+"來判斷是否魚類必須遷移至上游。"

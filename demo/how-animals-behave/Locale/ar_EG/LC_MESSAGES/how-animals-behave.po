@@ -1,0 +1,1129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: how-animals-behave\n"
+"POT-Creation-Date: 2013-09-06 17:31+0800\n"
+"PO-Revision-Date: 2015-05-12 14:42+0800\n"
+"Last-Translator: Raina\n"
+"Language-Team:  <ask@jigzen.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"Language: ar\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# Global
+msgid "Quick Check #1"
+msgstr "إختبار سريع رقم 1"
+
+msgid "Quick Check #2"
+msgstr "إختبار قصير رقم 2"
+
+msgid "Quick Check #3"
+msgstr "إمتحان قصير رقم 3"
+
+msgid "Quick Check #4"
+msgstr "اختبار قصير رقم 4"
+
+msgid "Quiz Question #1"
+msgstr "سؤال سريع رقم 1"
+
+msgid "Quiz Question #2"
+msgstr "إمتحان قصير رقم2"
+
+msgid "Quiz Question #3"
+msgstr "سؤال قصير رقم 3"
+
+msgid "Quiz Question #4"
+msgstr "سؤال قصير رقم 4"
+
+msgid "Quiz Question #5"
+msgstr "سؤال سريع رقم 5"
+
+msgid "Quiz Question #6"
+msgstr "سؤال قصير رقم 6"
+
+# 1
+msgid "Start"
+msgstr "إبدأ"
+
+msgid "Welcome to the How Animals Behave review, "
+msgstr "أهلاً وسهلاً بكم في مراجعة كيف تسلك الحيوانات"
+
+msgid "Welcome to the How Animals Behave module, "
+msgstr "مرحبا بكم في وحدة كيف تتصرف الحيوانات"
+
+msgid "Are you ready"
+msgstr "هل أنت مستعد"
+
+msgid "How Animals Behave"
+msgstr "كيف تسلك الحيوانات"
+
+# 2
+msgid "Thinking about... how animals behave"
+msgstr "التفكير ب ... كيف تستجيب الكائنات"
+
+msgid ""
+"Want to know where your dog or cat is? Open a can of pet food. Is the fish in the bowl still alive? Tap the glass. Are there ants in "
+"the park? Open the picnic basket."
+msgstr ""
+" هل تريد أن تعرف أين هو كلبك أو قطتك؟ إفتح علبة طعام الحيوانات.  هل السمكة ما زالت حية في الحوض؟ إضغط على الزجاج.  هل هناك نمل في "
+"الحديقة؟ إفتح سلة الطعام."
+
+msgid ""
+"When you open the can, tap the glass, or bring out the picnic you get a quick response. The animals sense chemicals wafting into the "
+"air from the food substances. The fish moves in response to vibrations transmitted through the glass bowl into the water. The stimulus "
+"you provide causes a response in the animals. All animals are able to respond to their environments in some manner."
+msgstr ""
+"عندما تغتح العلبة، وتضغط على الزجاج أو تفتح سلة الطعام تحصل على إستجابة سريعة.  تحس الحيوانات بالكيماويات التي تنتشر في الهواء من "
+"المواد الغذائية.  تتحرك السمكة الموجودة في الحوض الزجاجي مستجيبة للإهتزازات التي تنتقل خلال الحوض الزجاجي في الماء.  المثير الذي تعطيه "
+"يتسبب بإستجابة عند الحيوانات.  جميع الحيوانات قادرة على الإستجابة لبيئاتها بطريقة ما."
+
+msgid "Back"
+msgstr "سابق"
+
+msgid "Next"
+msgstr "لاحق"
+
+msgid "Go Back to Dashboard"
+msgstr "العودة إلى لوحة التحكم الرئيسية"
+
+msgid "English"
+msgstr "إنجليزي"
+
+msgid "Arabic"
+msgstr "عربي"
+
+msgid "Spanish"
+msgstr "إسباني"
+
+msgid "Chinese"
+msgstr "صيني"
+
+# 3
+msgid "Checking what you already know… about how animals behave"
+msgstr "تأكد مما تعرف ... عن كيف تستجيب الكائنات"
+
+msgid "Check Answer"
+msgstr "تأكد من الإجابة"
+
+msgid "Click on <span class='blink'>all</span> the correct statements below."
+msgstr "انقر على <span class='blink'>جميع</span> العبارات في الأسفل."
+
+msgid "All animals have brains."
+msgstr "لجميع الحيوانات أدمغة."
+
+msgid "All animals are able to respond to their environments."
+msgstr "جميع الحيوانات قادرة على الإستجابة لبيئاتها."
+
+msgid "Animals only respond to food and danger."
+msgstr "تستجيب الحيوانات فقط للطعام وللخطر."
+
+msgid "Animals do not have memories like humans do."
+msgstr "ليس للحيوانات ذاكرة كما هي للبشر."
+
+msgid ""
+"Some animals have specialized cells, tissues, and organs that control their interactions like the brain does, and others have brains "
+"more or less similar to our own.  Animals can sense the world around them, and sometimes even remember and learn.  Some animals have "
+"long memories. All animals are able to respond to their environments.  Read on to learn more about how organisms respond to their "
+"environment."
+msgstr ""
+"بعض الحيوانات لها خلايا متخصصة، وأغشية، وأعضاء تتحكم بتفاعلاتها كما هو الدماغ، وحيوانات أخرى لها أدمغة تتشابه إلى حدٍ ما لأدمغتنا.  "
+"تستطيع الحيوانات أن تحس بالعالم المحيط بها، وأحياناً تتذكر وتتعلم.  بعض الحيوانات لها ذاكرات طويلة الأمد.  جميع الحيوانات قادرة على "
+"الإستجابة لبيئاتها.  تابع القراءة لتتعلم أكثر عن كيفية إستجابة الحيوانات لبيئاتها."
+
+# 4
+msgid "Reviewing big ideas... about how animals behave"
+msgstr "مراجعة الأفكار الأساسية ... حول كيف تستجيب الكائنات"
+
+msgid "Have you ever been told to be on your best behavior? What is behavior and what do parents and teachers mean by that?"
+msgstr "هل قيل لك سابقاً أن تكون مهذباً في سلوكك؟ ما هو السلوك وماذا يقصد الأهل والمعلمين به؟"
+
+msgid ""
+"<span class='key'> Behavior </span> is the way that an organism acts and responds in the environment. In your case, there are many "
+"things going on inside and around you. You might feel hungry as soon as you get in the car, or need to use to the bathroom as soon as "
+"your teacher starts the lesson. These feelings are internal cues signaling a need you have. The next step is what you do about it, how "
+"you respond at this point is your behavior."
+msgstr ""
+"<span class='key'>السلوك</span> هو الطريقة التي يتفاعل بها الكائن في البيئة.  ففي حالتك، هناك العديد من الأشياء تجري بداخلك ومن حولك.  "
+"فيمكن أن تشعر بالجوع بمجرد دخولك السيارة، أو تحتاج أن تستخدم الحمام بمجرد أن يبدأ معلمك بالدرس.  هذه المشاعر داخلية تشير للحاجة التي "
+"لديك.  الخطوة التالية هي ماذا ستفعل حيالها، فكيف تستجيب عند هذه النقطة هو سلوكك."
+
+msgid ""
+"Sometimes those cues come from inside you like hunger, and sometimes they come from the environment, like when your sister pokes you "
+"and you feel pain. A cue like this is called a <span class='key'>stimulus</span>."
+msgstr ""
+"أحياناً تأتي هذه المؤشرات من داخلك مثل الجوع، وأحياناً أخرى تأتي من البيئة، مثل شعورك بالألم عندما تضربك أختك.  المؤشر مثل هذا يسمى "
+"<span class='key'> مثير</span>.  "
+
+msgid ""
+"A stimulus is anything that causes a reaction or change in an organism or any part of an organism. Behaviors are actions living things "
+"take in response to stimuli (plural form of stimulus). Stimuli can be either internal or external, and include anything like heat, "
+"cold, pain, noise, anything that arouses the senses."
+msgstr ""
+"المثير هو أي شيء يسبب تفاعل أو تغير في الكائن أو في أي جزء من الكائن.  فالسلوكات هي أفعال الكائنات الحية كإستجابة لمثير.  وتكون "
+"المثيرات إما داخلية أو خارجية، وتشتمل على أي شيء مثل الحرارة ، والبرد، والألم، والضجة وأي شيء يثير الحواس."
+
+msgid ""
+"A stimulus is anything that causes a reaction or change in an organism or any part of an organism. Behaviors are actions living things "
+"take in <span class='key'>response</span> to stimuli (plural form of stimulus). Stimuli can be either internal or external, and "
+"include anything like heat, cold, pain, noise, anything that arouses the senses."
+msgstr ""
+"الحافز هو أي شيء يسبب رد فعل أو تغيير في كائن حي أو أي جزء من الكائن الحي. السلوكات هي أفعال تتخذها الكائنات الحية <span class='key'> "
+"كاستجابة</span>  للمحفزات .  ويمكن أن تكون المحفزات داخلية أو خارجية، وتشمل أي شيء مثل الحرارة والبرودة، والألم، والضوضاء، وأي شيء "
+"يثير الحواس ."
+
+msgid "Read more"
+msgstr "إقرأ المزيد"
+
+# 5
+msgid "Question A. Click on the statement that best explains behavior. "
+msgstr "سؤال أ. انقر على أفضل عبارة تشرح السلوك ."
+
+msgid "You answered..."
+msgstr "إجابتك كانت..."
+
+msgid "All the good and bad actions a person does."
+msgstr "جميع الأفعال الحسنة والسيئة التي يقوم بها الشخص."
+
+msgid "The way an organism acts in an environment."
+msgstr "الطريقة التي يتفاعل بها الكائن في بيئة معينة."
+
+msgid "All an organism has learned to survive in an environment."
+msgstr "جميع ما تعلمه الكائن للبقاء على قيد الحياة."
+
+msgid "The way an organism fights off their predators."
+msgstr "الطريقة التي يدافع فيها الكائن المُفترسات."
+
+msgid "Question B. Drag the items up or down (left column) to match the most probable response."
+msgstr "السؤال ب. اسحب العناصر للأعلى أو للأسفل (العمود الأيسر) لتوافق الإستجابة الأكثر إحتمالاً"
+
+msgid "Stimuli"
+msgstr "مثيرات"
+
+msgid "Response"
+msgstr "إستجابة"
+
+msgid "Predator attacking"
+msgstr "مفترس يهاجم "
+
+msgid "Attract a mate (courtship)"
+msgstr "جذب الرفيق (خطوبة)"
+
+msgid "Change in temperature"
+msgstr "تغير في الحرارة"
+
+msgid "Friendship and conversation"
+msgstr "صداقة ومحادثة"
+
+msgid "Singing, fluffing up, spreading out feathers"
+msgstr "الغناء، والنفش ، ونشر الريش"
+
+msgid "Use social media sites"
+msgstr "استخدام مواقع التواصل الإجتماعي"
+
+msgid "Camouflage"
+msgstr "التمويه"
+
+msgid "Migration"
+msgstr "الهجرة"
+
+msgid "No, behavior is the way an organism acts, not necessarily if the actions are good or bad."
+msgstr "لا، السلوك هو الطريقة التي يقوم بها الكائن بأفعاله، وليس بالضرورة أن تكون سيئة أو حسنة"
+
+msgid "Correct, different organisms respond to their environment in many ways, which is considered behavior. "
+msgstr "صحيح، تستجيب الكائنات المختلفة لبيئاتها بطرقٍ مختلفة، والذي يعتبر سلوك."
+
+msgid "No, behavior is not just learned behavior, it includes instinct as well. Behavior is the way an organism acts in an environment. "
+msgstr "لا، السلوك ليس فقط سلوك مُتَعَلَم، إنه يشتمل على الفطري أيضاً.  السلوك هو الطريقة التي يعمل بها الكائن في بيئة ما."
+
+msgid ""
+"Not quite, the way they fight off predators is just an example, not the entire definition of behavior. Behavior is the way an organism "
+"acts in an environment. "
+msgstr ""
+"ليس صحيحاً، الطريقة التي يقاوم بها المُفترسات هي فقط مثال، ولكنه ليس التعريف الكامل للسلوك.  السلوك هو الطريقة  التي يعمل بها كائن في "
+"بيئة معينة."
+
+msgid ""
+"Correct!  Even predators use their natural camouflage to blend in with their surroundings. Birds use songs and feathers to attract "
+"mates, but so do humans when they groom themselves to look nice. Since humans are the only organism that know how to heat and cool "
+"their homes, other animals such as ducks and geese migrate to warmer or cooler places.  Today, many people use social media sites and "
+"actual gathering places to meet and talk with other people."
+msgstr ""
+"صحيح! حتى المُفترسات تستخدم التموية لتختلط في بيئاتها.  فالطيور تستخدم الأغاني والريش لجذب الأصدقاء، وبنفس الطريقة الناس يتجملون عندما "
+"يرغبون بالزواج كي يظهروا بمظهر جميل.  وبما أن البشر هم فقط الكائنات التي تعرف كيف تسخن وتبرد بيوتها، حيوانات أخرى مثل البط والوز يهاجر "
+"لأماكن أدفأ ومناطق أبرد.  ففي الوقت الحاضر، الكثير من الناس يستخدمون مواقع التفاعل الإجتماعي وأماكن التجمع الحقيقية كي يجتمعوا "
+"ويتحدثوا مع الأخرين."
+
+msgid ""
+"Check your matches again.  Even predators use their natural camouflage to blend in with their surroundings. Birds use songs and "
+"feathers to attract mates, but so do humans when they groom themselves to look nice. Since humans are the only organism that know how "
+"to heat and cool their homes, other animals such as ducks and geese migrate to warmer or cooler places.  Today, many people use social "
+"media sites and actual gathering places to meet and talk with other people."
+msgstr ""
+"تأكد من مقارنتك مرة أخرى .  حتى المُفتَرِسات تستخدم تمويههم الطبيعي للإختلاط مع المحيط الذي يعيشون به.  فالطيور تستخدم الأغاني والريش "
+"لتجذب رفاقها، وكذلك البشر عندما يتزينون ليظهروا بمظهر جميل.  وبما أن البشر هم الكائنات الوحيدة التي تعرف كيف تسخن وتبرد بيوتها، بينما "
+"الحيوانات الأخرى مثل البط والوز تهاجر لأماكن أحمى وأبرد.  وحالياً يستخدم الكثير من الناس مواقع التواصل الإجتماعي وأماكن التجمع الحقيقية "
+"للإلتقاء وللتحدث مع الآخرين."
+
+# 6
+msgid "More big ideas... about how animals behave"
+msgstr "أفكار أساسية أكثر ... حول كيف تستجيب الكائنات."
+
+msgid "Let's look at behaviors of different organisms."
+msgstr "دعنا ننظر لسلوكات الكائنات المختلفة."
+
+msgid ""
+"Hungry? Microorganisms and plants that use light to make food will automatically move toward light to get more for their food making "
+"process (photosynthesis)."
+msgstr ""
+"الجوع؟ الأحياء الدقيقة والنباتات التي تستخدم الضوء لصنع الغذاء ستنتقل بطريقة آلية نحو الضوء للحصول على ضوء أكثر لإنتاج غذائها (التركيب "
+"الضوئي)."
+
+msgid ""
+"The Venus fly trap is a plant and makes its own food. However, it lives in poor soil and is healthier if it gets nutrients from "
+"insects."
+msgstr "خناق الذباب (أو مصيدة فينوس) هو نبات يصنع غذاؤه بنفسه.  وهو يعيش بتربة فقيرة ويتحسن نموه إذا حصل على المغذيات من الحشرات."
+
+msgid ""
+"Scared? If a skunk is threatened it will warn the predator to stand down. If all the stomping and high tailing does not work, the "
+"skunk sprays an odor that will cause even bears to leave them alone."
+msgstr ""
+"الخوف؟ إذا خاف الظربات سيحذر المُفترس لأن يتوقف.  إذا لم تتوقف جميع المحاولات، يرش الظربان رائحة والتي ستتسبب في أن يتركهم المفترس "
+"لوحدهم."
+
+msgid ""
+"When a person is scared, their heart rate increases, and the body releases stress hormones in response to something it sees is "
+"dangerous. People show different behavior in response to fear. Some people scream to scare off the one harming the person and to call "
+"for help at the same time. What do you do?"
+msgstr ""
+"عندما يكون الشخص خائفا، يزيد معدل خفقات القلب، ويطلق الجسم هرمونات الاجهاد كاستجابة لأ شيء يحس به كمصدر خطر.  ويظهرالناس  سلوكات "
+"مختلفة كاستجابة للخوف.  بعض الناس يصرخ لتخويف الشخص الذي يؤذي الآخر ويطلب المساعدة بنفس "
+
+msgid ""
+"Animals develop complex behaviors to help them survive in the wild. Those who have the most useful behaviors are more likely to "
+"survive and reproduce than those who don't. Those same useful behaviors are passed on to later generations. Eventually, an <span "
+"class='key'>inherited behavior</span> becomes common in a population of animals.  Not all behavior is inherited, although some is. The "
+"ability to learn is inherited.<span class='key'> Instinctual behavior </span> is any behavior that is inherited and not learned during "
+"life."
+msgstr ""
+"تطور الحيوانات سلوكات معقدة لمساعدتها للبقاء على قيد الحياة في البرية. فالحيوانات التي لديها سلوكيات مفيدة أكثر تكون أكثر عرضة للبقاء "
+"على قيد الحياة والتكاثر من تلك التي لا يكون لديها سلوكات مفيدة.  و يتم تمرير تلك السلوكيات المفيدة نفسها للأجيال في وقت لاحق.  وفي "
+"نهاية المطاف، <span class='key'>السلوك الموروث </span> تصبح شائعة الحيوانات.  ولا يورث كل سلوك، على الرغم من أن بعضها يورث.  فالقدرة "
+"على التعلم تورث.  <span class='key'> السلوك الفطري </span> هو أي سلوك يورث ولا يعلم أثناء الحياة."
+
+msgid ""
+"Over many generations, dogs have gained abilities that make them desirable to people. They kill pests, help us hunt other animals, and "
+"even use their natural hunting abilities to herd our animals. Dogs are even able to learn new behaviors and associate them with words "
+"or actions."
+msgstr ""
+"مع الأجيال، إكتسبت الكلاب قدرات تجعلها مرغوبة للناس.  فهي تقتل الحشرات، وتساعدنا على صيد الحيوانات الأخرى، وحتى أنها تستخدم قدرات "
+"الصيد الفطرية الموجودة عندها لترعى بحيواناتنا الأخرى.  والكلاب قادرة على تعلم سلوكات جديدة وربطها مع الكلمات والأفعال."
+
+# 7
+msgid "Check answer"
+msgstr "تأكد من الإجابة"
+
+msgid "Question A. Which of the following behaviors is most likely inherited, rather than learned?"
+msgstr "سؤال أ. أي من السلوكات التالية يميل أكثر لأن يكون موروثاً وليس مُتعَلَماً؟"
+
+msgid "Select an image"
+msgstr "إختار صورة"
+
+msgid "Click each image to view the corresponding descriptions."
+msgstr "انقر كل صورة لتُشاهد الأوصاف المرافقة."
+
+msgid "Useful behaviors that help organisms survive are passed on to later generations."
+msgstr "السلوكات المفيدة التي تساعد الكائنات على البقاء على قيد الحياة تمرر إلى الأجيال القادمة."
+
+msgid "Plants and animals will move to get enough sunlight and food."
+msgstr "النباتات والحيوانات ستنتقل كي تحصل على ضوء الشمس وعلى الطعام."
+
+msgid "All behavior is inherited and it is passed on from generation to generation."
+msgstr "جميع السلوكات موروثة وتمرر من جيل إلى جيل."
+
+msgid "All animals respond differently to their internal needs and changes in the environment."
+msgstr "تستجيب جميع الحيوانات بطرق مختلفة لحاجاتها وللتغيرات التي تحدث في البيئة."
+
+msgid "Monarch butterflies require at least three generations to migrate from Canada and the northern US to Mexico and back each year."
+msgstr "الفراشات الملكية تتطلب على الأقل ثلاثة أجيال حتى تهاجر من كندا وشمال أمريكيا إلى المكسيك وتعود كل سنة."
+
+msgid "Bears know which foods to eat by watching their mothers for 2-3 years after birth."
+msgstr "تعرف الدببة أي الأطعمة تأكل عن طريق مشاهدة أمهاتها لمدة 2-3 سنوات بعد الميلاد."
+
+msgid "After weeks of training, dogs are able to find truffles, an underground type of mushroom, for their owners."
+msgstr "بعد أسابيع من التدريب، تستطيع الكلاب أن تجد الكمآت وأنواع الفطر الموجود تحت الأرض لماليكيها."
+
+msgid "By the time they are four years old, crows react differently to as many as 300 different people."
+msgstr "مع مرور الزمن حتى تصل لعمر أربع سنوات، تتفاعل الغربان بشكلٍ مختلف مع مايقرب من 300 شخص مختلف."
+
+msgid "Yes! The second generation of Monarchs has never been to their destination, nor as the third generation."
+msgstr "نعم! الجيل الثاني من الفراشات الملكية لم يصل لغاياته مطلقاً، ولا حتى الجيل الثالث."
+
+msgid "Not this one. The little bears are learning from their moms."
+msgstr "ليس هذا .  الدببة الصغيرة تتعلم من أمهاتها."
+
+msgid "No... The key word here is training. That’s learning."
+msgstr "لا ... الكلمة المفتاحية هنا هي التدريب.  ذلك هو التعلم."
+
+msgid "If it takes time, it’s learning. This time, it takes years."
+msgstr "إذا أخذ وقتاً، فهو تعلم.  هذه المرة، أخذ سنوات."
+
+msgid ""
+"Not quite. The complex behaviors they have developed caused them to stay alive. These behaviors take time (generations) to really be "
+"part of the organism."
+msgstr "ليس تماماً.  السلوكات المعقدة التي طورتها جعلتها تبقى حية.  هذه السلوكات تأخذ وقت (أجيال) حتى تصبح جزء من الكائن."
+
+msgid "Not quite. The internal cue for hunger is the stimulus, they respond by moving to get more sunlight, or by getting food."
+msgstr "ليس تماماً.  المؤشر الداخلي للجوع هو المثير، هي تستجيب بالإنتقال حتى تحصل على ضوء أكثر وعلى طعام أكثر. "
+
+msgid "Correct! Some behavior is learned, not all behavior is inherited."
+msgstr "صحيح! بعض السلوك مكتسب، وليست جميع السلوكات موروثة."
+
+msgid "Not quite. Animals respond differently for example to temperature change: some hibernate, some migrate."
+msgstr "ليس بالضرورة.  تستجيب الحيوانات بشكلٍ مختلف للتغير في الحرارة مثلاً: البعض يسبت، والبعض يهاجر."
+
+msgid "Question B. Click on the statement that is <span class='blink'>not</span> correct."
+msgstr "سؤال ب. انقر على العبارة <span class='blink'>غير</span> الصحيحة."
+
+msgid "Please select your answers."
+msgstr "يرجى إختيار الإجابات"
+
+# 8
+msgid ""
+"Organisms respond to different stimuli in different ways. All organisms have the ability to sense change in their environment, and to "
+"respond to that change accordingly."
+msgstr ""
+"تستجيب الكائنات للمثيرات المختلفة بطرقٍ مختلفة.  جميع الكائنات لديها القدرة على الإحساس بالتغير في بيئاتها، وتستجيب لذلك التغير بطريقة "
+"ما."
+
+msgid ""
+"Humans have a well-developed nervous system, and respond to light, mechanical, and chemical stimuli in different ways. <span "
+"class='key'>Mechanical stimuli</span> include anything that cause sensations of touch, pain, sound, or temperature. <span "
+"class='key'>Chemical stimuli</span> are molecules in our environment that make us sense taste or smell."
+msgstr ""
+"لبني البشر نظام عصبي مطور جداً، وتستجيب للمثيرات للضوئية، والميكانيكية، والكيميائية بطرقٍ مختلفة <span class='key'>المثيرات الميكانيكية</"
+"span> تشتمل على أي شيء ينتج عنه أحاسيس من لمس، أو ألم، أو صوت، أو حرارة<span class='key'>المثيرات الكيميائية</span> هي جزيئات في "
+"بيئتنا تجعلنا نحسها بالشم أو التذوق. "
+
+msgid "Pain"
+msgstr "الألم"
+
+msgid "Sound"
+msgstr "الصوت"
+
+msgid "Temperature"
+msgstr "الحرارة"
+
+msgid "Taste"
+msgstr "التذوق"
+
+msgid "Smell"
+msgstr "الشم"
+
+msgid ""
+"Our ears are sensitive to disturbances in the air, water, or solid surfaces around us. Sound is the result of vibrations set up in a "
+"substance that are transmitted from one point to another. These vibrations are picked up by our eardrums and then transmitted through "
+"three very small bones and into fluids in the ear. The pattern of vibration to the brain is transmitted as an electrical signal.  The "
+"brain receives this and interprets the pattern as sound."
+msgstr ""
+"آذاننا حساسة للضوضاء من حولنا في الهواء، أو الماء، أو السطوح الصلبة.  الصوت ناتج عن الإهتزازات الموجودة في المادة والتي تنتقل من نقطة "
+"لأخرى.  هذه الإهتزازات تلتقطها طبلات الأذن ومن ثم تنتقل خلال ثلات عظيمات صغيرة وفي السوائل في الأذن.  نمط الإهتزاز للدماغ منتقل كإشارة "
+"كهربائية.  يستقبل الدماغ هذا النمط ويفسره كصوت. "
+
+msgid ""
+"Smell and taste are both the result of chemical stimulation. People can taste thanks to structures on our tongues called taste buds."
+msgstr "الشم والتذوق كلاهما ناتجان عن إثارة كيميائية.  ويمكن للناس أن يتذوقوا وكل الشكر لتركيبات ألسنتنا والتي تسمى ببراعم التذوق."
+
+msgid ""
+"Between 2000 and 5000 taste buds are located on a typical person's tongue. There are five different sorts of taste: <span "
+"class='key'>sweet</span>, <span class='key'>sour</span>, <span class='key'>bitter</span>, <span class='key'>salty</span>, and <span "
+"class='key'>umami</span>. Umami is a flavor associated with various meats and Asian foods. Much of what we understand as flavor is "
+"actually a combination of taste and smell combined and interpreted by the brain together."
+msgstr ""
+"ما بين 2000 و 5000 برعم تَذُوق موجودة في لسان الإنسان العادي.  وهناك خمسة أنواع مختلفة من المذاقات: <span class='key'>حلو</span>، و "
+"<span class='key'>حامض</span>، و <span class='key'>مر</span>، و <span class='key'>مالح</span>، و <span class='key'>لاذع</span>.  "
+"اللاذع هو طعم مرتبط باللحوم المختلفة وبالأطعمة الأسيوية.  الكثير مما نفهم كنكهة هو حقيقةً مزيج من التذوق ومن الشم مرتبطة ومفسرة بواسطة "
+"الدماغ مع بعضها البعض."
+
+msgid "Much of what we understand as flavor is actually a combination of taste and smell combined and interpreted by the brain together."
+msgstr "الكثير مما نفهم النكهة هو في الواقع خليط من التذوق والشم مرتبطة ومفسرة بواسطة الدماغ."
+
+# 9
+msgid ""
+"Question A. Many people say that when they have colds their foods taste bad.  Which of the following is the best possible explanation "
+"for this?"
+msgstr "سؤال أ. العديد من الناس يقولون أنهم عندما يصابون بالفلونزا يصبح طعم الأكل سيء.  أي مما يلي هو التفسير الأفضل لهذا؟"
+
+msgid "A food’s smell is an important part of how we think it tastes. Stuffy noses have a hard time detecting smell."
+msgstr "رائحة الطعام هي جزء مهم من الطريقة التي نعتقد بأنها تذوق.  والأنف الملئ بالمخاط يصعب أن يشم."
+
+msgid "A food’s smell is not an important part of how we think it tastes. Stuffy noses have a hard time detecting smell."
+msgstr "رائحة الطعام ليست جزء مهم من الطريقة التي نعتقد أنها تذوق.  الأنف المليء بالمخاط يصعب أن يشم."
+
+msgid "A food’s smell is an important part of how we think it tastes.  Stuffy noses detect smells better than clear noses."
+msgstr "رائحة الطعام هي جزء مهم من الطريقة التي نفكر أنها تذوق.  الأنف المليء بالمخاط أفضل من الأنف النظيف."
+
+msgid "A food’s smell is not an important part of how we think it tastes. Stuffy noses detect smells better than clear noses."
+msgstr "رائحة الطعام ليست جزء مهم للطريقة التي نعتقد أنها تذوق.  الأنوف المليئة بالمخاط تشم أفضل من الأنوف النظيفة."
+
+msgid "Question B. Click on “True” or “False” next to each statement."
+msgstr "سؤال ب. انقر على صحيح أوخطأ بعد كل عبارة"
+
+msgid "Statement"
+msgstr "عبارة"
+
+msgid "True"
+msgstr "صحيح"
+
+msgid "False"
+msgstr "خطأ"
+
+msgid "All animals can smell, see, and hear with equal power."
+msgstr "جمبع الحيوانات تستطيع الشم، والرؤية، والسمع بنفس القوة."
+
+msgid "We hear sound when an object vibrates and causes a disturbance in air particles. "
+msgstr "نسمع الصوت عندما يهتز الشيء ويسبب إضطراب في جسيمات الهواء. "
+
+msgid "Correct! Most foods don’t taste very good if we can’t smell them."
+msgstr "صحيح! معظم الأطعمة ليس لها طعم جيد إذا لم نتمكن من شمها."
+
+msgid "Not quite. Smell is an important part of what we think of as taste."
+msgstr "ليس تماماً.  الشم هو جزء مهم لما نعتقد بأنه تذوق."
+
+msgid "Read carefully... Stuffy noses don’t detect smells very well."
+msgstr "إقرأ بحذر ... الأنوف المليئة لا تشم بشكلٍ جيد."
+
+msgid "Sorry. Smell is important, and stuffy noses don’t work well."
+msgstr "أسف.  الشم مهم، والأنوف المليئة لا تعمل بشكلٍ جيد."
+
+# 10
+msgid "Your body has a network, and it works just like the network that makes a cell phone work."
+msgstr "في جسمك شبكة تواصل الكترونية، وتعمل كشبكة الهواتف الخلوية."
+
+msgid ""
+"Your body has a network, and it works just like the network that makes a cell phone work. When you send a text or make a cell phone "
+"call, the first thing that happens is that you touch your phone in a pattern, and the touch-sensitive keypad translates into an "
+"electronic message. That message is then transmitted through a complex system of radio towers, microwave relays, cable lines, and even "
+"satellites. Eventually, it is received by the cell phone you were calling, where it is translated back into the message you meant to "
+"send."
+msgstr ""
+"في جسمك شبكة، وهي تعمل تماما مثل شبكة الهواتف الخلوية. عندما ترسل رسالة نصية أو تجري مكالمة عبر الهاتف الخلوي، أول ما يحدث هو أن تضغط "
+"على هاتفك بنمط معين، وتترجمها لوحة المفاتيح الحساسة التي تعمل باللمس إلى رسالة إلكترونية.  ثم تبث هذه الرسالة من خلال نظام معقد من "
+"أبراج الراديو، و ناقلات الموجات الدقيقة، وخطوط الكابل، وحتى الأقمار الصناعية. في نهاية المطاف، تستقبل بواسطة الهاتف الخلوي الذي تحاول "
+"الإتصال به ، حيث يتم ترجمتها مرة أخرى الى الرسالة التي كننت تهدف ارسالها ."
+
+msgid ""
+"Your nervous system works the same way. A group of sensitive cells somewhere in your body is stimulated by something from the outside "
+"world. These nerve cells respond and send a tiny electrical signal to the brain. Nerve cells are called <span class='key'> neurons</"
+"span>. Once in the brain, the signal is interpreted by the brain. The sensation may be one of sight, sound, smell, taste, or touch."
+msgstr ""
+"جهازك العصبي يعمل بنفس الطريقة. مجموعة من الخلايا الحساسة الموجودة في مكان ما في جسمك تُحفز بواسطة شيء عن العالم الخارجي، وهذه الخلايا "
+"العصبية تستجيب وترسل إشارة كهربائية إلى الدماغ.  تسمى الخلايا العصبية ب <span class='key'>النيورونات </span> وعندما تكون في الدماغ، "
+"يتم تفسير الإشارة بواسطة الدماغ. الإحساس قد يكون إما بصر، أو صوت أو رائحة أو طعم، أو لمس. "
+
+msgid ""
+"When you send a text or make a cell phone call, the first thing that happens is that you touch your phone in a pattern, and the touch-"
+"sensitive keypad translates into an electronic message."
+msgstr ""
+"عندما تبعث نص أو تعمل مكالمة بتلفون خلوي، أو شيء تقوم به هو استخدام التلفون بنمط معين، ونظام الأزرار باللمس يترجم إلى رسالة الكترونية."
+
+msgid ""
+"That message is then transmitted through a complex system of radio towers, microwave relays, cable lines, and even satellites. "
+"Eventually, it is received by the cell phone you were calling, where it is translated back into the message you meant to send."
+msgstr ""
+"تلك الرسالة تنتقل بعدها خلال نظام معقد من أبراج الراديو، وأمواج قصيرة ، وخطوط معدنية وحتى أقمار صناعية.  في النهاية، تُستَقبل بواسطة "
+"التلفون الخلوي الذي نتصل به، والذي يترجمها إلى الرسالة التي قصدت أن ترسلها."
+
+msgid ""
+"Your nervous system works the same way. A group of sensitive cells somewhere in your body is stimulated by something from the outside "
+"world. These nerve cells respond and send a tiny electrical signal to the brain."
+msgstr ""
+"جهازك العصبي يعمل بنفس الطريقة.  مجموعة من الخلايا الحساسة بمكان ما في جسمك تستثار بواسطة شيء ما من العالم المحيط.   هذه الخلايا "
+"العصبية تستجيب وترسل إشارة كهربائية صغيرة لعقلك."
+
+msgid ""
+"Nerve cells are called <span class='key'> neurons</span>. Once in the brain, the signal is interpreted by the brain. The sensation may "
+"be one of sight, sound, smell, taste, or touch."
+msgstr ""
+"الخلايا العصبية تسمى  <span class='key'>نيورونات</span>.  عندما تكون في الدماغ، تترجم الإشارة بواسطة الدماغ.  الإحساس يمكن أن يكون "
+"واحداً من البصر، أو الصوت، أو الشم، أو التذوق، أو اللمس. "
+
+msgid ""
+"After the brain makes sense of the stimulus, it responds by creating a memory, and often sending a response signal out to the body. "
+"The response works like the stimulus, only in reverse. A message in the form of an electrical signal goes out and causes muscle cells "
+"to contract, making the body move."
+msgstr ""
+"بعد أن يُكَوِن الدماغ معنى من المثير، يستجيب باستحداث ذاكرة، وفي العادة يرسل إشارة إستجابة لخارج الجسم.  الإستجابة تعمل كما يعمل المثير، "
+"ولكن بالعكس.  الرسالة في شكل إشارة كهربائية تذهب وتسبب إنقباض في خلايا العضلات، مما يتسبب في حركة الجسم."
+
+# 11
+msgid "Question A. In what way is the nervous system <span class='blink'>not</span> similar to a cell phone network?"
+msgstr "سؤال أ. في أي طريقة الجهاز العصبي <span class='blink'>ليس</span> شبيهاً بشبكة التلفون الخلوي."
+
+msgid "There is a clear pathway for sending messages in both networks."
+msgstr "هناك طريق واضحة لإرسال رسائل في كل من الشبكتين."
+
+msgid "Both networks can send or receive information."
+msgstr "كلاً من الشبكتين يمكن أن يرسل ويستقبل معلومات."
+
+msgid "Both networks have a desired target when they send messages."
+msgstr "كلاً من الشبكتين لها هدف مرغوب عندما ترسل رسائل."
+
+msgid "Both networks have a center that combines all the incoming and outgoing messages."
+msgstr "كلأ من الشبكتين له مركز يخلط جميع الرسائل الواردة والصادرة."
+
+msgid ""
+"Question B. How does the brain interpret a feeling or sensation of pain? Re-arrange the sentences by dragging them up and down from "
+"first to last."
+msgstr "سؤال ب. كيف يفسر الدماغ الشعور أو الإحساس بالألم؟ أعد ترتيب الجمل بسحبها لأعلى ولأسفل من البداية حتى النهاية."
+
+msgid ""
+"Correct! First the nerve cells are stimulated by something like heat or pain. Then they respond and send an electrical signal to the "
+"brain.  The brain makes sense of the stimulus, and responds by creating a memory, and sending a response signal out to the body.  This "
+"message gets to a muscle cell (for instance) and causes muscle cells to contract."
+msgstr ""
+"صحيح! أولاً الخلايا العصبية تستثار بشيء مثل الحرارة أو الألم.  ومن بعدها تستجيب وترسل إشارة كهربائية للدماغ.  يُكَوِن الدماغ معنى من "
+"المثير، ويستجيب بتوليد ذاكرة، وإرسال إشارة إستجابة للجسم.  تصل الرسالة إلى خلايا العضل (على سبيل المثال) وتجعل خلايا العضل تنقبض."
+
+msgid ""
+"Not quite. First the nerve cells are stimulated by something like heat or pain. Then they respond and send an electrical signal to the "
+"brain.  The brain makes sense of the stimulus, and responds by creating a memory, and sending a response signal out to the body.  This "
+"message gets to a muscle cell (for instance) and causes muscle cells to contract."
+msgstr ""
+"ليس تماماً. أولاً، تستثار الخلايا العصبية بواسطة شيء مثل الحرارة أو الألم.  ومن ثم تستجيب وترسل إشارة كهربائية للدماغ.  يُكَوِن الدماغ معنى "
+"من المثير، ويستجيب بتوليد ذاكرة، وإرسال إشارة استجابة للجسم.  تصل هذه الرسالة إلى خلايا العضل (على سبيل المثال) وتجعل خلايا العضل "
+"تنقبض."
+
+msgid "The brain sends a response electrical signal to the body."
+msgstr "يرسل الدماغ استجابة إشارة كهربائية للجسم."
+
+msgid "Nerve cells send an electrical signal to the brain."
+msgstr "الخلايا العصبية ترسل إشارة كهربائية للدماغ."
+
+msgid "Nerve cells are stimulated by an object."
+msgstr "الخلايا العصبية تستثار بواسطة أي جسم."
+
+msgid "Muscles receive and interpret the signal from the brain."
+msgstr "تستقبل العضلات وتفسر الإشارة من الدماغ."
+
+msgid "The brain interprets the electrical signal and creates a memory."
+msgstr "يفسر الدماغ الإشارة الكهربائية ويولد ذاكرة."
+
+msgid ""
+"Correct, an electrical signal gets taken to the brain, and the message is interpreted there- then a new signal is sent out and the "
+"brain’s command is interpreted by the cell (muscle, skin, … ). "
+msgstr ""
+"صحيح، تصل الإشارة الكهربائية إلى الدماغ، والرسالة تفسر هناك-وبعدها رسالة جديدة ترسل وأمر الدماغ يفسر بواسطة خلية (عضل، جلد، ...)."
+
+msgid "No, both networks can send AND receive information. Electrical signals are sent both ways on the pathway."
+msgstr "لا، كلاً من الشبكتين يمكن أن ترسل وتستقبل المعلومات.  الإشارات الكهربائية ترسل وتستقبل بكلا الطريقتين"
+
+msgid ""
+"Correct, when you make a call you dial a specific number. In the nervous system the message goes to the brain or a command to a "
+"certain cell on the way back."
+msgstr "صحيح، عندما تعمل مكالمة  تلفونية تضغط رقم محدد.  في الجهاز العصبي تذهب الرسالة للدماغ أو كأمر لخلية معينة في الخلف."
+
+msgid "Correct, the brain is the control center for the nervous system as the telecommunication center is for the phone network."
+msgstr "صحيح، الدماغ هو مركز الضبط للجهاز العصبي كما هو مركز الإتصالات في شبكة التلفون."
+
+msgid ""
+"Sorry... This is a correct statement... an electrical signal gets taken to the brain, and the message is interpreted there, then a new "
+"signal is sent out and the brain’s command is interpreted by the cell (muscle, skin, etc.)"
+msgstr ""
+"عذراً... هذه هي عبارة صحيحة... تصل الإشارة الكهربائية إلى الدماغ، والرسالة تفسر هناك، وبعدها رسالة جديدة ترسل وأمر الدماغ يفسر بواسطة "
+"خلية (عضل، جلد، وغيرها)."
+
+msgid "You got it! Both networks can send AND receive information. Electrical signals are sent both ways on the pathway."
+msgstr "كنت حصلت عليه! يمكن الشبكتين إرسال واستقبال المعلومات. يتم إرسال إشارات كهربائية في كلا الاتجاهين على الطريق."
+
+msgid ""
+"Sorry... This is a correct statement... when you make call, you dial a specific number. In the nervous system, the message goes to the "
+"brain or a command to a certain cell on the way back."
+msgstr ""
+"عفواً... هذه عبارة صحيحة... عندما تعمل مكالمة  تلفونية تضغط رقم محدد.  في الجهاز العصبي تذهب الرسالة للدماغ أو كأمر لخلية معينة أثناء "
+"العودة."
+
+msgid ""
+"Sorry... This is a correct statement... the brain is the control center for the nervous system as the telecommunication center is for "
+"the phone network."
+msgstr "عذراً ... هذه هي عبارة صحيحة... الدماغ هو مركز الضبط للجهاز العصبي كما هو مركز الإتصالات في شبكة التلفون."
+
+# 12
+msgid "Using what you know... about how animals behave... to solve a problem"
+msgstr "استخدم ما تعرف...عن كيف تستجيب الكائنات...لحل مشكلة"
+
+msgid "Using what you know... about how organisms behave... to solve a problem"
+msgstr "استخدام ما تعرف ... حول كيف تسلك الكائنات ... لحل مشكلة"
+
+msgid "The Scenario"
+msgstr "السيناريو"
+
+msgid ""
+"You are working for a family to interview and hire a babysitter for twin girls. As a behavioral psychologist, you understand what a "
+"demanding position this is. You decide to test the candidates on many levels, most importantly how they react to different stimuli. "
+"Not everyone works well under pressure: decision making, safety issues, being able to entertain the children, are just some issues to "
+"consider."
+msgstr ""
+"هب أنك تعمل مع عائلة لمقابلة حاضنة أطفال لتوأم من الإناث.  كعالم نفس سلوكي، تدرك متطلبات هذا العمل.  تقرر أن تختبر المرشحين على عدة "
+"مستويات، وأهمها كيف يستجيبون للمثيرات المختلفة.  لا يعمل كل شخص بنفس القدرة تحت الضغط: صنع القرار، وقضايا الأمن، وأن تكون قادراً على "
+"تسلية الأطفال، هي بعض القضايا التي يجب أخذها بالإعتبار"
+
+msgid "Your Task"
+msgstr "مهمتك هي "
+
+msgid "Please type your answer."
+msgstr "يرجى طباعة إجابتك"
+
+msgid ""
+"Using what you now know about how everyone acts and responds in different ways to changes and stimuli, come up with three scenarios "
+"about how you would test the interviewees for the babysitting job. Explain what you are testing with each stimulus you suggest in the "
+"textbox below."
+msgstr ""
+"استخدم ما تعرف الآن عن كيف يتصرف كل شخص ويستجيب بطرق مختلفة للتغيرات والمثيرات، وتأتي بثلاثة سيناريوهات حول كيف تختبر المتقدمين لوظيفة "
+"مجالسة الأطفال.  إشرح ما الذي تختبره مع كل مثير تقترحه في صندوق النص في الأسفل.  "
+
+msgid "Click here to start typing your answer..."
+msgstr "انقر هنا لتبدأ بطباعة إجابتك..."
+
+# 13
+msgid "Summarizing big ideas... about how animals behave"
+msgstr "تلخيص الأفكار الرئيسية...حول كيف تستجيب الكائنات"
+
+msgid ""
+"<span class='key'>Behavior</span> is the way that an organism acts and responds in the environment. Organisms’ behavior occurs as a "
+"reaction to a <span class='key'>stimulus</span>. Stimuli can either be external, as in a change in the environment, or internal, as in "
+"a signal within the animal. Many behaviors are adaptations that help organisms survive and reproduce. Useful behaviors are passed on "
+"to later generations and eventually an <span class='key'>inherited behavior </span>  becomes common. Not all behavior is inherited, "
+"the ability to learn is inherited. <span class='key'> Instinctual behavior </span> is any behavior that is inherited and not learned "
+"during life. <span class='key'> Mechanical stimuli </span> include anything that causes a sensation of touch, pain, sound, or "
+"temperature. <span class='key'> Chemical stimuli </span>  are molecules in our environment that make us sense taste or smell. Flavor "
+"is a combination of taste and smell combined and interpreted by the brain together. The brain is part of a system in which messages "
+"are taken from all parts of the body to the brain and back. First the nerve cells are stimulated, then they respond and send an "
+"electrical signal to the brain. The brain interprets it and sends a <span class='key'> response </span> signal out to the body. This "
+"is how organisms respond to their environment. "
+msgstr ""
+"<span class='key'>السلوك</span>  هو الطريق التي يتصرف ويستجيب بها الكائن في البيئة.  سلوك الكائنات يحدث كردة فعل ل <span "
+"class='key'>مثير</span> .  ويمكن أن تكون المثيرات خارجية، كتغير في البيئة، أو داخلية، كإشارة داخل الحيوان.  الكثير من السلوكات هي "
+"تكيفات تساعد الكائنات على البقاء على قيد الحياة والتكاثر.  السلوكات المفيدة تمرر للأجيال اللاحقة وفي النهاية تصبح <span "
+"class='key'>سلوكات موروثة</span>  مشتركة بين الأفراد.  وليس كل سلوك موروث، فالقدرة على التعلم هي موروثة.<span class='key'>السلوك "
+"الفطري</span>  هو سلوك موروث وغير مكتسب خلال الحياة. <span class='key'>المثيرات الميكانيكية</span>  تشتمل على أي شيء ينتج عنه إحساس "
+"باللمس، أو الألم، أو الصوت، أو الحرارة. <span class='key'>المثيرات الكيميائية</span>  هي جزيئات في بيئتنا تجعلنا نحس بالمذاق أو "
+"بالشم.  النكهة هي خليط من التذوق والشم مختلطة ومفسرة بواسطة الدماغ مع بعضها البعض.  الدماغ هو جزء من نظام فيه الرسائل تؤخذ من جميع "
+"أجزاء الجسم للدماغ وبالعكس.  أولاً الخلايا العصبية تستثار، ومن ثم تستجيب وتبعث إشارة كهربائية للدماغ.  يقوم الدماغ بتفسيرها ويرسل <span "
+"class='key'>استجابة</span>  للجسم.  هذه هي الطريقة التي تستجيب بها الكائنات لبيئاتها."
+
+# 14
+msgid "Reviewing key vocabulary related to... how animals behave"
+msgstr "مراجعة المصطلحات الأساسية المرتبطة ب...كيف تستجيب الكائنات"
+
+msgid "BEHAVIOR"
+msgstr "سلوك"
+
+msgid ""
+"The way that an animal responds to its environment is called behavior. An animal's behavior, or actions, often changes in response to "
+"changes in its environment."
+msgstr "الطريقة التي يستجيب بها الحيوان لبيئته تسمى سلوك.  سلوك الحيوان، أو تصرفاته، تتغير عادةً كإستجابة للتغيرات في بيئته."
+
+msgid ""
+"Behavior is not limited to just one individual. Animals can change their behavior as a group, too. For example, a flock of birds may "
+"not fly south for the winter as early as they normally would if an area is experiencing unusually warm temperatures. Or, a group of "
+"deer that normally travel on one path to find food may change their behavior and find another route if the path is flooded or blocked."
+msgstr ""
+"السلوك غير محدد لفرد واحد فقط.  وتستطيع الحيوانات تغيير سلوكاتها كمجموعة أيضاً.  على سبيل المثال، سرب من الطيور يمكن أن لا يطير جنوباً "
+"في الشتاء أبكر مما يقوم به عادةً إذا كانت المنطقة حارة جداً بطريقة غير عادية.  أو، مجموعة من الغزلان التي تسافر عادةً في مسرب واحد كي تجد "
+"الطعام يمكن أن تغير سلوكها وتجد مسار آخر إذا كان المسرب مغلق أو فائض بالماء."
+
+msgid "CLOSE ME!"
+msgstr "أغلقني"
+
+msgid "INHERITED BEHAVIOR"
+msgstr "السلوك الموروث"
+
+msgid ""
+"Inherited behaviors are behaviors that are passed on to later generations.  Eventually, an inherited behavior becomes common in a "
+"population of animals.  Not all behavior is inherited, although some is."
+msgstr ""
+"السلوكات الموروثة هي السلوكات التي تمرر للأجيال اللاحقة.  وفي النهاية، السلوك الموروث يصبح شائع في مجتمع الحيوانات.  وليس كل سلوك "
+"موروث بالرغم من أن البعض موروث."
+
+msgid "STIMULUS"
+msgstr "مثير"
+
+msgid ""
+"A stimulus is something that produces a reaction or a change. Light is a stimulus that can cause the size of the pupil in your eye to "
+"change."
+msgstr "المثير هو شيء ما ينتج ردة فعل أو تغيير.  الضوء هو مثير يمكن أن ينتج عنه إتساع بؤبؤ العين. "
+
+msgid ""
+"Sometimes rewards are used as a stimulus to cause a desired action or response. For example, your school may reward students for the "
+"numbers of books read during the school year. This reward can act as a stimulus to get students to read more books."
+msgstr ""
+"أحياناً المكافآت تُستخدم كمثير ينتج عنه القيام بما هو مطلوب أو إستجابه.  فعلى سبيل المثال، يمكن لمدرستك أن تكافئ الطلبة لعدد من الكتب "
+"التي يقرؤوها خلال السنة.  هذه المكافأة يمكن أن تكون بمثابة مثير كي يقرأ الطلبة المزيد,  "
+
+msgid "INSTINCTUAL BEHAVIOR"
+msgstr "السلوك الفطري"
+
+msgid "Instinctual behavior is any behavior that is inherited and not learned during life."
+msgstr "السلوك الفطري هو أي سلوك موروث وغير مُكتسب خلال الحياة."
+
+msgid "MECHANICAL STIMULUS"
+msgstr "المثير الميكانيكي"
+
+msgid "Mechanical stimuli include anything that causes a sensation of touch, pain, sound, or temperature."
+msgstr "المثيرات الميكانيكية تشتمل على أي شيء يسبب إحساس مثل اللمس، أو الألم، أو الصوت، أو الحرارة."
+
+msgid "NEURON"
+msgstr "النيورون"
+
+msgid ""
+"Neurons are nerve cells.  Neurons respond to a stimulus, send a tiny electrical signal to the brain, and the signal is interpreted by "
+"the brain as a response is generated."
+msgstr ""
+"النيورونات هي خلايا عصبية.  تستجيب النيوترونات للمثير، وترسل إشارة كهربائية للدماغ، وتفسر الإشارة بواسطة الدماغ كإستجابة تتولد عنه."
+
+msgid "CHEMICAL STIMULUS"
+msgstr "مثير كيميائي"
+
+msgid "Chemical stimuli are molecules in our environment that make us sense taste or smell."
+msgstr "المثيرات الكيميائية هي جزيئات في بيئتنا تجعلنا نحس بالطعم أو الرائحة."
+
+msgid "RESPONSE"
+msgstr "إستجابة"
+
+msgid ""
+"A response is generated in the brain after it receives a tiny electrical signal from the neurons. The response works like the "
+"stimulus, only in reverse."
+msgstr "الاستجابة تتولد في الدماغ بعد أن يستقبل إشارة كهربائية صغيرة من النيورونات.  الإستجابة تعمل كمثير، فقط بالعكس."
+
+# 15
+msgid "Checking what you now know... about how animals behave"
+msgstr "تأكد مما تعرف حالياً...حول كيف تستجيب الكائنات"
+
+msgid "Answering the following six (6) quiz questions will give you an idea of what you now know and what you still need to study."
+msgstr "الإجابة على 6 أسئلة قصيرة سيعطيك فكرة عن ما تعرف حالياً وما عليك أن تدرس."
+
+msgid "Click the NEXT button when you are ready."
+msgstr "انقر زر لاحق عندما تكون مستعداً"
+
+# 16
+msgid "Choose the <span class='blink'> incorrect </span> statement from the following."
+msgstr "إختار العبارة <span class='blink'> غير الصحيحة</span> مما يلي."
+
+msgid "A. Organisms’ behavior occurs as a reaction to a stimulus."
+msgstr "أ. سلوك الكائنات يحدث كردة فعل لمثير."
+
+msgid "B. Animals are not capable of learned behavior."
+msgstr "ب. الحيوانات غير قادرة على السلوك المُكتَسَب."
+
+msgid "C. The brain is part of the central nervous system."
+msgstr "ج. الدماغ هو جزء من الجهاز العصبي المركزي."
+
+msgid "D. Neurons are all over the body."
+msgstr "د. النيورونات موجودة في جميع أنحاء الجسم."
+
+msgid "Organisms’ behavior occurs as a reaction to a stimulus."
+msgstr "سلوك الكائنات يحدث كردة فعل لمثير ما."
+
+msgid "Animals are not capable of learned behavior."
+msgstr "الحيوانات غير قادرة على أداء السلوك المُكتَسَب."
+
+msgid "The brain is part of the central nervous system."
+msgstr "الدماغ هو جزء من الجهاز العصبي المركزي."
+
+msgid "Neurons are all over the body."
+msgstr "النيورونات موجودة على جميع الجسم."
+
+msgid "Rotate or flip the 3D box below either up or down to set your answer."
+msgstr "دَوِّر أو إقلب الصندوق الثلاثي الأبعاد في الأسفل للأعلى أو للأسفل لتضع إجابتك."
+
+msgid "No. Stimulus from inside or outside the organism triggers it to respond."
+msgstr "لا.  المثير من داخل أو خارج الكائن يحفزة للإستجابة."
+
+msgid "That’s the one... Many animals certainly are able to learn."
+msgstr "هذا هو ...العديد من الحيوانات قادرة على التعلم."
+
+msgid "This one is true. The brain is part of the central nervous system."
+msgstr "هذا هو الصحيح.  الدماغ هو جزء من الجهاز العصبي المركزي."
+
+msgid "No. Neurons, or nerve cells, are located all over the body to send and receive messages to and from the brain."
+msgstr "لا. النيورونات، أو الخلايا العصبية، موجودة على جميع أنحاء الجسم ترسل وتستقبل رسائل من وإلى الدماغ. "
+
+# 17
+msgid "Which behavior of the bat is most likely a learned behavior?"
+msgstr "أي سلوك عند الوطواط على الأرجح أن يكون سلوكاً مكتسباً؟ "
+
+msgid "Click on an image."
+msgstr "انقر على الصورة"
+
+msgid "Sleeping upside down"
+msgstr "النوم بالمقلوب"
+
+msgid "No, this is instinctive, so it is an inherited behavior."
+msgstr "لا، هذا فطري، وبذا فهو سلوك موروث."
+
+msgid "Flying to move around"
+msgstr "الطيران للإنتقال  "
+
+msgid "No, flying is an instinct. This is an inherited behavior, not a learned one."
+msgstr "لا، الطيران هو سلوك فطري.  هذا هو سلوك موروث وليس مُكتَسَباً."
+
+msgid "Avoiding humans"
+msgstr "تَجَنُب البشر"
+
+msgid "Correct. Bats have to interact with their environment and learn to avoid humans."
+msgstr "صحيح.  تتفاعل الوطاويط مع بيئاتها وتتعلم بأن تتجنب البشر."
+
+msgid "Using sound to find objects"
+msgstr "استخدام الصوت لإيجاد الأجسام"
+
+msgid " No, bats do not have strong eyesight and they use sound and vibrations to find objects."
+msgstr "لا، الوطاويط لا تمتلك قدرة بصرية وهي تستخدم الصوت والإهتزازات كي تجد الأجسام."
+
+# 18
+msgid "Complete the sentences by selecting the right words from the drop down menus."
+msgstr "أكمل الجمل بإختيار الكلمات الصحيحة من القائمة."
+
+msgid "select"
+msgstr "إختار"
+
+msgid "response"
+msgstr "الإستجابة"
+
+msgid "stimulus"
+msgstr "المثير"
+
+msgid "mechanical stimulus"
+msgstr "المثير الميكانيكي"
+
+msgid "The reaction to an occurrence or event is a "
+msgstr "ردة فعل لواقعة أو حدث هي "
+
+msgid "Anything that can cause a response is a "
+msgstr "أي شيء يمكن أن يتسبب بإستجابة هو "
+
+msgid "Anything that causes a sensation of touch, pain, sound, or temperature is a "
+msgstr "أي شيء يمكن أن يتسبب بإحساس لمس، أو ألم، أو صوت، أو حرارة هو "
+
+msgid ""
+"Great job! A reaction is a response; the thing that produces a response is a stimulus; and anything that causes sensations of touch, "
+"pain, sound or temperature is a special kind of mechanical stimulus."
+msgstr ""
+"عمل رائع! ردة الفعل هي إستجابة؛ الشيء الذي يمكن أن يُنتج إستجابة هو مثير؛ وأي شيء يمكن أن يتسبب بأحاسيس من لمس، أو ألم، أو صوت، أو "
+"حرارة هو نوع خاص من المثير الميكانيكي."
+
+msgid ""
+"Too bad. A reaction is a response; the thing that produces a response is a stimulus; and anything that causes sensations of touch, "
+"pain, sound or temperature is a special kind of mechanical stimulus."
+msgstr ""
+"سيء جداً.  ردة الفعل هي استجابة؛ والشيء الذي يُنتج إستجابة هو مثير؛ وأي شيء يتسبب بأحاسيس من لمس، أو ألم، أو صوت، أو حرارة هو نوع خاص من "
+"المثير الميكانيكي."
+
+# 19
+msgid ""
+"A small city's water treatment plant is located near a small river, which is the home to a type of bass popular with fishermen. The "
+"plant takes a majority of its water from the river. During warmer months, the number of bass in the river decreases by 6 %."
+msgstr ""
+"تقع وحدة معالجة المياه لمدينة صغيرة بالقرب من نهر صغير، والتي هي موطن لنوع من سمك الباس الشعبي للكثير من الصيادين. و يأخذ المصنع "
+"أغلبية ما يحتاجه من المياه الموجود في النهر.  وخلال الأشهر الأكثر دفئا، يقل عدد أسماك الباس الموجود في النهر بنسبة 6٪ \"."
+
+msgid "Which of the following is probably the most reasonable stimulus for decreased bass population in the lake?"
+msgstr "أي من التالي هو على الارجح الحافز الأكثر منطقية بالنسبة لانخفاض أعداد أسماك الباس في البحيرة؟\" "
+
+msgid "Bass don’t like the loud sounds of the machines in the water treatment plant."
+msgstr "لا تحب أسماك الباس الأصوات العالية للآلات في محطة معالجة المياه."
+
+msgid "More water is used by consumers during warmer months, which decreases the amount of water the bass can live in."
+msgstr "مياه إضافية يستخدمها المستهلكون خلال الأشهر الدافئة، مما يقلل من كمية المياه التي يعيش فيها سمك الباس ."
+
+msgid "Less water is filtered by the water treatment plant during warmer months, allowing the bass to travel upstream."
+msgstr "يتم تصفية الماء بواسطة محطة معالجة المياه خلال الأشهر الأكثر دفئا، مما يسمح لأسماك الباس بالانتقال إلى رأس النبع."
+
+msgid ""
+"Correct, not all bass can adapt to this change in their habitat. The plant takes more water and the amount left for the bass is not "
+"enough for all of them."
+msgstr ""
+"صحيح، لا يمكن لجميع اسماك الباس التكيف مع هذا التغيير في مساكنها.  تأخذ وحدة معالجة المياه المزيد من المياه ويبقى لأسماك الباس كمبة "
+"غير كافية لها جميعها."
+
+msgid ""
+"No, it seems more water would be used by the plant. We do not have information about the ability the bass have to travel upstream."
+msgstr ""
+"لا، يبدو أن المزيد من المياه يتم استخدامها من قبل وحدة معالجة المياه في المصنع، وليس لدينا معلومات عن قدرة اسماك الباس للإنتقال إلى "
+"رأس النبع."
+
+msgid "None of the above are reasonable stimuli."
+msgstr "ولا مثير معقول من المثيرات السابقة."
+
+msgid "No, that wouldn’t be specific to only the warm months."
+msgstr "لا، ذلك لن يكون محدد فقط بالأشهر الحارة."
+
+msgid ""
+"Correct, not all fish can adapt to this change in their habitat. The plant takes more water and the amount left for the fish is not "
+"enough for all of them."
+msgstr "صحيح، لا تتكيف جميع الأسماك لهذا التغير في مساكنها.  تأخذ هذه الوحدة مياه أكثر والكمية المتبقية للأسماك غير كافية لجميع الأسماك."
+
+msgid ""
+"No, it seems more water would be used by the plant. We do not have information about the ability the fish have to travel upstream."
+msgstr "لا، يبدو أن مياه إضافية يمكن أن تستخدمها وحدة التنقية.  وليس لدينا معلومات عن القدرة الموجودة عند الأسماك لتنتقل عكس التيار."
+
+msgid "No, if anything all of the above stimuli are reasonable."
+msgstr "لا، جميع المثيرات السابقة معقولة."
+
+# 20
+msgid "Select the <span class='blink'>correct</span> statement."
+msgstr "إختارالعبارة <span class='blink'>الصحيحة</span> ."
+
+msgid "A. Neurons interpret electrical signals that are messages of stimulus and response."
+msgstr "أ. النيورونات تفسر الإشارات الكهربائية والتي هي رسائل من المثير والإستجابة."
+
+msgid "B. Only messages to the brain are in the form of electrical signals."
+msgstr "ب. فقط الرسائل التي تذهب للدماغ هي على شكل إشارات كهربائية."
+
+msgid "C. Senses help us gather information about our surroundings."
+msgstr "ج. تساعدنا الأحاسيس على جمع المعلومات عن محيطاتنا."
+
+msgid "D. Our nervous system is a network, connecting all the blood flow in the body."
+msgstr "د. جهازنا العصبي هو شبكة توصل تدفق الدم في الجسم."
+
+msgid "Neurons interpret electrical signals that are messages of stimulus and response."
+msgstr "النيورونات تفسر الإشارات الكهربائية والتي هي عبارة عن رسائل من المثير والإستجابة."
+
+msgid "Only messages to the brain are in the form of electrical signals."
+msgstr "الرسائل التي تذهب إلى الدماغ فقط هي بشكل إشارات كهربائية."
+
+msgid "Senses help us gather information about our surroundings."
+msgstr "الأحاسيس تساعدنا على جمع معلومات عن محيطنا."
+
+msgid "Our nervous system is a network, connecting all the blood flow in the body."
+msgstr "جهازنا العصبي هو شبكة توصل تدفق الدم إلى الجسم."
+
+msgid "No, neurons take the messages to the brain and they are interpreted there."
+msgstr "لا، النيورونات تأخذ الرسائل إلى الدماغ ويتم تفسيرها هناك."
+
+msgid "No, messages to and from the brain are in the form of electrical signals."
+msgstr "لا، الرسائل من وإلى الدماغ تكون على شكل إشارات كهربائية."
+
+msgid "Correct, we collect data to be interpreted by our brain in the form of sight, sound, smell, taste, and touch."
+msgstr "صحيح، نحن نجمع بيانات لكي تُفسَر بدماغنا على شكل رؤية، وصوت، وشم، وتذوق، ولمس."
+
+msgid ""
+"Not quite, it is a network, but it connects nerve cells in the body so the body can send and receive messages to and from the brain."
+msgstr "ليس تماماً، هي شبكة، لكنها توصل الخلايا العصبية في الجسم وبذا فإن الجسم يستطيع أن يرسل ويستقبل الرسائل من وإلى الدماغ."
+
+# 21
+msgid "Instinctual behaviors would <span class='blink'>not</span> include which of the following?"
+msgstr "أي من الآتي <span class='blink'>ليس</span> متضمناً في السلوكات الفطرية؟"
+
+msgid "Baby sea turtles, having never seen their mothers, always leave their nests at night."
+msgstr "السلاحف البحرية الصغيرة، التي لم ترى أمهاتها أبداً،تغادر أعشاشها دائماً في الليل."
+
+msgid "Snow leopard cubs live with their mothers for up to two years to learn to hunt and survive for themselves."
+msgstr "اشبال نمر الثلج تعيش مع أمهاتها لمدة تصل إلى سنتين كي تتعلم الاصطياد والبقاء على قيد الحياة بأنفسها."
+
+msgid "Honeybees always build their combs in the shape of hexagons."
+msgstr "يبني النحل بيوته دائماً بالشكل السداسي."
+
+msgid "Baby kangaroos immediately climb into their mother’s pouch after birth."
+msgstr "يتسلق صغير الكنغر مباشرةً بعد الولادة إلى جيوب أمهاتها."
+
+msgid "Sorry.  The baby turtles haven’t had time to learn anything yet.  This is instinctual."
+msgstr "عذراً.  لا يكون لدى صغار السلاحف وقتاً لتتعلم أي شيء على الإطلاق.  هذا هو فطري."
+
+msgid "That’s it.  The cubs have little chance if their mothers don’t teach them well."
+msgstr "تلك هي. للأشبال فرصة قليلة إذا لم تعلمها أمهاتها بشكلٍ جيد."
+
+msgid "Nope.  This behavior is instinctual."
+msgstr "كلا.  هذا السلوك فطري."
+
+msgid "Not this one.  The baby are newly born.  No time to learn."
+msgstr "ليس هذا.  البيبي هو حديث الولادة. لا وقت لديه ليتعلم."
+
+# 22
+msgid "Congratulations, "
+msgstr "تهانينا"
+
+msgid "You've completed the How Animals Behave module."
+msgstr "لقد أكملت مراجعة كيف تسلك الحيوانات."
+
+msgid "You've completed this How Animals Behave module."
+msgstr "لقد أكملت مراجعة كيف تسلك الحيوانات."
+
+msgid "You can check how you did on the 'Quick Checks' and 'Quiz Questions' for this review by clicking the button below."
+msgstr "يمكنك مراجعة كيف اجبت على \" الفحص السريع و الاختبار القصير\" لهذه المراجعة من خلال النقر على الزر في الاسفل"
+
+msgid "How did I do?"
+msgstr "كيف عملت؟"
+
+# preloaders
+msgid "Let's begin"
+msgstr "دعنا نبدأ"
+
+msgid "Thinking about... the life cycle of plants"
+msgstr "فكر ب...دورة حياة النباتات"
+
+msgid "Preparing dog food..."
+msgstr "تحضير طعام كلب..."
+
+msgid "Crumpling papers..."
+msgstr "الأوراق المكومة..."
+
+msgid "Preparing your first quick check!"
+msgstr "التحضير لأول تقويم سريع!"
+
+msgid "Trapping insects..."
+msgstr "صيد الحشرات..."
+
+msgid "Inherited or learned?"
+msgstr "موروث أم مكتسب؟"
+
+msgid "The five senses"
+msgstr "الحواس الخمسة"
+
+msgid "Another quick check on the way!"
+msgstr "تقويم سريع بطريقه إليك!"
+
+msgid "Sending text message..."
+msgstr "إرسال رسالة نصية..."
+
+msgid "Last quick check!"
+msgstr "آخر تقويم سريع!"
+
+msgid "Tiny twins"
+msgstr "توأم صغير"
+
+msgid "Putting it all together..."
+msgstr "جمعها مع بعضها..."
+
+msgid "Words and explanations"
+msgstr "كلمات وتفسيرات"
+
+msgid "Let's check what you now know"
+msgstr "دعنا نتأكد مما تعرف حالياً"
+
+msgid "And the first quiz question is..."
+msgstr "وأول سؤال قصير هو ..."
+
+msgid "Bats, bats, and more bats!"
+msgstr "وطاويط، و وطاويط، و وطاويط أكثر!"
+
+msgid "Stimulus and response"
+msgstr "المثير والإستجابة"
+
+msgid "Flying fishes"
+msgstr "الأسماك الطائرة"
+
+msgid "Sending signals to the brain..."
+msgstr "إرسال إشارات إلى الدماغ..."
+
+msgid "What does your instinct say?"
+msgstr "ماذا تقول فطرتك؟"
+
+msgid "You're done!"
+msgstr "لقد أنهيت!"
+
+msgid "Go to dashboard"
+msgstr "انتقل إلى لوحة القيادة"

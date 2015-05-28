@@ -1,0 +1,702 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fossils\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"Language: es\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Eduardo Guzman <eguzmanfdez@gmail.com>\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Common Translations
+msgid "Start"
+msgstr "Inicio"
+
+msgid "Next"
+msgstr "Siguiente"
+
+msgid "Back"
+msgstr "Regresar"
+
+msgid "Read More"
+msgstr "Leer Más"
+
+msgid "Check Answer"
+msgstr "Revisar la Respuesta"
+
+msgid "Please select your answer."
+msgstr "Por favor, selecciona tu respuesta."
+
+msgid "Please select your answers."
+msgstr "Por favor, selecciona tus respuestas."
+
+msgid "Please type your answer."
+msgstr "Por favor escribe tu respuesta."
+
+msgid "Please type your answer here..."
+msgstr "Por favor escriba su respuesta aquí ..."
+
+msgid "Quick Check #1"
+msgstr "Revisión Rápida #1"
+
+msgid "Quick Check #2"
+msgstr "Revisión Rápida #2"
+
+msgid "Quick Check #3"
+msgstr "Revisión Rápida #3"
+
+msgid "Quick Check #4"
+msgstr "Revisión Rápida #4"
+
+msgid "Please check your answers."
+msgstr "Por favor revisa tus respuestas."
+
+msgid "How did I do?"
+msgstr "¿Cómo lo hice?"
+
+msgid "You answered..."
+msgstr "Tú respondiste..."
+
+msgid "select"
+msgstr "seleccionar"
+
+msgid "Browse through the slides below by clicking the left and right arrows."
+msgstr "Navega entre las diapositivas debajo dando clic en las flechas de izquierda y derecha."
+
+msgid "Rotate or flip the box below either up or down to set your answer. Click, hold and slide mouse up or down."
+msgstr "Gira o voltea la caja de abajo hacia arriba o hacia abajo para ajustar tu respuesta. Da clic, sostén y desliza tu mouse hacia arriba o hacia abajo."
+
+msgid "Click, hold and slide your mouse up and down to rotate the box and select your answer."
+msgstr "Da clic, sostén y desliza tu mouse hacia arriba y hacia abajo para girar la caja y seleccionar tu respuesta."
+
+msgid "The Situation"
+msgstr "La Situación"
+
+msgid "The Scenario"
+msgstr "El Escenario"
+
+msgid "Your Task"
+msgstr "Tu Tarea"
+
+msgid "The Task"
+msgstr "La Tarea"
+
+msgid "The Problem"
+msgstr "El Problema"
+
+msgid "Your Assignment"
+msgstr "Tu Tarea"
+
+msgid "Close me!"
+msgstr "¡Ciérrame!"
+
+msgid "Click here to start typing your answer..."
+msgstr "Haz clic aquí para empezar a escribir tu respuesta..."
+
+msgid "Answering the following six (6) quiz questions will give you an idea of what you now know and what you still need to study."
+msgstr "Contestar las siguientes seis (6) preguntas de evaluación te dará una idea acerca de lo que sabes ahora y lo que aún necesitas estudiar."
+
+msgid "Click the NEXT button when you are ready."
+msgstr "Haz clic en el botón de SIGUIENTE cuando estés listo/a."
+
+msgid "Quiz Question #1"
+msgstr "Pregunta de Evaluación #1"
+
+msgid "Quiz Question #2"
+msgstr "Pregunta de Evaluación #2"
+
+msgid "Quiz Question #3"
+msgstr "Pregunta de Evaluación #3"
+
+msgid "Quiz Question #4"
+msgstr "Pregunta de Evaluación #4"
+
+msgid "Quiz Question #5"
+msgstr "Pregunta de Evaluación #5"
+
+msgid "Quiz Question #6"
+msgstr "Pregunta de Evaluación #6"
+
+msgid "Congratulations,"
+msgstr "Felicitaciones,"
+
+msgid "You can check how you did on the 'Quick Checks' and 'Quiz Questions' for this review by clicking the button below."
+msgstr "Puedes revisar cómo lo hiciste en la 'Revisión Rápida' y 'Preguntas de Evaluación' de esta revisión dando clic en el botón de abajo."
+
+msgid "Go to dashboard"
+msgstr "Ir al tablero de inicio"
+
+msgid "Go Back to Dashboard"
+msgstr "Regresar al tablero"
+
+msgid "Let's begin!"
+msgstr "¡Iniciemos!"
+
+msgid "Are you ready,"
+msgstr "Estás listo/a"
+
+msgid "Preparing your first quick check..."
+msgstr "¡Preparando tu primera revisión rápida..."
+
+msgid "Ready for your last quick check?"
+msgstr "¿Listo/a para tu última revisión rápida?"
+
+msgid "Ready for your last quiz question?"
+msgstr "¿Listo/a para tu última pregunta de evaluación?"
+
+msgid "Putting it all together..."
+msgstr "Uniéndolo todo..."
+
+msgid "Words and explanations"
+msgstr "Palabras y explicaciones"
+
+msgid "Let's check what you now know"
+msgstr "Revisemos lo que sabes ahora"
+
+msgid "And the first quiz question is..."
+msgstr "Y la primera pregunta de evaluación es..."
+
+msgid "Your first quiz question is..."
+msgstr "Tu primera pregunta de examen es..."
+
+msgid "You're done!"
+msgstr "¡Terminaste!"
+
+# 1
+msgid "Fossils"
+msgstr "Fósiles"
+
+msgid "Welcome to the Fossils module, "
+msgstr "Bienvenido/a a la revisión de Fósiles, "
+
+# 2
+msgid "Thinking about... fossils"
+msgstr "Pensando acerca de... fósiles"
+
+msgid "You have probably heard lots of different things about what the Earth was like millions of years ago. You may have read there were animals, like dinosaurs, that lived then that were much different than animals living today. And that there were seas and beaches where today there are deserts. And mountains where today there are plains. But I don't know of anyone who was alive that long ago! Do you? So how do we know ANYTHING at all about what the Earth was like in the far distant past and what living things existed thousands and millions of years ago? Fossils help scientists figure all of this out! Plus – fossils are just cool to collect and look at."
+msgstr "Probablemente has escuchado muchas cosas diferentes acerca de cómo era la Tierra hace millones de años. Quizá hayas leído que había animales, como los dinosaurios, que vivieron entonces que eran muy diferentes de los animales que viven hoy en día. Y que había mares y playas en donde hoy hay desiertos. Y montañas donde ahora hay planicies. ¡Pero no sé de nadie que haya vivido hace tanto tiempo! ¿Tú sí? Así que ¿cómo sabemos CUALQUIER detalle en absoluto acerca de cómo era la Tierra en el pasado distante y qué seres vivos existían miles y millones de años atrás? ¡Los fósiles ayudan a los científicos a descifrar todo esto! Además - es simplemente fascinante ver y coleccionar los fósiles."
+
+# 3
+msgid "Checking what you know... about fossils"
+msgstr "Revisando lo que sabes... acerca de fósiles"
+
+msgid "We know there were no people around to tell us about the ancient past. But we have some remains that might give us clues about what it was like if we can piece them all together."
+msgstr "Sabemos que no había personas para contarnos acerca del pasado antiguo. Pero tenemos algunos restos que pueden darnos pistas acerca de cómo eran las cosas si los podemos reconstruir."
+
+msgid "The picture to the right shows a fossil of an animal. Where do you think this animal lived?"
+msgstr "La imagen de la derecha muestra un fósil de un animal. ¿Dónde crees que vivía este animal?"
+
+msgid "In the ground"
+msgstr "En el suelo"
+
+msgid "In the trees"
+msgstr "En los árboles"
+
+msgid "In the desert"
+msgstr "En el desierto"
+
+msgid "In the ocean"
+msgstr "En el océano"
+
+msgid "What is the <span class='blink'>best</span> way to describe what fossils are?"
+msgstr "¿Cuál es la <span class='blink'>mejor</span> forma de describir qué son los fósiles?"
+
+msgid "Fossils are"
+msgstr "Los fósiles son"
+
+msgid "buried plants and animals"
+msgstr "plantas y animales enterrados"
+
+msgid "evidence of dead plants and animals"
+msgstr "evidencia de plantas y animales muertos"
+
+msgid "skeletons of dead plants and animals"
+msgstr "esqueletos de plantas y animales muertos"
+
+msgid "extinct plants and animals"
+msgstr "plantas y animales extintos"
+
+msgid "Fossils are evidence of dead plants or animals that lived thousands or even millions of years ago. Fossils might be skeletons, or shells, or footprints of extinct animals, or of animals that still roam the earth. The photo of the shell you saw on the previous page was a fossil of an animal that lived in the ocean a long time ago."
+msgstr "Los fósiles son evidencia de plantas o animales muertos que vivieron miles, o incluso millones, de años atrás. Los fósiles pueden ser esqueletos, o conchas, o huellas de animales extintos, o de animales que aún viven en la Tierra. La foto de la concha que viste en la página anterior era un fósil de un animal que vivió en el océano hace mucho tiempo."
+
+msgid "Brushing shell fossil..."
+msgstr "Cepillando una concha fósil..."
+
+# 4
+msgid "Reviewing big ideas... about fossils"
+msgstr "Revisando ideas clave... acerca de fósiles"
+
+msgid "<span class='key'>Fossils</span> are the preserved evidence of organisms (living things like plants or animals) that were once alive a long time ago. This evidence might be the preserved remains of the plant or animal or the traces the animal or plant leaves behind like footprints or burrows. Fossils are usually found in <span class='key'>sedimentary rock</span> that is formed by deposition of layers of mud and sand from rivers, streams, lakes and oceans over a long, long time. Not all dead plants and animals turn into fossils, but most fossils are found in or near deposits of sedimentary rock."
+msgstr "Los <span class='key'>fósiles</span> son la evidencia preservada de organismos (seres vivos como plantas o animales) que vivieron hace mucho tiempo. Esta evidencia pueden ser los restos preservados de la planta o animal, o los rastros del animal u hojas de plantas que quedaron atrás como huellas o madrigueras. Los fósiles generalmente se encuentran en <span class='key'>sedimentos de roca</span> que se forman cuando se depositan capas de lodo y arena de ríos, arroyos, lagos y océanos a lo largo de un periodo largo de tiempo. No todas las plantas y animales se convierten en fósiles, pero la mayoría de los fósiles se encuentran dentro de, o cerca de depósitos de roca sedimentaria."
+
+msgid "There are 4 common types of fossils. Hover on the images to know more."
+msgstr "Hay 4 tipos comunes de fósiles. Pasa tu mouse sobre las imágenes para saber más."
+
+msgid "Sometimes the actual organism or parts of the organism are preserved. This kind of fossil is called a <span class='key'>true form fossil</span>. Insects preserved in tree sap are true form fossils. So are woolly mammoths found trapped and frozen in glacial ice. These true form fossils are very rare."
+msgstr "Algunas veces el organismo en sí mismo o partes del organismo se preservan. Este tipo de fósil se conoce como <span class='key'>fósil perfecto</span>. Los insectos preservados en el ámbar de los árboles son fósiles perfectos. También lo son los mamuts lanudos que quedaron atrapados y congelados en el hielo glacial. Estos fósiles perfectos son muy escasos."
+
+msgid "A fossil can also consist of some mark or evidence of an organism such as a footprint, a nest or even its waste (poop). This type of fossil is called a <span class='key'>trace fossil</span>."
+msgstr "Un fósil también puede consistir de alguna marca o evidencia de un organismo, como una huella, un nido o incluso sus desechos (popó). Este tipo de fósil se conoce como <span class='key'>pistas fósiles</span>."
+
+msgid "In some cases the remains of an organism trapped in the rock formation just leave an impression of the organism. This type of fossil is called a <span class='key'>mold</span>."
+msgstr "En algunos casos los restos de un organismo atrapados en una formación rocosa sólo dejan una impresión del organismo. Este tipo de fósil se conoce como <span class='key'>impresión</span>."
+
+msgid "If the mold then later fills with other materials, the fossil formed is called a <span class='key'>cast</span>."
+msgstr "Si la impresión después se llena con otros materiales, el fósil formado se conoce como <span class='key'>molde</span>."
+
+msgid "Types of fossils..."
+msgstr "Tipos de fósiles..."
+
+# 5
+msgid "Question A. Click on <span class='blink'>all</span> the <span class='blink'>true</span> statements about fossils."
+msgstr "Pregunta A. Da clic en <span class='blink'>todas</span> las declaraciones <span class='blink'>verdaderas</span> acerca de los fósiles."
+
+msgid "Most fossils are found in formations of layered rock."
+msgstr "La mayoría de los fósiles se encuentran en formaciones de capas de roca."
+
+msgid "All dead plants and animals eventually become fossils."
+msgstr "Todas las plantas y animales muertos finalmente se convierten en fósiles."
+
+msgid "A fossilized shark's tooth is an example of a trace fossil."
+msgstr "Un diente de tiburón fosilizado es un ejemplo de una pista fósil."
+
+msgid "A mold and cast fossil has the same shape as the original organism."
+msgstr "Un fósil de impresión y uno de molde tienen la misma forma que el organismo original."
+
+msgid "Question B. Trace fossils can reveal information about an animal's behavior and activities. Which of the following is <span class='blink'>not</span> an example of a trace fossil?"
+msgstr "Pregunta B. Las pistas fósiles pueden revelar información acerca del comportamiento y actividades de un animal. ¿Cuál de las siguientes <span class='blink'>no</span> es un ejemplo de una pista fósil?"
+
+msgid "Footprint"
+msgstr "Huella"
+
+msgid "Cast"
+msgstr "Molde"
+
+msgid "Burrow"
+msgstr "Madriguera"
+
+msgid "Tracks"
+msgstr "Rastros"
+
+msgid "Correct! Most fossils are found in formations of layered rock. Not all animals can become fossils. For example, some plants and animals get eaten before they can become fossils. A fossil tooth is evidence of the shark but is not a trace fossil because it's a fossil of part of the shark not evidence of the shark's activity. A mold and cast fossil has the same shape as the original organism. The impression that is left behind is just like the original plant or animal; then it is filled in with other materials and keeps its shape."
+msgstr "¡Correcto! La mayoría de los fósiles se encuentran en formaciones de capas de roca. No todos los animales pueden convertirse en fósiles. Por ejemplo, algunas plantas y animales son comidos antes de poderse convertir en fósiles. Un diente fósil es evidencia del tiburón, pero no es una pista fósil porque es un fósil de parte del tiburón, no evidencia de la actividad del tiburón. Un fósil de impresión y molde tiene la misma forma del organismo original. La impresión que queda atrás es justo como la planta o animal original; que entonces se llena de otros materiales y mantiene su forma."
+
+msgid "Not quite... Most fossils are found in formations of layered rock. Not all animals can become fossils. For example, some plants and animals get eaten before they can become fossils. And a fossil shark tooth is evidence of the shark, but it isn't considered to be a trace fossil because it's part of the shark not evidence of the shark's activity. A mold and cast fossil has the same shape as the original organism. The impression that is left behind is just like the original plant or animal; then it is filled in with other materials and keeps its shape."
+msgstr "No exactamente... La mayoría de los fósiles se encuentran en formaciones de capas de roca. No todos los animales pueden convertirse en fósiles. Por ejemplo, algunas plantas y animales son comidos antes de poderse convertir en fósiles. Un diente de tiburón fósil es evidencia del tiburón, pero no es una pista fósil porque es parte del tiburón, no evidencia de la actividad del tiburón. Un fósil de impresión y molde tiene la misma forma del organismo original. La impresión que queda atrás es justo como la planta o animal original; que entonces se llena de otros materiales y mantiene su forma."
+
+msgid "Nope... footprints are considered a trace fossil as they are evidence of the animal's activity."
+msgstr "Nop... las huellas se consideran pistas fósiles ya que son evidencia de la actividad del animal."
+
+msgid "Correct, brachiopod shell fossil is an example of a cast fossil not trace fossil."
+msgstr "Correcto, la concha fósil de un braquiópodo es un ejemplo de un molde fósil, no una pista fósil."
+
+msgid "No, a burrow is a trace fossil as it is evidence of the animal's activity."
+msgstr "No, una madriguera es una pista fósil ya que es evidencia de la actividad del animal."
+
+msgid "No, tracks are considered a trace fossil as they are evidence of the animal's activity."
+msgstr "No, los rastros son considerados como pistas fósiles ya que son evidencia de la actividad del animal."
+
+# 6
+msgid "More big ideas... about fossils"
+msgstr "Más ideas clave... acerca de fósiles"
+
+msgid "<span class='key'>Paleontologists</span> study fossils because they can learn lots of useful things about the Earth and how it has changed. They also can learn many useful things about the living organisms that inhabited the Earth many years ago. These scientists study the collection of all the fossils that have ever been found. The collection is called the <span class='key'>fossil record</span>."
+msgstr "Los <span class='key'>paleontólogos</span> estudian fósiles porque pueden aprender muchas cosas útiles acerca de la Tierra y cómo ha cambiado. También pueden aprender muchas cosas útiles acerca de los organismos vivos que habitaron la Tierra hace muchos años. Estos científicos estudian el conjunto de todos los fósiles que se han encontrado. Este conjunto se conoce como <span class='key'>registro fósil</span>."
+
+msgid "The fossil record is the collective set of the remains of organisms that are at least 10,000 years old. When the record of all fossils from around the world is viewed as a whole, it can provide interesting information about how life on Earth has changed over time – like when the dinosaurs became extinct. Scientists consider the fossil evidence they have found to be extremely valuable and they keep looking for more new fossil discoveries to try to fill in gaps in the fossil record to have a better understanding of the history of the earth."
+msgstr "El registro fósil es el conjunto colectivo de los restos de organismos que tienen al menos 10,000 años de antigüedad. Cuando el registro de todos los fósiles del mundo se ve como un todo, puede proveer información interesante acerca de cómo la vida en la Tierra ha cambiado a lo largo del tiempo – como cuándo se extinguieron los dinosaurios. Los científicos consideran la evidencia fósil que han encontrado como sumamente valioasa y siguen buscando más descubrimientos de fósiles nuevos para llenar los espacios en el registro fósil y tener un mejor entendimiento de la historia de la Tierra."
+
+msgid "Here are some things that scientists can learn about the Earth itself and its inhabitants over time by studying the fossil record."
+msgstr "Aquí hay algunas cosas que los científicos pueden aprender sobre la Tierra misma y sus habitantes a través del tiempo al estudiar el registro fósil."
+
+msgid "How living things changed or evolved over time."
+msgstr "Cómo los seres vivos cambiaron o evolucionaron a través del tiempo."
+
+msgid "When certain species became <span class='key'>extinct</span>."
+msgstr "Desde cuándo ciertas especies están <span class='key'>extintas</span>."
+
+msgid "The habits and activities of different organisms."
+msgstr "Las costumbres y actividades de distintos organismos."
+
+msgid "The relative ages of rock layers beneath the earth's surface."
+msgstr "Las edades relativas de las capas de roca debajo de la superficie de la Tierra."
+
+msgid "Changes in the climate at different places on the earth."
+msgstr "Cambios en el clima en los distintos lugares de la Tierra."
+
+msgid "Changes in the locations of the continents and other land masses."
+msgstr "Cambios en las ubicaciones de los continentes y otras masas de terreno."
+
+msgid "Locations of bodies of water like rivers, lakes, seas and oceans."
+msgstr "Ubicaciones de cuerpos acuíferos como ríos, lagos, mares y océanos."
+
+msgid "Studying fossil records..."
+msgstr "Estudiando registros fósiles..."
+
+# 7
+msgid "Question A. Click on <span class='blink'>all</span> the ways finding and studying fossils help."
+msgstr "Pregunta A. Da clic en <span class='blink'>todas</span> las formas en que encontrar y estudiar fósiles es beneficioso."
+
+msgid "Add information to the fossil record"
+msgstr "Añadir información al registro fósil"
+
+msgid "Learn about changes in the Earth's climate and geography"
+msgstr "Aprender acerca de los cambios en el clima y geografía de la Tierra"
+
+msgid "Connect species of today to their ancestors"
+msgstr "Conectar especies actuales a sus ancestros"
+
+msgid "Identify good places to build cities"
+msgstr "Identificar buenos lugares para construir ciudades"
+
+msgid "Question B. Click on the correct statement describing the fossil record."
+msgstr "Pregunta B. Da clic en la declaración que describe correctamente el registro fósil."
+
+msgid "Provides clues to earth's history"
+msgstr "Provee claves acerca de la historia de la Tierra"
+
+msgid "Is fully complete"
+msgstr "Está completo"
+
+msgid "Reveals major periods of extinction"
+msgstr "Revela periodos principales de extinción"
+
+msgid "A and C"
+msgstr "A y C"
+
+msgid "Verifying collected data..."
+msgstr "Verificando los datos recolectados..."
+
+msgid "Correct! Fossils help scientists fill in the fossil record, learn about changes in the Earth's climate, geography and other things, and figure out how plants and animals from today and plants and animals from long ago are connected and they can even help engineers and architects decide the best places to build cities because fossils tell things about the earth below."
+msgstr "¡Correcto! Los fósiles ayudan a los científicos a llenar el registro fósil, aprender sobre cambios en el clima de la Tierra, su geografía y otros aspectos, y descifrar cómo las plantas y animales de hoy y las plantas y animales de hace mucho tiempo están conectados, e incluso pueden ayudar a ingenieros y arquitectos a decidir el mejor lugar para construir una ciudad porque los fósiles dicen cosas sobre el suelo debajo."
+
+msgid "Not quite. Fossils help scientists fill in the fossil record, learn about changes in the Earth's climate, geography and other things, and figure out how plants and animals of today are connected with plants and animals of long ago. They can even help engineers and architects decide the best places to build cities, because fossils tell things about the earth below."
+msgstr "No exactamente. Los fósiles ayudan a los científicos a llenar el registro fósil, aprender sobre cambios en el clima de la Tierra, su geografía y otros aspectos, y descifrar cómo las plantas y animales de hoy están conectados con las plantas y animales de hace mucho tiempo. Incluso pueden ayudar a ingenieros y arquitectos a decidir el mejor lugar para construir una ciudad porque los fósiles dicen cosas sobre el suelo debajo."
+
+msgid "Not quite. The fossil record does provide clues to the earth's history, but what else does the fossil record do?"
+msgstr "No exactamente. El registro fósil sí provee claves acerca de la historia de la Tierra, ¿pero qué más hace el registro fósil?"
+
+msgid "No, scientists are always discovering more fossils; the fossil record is not complete."
+msgstr "No, los científicos siempre están descubriendo más fósiles; el registro fósil no está completo."
+
+msgid "Not quite. The fossil record does reveal major periods of extinction, but what else does the fossil record do?"
+msgstr "No exactamente. El registro fósil sí revela los principales períodos de extinción, ¿pero qué más hace el registro fósil?"
+
+msgid "Correct, the fossil record reveals major periods of extinction and provides clues to the Earth's history as well."
+msgstr "Correcto, el registro fósil revela los períodos principales de extinción y también provee claves sobre la historia de la Tierra."
+
+# 8
+msgid "Another important topic related to fossils is fossil fuels. Millions of years ago, many plants and animals died and sank to the bottom of the ocean or fell and died in huge swamps. They didn't become fossils but just rotted and decomposed. After a long period of time, layers and layers of mud, sand and stone covered the decomposed plants and animals and heat and pressure went to work on them until they became deposits of fossil fuel in the sedimentary rock layers. Depending on what kinds of plants and animals were buried, and the conditions of temperature and pressure, different types of fossil fuel were formed – like petroleum (another name for oil), coal, and natural gas."
+msgstr "Otro tema importante relacionado con los fósiles son los combustibles fósiles. Hace millones de años, muchas plantas y animales murieron y se hundieron al fondo del océano o cayeron y murieron en enormes pantanos. No se convirtieron en fósiles, sino que sólo se pudrieron o descompusieron. Tras un largo periodo de tiempo, capas y capas de lodo, arena y piedra cubrieron las plantas y animales descompuestos, y el calor y la presión actuaron sobre ellos hasta que se convirtieron en depósitos de combustibles fósiles en las capas de roca sedimentaria. Dependiendo de la clase de plantas o animales que fueron enterrados, y las condiciones de temperatura y presión, distintos tipos de combustible fósil fueron creados - como petróleo, carbón y gas natural."
+
+msgid "Petroleum, natural gas, and coal are three types of fossil fuels. They are all very valuable resources."
+msgstr "Petróleo, gas natural y carbón son tres tipos de combustibles fósiles. Todos son recursos muy valiosos."
+
+msgid "Petroleum"
+msgstr "Petróleo"
+
+msgid "Natural Gas"
+msgstr "Gas Natural"
+
+msgid "Coal"
+msgstr "Carbón"
+
+msgid "The sun is the main source of energy for all fossil fuels. Plants and animals get energy from the sun and that energy becomes the energy in fossil fuels. Today, miners and oilmen use big drills and other heavy equipment to dig or drill into the earth's crust to find fossil fuels. Natural gas is usually found near oil deposits that were created under similar conditions. Oil, gas, and coal can be converted to electricity – another form of energy. Oil can be made into gasoline to run our cars. We use fossil fuels every day, but the process of forming them inside the earth takes a long time – millions of years. That means these resources are <span class='key'>non-renewable</span>; they cannot be replaced once they are used up."
+msgstr "El sol es la principal fuente de energía para todos los combustibles fósiles. Plantas y animales obtienen energía del sol y toda esa energía se convierte en la energía de los combustibles fósiles. Hoy en día, mineros y petroleros utilizan grandes taladros y otros equipos pesados para excavar en la corteza terrestre para encontrar combustibles fósiles. El gas natural usualmente se encuentra cerca de los depósitos de petróleo que fueron creados bajo condiciones semejantes. El petróleo, gas y carbón se pueden convertir en electricidad - otra forma de energía. El petróleo se puede convertir en gasolina para hacer funcionar nuestros autos. Utilizamos combustibles fósiles todos los días, pero el proceso de formarlos dentro de la Tierra toma un largo tiempo - millones de años. Esto significa que estos recursos son <span class='key'>no renovables</span>; no pueden ser reemplazados una vez que se hayan utilizado."
+
+msgid "Conducting pressure-meter test..."
+msgstr "Llevando a cabo una prueba de medición de presión..."
+
+# 9
+msgid "Question A. Click on <span class='blink'>all</span> the fossil fuels below."
+msgstr "Pregunta A. Da clic en <span class='blink'>todos</span> los combustibles fósiles debajo."
+
+msgid "Question B. Click on the <span class='blink'>false</span> statement about fossil fuels."
+msgstr "Pregunta B. Da clic en la declaración <span class='blink'>falsa</span> acerca de los combustibles fósiles."
+
+msgid "Burning fossil fuel is bad for the environment."
+msgstr "Quemar combustible fósil es malo para el ambiente."
+
+msgid "Fossil fuels can be extracted with machinery from various parts of the earth."
+msgstr "Los combustibles fósiles pueden ser extraídos con maquinaria de varias partes de la Tierra."
+
+msgid "Fossil fuels are continually made inside the earth but very slowly over millions of years."
+msgstr "Los combustibles fósiles se crean continuamente dentro de la Tierra pero muy lentamente a través de millones de años."
+
+msgid "Petroleum, natural gas, and coal are renewable sources of energy."
+msgstr "El petróleo, gas natural y carbón son fuentes renovables de energía."
+
+msgid "Correct. Three types of fossil fuels are petroleum, natural gas, and coal. They are from decayed plant and animal material covered in sand and stone, then heated and pressured over millions of years."
+msgstr "Correcto. Tres tipos de combustibles fósiles son el petróleo, gas natural y carbón. Están hechos de material de plantas y animales descompuesto, cubierto por arena y piedras, luego calentado y comprimido a lo largo de millones de años."
+
+msgid "Not quite. Three types of fossil fuels are petroleum, natural gas, and coal. They are from decayed plant and animal material covered in sand and stone, then heated and pressured over millions of years. Fossils themselves are not energy resources, rather what they have turned into under certain conditions are."
+msgstr "No exactamente. Tres tipos de combustibles fósiles son el petróleo, gas natural y carbón. Están hechos de material de plantas y animales descompuesto, cubierto por arena y piedras, luego calentado y comprimido a lo largo de millones de años. Los fósiles en sí mismos no son recursos de energía, más bien en lo que se han convertido bajo ciertas condiciones lo son."
+
+msgid "No, the gases released from burning fossil fuel cause pollution and lead to global climate change. This statement is true."
+msgstr "No. Los gases liberados a raíz de quemar combustible fósil causan contaminación y llevan al calentamiento climático. Esta declaración es cierta."
+
+msgid "No, drills and pumps are used on land and offshore around the world to extract these valuable resources."
+msgstr "No, los taladros y bombas se utilizan en la tierra y el mar alrededor del mundo para extraer estos valiosos recursos."
+
+msgid "No, this is true. Fossil fuels are produced continually, but humans are using up the resources much faster than they are being produced."
+msgstr "No, esto es cierto. Los combustibles fósiles se producen continuamente, pero los humanos están utilizando los recursos mucho más rápido de lo que se producen."
+
+msgid "Correct. This statement is false. Petroleum, natural gas, and coal are sources of energy, but they are non-renewable. They will run out when we use them all."
+msgstr "Correcto. Esta declaración es falsa. El petróleo, gas natural y carbón son fuentes de energía, pero son no renovables. Se acabarán cuando los hayamos utilizado del todo."
+
+# 10
+msgid "Using what you know... about fossils... to solve a problem"
+msgstr "Utilizando lo que sabes... acerca de fósiles... para resolver un problema"
+
+msgid "You are a paleontologist digging for fossils in a huge cliff along a road through a mountain forest. In rocks at the bottom of the cliff, you find fossils of an extinct fish and some shell fossils. Further up the cliff, in a different rock layer, you find a fossil of an ancient species of cactus. At first, these finds don't make sense to you."
+msgstr "Eres un/a paleontólogo/a que está excavando en busca de fósiles en un gran risco a lo largo de un camino en un bosque en la montaña. En rocas al fondo del risco, encuentras fósiles de un pez extinto y algunos fósiles de conchas. Más arriba en el risco, en una capa de roca distinta, encuentras un fósil de una especie antigua de cactus. Al principio, estos descubrimientos no te parece que tengan sentido."
+
+msgid "The Assignment"
+msgstr "La Tarea"
+
+msgid "From your fossil discoveries in the rock layers of the cliff, how would you interpret the fossil evidence you found to tell how past climate and geography changed over time at this location? Explain your reasoning in a report in the text box provided."
+msgstr "A partir de tus descubrimientos fósiles en las capas rocosas del risco, ¿cómo interpretarías la evidencia fósil que encontraste para descifrar cómo el clima y geografía cambiaron a lo largo del tiempo en esta ubicación? Explica tu razonamiento en un reporte en la caja de texto debajo."
+
+msgid "Probing assumptions..."
+msgstr "Averiguando suposiciones..."
+
+# 11
+msgid "Summarizing big ideas... about fossils"
+msgstr "Resumiendo ideas clave... acerca de fósiles"
+
+msgid "When a living organism dies, it sometimes is covered by soil, sand, mud or other sediments. These sediments may harden into <span class='key'>sedimentary rock</span>, preserving some remains of the organism or some type of trace or trail of the organism's activity. These remains or other evidence of an ancient dead plant or animal are called <span class='key'>fossils</span>. They can be a bone, a shell print in rock, a track, a burrow or a tunnel. There are several main types of fossils, including <span class='key'>molds</span>, <span class='key'>casts</span>, <span class='key'>true form fossils</span>, and <span class='key'>trace fossils</span>. Fossils indicate that many different life forms have existed at different times throughout the geological history of the earth. Scientists called <span class='key'>paleontologists</span> use fossils to study the plants and animals that lived on the Earth a long time ago and to study what the Earth was like in the far distant past and how it has changed. Over millions of years, heat and pressure went to work on the dead plants and animals in rocks formed in ancient seas and swamps until they became pockets of fossil fuel in the earth. Petroleum (oil), natural gas, and coal are three types of fossil fuels. Today, miners and oilmen use big drills and other heavy equipment to dig or drill into the earth's crust to find fossil fuels. Natural gas is usually found near oil deposits that were created under similar conditions. Oil, gas, and coal can be converted to electricity – another form of energy. Oil can be made into gasoline to run our cars. We use fossil fuels every day, but the process of forming them inside the earth takes a long time – millions of years. That means these resources are <span class='key'>non-renewable</span>; they cannot be replaced once they are used up."
+msgstr ""
+"Cuando un organismo vivo muere, algunas veces es cubierto por tierra, arena, lodo u otros sedimentos. Estos sedimentos pueden endurecerse, convirtiéndose en <span class='key'>roca sedimentaria</span>, preservando algunos restos del organismo o alguna clase de rastro o huella de la actividad del organismo. Estos restos u otra evidencia de una planta o animal muerto antiguo se conocen como <span class='key'>fósiles</span>. Pueden ser un hueso, la huella de una concha en la roca, huellas, una madriguera o un túnel. Hay varios tipos principales de fósiles, incluyendo <span class='key'>impresiones</span>, <span class='key'>moldes</span>, <span class='key'>fósiles perfectos</span> y <span class='key'>pistas fósiles</span>. Los fósiles indican que muchas formas de vida diferentes han existido en diferentes momentos a través de la historia geológica de la Tierra. Científicos conocidos como <span class='key'>paleontólogos</span> utilizan a los fósiles para estudiar plantas y animales que vivieron en la Tierra hace mucho tiempo y para estudiar cómo era la Tierra en el pasado distante y cómo ha cambiado. A través de millones de años, el calor y la presión actuaron sobre las plantas y animales muertos en las rocas formadas en mares y pantanos antiguos, hasta que se convirtieron en depósitos de combustible fósil en la Tierra. El petróleo, gas natural, y carbón son tres tipos de combustibles fósiles. Hoy en día, mineros y petroleros utilizan grandes taladros y otros equipos pesados para excavar en la corteza terrestre para encontrar combustibles fósiles. El gas natural usualmente se encuentra cerca de los depósitos de petróleo que fueron creados bajo condiciones semejantes. El petróleo, gas y carbón se pueden convertir en electricidad - otra forma de energía. El petróleo se puede convertir en gasolina para hacer funcionar nuestros autos. Utilizamos combustibles fósiles todos los días, pero el proceso de formarlos "
+"dentro de la Tierra toma un largo tiempo - millones de años. Esto significa que estos recursos son <span class='key'>no renovables</span>; no pueden ser reemplazados una vez que se hayan utilizado."
+
+# 12
+msgid "Reviewing key vocabulary related to... fossils"
+msgstr "Revisando vocabulario clave relacionado con... fósiles"
+
+msgid "Sedimentary Rock"
+msgstr "Roca Sedimentaria"
+
+msgid "Sedimentary rock is rock formed from deposits of mud and sand from rivers, streams, lakes and oceans. Most fossils are found in or near deposits of sedimentary rock."
+msgstr "La roca sedimentaria es roca formada por depósitos de lodo y arena de ríos, arroyos, lagos y océanos. La mayoría de los fósiles se encuentran en o cerca de depósitos de sedimentos de roca."
+
+msgid "Fossils are the preserved remains or traces of organisms that were once alive. The organism became a fossil through its body being quickly buried in sediment."
+msgstr "Los fósiles son los restos o rastros preservados de organismos que estuvieron vivos alguna vez. El organismo se convirtió en fósil porque su cuerpo se enterró rápidamente en sedimento."
+
+msgid "Mold"
+msgstr "Impresión"
+
+msgid "In some cases, the remains of an organism trapped in a rock formation just leave an impression of the organism. This type of fossil is called a mold."
+msgstr "En algunos casos, los restos de un organismo atrapados en una formación rocosa sólo dejan una impresión del organismo. Este tipo de fósil se conoce como impresión."
+
+msgid "If a mold fossil later fills with other materials, the fossil formed is then called a cast."
+msgstr "Si una impresión fósil después se llena con otros materiales, el fósil formado entonces se conoce como molde."
+
+msgid "True form fossil"
+msgstr "Fósil perfecto"
+
+msgid "Trace fossil"
+msgstr "Pista fósil"
+
+msgid "A fossil can consist of some mark or evidence of an organism such as a footprint, a nest or even its waste (poop). This type of fossil is called a trace fossil."
+msgstr "Un fósil puede consistir de alguna marca o evidencia de un organismo como una huella, nido o incluso sus desechos (popó). Este tipo de fósil se conoce como pista fósil."
+
+msgid "Paleontologist"
+msgstr "Paleontólogo/a"
+
+msgid "Paleontologists study fossils because they can learn lots of useful things about the Earth and how it has changed. Paleontologists also can learn many useful things about the living organisms that inhabited the Earth in the past."
+msgstr "Los paleontólogos estudian a los fósiles porque pueden aprender muchas cosas útiles acerca de la Tierra y cómo ha cambiado. Los paleontólogos también pueden aprender muchas cosas útiles acerca de los organismos vivos que habitaron la Tierra en el pasado."
+
+msgid "Fossil record"
+msgstr "Registro fósil"
+
+msgid "The collection of all the fossils that have ever been found is called the fossil record. The fossil record consists of billions of dead things, buried in rock layers, buried by water and sediment, all over the Earth!"
+msgstr "El conjunto de todos los fósiles que han sido encontrados se conoce como registro fósil. El registro fósil consiste de miles de millones de cosas muertas, enterradas en capas de roca, enterrados por agua y sedimentos, en toda la Tierra."
+
+msgid "Extinct"
+msgstr "Extinto/a"
+
+msgid "A species of organisms is said to have gone extinct when no more individuals remain alive. An extinct species has no living individuals in it; all have died out."
+msgstr "Se dice que una especie de organismo se ha extinguido cuando no hay más individuos vivos. Una especie extinta no tiene individuos vivos en ella; todos han muerto."
+
+msgid "Non-renewable resources"
+msgstr "Recursos no renovables"
+
+msgid "Some natural resources, such as fossil fuels, are replenished slowly or not at all, making them non-renewable. Non-renewable resources cannot be quickly or easily replaced once they are all used up."
+msgstr "Algunos recursos naturales, como los combustibles fósiles, se recuperan muy lentamente o no se recuperan en absoluto, lo que los hace no renovables. Los recursos no renovables no pueden reemplazarse fácil o rápidamente una vez que se han utilizado."
+
+# 13
+msgid "Checking what you now know... about fossils"
+msgstr "Revisando lo que sabes ahora... acerca de fósiles"
+
+# 14
+msgid "What do you call a person who studies fossils?"
+msgstr "¿Cómo se llama una persona que estudia fósiles?"
+
+msgid "Archeologist"
+msgstr "Arqueólogo"
+
+msgid "Cosmetologist"
+msgstr "Cosmetólogo"
+
+msgid "Taxidermist"
+msgstr "Taxidermista"
+
+msgid "Not quite, archeologists study prehistoric human activity and their culture."
+msgstr "No exactamente, un arqueólogo estudia la actividad y cultura humana prehistórica."
+
+msgid "Correct, a paleontologist studies fossils and the history of life."
+msgstr "Correcto, un paleontólogo estudia a los fósiles y la historia de la vida."
+
+msgid "No, a cosmetologist provides skincare and make-up."
+msgstr "No, un cosmetólogo provee de cuidado de la piel y maquillaje."
+
+msgid "No, a taxidermist preserves dead animals for display."
+msgstr "No, un taxidermista preserva animales muertos para exhibirlos."
+
+# 15
+msgid "Which of the following is <span class='blink'>not</span> an example of a trace fossil?"
+msgstr "¿Cuál de los siguientes <span class='blink'>no</span> es un ejemplo de una pista fósil?"
+
+msgid "Fossilized poop"
+msgstr "Excremento fosilizado"
+
+msgid "Fossilized skull"
+msgstr "Cráneo fosilizado"
+
+msgid "Claw marks"
+msgstr "Marcas de garras"
+
+msgid "Know more about trace fossil..."
+msgstr "Saber más acerca de pistas fósiles..."
+
+msgid "No, a footprint is a trace fossil, evidence of the organism's activity."
+msgstr "No, una huella es una pista fósil, evidencia de la actividad del organismo."
+
+msgid "No, fossilized poop is a trace fossil, evidence of the organism's activity."
+msgstr "No, excremento fosilizado es una pista fósil, evidencia de la actividad del organismo."
+
+msgid "Correct, a skull is part of the organism's body, not evidence of their activity."
+msgstr "Correcto, un cráneo es parte del cuerpo del organismo, no evidencia de su actividad."
+
+msgid "No, claw marks are a trace fossil, evidence of the organism's activity."
+msgstr "No, las marcas de garras son una pista fósil, evidencia de la actividad del organismo."
+
+# 16
+msgid "The presence of an animal fossil in a rock gives evidence of..."
+msgstr "La presencia de un fósil animal en una roca provee evidencia de..."
+
+msgid "What other animals hunted the animal in the fossil"
+msgstr "Qué otros animales cazaban al animal fosilizado"
+
+msgid "Total number of babies the animal had given birth to"
+msgstr "El número total de crías que el animal había tenido"
+
+msgid "The date the animal was born"
+msgstr "La fecha en la que nació el animal"
+
+msgid "The time period in which the animal lived"
+msgstr "El periodo de tiempo en que el animal vivió"
+
+msgid "Excavating sedimentary rocks..."
+msgstr "Excavando rocas sedimentarias..."
+
+msgid "No, the fossil will not show what animal hunted it."
+msgstr "No, el fósil no mostrará qué animal lo cazó."
+
+msgid "No, the fossil will not show the total number of babies it had given birth to even if some baby fossils were found with it. Can you think why?"
+msgstr "No, el fósil no mostrará el número total de crías que tuvo aún si algunos fósiles bebés se encontraron con él. ¿Puedes pensar por qué?"
+
+msgid "No, the animal fossil can show the time period when it was born, but not an exact date."
+msgstr "No, el animal fósil puede mostrar el periodo de tiempo en que nació, pero no una fecha exacta."
+
+msgid "Correct, a plant or animal fossil in a rock can help paleontologists determine the general geological time period it might have lived in because the age of the rock can usually be approximately determined."
+msgstr "Correcto, una planta o animal fósil dentro de una roca puede ayudar a los paleontólogos a determinar el periodo de tiempo geológico general en que pudo haber vivido porque usualmente la edad de la roca puede determinarse aproximadamente."
+
+# 17
+msgid "Select <span class='blink'>all</span> the <span class='blink'>correct</span> statements about the fossil record."
+msgstr "Selecciona <span class='blink'>todas</span> las declaraciones <span class='blink'>correctas</span> acerca del registro fósil."
+
+msgid "A list of the oldest fossilized specimens that have been found for each species."
+msgstr "Una lista de los especímenes fosilizados más antiguos que han sido encontrados de cada especie."
+
+msgid "A database of all the species that have ever existed."
+msgstr "Una base de datos de todas las especies que han existido."
+
+msgid "A database of all the fossils that have ever been found and reported."
+msgstr "Una base de datos de todos los fósiles que han sido encontrados y reportados."
+
+msgid "What scientists study to learn about the history of the earth."
+msgstr "Lo que los científicos estudian para aprender acerca de la historia de la Tierra."
+
+msgid "Evidence that life has existed in different forms and changed over geological time."
+msgstr "Evidencia de que la vida ha existido en distintas formas y cambiado a lo largo del tiempo geológico."
+
+msgid "Keeping fossil records..."
+msgstr "Manteniendo registros fósiles..."
+
+msgid "Correct! The fossil record is a database of all the fossils that have been found, not all the ones that have ever existed. By studying the fossil record, scientists learn about the history of the earth and how life has changed over geological time."
+msgstr "¡Correcto! El registro fósil es una base de datos de todos los fósiles que han sido encontrados, no todos aquellos que han existido. Al estudiar el registro fósil, los científicos aprenden sobre la historia de la Tierra y cómo ha cambiado la vida en el tiempo geológico."
+
+msgid "Not quite, the answer you gave is TRUE - but there are more true statements that you can check in addition."
+msgstr "No exactamente, la respuesta que diste es CIERTA - pero hay más declaraciones acertadas que puedes elegir adicionalmente."
+
+msgid "Not quite, a fossil record is a database of all the fossils that have been found, not all the ones that have ever existed. By studying the fossil record, scientists learn about the history of the earth."
+msgstr "No exactamente, un registro fósil es una base de datos de todos los fósiles que han sido encontrados, no todos aquellos que han existido. Al estudiar el registro fósil, los científicos aprenden sobre la historia de la Tierra."
+
+# 18
+msgid "A paleontologist finds a wooly mammoth completely preserved and frozen in the ice. What type of fossil is this?"
+msgstr "Un paleontólogo encuentra un mamut lanudo completamente preservado y congelado en el hielo. ¿Qué tipo de fósil es este?"
+
+msgid "Investigating mammoth on ice..."
+msgstr "Investigando a un mamut en el hielo..."
+
+msgid "No, a mold is an impression left by the organism."
+msgstr "No, una impresión es una marca dejada por el organismo."
+
+msgid "No, a cast is when a mold is filled and hardens into an exact replica of the organism."
+msgstr "No, un molde es cuando una impresión se llena y endurece, creando una réplica exacta del organismo. "
+
+msgid "Correct, the actual wooly mammoth being preserved is a true form fossil."
+msgstr "Correcto, el mamut lanudo real preservado es un fósil perfecto."
+
+msgid "No, a trace fossil is evidence of the organism's activity."
+msgstr "No, una pista fósil es evidencia de la actividad del organismo."
+
+# 19
+msgid "Which of the following is <span class='blink'>not</span> something that scientists could learn by studying fossil records?"
+msgstr "¿Cuál de las siguientes <span class='blink'>no</span> es algo que los científicos podrían aprender al estudiar registros fósiles?"
+
+msgid "The climate of Location 'X' was very hot and dry at some time in the geological past."
+msgstr "El clima de la Ubicación 'X' era muy cálido y seco en un punto del pasado geológico."
+
+msgid "Location 'X' was covered by water at one point in Earth's history."
+msgstr "La ubicación 'X' estaba cubierta de agua en un punto de la historia de la Tierra."
+
+msgid "A certain species of flowering plant produced yellow flowers."
+msgstr "Una cierta especie de planta con flores producía flores amarillas."
+
+msgid "A certain species of plant became extinct about 60 million years ago."
+msgstr "Una cierta especie de planta se extinguió hace 60 millones de años."
+
+msgid "No, scientists can determine things about the climate of an area a long time ago from fossils."
+msgstr "No, los científicos pueden determinar cosas acerca del clima de un área hace mucho tiempo a partir de los fósiles."
+
+msgid "No, scientists can get an idea of the amount of water an area had a long time ago."
+msgstr "No, los científicos pueden hacer una estimación acerca de la cantidad de agua en un área hace mucho tiempo."
+
+msgid "Correct, scientists cannot identify the color of a flower that existed a long time ago because colors would likely change in the fossilization process."
+msgstr "Correcto, los científicos no pueden identificar el color de una flor que existió hace mucho tiempo porque los colores probablemente cambiarían en el proceso de fosilización."
+
+msgid "No, scientists can estimate when a plant became extinct by studying the fossil record."
+msgstr "No, los científicos pueden calcular cuándo se extinguió una planta al estudiar el registro fósil."
+
+# 20
+msgid "You've completed the Fossils module."
+msgstr "Has completado la revisión de Fósiles."
+
+msgid "When a living organism dies, it sometimes is covered by soil, sand, mud or other sediments. These sediments may harden into sedimentary rock, preserving some remains of the organism or some type of trace or trail of the organism's activity. These remains or other evidence of an ancient dead plant or animal are called fossils. They can be a bone, a shell print in rock, a track, a burrow or a tunnel. There are several main types of fossils, including molds, casts, true form fossils, and trace fossils. Fossils indicate that many different life forms have existed at different times throughout the geological history of the earth. Scientists called paleontologists use fossils to study the plants and animals that lived on the Earth a long time ago and to study what the Earth was like in the far distant past and how it has changed. Over millions of years, heat and pressure went to work on the dead plants and animals in rocks formed in ancient seas and swamps until they became pockets of fossil fuel in the earth. Petroleum (oil), natural gas, and coal are three types of fossil fuels. Today, miners and oilmen use big drills and other heavy equipment to dig or drill into the earth's crust to find fossil fuels. Natural gas is usually found near oil deposits that were created under similar conditions. Oil, gas, and coal can be converted to electricity, another form of energy. Oil can be made into gasoline to run our cars. We use fossil fuels every day, but the process of forming them inside the earth takes a long time, millions of years. That means these resources are non-renewable; they cannot be replaced once they are used up."
+msgstr "Cuando un organismo vivo muere, algunas veces es cubierto por tierra, arena, lodo u otros sedimentos. Estos sedimentos pueden endurecerse, convirtiéndose en roca sedimentaria, preservando algunos restos del organismo o alguna clase de rastro o huella de la actividad del organismo. Estos restos u otra evidencia de una planta o animal muerto antiguo se conocen como fósiles. Pueden ser un hueso, la huella de una concha en la roca, huellas, una madriguera o un túnel. Hay varios tipos principales de fósiles, incluyendo impresiones, moldes, fósiles perfectos y pistas fósiles. Los fósiles indican que muchas formas de vida diferentes han existido en diferentes momentos a través de la historia geológica de la Tierra. Científicos conocidos como paleontólogos utilizan a los fósiles para estudiar plantas y animales que vivieron en la Tierra hace mucho tiempo y para estudiar cómo era la Tierra en el pasado distante y cómo ha cambiado. A través de millones de años, el calor y la presión actuaron sobre las plantas y animales muertos en las rocas formadas en mares y pantanos antiguos, hasta que se convirtieron en depósitos de combustible fósil en la Tierra. El petróleo, gas natural, y carbón son tres tipos de combustibles fósiles. Hoy en día, mineros y petroleros utilizan grandes taladros y otros equipos pesados para excavar en la corteza terrestre para encontrar combustibles fósiles. El gas natural usualmente se encuentra cerca de los depósitos de petróleo que fueron creados bajo condiciones semejantes. El petróleo, gas y carbón se pueden convertir en electricidad - otra forma de energía. El petróleo se puede convertir en gasolina para hacer funcionar nuestros autos. Utilizamos combustibles fósiles todos los días, pero el proceso de formarlos dentro de la Tierra toma un largo tiempo - millones de años. Esto significa que estos recursos son no renovables; no pueden ser reemplazados una vez que se hayan utilizado."
