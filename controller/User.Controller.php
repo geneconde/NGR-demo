@@ -58,7 +58,7 @@ class UserController {
 		
 		$db = new DB();
 		$db->connect();
-		$result = $db->select("users", $where,'*','last_name ASC');
+		$result = $db->select("users", $where,'*','last_name DESC');
 		$db->disconnect();	
 		return $result;
 	}

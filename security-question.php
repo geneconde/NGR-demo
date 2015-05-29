@@ -54,7 +54,30 @@
             $data['success'] = false;
             $data['message'] = 'Sorry, the username that you have entered is not registered.';
         }
+   
+    }
 
+    if(isset($_POST['teacher']))
+    {
+        $username = $_POST['selected_student'];
+        $user = $uc->loadUser($username);
+
+            if($user)
+            {
+
+                $uid = $uc->getUserByUsername($username);
+
+                $data['success'] = true;
+               // $data['message'] = $uid[0]["username"];
+                $data['id'] = $uid[0]["user_ID"];
+                $data['uType'] = 2;
+                      
+                  
+            } else { //user not in db
+
+                $data['success'] = false;
+                $data['message'] = 'Sorry, the username that you have entered is not registered.';
+            } 
     }
 
 //security check for username
@@ -76,6 +99,26 @@
             $data['success'] = false;
             $data['message'] = "Sorry, your answer is incorrect.";
         }
+    }
+
+    if(isset($_POST['student_answer'])){
+        $userAnswer = $_POST['student_answer'];
+        $uid = $_POST['id'];
+        $type = $_POST['uType'];
+ 
+        if($userAnswer == 'Y')
+        {
+            $new_pass = generatePassword();
+            $salt = sha1(md5($new_pass));
+            $hashed = md5($new_pass.$salt);
+            $uc->updateUserPassword($uid, $hashed); 
+            $data['success'] = true;
+            $data['message'] = "Your new password is: ".$new_pass;
+
+        } else {
+            $data['success'] = false;
+            $data['message'] = "Reset password aborted.";
+        }       
     }
 
     echo json_encode($data);
