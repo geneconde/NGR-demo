@@ -5,7 +5,7 @@
 		header("Location: index.php");
 	}
 	
-	require_once($_SERVER['DOCUMENT_ROOT'].'/shymansky/demo/controller/User.Controller.php'); 
+	require_once($_SERVER['DOCUMENT_ROOT'].'/controller/User.Controller.php'); 
 	
 	$user = null;
 	

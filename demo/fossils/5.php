@@ -1,8 +1,14 @@
 <?php
-	require_once '../tempsession.php';
+	require_once "../../session.php";
 	$_SESSION['cmodule'] = 'fossils';
 	require_once '../../verify.php';
 	require_once 'locale.php';
+
+	if($user->getType() == 2) {
+		$smc->updateStudentLastscreen(7, $_SESSION['smid']);
+		$sa = $sac->getStudentAnswer($_SESSION['smid'], 'fossils-qc1-a');
+		$answered = ($sa ? 1 : 0 );
+	} else $answered = 1;
 ?>
 <!DOCTYPE html>
 <html lang="en" <?php if($language == "ar_EG") { ?> dir="rtl" <?php } ?>>
@@ -157,7 +163,7 @@ html[dir="rtl"] #answer2 p {text-align: right;}
 	<section id="preloader"><section class="selected"><strong><?php echo _("Preparing your first quick check..."); ?></strong></section></section>
 
 	<script>
-	var ans1, ans2, answered = 1, checkAnswer = 0;
+	var ans1, ans2, answered = <?php echo $answered; ?>, checkAnswer = 0;
 
 	$('#question1').find('input[type=checkbox]').on('click', function() {
 		var me = $(this);
@@ -175,7 +181,7 @@ html[dir="rtl"] #answer2 p {text-align: right;}
 		}
 
 		if (me.is(':checked') && me.attr('id') == 'c1') {
-			$('#answer1').find('.answer').append("<p class='c'><?php echo _("A fossilized shark's tooth is an example of a trace fossil."); ?></p>");
+			$('#answer1').find('.answer').append("<p class='c'><?php echo _("A fossilized shark's tooth is an example of a trace fossil."); ?></p>");//'
 		} else if ( ! me.is(':checked') && me.attr('id') == 'c1') {
 			$('#answer1').find('.answer').find('p.c').remove(); 
 		}
@@ -185,12 +191,24 @@ html[dir="rtl"] #answer2 p {text-align: right;}
 		} else if ( ! me.is(':checked') && me.attr('id') == 'd1') {
 			$('#answer1').find('.answer').find('p.d').remove(); 
 		}
-
+		ans1 = '';
+ 		if ($('#a1').is(':checked') == true) {
+ 			ans1 += 'A';
+		}
+ 		if ($('#b1').is(':checked') == true) {
+ 			ans1 += 'B';
+		}
+ 		if ($('#c1').is(':checked') == true) {
+ 			ans1 += 'C';
+		}
+ 		if ($('#d1').is(':checked') == true) {
+ 			ans1 += 'D';
+		}
 		if ($('#a1').is(':checked') == true && $('#b1').is(':checked') == false && $('#c1').is(':checked') == false && $('#d1').is(':checked') == true) {
 			$('#answer1').find('.feedback').html("<p class='green'><img src='images/others/correct.png'><?php echo _("Correct! Most fossils are found in formations of layered rock. Not all animals can become fossils. For example, some plants and animals get eaten before they can become fossils. A fossil tooth is evidence of the shark but is not a trace fossil because it's a fossil of part of the shark not evidence of the shark's activity. A mold and cast fossil has the same shape as the original organism. The impression that is left behind is just like the original plant or animal; then it is filled in with other materials and keeps its shape."); ?></p>"); 
-			
+			ans1 = 'AD';
 		} else {
-			$('#answer1').find('.feedback').html("<p class='red'><img src='images/others/wrong.png'><?php echo _("Not quite... Most fossils are found in formations of layered rock. Not all animals can become fossils. For example, some plants and animals get eaten before they can become fossils. And a fossil shark tooth is evidence of the shark, but it isn't considered to be a trace fossil because it's part of the shark not evidence of the shark's activity. A mold and cast fossil has the same shape as the original organism. The impression that is left behind is just like the original plant or animal; then it is filled in with other materials and keeps its shape."); ?></p>"); 
+			$('#answer1').find('.feedback').html("<p class='red'><img src='images/others/wrong.png'><?php echo _("Not quite... Most fossils are found in formations of layered rock. Not all animals can become fossils. For example, some plants and animals get eaten before they can become fossils. And a fossil shark tooth is evidence of the shark, but it isn't considered to be a trace fossil because it's part of the shark not evidence of the shark's activity. A mold and cast fossil has the same shape as the original organism. The impression that is left behind is just like the original plant or animal; then it is filled in with other materials and keeps its shape."); ?></p>"); //'
 		}
 	});
 
@@ -200,7 +218,7 @@ html[dir="rtl"] #answer2 p {text-align: right;}
 		if (me == 'a2') {
 			$('#answer2').find('.image').html('<img src="images/5/footprint.jpg">');
 			$('#answer2').find('.answer').html('<p><?php echo _("Footprint"); ?></p>');
-			$('#answer2').find('.feedback').html("<p class='red'><img src='images/others/wrong.png'><?php echo _("Nope... footprints are considered a trace fossil as they are evidence of the animal's activity."); ?></p>");
+			$('#answer2').find('.feedback').html("<p class='red'><img src='images/others/wrong.png'><?php echo _("Nope... footprints are considered a trace fossil as they are evidence of the animal's activity."); ?></p>");//'
 			ans2 = 'A';
 		}
 
@@ -214,14 +232,14 @@ html[dir="rtl"] #answer2 p {text-align: right;}
 		if (me == 'c2') {
 			$('#answer2').find('.image').html('<img src="images/5/burrow.jpg">');
 			$('#answer2').find('.answer').html('<p><?php echo _("Burrow"); ?></p>');
-			$('#answer2').find('.feedback').html("<p class='red'><img src='images/others/wrong.png'><?php echo _("No, a burrow is a trace fossil as it is evidence of the animal's activity."); ?></p>");
+			$('#answer2').find('.feedback').html("<p class='red'><img src='images/others/wrong.png'><?php echo _("No, a burrow is a trace fossil as it is evidence of the animal's activity."); ?></p>");//'
 			ans2 = 'C';
 		}
 
 		if (me == 'd2') {
 			$('#answer2').find('.image').html('<img src="images/5/tracks.jpg">');
 			$('#answer2').find('.answer').html('<p><?php echo _("Tracks"); ?></p>');
-			$('#answer2').find('.feedback').html("<p class='red'><img src='images/others/wrong.png'><?php echo _("No, tracks are considered a trace fossil as they are evidence of the animal's activity."); ?></p>");
+			$('#answer2').find('.feedback').html("<p class='red'><img src='images/others/wrong.png'><?php echo _("No, tracks are considered a trace fossil as they are evidence of the animal's activity."); ?></p>");//'
 			ans2 = 'D';
 		}
 	});

@@ -1,8 +1,14 @@
 <?php
-	require_once '../tempsession.php';
+	require_once "../../session.php";
 	$_SESSION['cmodule'] = 'fossils';
 	require_once '../../verify.php';
 	require_once 'locale.php';
+	
+	if($user->getType() == 2) {
+		$smc->updateStudentLastscreen(7, $_SESSION['smid']);
+		$sa = $sac->getStudentAnswer($_SESSION['smid'], 'fossils-qc2-a');
+		$answered = ($sa ? 1 : 0 );
+	} else $answered = 1;
 ?>
 <!DOCTYPE html>
 <html lang="en" <?php if($language == "ar_EG") { ?> dir="rtl" <?php } ?>>
@@ -132,7 +138,7 @@ html[dir="rtl"] li label { text-align: right; }
 	<section id="preloader"><section class="selected"><strong><?php echo _("Verifying collected data..."); ?></strong></section></section>
 
 	<script>
-	var ans1, ans2, answered = 1, checkAnswer = 0;
+	var ans1, ans2, answered = <?php echo $answered; ?>, checkAnswer = 0;
 
 	$('#question1').find('input[type=checkbox]').on('click', function() {
 		var me = $(this);
@@ -160,9 +166,22 @@ html[dir="rtl"] li label { text-align: right; }
 		} else if ( ! me.is(':checked') && me.attr('id') == 'd1') {
 			$('#answer1').find('.answer').find('p.d').remove(); 
 		}
-
+		ans1 = '';
+ 		if ($('#a1').is(':checked') == true) {
+ 			ans1 = 'A';
+		}
+ 		if ($('#b1').is(':checked') == true) {
+ 			ans1 += 'B';
+		}
+ 		if ($('#c1').is(':checked') == true) {
+ 			ans1 += 'C';
+		}
+ 		if ($('#d1').is(':checked') == true) {
+ 			ans1 += 'D';
+		}
 		if ($('#a1').is(':checked') == true && $('#b1').is(':checked') == true && $('#c1').is(':checked') == true && $('#d1').is(':checked') == true) {
 			$('#answer1').find('.feedback').html("<p class='green'><img src='images/others/correct.png'><?php echo _("Correct! Fossils help scientists fill in the fossil record, learn about changes in the Earth's climate, geography and other things, and figure out how plants and animals from today and plants and animals from long ago are connected and they can even help engineers and architects decide the best places to build cities because fossils tell things about the earth below."); ?> </p>");
+			ans1 = 'ABCD';
 		} else {
 			$('#answer1').find('.feedback').html("<p class='red'><img src='images/others/wrong.png'><?php echo _("Not quite. Fossils help scientists fill in the fossil record, learn about changes in the Earth's climate, geography and other things, and figure out how plants and animals of today are connected with plants and animals of long ago. They can even help engineers and architects decide the best places to build cities, because fossils tell things about the earth below."); ?></p>"); 
 		}

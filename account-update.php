@@ -86,13 +86,15 @@
 		<?php } ?>
 		<div class="clear"></div>
 		<p class="input-label sup" id="gender">I am a...</p>
-		<p class="radio"><input id="male" type="radio" name="gender" value="male" required <?php if($user->getGender() == "m"){ ?> checked <?php } ?>><label for="male"><?php echo _("Male"); ?></label></p>
-		<p class="radio"><input id="female" type="radio" name="gender" value="female" <?php if($user->getGender() == "f") { ?> checked <?php } ?>><label for="female"><?php echo _("Female"); ?></label></p>
+		<p class="radio"><input id="male" type="radio" name="gender" value="male" required <?php if($user->getGender() == "m"){ ?> checked <?php } ?>>&nbsp;<label for="male"><?php echo _("Male"); ?></label></p>
+		<p class="radio"><input id="female" type="radio" name="gender" value="female" <?php if($user->getGender() == "f") { ?> checked <?php } ?>>&nbsp;<label for="female"><?php echo _("Female"); ?></label></p>
 
 <?php if ($type != 2) : ?>
 <!-- security -->
 		<div class="s_question">
-			<p class="input-label sup" id="squestion">Security Question:</p>
+			<p class="lgs-text-sub heading-input">Security Settings</p>
+			<p class="lgs-text-sub note">Please select a security question and answer. This is needed in case you forget your password.</p>
+			<p class="input-label sup" id="squestion">Security Question</p>
 			<select name="squestion">
 				<?php
 				$i = 1;
@@ -100,14 +102,17 @@
 				   <option <?php if($questionID == $i) { ?> selected <?php } ?> value="<?php echo $question['question_id']; ?>"><?php echo $question["question"]; ?></option> 
 				<?php $i++; } ?>
 			</select>
-			<p class="input-label sup" id="gender">Answer:</p>
+			<br><br>
+			<p class="input-label sup" id="gender">Answer</p>
 			<input class="inputText" id="sanswer" name="sanswer" type="text" placeholder="Enter your answer..." value="<?php echo $answer; ?>" required/>
 		</div>
 <!-- end security -->
 		<div class="clear"></div>
 <!-- default language -->
 		<div class="default-language">
-			<p class="input-label sup" id="dlang">Default Language:</p>
+			<p class="lgs-text-sub heading-input">Language Settings</p>
+			<p class="lgs-text-sub note">Please select a default language. This language will be used in your future logins.</p>
+			<p class="input-label sup" id="dlang">Default Language</p>
 			<select name="dlang">
 				<?php
 				$j = 1;

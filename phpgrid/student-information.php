@@ -372,6 +372,13 @@ $main_view = $grid->render("list1");
 		    margin-left: -25px !important;
 		}
 		/*End custom joyride*/
+		<?php
+		$user_agent = getenv("HTTP_USER_AGENT");
+		if(strpos($user_agent, "Win") !== FALSE) { ?>
+			.next {
+			    padding: 3.5px 20px !important;
+			}
+		<?php } ?>
 	</style>
 
 	<script src="lib/js/jquery.min.js" type="text/javascript"></script>
@@ -429,7 +436,7 @@ $main_view = $grid->render("list1");
 			<div>
 				<?php echo $main_view; ?>
 			</div>
-			<input name="Submit" class="nbtn" type="submit" value="Next" />
+			<input name="Submit" class="nbtn next" type="submit" value="Next" />
 			<a class="nbtn skip" href="../modules.php" id="btnm">Skip</a>
 			<a class="nbtn back" href="../account-update.php">Back</a>
 		</div>

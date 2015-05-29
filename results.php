@@ -115,7 +115,7 @@
 				$counter = 1;
 				$eq = $qnc->loadQuestions($exercise['exercise_ID']);
 			?>
-			<table border="0" class="result fleft">
+			<table border="0" class="result fleft" id="qqr">
 				<tr>
 					<th colspan="2"><?php echo _($exercise['title']); ?></th>
 				</tr>
@@ -174,7 +174,7 @@
 	<div id="email-container">
 		<div id="email-form">
 			<h3><?php echo _('Email This Page'); ?></h3>
-			<img src="images/closebox.png" id="close-btn">
+			<img src="images/close.png" id="close-btn">
 			<div id="message">
 			<form accept-charset="UTF-8" action="#" method="post" onsubmit="this.emailcontent.value = document.getElementById('results').innerHTML;">
 				<table border="0">

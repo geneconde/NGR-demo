@@ -35,10 +35,10 @@
     background-color: #FF5B5B;
     border-radius: 5px;
     color: #fff;
-    border-style: none;
     cursor: pointer;
     margin-top: 10px;
     font-family: inherit;
+    border-color: transparent;
 }
 .nbtn:hover {
     background-color: #FFBD9E;
