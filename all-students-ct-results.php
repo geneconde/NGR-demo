@@ -67,6 +67,9 @@
 					
 					$totalpt = 0;
 					$cpt = 0;
+					echo '<pre>';
+					print_r($student);
+					echo '</pre>';
 			?>
 			<tr>
 				<td class="bold">
