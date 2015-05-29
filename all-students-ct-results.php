@@ -64,12 +64,13 @@
 				foreach($students as $student):
 					$ct_set = $scc->getStudentCt($student['user_ID'],$ctid);
 					if($ct_set) $sctid = $ct_set->getSCTID();
+					ksort($student);
 					
 					$totalpt = 0;
 					$cpt = 0;
-					echo '<pre>';
+					/*echo '<pre>';
 					print_r($student);
-					echo '</pre>';
+					echo '</pre>';*/
 			?>
 			<tr>
 				<td class="bold">
