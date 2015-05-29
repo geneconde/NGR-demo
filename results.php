@@ -34,6 +34,11 @@
 	else if ($link == 1) $link = 'parent';
 	else if ($link == 2) $link = 'student';
 ?>
+<script>
+	var pfHeaderImgUrl = '';var pfHeaderTagline = '';var pfdisableClickToDel = 0;var pfHideImages = 0;var pfImageDisplayStyle = 'block';var pfDisablePDF = 0;var pfDisableEmail = 0;var pfDisablePrint = 0;
+	var pfCustomCSS = 'printfriendly2.php'
+	var pfBtVersion='1';(function(){var js, pf;pf = document.createElement('script');pf.type = 'text/javascript';if('https:' == document.location.protocol){js='https://pf-cdn.printfriendly.com/ssl/main.js'}else{js='http://cdn.printfriendly.com/printfriendly.js'}pf.src=js;document.getElementsByTagName('head')[0].appendChild(pf)})();
+</script>
 	<div id="container">
 		<?php if ($link == 'teacher') { ?>
 		<a class="link" href="student-results.php?gid=<?php echo $gid; ?>&mid=<?php echo $sm['module_ID']; ?>">&laquo; <?php echo _("Go Back to Students Results Summary"); ?></a>
@@ -75,6 +80,7 @@
 			<br/>
 			<h3><?php echo _("Quick Check Results"); ?></h3>
 			<?php foreach ($qc as $exercise) {
+				$counter = 1;
 				$eq = $qnc->loadQuestions($exercise['exercise_ID']);
 			?>
 			<table border="0" class="result fleft" id="qcr">
@@ -91,7 +97,7 @@
 					}
 				?> 
 				<tr>
-					<td><?php echo _(strtoupper(substr($question['question_ID'], -1))); ?> - <?php echo $question['title']; ?></td>
+					<td><?php echo _(strtoupper($question['section'])); ?> - <?php echo $counter; ?></td>
 					<td>
 						<?php if($img == 'correct') { ?>
 							<img src="http://corescienceready.com/dashboard/images/correct.png" alt="<?php echo $img; ?>"/>
@@ -100,12 +106,13 @@
 						<?php } ?>
 					</td>
 				</tr>
-				<?php } ?>
+				<?php $counter++; } ?>
 			</table>
 			<?php } ?>
 			<div class="clear"></div>
 			<h3><?php echo _("Quiz Question Results"); ?></h3>
 			<?php foreach ($qq as $exercise) {
+				$counter = 1;
 				$eq = $qnc->loadQuestions($exercise['exercise_ID']);
 			?>
 			<table border="0" class="result fleft">
@@ -120,9 +127,9 @@
 						$img = 'correct';
 						$totalcorrect++;
 					}
-				?> 
+				?>
 				<tr>
-					<td><?php echo _(strtoupper(substr($question['question_ID'], -1))); ?> - <?php echo $question['title']; ?></td>
+					<td><?php echo _(strtoupper($question['section'])); ?> - <?php echo $counter; ?></td>
 					<td>
 						<?php if($img == 'correct') { ?>
 							<img src="http://corescienceready.com/dashboard/images/correct.png" alt="<?php echo $img; ?>"/>
@@ -131,7 +138,7 @@
 						<?php } ?>
 					</td>
 				</tr>
-				<?php } ?>
+				<?php $counter++; } ?>
 			</table>
 			<?php } ?>
 			<div class="clear"></div>
