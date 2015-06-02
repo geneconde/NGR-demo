@@ -21,6 +21,8 @@
 	$scc 			= new StudentCtController();
 	$scc_set		= $scc->getStudentCt($userid, $ctid);
 	
+	echo $_GET['i'];
+
 	if(isset($_GET['i'])) $index = $_GET['i'];
 	else $index = 0;
 	
@@ -81,6 +83,7 @@
 ?>
 <style> #dbguide { display: none; } </style>
 <div id="container">
+	
 <a class="link" href="student.php">&laquo <?php echo _("Go Back"); ?></a>
 <br>
 <h1><?php echo _("Cumulative Test"); ?></h1>
