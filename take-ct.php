@@ -43,9 +43,7 @@
 <div id="container">
 <a class="link" href="student.php">&laquo <?php echo _("Go Back"); ?></a>
 <h1><?php echo _("Cumulative Test"); ?></h1>
-<p><?php echo _("Read the instructions carefully and click <strong>Start Test</strong> when you're ready to take the test. Please note that the timer will start running once you click the button."); ?></p>
-<br>
-<p><?php echo _("This cumulative test consists of"); ?> <strong><?php echo $count; ?> <?php echo _("questions"); ?></strong> <?php echo _("from different modules. You have"); ?> <strong><?php echo $timelimit; ?> <?php echo _("minutes"); ?></strong> <?php echo _(" to answer all these questions. Timer will start as soon as you click the Start Test button below.  Before clicking Finish at the end of the test and if you still have time, you can review all your answers by clicking the Back and Next buttons at the bottom of the page.  Only the answers that are completed within the time limit will be recorded."); ?></p>
+<p><?php echo _("This cumulative test consists of"); ?> <strong><?php echo $count; ?> <?php echo _("questions"); ?></strong> <?php echo _("from different modules. You have"); ?> <strong><?php echo $timelimit; ?> <?php echo _("minutes"); ?></strong> <?php echo _(" to answer all these questions. The timer will start as soon as you click the <strong>Start Test</strong> button below. Before clicking <strong>Finish</strong> at the end of the test and if you still have time, you can review all your answers by clicking the <strong>Back</strong> and <strong>Next</strong> buttons at the bottom of the page. Only the answers that are completed within the time limit will be recorded."); ?></p>
 <br/><br/><br/><br/>
 <div class="center">
 	<a class="take-box" href="ct.php?ctid=<?php echo $ctid; if(isset($index)) { ?>&i=<?php echo $index; } ?>"><?php echo _("START TEST"); ?></a></div>

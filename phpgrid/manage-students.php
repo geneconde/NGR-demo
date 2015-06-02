@@ -28,6 +28,10 @@
 	$teacher_languages = $lc->getLanguageByTeacher($userid);
 
 
+	include_once '../controller/Security.Controller.php';
+
+	$uc = new UserController();
+	$sec = new SecurityController();
 // $result = mysql_query("SELECT * FROM users WHERE teacher_id = $userid AND type = 2"); 
 // $num_rows = mysql_num_rows($result);
 
@@ -300,7 +304,7 @@ $main_view = $grid->render("list1");
 <html lang="en" <?php if($language == "ar_EG") { ?> dir="rtl" <?php } ?>>
 
 <head>
-	<title>NextGenReady</title>
+	<title>NexGenReady</title>
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -401,6 +405,42 @@ $main_view = $grid->render("list1");
 
 	<div id="content"><br>
 
+	<div class="grey"></div>
+
+	<div class="mod-desc">
+		<div id="forgot">
+
+			<div id="desc-username">
+				<h3>Forgot Password</h3>
+				<form method="post" class="username" action="../security-question.php">
+					<label for="tUsername">Enter your username: </label>
+					<input type="text" name="username" required/>
+					<input type="submit" class="button1" name="submit-username">
+				</form>	
+			</div>
+
+			<div id="sq" class="desc-forgot">
+				<h3>Do you really want to reset this account?</h3>
+				<form method="POST" class="confirmation" action="../security-question.php">
+					<p class="sQuestion"></p>
+					<label for="student_answer">Answer: </label>					
+					<select name="selected_answer" id="selected_answer">
+						<option value="Y">Yes</option>
+						<option value="N">No</option>
+					</select>
+					<input type="hidden" name="id" value="">
+					<input type="hidden" name="uType" value="">
+					<input type="submit" class="button1" name="submit-sqAnswer">
+				</form>	
+			</div>
+
+			<div id="message" class="desc-forgot">
+				<p></p>
+			</div>
+		</div>
+		<span class="close-btn"><?php echo _("Close!"); ?></span>
+	</div>
+
 	<?php if (isset($user)) { ?>
 		<div class="fright" id="logged-in">
 			<?php echo _("You are currently logged in as"); ?> <span class="upper bold"><?php echo $user->getUsername(); ?></span>. <a class="link" href="../logout.php"><?php echo _("Logout?"); ?></a>
@@ -410,6 +450,7 @@ $main_view = $grid->render("list1");
 	<div id="dbguide"><button class="uppercase guide tguide" onClick="guide()">Guide Me</button></div>
 	<br/>
 	<a class="link lback" href="../teacher.php">&laquo; <?php echo _("Go Back to Dashboard"); ?></a><br/><br/>
+	<a href="#" class="desc-btn" style="float:right;">Reset Student Password?</a>
 
 	<div class="wrap-container">
 		<div id="wrap">
@@ -429,9 +470,7 @@ $main_view = $grid->render("list1");
 				    }
 				};	
 			</script>
-			<!-- <div style="margin:10px 0">
-				<?php echo $excel_view; ?>
-			</div> -->
+
 			<div style="margin:10px 0">
 				<?php echo $main_view; ?>
 			</div>
@@ -487,10 +526,106 @@ $main_view = $grid->render("list1");
 	<!-- end footer -->
 	<script>
 	var language;
+	var teacher = '<?php echo $user->getUsername(); ?>'; 
 	$(document).ready(function() {
 		$('#language-menu').change(function() {
 			language = $('#language-menu option:selected').val();
 			document.location.href = "<?php echo $_SERVER['PHP_SELF'];?>?lang=" + language;
+		});
+		
+		//security password reset
+			$('form.username').on('submit', function (e) {
+			var formData = {
+				'selected_student' : $('input[name=username]').val(),	            
+	            'teacher': teacher
+	        };
+			$.ajax({
+				type : 'POST',
+				url : '../security-question.php',
+				data : formData,
+				dataType    : 'json',
+				encode : true
+			})
+				.done(function(data) {
+					if(data['success'])
+					{
+						$('#sq').css('display', 'block');
+						$('input[name="id"]').attr('value', data['id']);
+						//$('input[name="uType"]').attr('value', data['uType']);
+						$('.sQuestion').html(data['message']);
+						$('#message').css('display', 'none');
+					
+					} else {
+
+						if($("#sq").is(":visible"))
+						{
+							$("#sq").css('display', 'none');
+						}
+						$('#message').css('display', 'block');
+						$('#message p').html(data['message']);
+						$('#message').removeClass("success-div").addClass("error-div");
+					}
+					
+				}).fail(function (jqXHR, textStatus) {
+				    console.log(JSON.stringify(textStatus, null, 4) + " " + JSON.stringify(jqXHR, null, 4));
+				});
+
+			e.preventDefault();
+        });
+
+		$('form.confirmation').on('submit', function (e) {
+			var grid = $("#list1");
+			var formData = {
+	           'student_answer' : $('#selected_answer').val(),
+	            'id' : $('input[name="id"]').val(),
+	            'uType' : $('input[name="uType"]').val()
+	        };
+			$.ajax({
+				type : 'POST',
+				url : '../security-question.php',
+				data : formData,
+				dataType    : 'json',
+				encode : true
+			})
+				.done(function(data) {
+					$('#message').css('display', 'block');
+					$('#message p').html(data['message']);
+					if(data['success']){
+						$('#message').removeClass("error-div").addClass("success-div");						
+              			grid.trigger("reloadGrid");
+					} else {
+						$('#message').removeClass("success-div").addClass("error-div");
+					}
+				}).fail(function (jqXHR, textStatus) {
+				    console.log(JSON.stringify(textStatus, null, 4) + " " + JSON.stringify(jqXHR, null, 4));
+				});
+			e.preventDefault();
+        });
+		//end
+		$(".close-btn").on("click", function(){
+			$(".mod-desc").css("display", "none");
+			$(".grey").css("display", "none");
+		});
+		
+		$(".desc-btn").on("click", function(){
+			$('.mod-desc').css("display", "block");
+			
+			//$(".mod-desc").css("display", "block");
+			$(".grey").css("display", "block");
+		});
+		
+		$(".grey").on("click", function(){
+			if($('.security-wrapper').is(":visible")){
+				$(".security-wrapper").css("display", "none");
+			} else {
+				$(".mod-desc").css("display", "none");
+			}
+			$(".grey").css("display", "none");
+		});
+
+		$("input[name='check-answer']").on("click", function(){
+			$(".security-wrapper").css("display", "none");
+			$(".grey").css("display", "none");
 		});
 	});
 
@@ -507,5 +642,6 @@ $main_view = $grid->render("list1");
 	    });
 	  }
 	</script>
+
 </body>
 </html>

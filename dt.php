@@ -129,17 +129,17 @@
 
 						if($language == 'ar_EG' && $question[0]['translate'] == 1) {
 							$img .= '-ar.jpg';
-							echo '<img src="'.$img.'" class="dtq-image">';
+							echo '<img src="'.$img.'" class="dtq-image"><br/>';
 						} elseif($language == 'es_ES' && $question[0]['translate'] == 1) {
 							$img .= '-es.jpg';
-							echo '<img src="'.$img.'" class="dtq-image">';
+							echo '<img src="'.$img.'" class="dtq-image"><br/>';
 						} elseif($language == 'zh_CN' && $question[0]['translate'] == 1) {
 							$img .= '-zh.jpg';
-							echo '<img src="'.$img.'" class="dtq-image">';
+							echo '<img src="'.$img.'" class="dtq-image"><br/>';
 						} elseif($language == 'en_US' && $question[0]['translate'] == 1) {
-							echo '<img src="'.$image.'" class="dtq-image">';
+							echo '<img src="'.$image.'" class="dtq-image"><br/>';
 						} else {
-							echo '<img src="'.$image.'" class="dtq-image">';
+							echo '<img src="'.$image.'" class="dtq-image"><br/>';
 						}
 					?>
 				<?php endif;

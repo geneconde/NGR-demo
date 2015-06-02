@@ -57,13 +57,15 @@
 		$_SESSION['uname-demo'] = $uname;
 	} else{
 		$uc->updateUser($userid, $uname, $password, $fname, $lname, $gender, $level);
+		$squestion	= $_POST['squestion'];
+		$sanswer	= $_POST['sanswer'];
+		$securityRecord = $sc->getSecurityRecord($userid);
 		if(sizeof($securityRecord) == 1){
 			$sc->updateSecurityQuestion($squestion, $sanswer, $userid);
 		} else {
 			$sc->setSecurityQuestion($squestion, $sanswer, $userid);
 		}
-		// header("Location: edit-account.php?user_id={$userid}&f=1");
 		if($type == 0) $_SESSION['uname-demo'] = $uname;
-		header("Location: teacher.php");
+		header("Location: edit-account.php?user_id={$userid}&f=1");
 	}
 ?>

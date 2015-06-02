@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Field Test\n"
 "POT-Creation-Date: 2013-09-06 17:31+0800\n"
-"PO-Revision-Date: 2015-05-29 10:03+0800\n"
+"PO-Revision-Date: 2015-03-18 16:20+0800\n"
 "Last-Translator: Raina\n"
 "Language-Team: Ibrahim Al-Momani,Jim Shymansky,Jigzen's Computer Services <ask@jigzen.com>\n"
 "MIME-Version: 1.0\n"
@@ -656,7 +656,7 @@ msgid "Language"
 msgstr "لغة"
 
 # index.php
-msgid "Welcome to NexGenReady! Please log in to your account."
+msgid "Welcome to NextGenReady! Please log in to your account."
 msgstr "أهلاً بكم في علوم الجيل الجديد! يرجى الدخول إلى حسابك."
 
 msgid "Registration Sucessful. We sent you an email. Please verify your account."

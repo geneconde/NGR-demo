@@ -2,7 +2,7 @@
 	require_once 'session.php';
 	include_once 'controller/User.Controller.php'; 
 	require_once 'controller/StudentGroup.Controller.php';
-	require_once($_SERVER['DOCUMENT_ROOT'].'/shymansky/demo/includes/User.class.php');
+	require_once($_SERVER['DOCUMENT_ROOT'].'/includes/User.class.php');
 
 	$uc = new UserController();
 	$userid = $user->getUserid();

@@ -64,7 +64,7 @@
 				foreach($students as $student):
 					$ct_set = $scc->getStudentCt($student['user_ID'],$ctid);
 					if($ct_set) $sctid = $ct_set->getSCTID();
-					
+										
 					$totalpt = 0;
 					$cpt = 0;
 			?>

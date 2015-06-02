@@ -22,7 +22,7 @@ if (isset($_SESSION['uname-demo'])) {
 	require_once "locale.php";
 	include_once "header.php";
 ?>
-<center><?php echo _("Welcome to NextGenReady! Please log in to your account."); ?></center>
+<center><?php echo _("Welcome to NexGenReady! Please log in to your account."); ?></center>
 <form method="post" action="login-test.php" name="login" id="login" class="box-shadow">
 	<?php if (isset($_GET['msg'])) { ?>
 		<?php if($_GET['msg']== 1) {?>
