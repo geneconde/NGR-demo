@@ -21,6 +21,8 @@
 	$scc 			= new StudentCtController();
 	$scc_set		= $scc->getStudentCt($userid, $ctid);
 	
+	echo $_GET['i'];
+
 	if(isset($_GET['i'])) $index = $_GET['i'];
 	else $index = 0;
 	
@@ -81,6 +83,7 @@
 ?>
 <style> #dbguide { display: none; } </style>
 <div id="container">
+	
 <a class="link" href="student.php">&laquo <?php echo _("Go Back"); ?></a>
 <br>
 <h1><?php echo _("Cumulative Test"); ?></h1>
@@ -185,11 +188,11 @@ $(document).ready(function() {
 			alert("Please select an answer for this question.");
 		}
 		
-		if($(this).val() == "Finish") {
-			if(!window.confirm("You are about to submit this test. You can still go back and check your answers. Do you really want to submit this test?")){
-				e.preventDefault();
-			}
-		}
+		// if($(this).val() == "Finish") {
+		// 	if(!window.confirm("You are about to submit this test. You can still go back and check your answers. Do you really want to submit this test?")){
+		// 		e.preventDefault();
+		// 	}
+		// }
 	});
 	
 	$('#dt-back').click(function() {
