@@ -43,6 +43,11 @@
 			$d_langId = $lang['language_id'];
 		}
 	}
+
+	$user_agent = getenv("HTTP_USER_AGENT");
+	if(strpos($user_agent, "Mac") !== FALSE) { ?>
+		<style>select { -webkit-appearance: none !important; }</style>
+	<?php }
  ?>
  <div class='lgs-container'>
 	<form action="save-account.php?ut=<?php echo $type; ?>&ret=lgs" method="post" id="edit-account">
