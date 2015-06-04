@@ -1649,3 +1649,6 @@ input[type=checkbox] {
 #confirm-box div a {
     font-size: 18px;
 }
+#on_going {
+      text-align: center;
+}

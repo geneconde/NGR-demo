@@ -93,7 +93,6 @@
 		}
 	<?php } ?>
 </style>
-
 <div class="fleft language" id="gm-language">
 	<?php echo _("Language"); ?>:
 	<?php

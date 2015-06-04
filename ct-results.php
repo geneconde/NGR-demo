@@ -20,6 +20,7 @@
 	$student	= $uc->loadUserByID($scc_set->getUserID());
 	
 	$dtc			= new DtQuestionController();
+
 	//$question_set	= $dtc->getAllQuestions();
 ?>
 <style> #dbguide { display: none; } </style>

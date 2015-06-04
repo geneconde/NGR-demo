@@ -38,27 +38,14 @@
 
 	echo "3";
 
-	$sa		= $scc->getCTStudentAnswerByQuestion($sctid, $qid);
-
-	if($sa):
-		$scc->updateAnswer($sctid, $qid, $choice, $mark);
-	else:
-		$values = array(
-			"student_ct_id"	=> $sctid,
-			"qid"			=> $qid,
-			"answer"		=> $choice,
-			"mark"			=> $mark
-		);
-		$scc->addStudentAnswer($values);
-	endif;
 	
 	$index++;
 	
 	if($fin):
-		$startdate	= $sc->getStartDate();
-		$scc->finishCumulativeTest($sctid, $startdate);
+		// $startdate	= $sc->getStartDate();
+		// $scc->finishCumulativeTest($sctid, $startdate);
 		// header("Location: ct-results.php?sctid={$sctid}");
-		header("Location: confirm-ct.php?sctid={$sctid}&ctid={$ctid}&i={$index}");
+		header("Location: confirm-ct.php?sctid={$sctid}&ctid={$ctid}&i={$index}&qid={$qid}&c={$choice}&m={$mark}");
 	else: 
 		header("Location: ct.php?ctid={$ctid}&i={$index}");
 	endif;

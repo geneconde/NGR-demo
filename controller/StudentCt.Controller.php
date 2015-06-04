@@ -175,11 +175,16 @@ class StudentCtController {
 		$db->disconnect();
 	}
 	
+	// private function setCTData($user){
+	// 	$data = array();
+	// }
+
 	private function setCtValues($values) {
 		$data = array();
 		$data['ct_id']				= $values['ct_id'];
 		$data['user_id']			= $values['user_id'];
 		$data['date_started'] 		= $values['date_started'];
+		$data['date_ended'] 		= $values['date_ended'];
 		return $data;
 	}
 	

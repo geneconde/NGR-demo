@@ -11,6 +11,7 @@
 	include_once('controller/ModuleMeta.Controller.php'); 
 	include_once('controller/MetaAnswer.Controller.php');
 	include_once('controller/Module.Controller.php');
+	include_once('controller/StudentCt.Controller.php');
 	
 	$user = null;
 	
@@ -26,7 +27,8 @@
 	$mmc = new ModuleMetaController();
 	$mac = new MetaAnswerController();
 	$mc = new ModuleController();
-	
+	$scc = new StudentCtController();
+
 	/*
 	if(isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 1800)) {
 		// last request was more than 30 minutes ago

@@ -26,7 +26,27 @@
 	
 	$dtc			= new DtQuestionController();
 	//$question_set	= $dtc->getDTPool($sdt_set->getModuleID());
-?>
+
+	$dates = array();
+	$ids   = array();
+	$mods  = array();
+
+	// echo '<pre>';
+	// print_r($sdt_set);
+	// echo '</pre>';
+
+	$end = $sdt_set->getEndDate();
+	$uid = $sdt_set->getUserID();
+	$mod = $sdt_set->getModuleID();
+	// echo $uid . '<br/>' . $mod;
+
+	$test = $sdt->getStudentDtByEndDate('0000-00-00 00:00:00');
+
+if($end == '0000-00-00 00:00:00' || $test[0]['user_id'] == $uid) : ?>
+	<div id="on_going">
+		<h1>This Page is temporary unavailable because you are taking  your exam.</h1>
+	</div>
+<?php else : ?>
 <style> #dbguide { display: none; } </style>
 <div id="container">
 	<?php 
@@ -187,6 +207,8 @@
 		}
 	}
 ?>
+<?php endif; ?>	
+
 <!-- End Email -->
 <script src="scripts/livevalidation.js"></script>
 <script>

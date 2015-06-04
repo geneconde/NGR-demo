@@ -40,6 +40,21 @@ class StudentDtController {
 			return $sdt;
 		}
 	}
+
+	public function getStudentDtByEndDate($end) {
+		$where = array();
+		$where['date_ended'] = $end;
+		
+		$db = new DB();
+		$db->connect();
+		$result = $db->select("student_dt", $where);
+		$db->disconnect();
+
+		// foreach($result as $row) {
+			// $sdt = $this->setStudentDt($row);
+			return $result;
+		// }
+	}
 	
 	public function getStudentDtByID($sdtid) {
 		$where = array();

@@ -6,7 +6,7 @@
 	require_once 'controller/CumulativeTest.Controller.php';
 	require_once 'controller/DtQuestion.Controller.php';
 	require_once 'controller/StudentCt.Controller.php';
-	
+
 	$userid 		= $user->getUserid();
 	$ctid			= $_GET['ctid'];
 	
@@ -21,7 +21,7 @@
 	$scc 			= new StudentCtController();
 	$scc_set		= $scc->getStudentCt($userid, $ctid);
 	
-	echo $_GET['i'];
+	// echo $_GET['i'];
 
 	if(isset($_GET['i'])) $index = $_GET['i'];
 	else $index = 0;
@@ -58,6 +58,7 @@
 			'ct_id'			=> $ctid,
 			'user_id' 		=> $userid,
 			'date_started'	=> $startdate,
+			'date_ended'	=> '0000-00-00 00:00:00'
 		);
 		$scc->addStudentCT($testvalues);
 		
