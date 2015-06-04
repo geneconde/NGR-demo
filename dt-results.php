@@ -43,6 +43,7 @@
 	$test = $sdt->getStudentDtByEndDate('0000-00-00 00:00:00');
 
 if($end == '0000-00-00 00:00:00' || $test[0]['user_id'] == $uid) : ?>
+	</br><a class="link" href="student.php">&laquo <?php echo _("Go Back to Dashboard"); ?></a>
 	<div id="on_going">
 		<h1>This Page is temporary unavailable because you are taking  your exam.</h1>
 	</div>
