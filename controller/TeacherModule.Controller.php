@@ -41,7 +41,7 @@ class TeacherModuleController {
 	
 		$db = new DB();
 		$db->connect();
-		$result = $db->select("teacher_module", $where);
+		$result = $db->select("teacher_module", $where, '*', 'module_id');
 		$db->disconnect();		
 		return $result;
 	}

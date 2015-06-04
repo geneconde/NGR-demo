@@ -190,7 +190,7 @@
   <li data-id="teacher-account" data-button="Next" data-options="tipLocation:top;tipAnimation:fade">
     <p>Click this button to personalize your information.</p>
   </li>
-  <li data-id="student-accounts" data-button="Next" data-options="tipLocation:top;tipAnimation:fade">
+  <li data-id="student-accounts" data-button="Next" data-options="tipLocation:left;tipAnimation:fade">
     <p>Click this button to manage the account and information of your students.</p>
   </li>
   <li data-id="student-groups" data-button="Next" data-options="tipLocation:left;tipAnimation:fade">
@@ -200,10 +200,10 @@
     <p>This is the module box. This is where you can manage data related to the module. You can click on the <strong>Overview</strong> button to view the description of each module.</p>
   </li>
   <li data-id="vmodule" data-button="Next" data-options="tipLocation:top;tipAnimation:fade">
-    <p>Clicking on this button will allow you to go through the module as a student to experience it. This is for demonstration purposes only so answers are not saved.</p>
+    <p>Clicking this button will allow you to go through the module as a student would experience it. This is for demonstration purposes only so answers are not saved.</p>
   </li>
   <li data-id="settings" data-button="Next" data-options="tipLocation:top;tipAnimation:fade">
-    <p>The settings button will take you to a screen that allows you to the following:</p>
+    <p>The settings button will take you to a screen that allows you to do the following:</p>
     <ul style="padding-left: 20px; font-size: 14px;">
     	<li>Open/close the module completely for any or all groups</li>
     	<li>Create, edit or delete a pre and/or post diagnostic test</li>
@@ -213,7 +213,7 @@
     <p></p>
   </li>
   <li data-id="results" data-button="Next" data-options="tipLocation:top;tipAnimation:fade">
-    <p>All student responses to questions embedded in a module, including questions on the pre and post diagnostic tests for a module and a "cumulative" post-diagnostic test across several modules are automatically recorded in a database and will be available for individual students and groups of students.</p>
+    <p>All student's responses to questions embedded in a module, including questions on the pre and post diagnostic tests for a module and a "cumulative" post-diagnostic test across several modules, are automatically recorded in a database and will be available for individual students and groups of students.</p>
     <p>Clicking on this button will take you to a screen where you can select a group and view the test results of the students in that group.</p>
   </li>
   <li data-id="gm-cumulative-settings" data-button="Next" data-options="tipLocation:top;tipAnimation:fade">
@@ -223,7 +223,7 @@
     <p>Click this button to view the results of the cumulative tests of students.</p>
   </li>
   <li data-id="lout" data-button="Close" data-options="tipLocation:left;tipAnimation:fade">
-    <p>Clicking the <strong>Logout</strong> link will log you out of NexGenReady.</p>
+    <p>Clicking the <strong>Logout</strong> link will log you out of the NexGenReady dashboard.</p>
   </li>
 </ol>
 

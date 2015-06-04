@@ -1551,7 +1551,6 @@ input[type=checkbox] {
     float: left;
 }
 .s_question select {
-    -webkit-appearance: none;
     width: 76.3%;
     padding: 5px;
     font-size: 15px;
@@ -1562,7 +1561,6 @@ input[type=checkbox] {
     float: left;
 }
 .default-language select {
-    -webkit-appearance: none;
     float: left;
     width: 189px;
     padding: 5px;
