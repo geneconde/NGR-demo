@@ -10,12 +10,16 @@
 
 	$scc = new StudentCtController(); 
 	$sct_set = $scc->getCtByStudent($userid);
-	// $scc_set	= $scc->getStudentCtByID($sctid);
 
 	$ctc = new CumulativeTestController();
 	$ct_set = $ctc->getCumulativeTests($teacherid);
 
-	$end = $sct_set[0]['date_ended'];
+	if(empty($sct_set)){
+		$end = '';
+	}else {
+		$end = $sct_set[0]['date_ended'];
+	}
+
 
 if( $end != '0000-00-00 00:00:00' ) :
 ?>
@@ -54,7 +58,8 @@ if( $end != '0000-00-00 00:00:00' ) :
 			<p>Click this to view the cumulative test result.</p>
 		</li>
     </ol>
-<?php else : ?>    
+<?php else : ?> <br/>   
+	<a class="link" href="student.php">&laquo <?php echo _("Go Back to Dashboard"); ?></a>
 	<div id="on_going">
 		<h1>This Page is temporary unavailable because you are taking  your exam.</h1>
 	</div>
