@@ -230,7 +230,7 @@
     <p></p>
   </li>
   <li data-id="lout" data-button="Close" data-options="tipLocation:left;tipAnimation:fade">
-    <p>Clicking the <strong>Logout</strong> link will log you out of NexGenReady dashboard.</p>
+    <p>Clicking the <strong>Logout</strong> link will log you out of the NexGenReady dashboard.</p>
   </li>
 </ol>
 <script>

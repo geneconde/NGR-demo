@@ -191,7 +191,7 @@
     <p>Click this button to personalize your information.</p>
   </li>
   <li data-id="student-accounts" data-button="Next" data-options="tipLocation:left;tipAnimation:fade">
-    <p>Click this button to manage the account and information of your students.</p>
+    <p>Click this button to manage account and change password of your students.</p>
   </li>
   <li data-id="student-groups" data-button="Next" data-options="tipLocation:left;tipAnimation:fade">
     <p>Click this button to manage student groups. You can create groups and transfer students as well.</p>

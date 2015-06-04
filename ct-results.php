@@ -23,7 +23,11 @@
 
 	//$question_set	= $dtc->getAllQuestions();
 ?>
-<style> #dbguide { display: none; } </style>
+<script>
+	var pfHeaderImgUrl = '';var pfHeaderTagline = '';var pfdisableClickToDel = 0;var pfHideImages = 0;var pfImageDisplayStyle = 'block';var pfDisablePDF = 0;var pfDisableEmail = 1;var pfDisablePrint = 0;
+	var pfCustomCSS = 'printfriendly2.php'
+	var pfBtVersion='1';(function(){var js, pf;pf = document.createElement('script');pf.type = 'text/javascript';if('https:' == document.location.protocol){js='https://pf-cdn.printfriendly.com/ssl/main.js'}else{js='http://cdn.printfriendly.com/printfriendly.js'}pf.src=js;document.getElementsByTagName('head')[0].appendChild(pf)})();
+</script>
 <div id="container">
 <?php 
 	if ($user->getType() == 0 ) { 
@@ -187,6 +191,15 @@
 	}
 ?>
 <!-- End Email -->
+<!-- Tip Content -->
+    <ol id="joyRideTipContent">
+		<li data-class="printfriendly" 		data-text="Next" data-options="tipLocation:left;tipAnimation:fade">
+			<p>Click here to print this page.</p>
+		</li>
+		<li data-id="email-btn" 		data-text="Close" data-options="tipLocation:left;tipAnimation:fade">
+			<p>Click here to email this page/results.</p>
+		</li>
+    </ol>
 <script src="scripts/livevalidation.js"></script>
 <script>
 var totalquestions = 0,
@@ -223,4 +236,18 @@ $(document).ready(function() {
   	subEadd2.add( Validate.Email );
 });
 </script>
+<script>
+      function guide() {
+	  	$('#joyRideTipContent').joyride({
+	      autoStart : true,
+	      postStepCallback : function (index, tip) {
+	      if (index == 10) {
+	        $(this).joyride('set_li', false, 1);
+	      }
+	    },
+	    // modal:true,
+	    // expose: true
+	    });
+	  }
+    </script>
 <?php require_once "footer.php"; ?>

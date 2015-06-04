@@ -147,7 +147,7 @@
 			<p>Click this button to view the result of this student's pre-diagnostic test. This button is grayed out if the student has not yet taken the test.</p>
 		</li>
 		<li data-id="statmodule" 		data-text="Next" data-options="tipLocation:top;tipAnimation:fade">
-			<p>Click this button to view the result of the module activities of this student. This button is grayed out if the student has not yet taken the test. It will also say <strong>"In Progress"</strong> if the student is currently taking the module.</p>
+			<p>Click this button to view the result of the module activities of this student. This button is grayed out if the student has not yet taken the module. It will also say <strong>"In Progress"</strong> if the student is currently taking the module.</p>
 		</li>
 		<li data-id="postbtn" 		data-text="Next" data-options="tipLocation:top;tipAnimation:fade">
 			<p>Click this button to view the result of this student's post-diagnostic test. This button is grayed out if the student has not yet taken the test.</p>

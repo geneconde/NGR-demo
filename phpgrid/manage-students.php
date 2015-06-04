@@ -114,7 +114,7 @@ $col["export"] = true; // this column will not be exported
 // $col["formoptions"] = array("elmsuffix"=>'<font color=red> *</font>');
 $cols[] = $col;
 
-$col = array();
+/*$col = array();
 $col["title"] = $password;
 $col["name"] = "password";
 $col["width"] = "30";
@@ -123,7 +123,7 @@ $col["editable"] = true;
 $col["align"] = "center";
 $col["export"] = true; // this column will not be exported
 // $col["formoptions"] = array("elmsuffix"=>'<font color=red> *</font>');
-$cols[] = $col;
+$cols[] = $col;*/
 
 $col = array();
 $col["title"] = "Type";
@@ -196,6 +196,19 @@ $col["editoptions"] = array("defaultValue"=>"$demoid","readonly"=>"readonly", "s
 $col["viewable"] = false;
 $col["hidden"] = true;
 $col["editrules"] = array("edithidden"=>false); 
+$cols[] = $col;
+
+$col = array();
+$col["title"] = "Reset Student password";
+$col["name"] = "reset_pword";
+$col["width"] = "25";
+$col["align"] = "center";
+$col["search"] = false;
+$col["sortable"] = false;
+$col["link"] = "../edit-account.php?user_id={user_ID}"; // e.g. http://domain.com?id={id} given that, there is a column with $col["name"] = "id" exist
+// $col["linkoptions"] = "target='_blank'"; // extra params with <a> tag
+$col["default"] = "Reset password"; // default link text
+$col["export"] = false; // this column will not be exported
 $cols[] = $col;
 
 $col = array();
@@ -373,6 +386,13 @@ $main_view = $grid->render("list1");
 			margin-top: 3px !important;
 		    margin-left: -25px !important;
 		}
+		.fr {float: right;}
+		.fl {float: left;}
+		.sQuestion
+		{
+			font-size: 1.17em;
+			font-weight : bold;
+		}
 		/*End custom joyride*/
 	</style>
 
@@ -407,40 +427,6 @@ $main_view = $grid->render("list1");
 
 	<div class="grey"></div>
 
-	<div class="mod-desc">
-		<div id="forgot">
-
-			<div id="desc-username">
-				<h3>Forgot Password</h3>
-				<form method="post" class="username" action="../security-question.php">
-					<label for="tUsername">Enter your username: </label>
-					<input type="text" name="username" required/>
-					<input type="submit" class="button1" name="submit-username">
-				</form>	
-			</div>
-
-			<div id="sq" class="desc-forgot">
-				<h3>Do you really want to reset this account?</h3>
-				<form method="POST" class="confirmation" action="../security-question.php">
-					<p class="sQuestion"></p>
-					<label for="student_answer">Answer: </label>					
-					<select name="selected_answer" id="selected_answer">
-						<option value="Y">Yes</option>
-						<option value="N">No</option>
-					</select>
-					<input type="hidden" name="id" value="">
-					<input type="hidden" name="uType" value="">
-					<input type="submit" class="button1" name="submit-sqAnswer">
-				</form>	
-			</div>
-
-			<div id="message" class="desc-forgot">
-				<p></p>
-			</div>
-		</div>
-		<span class="close-btn"><?php echo _("Close!"); ?></span>
-	</div>
-
 	<?php if (isset($user)) { ?>
 		<div class="fright" id="logged-in">
 			<?php echo _("You are currently logged in as"); ?> <span class="upper bold"><?php echo $user->getUsername(); ?></span>. <a class="link" href="../logout.php"><?php echo _("Logout?"); ?></a>
@@ -449,9 +435,10 @@ $main_view = $grid->render("list1");
 	<br/>
 	<div id="dbguide"><button class="uppercase guide tguide" onClick="guide()">Guide Me</button></div>
 	<br/>
-	<a class="link lback" href="../teacher.php">&laquo; <?php echo _("Go Back to Dashboard"); ?></a><br/><br/>
-	<a href="#" class="desc-btn" style="float:right;">Reset Student Password?</a>
-
+	<a class="link lback fl" href="../teacher.php">&laquo; <?php echo _("Go Back to Dashboard"); ?></a>	
+	<br/><br/>
+	<div class="clear"></div>
+	
 	<div class="wrap-container">
 		<div id="wrap">
 			<div class="sub-headers">
@@ -473,6 +460,7 @@ $main_view = $grid->render("list1");
 
 			<div style="margin:10px 0">
 				<?php echo $main_view; ?>
+				<p><br/>* <?php echo _('Note: If the students request for a password reset, please change the student\'s password to something that\'s easy to remember. Once the spreadsheet is updated, the student will be able to use the new password.'); ?></p>
 			</div>
 		</div>
 	</div>	
@@ -532,86 +520,25 @@ $main_view = $grid->render("list1");
 			language = $('#language-menu option:selected').val();
 			document.location.href = "<?php echo $_SERVER['PHP_SELF'];?>?lang=" + language;
 		});
-		
-		//security password reset
-			$('form.username').on('submit', function (e) {
-			var formData = {
-				'selected_student' : $('input[name=username]').val(),	            
-	            'teacher': teacher
-	        };
-			$.ajax({
-				type : 'POST',
-				url : '../security-question.php',
-				data : formData,
-				dataType    : 'json',
-				encode : true
-			})
-				.done(function(data) {
-					if(data['success'])
-					{
-						$('#sq').css('display', 'block');
-						$('input[name="id"]').attr('value', data['id']);
-						//$('input[name="uType"]').attr('value', data['uType']);
-						$('.sQuestion').html(data['message']);
-						$('#message').css('display', 'none');
 					
-					} else {
-
-						if($("#sq").is(":visible"))
-						{
-							$("#sq").css('display', 'none');
-						}
-						$('#message').css('display', 'block');
-						$('#message p').html(data['message']);
-						$('#message').removeClass("success-div").addClass("error-div");
-					}
-					
-				}).fail(function (jqXHR, textStatus) {
-				    console.log(JSON.stringify(textStatus, null, 4) + " " + JSON.stringify(jqXHR, null, 4));
-				});
-
-			e.preventDefault();
-        });
-
-		$('form.confirmation').on('submit', function (e) {
-			var grid = $("#list1");
-			var formData = {
-	           'student_answer' : $('#selected_answer').val(),
-	            'id' : $('input[name="id"]').val(),
-	            'uType' : $('input[name="uType"]').val()
-	        };
-			$.ajax({
-				type : 'POST',
-				url : '../security-question.php',
-				data : formData,
-				dataType    : 'json',
-				encode : true
-			})
-				.done(function(data) {
-					$('#message').css('display', 'block');
-					$('#message p').html(data['message']);
-					if(data['success']){
-						$('#message').removeClass("error-div").addClass("success-div");						
-              			grid.trigger("reloadGrid");
-					} else {
-						$('#message').removeClass("success-div").addClass("error-div");
-					}
-				}).fail(function (jqXHR, textStatus) {
-				    console.log(JSON.stringify(textStatus, null, 4) + " " + JSON.stringify(jqXHR, null, 4));
-				});
-			e.preventDefault();
-        });
-		//end
 		$(".close-btn").on("click", function(){
 			$(".mod-desc").css("display", "none");
 			$(".grey").css("display", "none");
 		});
+
+		var check;
+		$("#checkbox").on("click", function(){
+		    check = $("#checkbox").is(":checked");
+		    if(check) {
+		       $('.mod-desc .close-btn').css('display','block');
+		    } else {
+		        $('.mod-desc .close-btn').css('display','none');
+		    }
+		}); 
+			
 		
 		$(".desc-btn").on("click", function(){
-			$('.mod-desc').css("display", "block");
 			
-			//$(".mod-desc").css("display", "block");
-			$(".grey").css("display", "block");
 		});
 		
 		$(".grey").on("click", function(){
@@ -641,6 +568,7 @@ $main_view = $grid->render("list1");
 	    // expose: true
 	    });
 	  }
+	 
 	</script>
 
 </body>

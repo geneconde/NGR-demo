@@ -43,11 +43,16 @@
 	$test = $sdt->getStudentDtByEndDate('0000-00-00 00:00:00');
 
 if($end == '0000-00-00 00:00:00' || $test[0]['user_id'] == $uid) : ?>
+	</br><a class="link" href="student.php">&laquo <?php echo _("Go Back to Dashboard"); ?></a>
 	<div id="on_going">
 		<h1>This Page is temporary unavailable because you are taking  your exam.</h1>
 	</div>
 <?php else : ?>
-<style> #dbguide { display: none; } </style>
+<script>
+	var pfHeaderImgUrl = '';var pfHeaderTagline = '';var pfdisableClickToDel = 0;var pfHideImages = 0;var pfImageDisplayStyle = 'block';var pfDisablePDF = 0;var pfDisableEmail = 1;var pfDisablePrint = 0;
+	var pfCustomCSS = 'printfriendly2.php'
+	var pfBtVersion='1';(function(){var js, pf;pf = document.createElement('script');pf.type = 'text/javascript';if('https:' == document.location.protocol){js='https://pf-cdn.printfriendly.com/ssl/main.js'}else{js='http://cdn.printfriendly.com/printfriendly.js'}pf.src=js;document.getElementsByTagName('head')[0].appendChild(pf)})();
+</script>
 <div id="container">
 	<?php 
 		if ($user->getType() == 0 ): 
@@ -247,21 +252,11 @@ $(document).ready(function() {
 </script>
       <!-- Tip Content -->
     <ol id="joyRideTipContent">
-		<li data-id="info" 		data-text="Next" data-options="tipLocation:top;tipAnimation:fade">
-			<p>Information</p>
-			<p></p>
+		<li data-id="printfriendly" 		data-text="Next" data-options="tipLocation:left;tipAnimation:fade">
+			<p>Click here to print this page.</p>
 		</li>
-		<li data-id="quest" 		data-text="Next" data-options="tipLocation:top;tipAnimation:fade">
-			<p>Question</p>
-			<p></p>
-		</li>
-		<li data-id="printfriendly" 		data-text="Next" data-options="tipLocation:top;tipAnimation:fade">
-			<p>Print</p>
-			<p></p>
-		</li>
-		<li data-id="email-btn" 		data-text="Next" data-options="tipLocation:top;tipAnimation:fade">
-			<p>Email</p>
-			<p></p>
+		<li data-id="email-btn" 		data-text="Next" data-options="tipLocation:left;tipAnimation:fade">
+			<p>Click here to email this page/results.</p>
 		</li>
     </ol>
 

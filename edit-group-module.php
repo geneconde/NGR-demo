@@ -323,7 +323,7 @@ $(document).ready(function() {
 		<?php  if($pre) : ?>
 			var module	= ($('#myonoffswitch-module-review').is(':checked')) ? 1 : 0;
 			if(module == 1){
-				var r = confirm("<?php echo _('Are you sure you want to activate the module without activating the pre-test? Once your students start with the module, you won’t be able to activate a pre-test.'); ?>");
+				var r = confirm("<?php echo _('Once your students start the module, you won\'t be able to activate a pre-test. Please make sure that a pre-test is activated before they begin (pre-test is optional).'); ?>");
 				if(r == true)
 				{
 					$('#myonoffswitch-module-review').prop('checked', true);
@@ -335,7 +335,7 @@ $(document).ready(function() {
 		<?php else : ?>
 			var module	= ($('#myonoffswitch-module-review').is(':checked')) ? 1 : 0;
 			if(module == 1){
-				var r = confirm("<?php echo _('Are you sure you want to activate the module without activating the pre-test? Once your students start with the module, you won’t be able to activate a pre-test.'); ?>");
+				var r = confirm("<?php echo _('Once your students start the module, you won\'t be able to activate a pre-test. Please make sure that a pre-test is activated before they begin (pre-test is optional).'); ?>");
 				if(r == true)
 				{
 					$('#myonoffswitch-module-review').prop('checked', true);
