@@ -172,7 +172,8 @@
 	if(isset($_POST['sendresults'])) {
 		$email = $_POST['emailto'];
 		$from = $_POST['emailfrom'];
-		$message = $_POST['emailmessage'];
+		$message = "<h3>Cumulative Test Result</h3>";
+		$message .= $_POST['emailmessage'];
 		$message .= $_POST['resultcontent'];
 
 		$headers = "From: ". 'webmaster@nexgenready.com' ." \r\n" . 

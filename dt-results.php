@@ -194,9 +194,16 @@ if($end == '0000-00-00 00:00:00' || $test[0]['user_id'] == $uid) : ?>
 	if(isset($_POST['sendresults'])) {
 		$email = $_POST['emailto'];
 		$from = $_POST['emailfrom'];
-		$message = $_POST['emailmessage'];
-		$message .= $_POST['resultcontent'];
 
+		if($sdt_set->getMode() == 1){
+			$message = "<h3>Student Pre-test</h3>";
+		} else{
+			$message =  "<h3>Student Post-test</h3>";
+		}
+		
+		$message .= $_POST['emailmessage'];
+
+		$message .= $_POST['resultcontent'];
 		$headers = "From: ". 'webmaster@nexgenready.com' ." \r\n" . 
                    "Reply-To: info@nexgenready.com \r\n" . 
                    "Content-type: text/html; charset=UTF-8 \r\n";
@@ -255,7 +262,7 @@ $(document).ready(function() {
 		<li data-id="printfriendly" 		data-text="Next" data-options="tipLocation:left;tipAnimation:fade">
 			<p>Click here to print this page.</p>
 		</li>
-		<li data-id="email-btn" 		data-text="Next" data-options="tipLocation:left;tipAnimation:fade">
+		<li data-id="email-btn" 		data-text="Close" data-options="tipLocation:left;tipAnimation:fade">
 			<p>Click here to email this page/results.</p>
 		</li>
     </ol>

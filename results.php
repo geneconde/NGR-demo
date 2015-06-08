@@ -238,7 +238,8 @@
 	<?php
 		if(isset($_POST['sendresults'])) {
 			$email = $_POST['emailto'];
-			$message = $_POST['emailmessage'];
+			$message = "<h3>Module Score Summary</h3>";
+			$message .= $_POST['emailmessage'];
 			$message .= $_POST['resultcontent'];
 
 
