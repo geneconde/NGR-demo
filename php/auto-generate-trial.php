@@ -55,7 +55,7 @@
 			//$uname = generateUsername('T', $i); //added $ctr to add extra value in username - raina 01-30-2015
 			//$pw = generatePassword();
 			$uname 	= $tusername;
-			$pw 	= $tpassword;
+			$pw = $uc->hashPassword($tpassword);
 
 			$pdf->SetFont('Arial', 'B', 12);
 			$pdf->Cell(50, 5, ' ', 0, 0, 'L');
@@ -114,6 +114,8 @@
 			for($j = 1; $j <= $snum; $j++) {
 				$suname = generateUsername('S', $j);
 				$spw = '123456';
+		        $salt = sha1(md5($spw));
+		        $spw = md5($spw.$salt);
 
 	    		$pdf->SetFont('Arial', '', 12);
 	    		$pdf->Cell(50, 10, ' ', 0, 0, 'L');

@@ -13,6 +13,9 @@
 
 	$studentid 		= $_GET['user_id'];
 	$userid 		= $user->getUserid();
+
+	$uc 			= new UserController();
+	$student 		= $uc->GetUser($studentid);
 	
 	$sgc			= new StudentGroupController();
 	$gid 			= $sgc->getGroupOfUser($studentid);
@@ -38,7 +41,9 @@
 	<center>
 	<h2><?php echo _("Student Portfolio"); ?></h2>
 	<br>
-	<h3><?php echo _("Cumulative Tests"); ?></h3>
+	<h2><?php echo _("Student Name: "); ?><?php echo $student->getFirstname() . ' ' . $student->getLastname(); ?></h2>
+	<br>
+	<h3><?php echo _("Cumulative Tests"); ?></h3> 
 	<table border="0" class="result morepad">
 		<tr>
 			<th><?php echo _("Test Name"); ?></td>
@@ -209,6 +214,7 @@
 			<p>This will show the Post-Diagnostic Test result of the student. This is grayed out if the student hasn't taken the test yet.</p>
 		</li>
     </ol>
+
 <script>
   function guide() {
   	$('#joyRideTipContent').joyride({
