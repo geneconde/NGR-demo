@@ -3,51 +3,43 @@
 	require_once 'locale.php';
 	require_once 'header.php';
 	require_once 'controller/User.Controller.php';
-	require_once 'controller/Security.Controller.php';
-	require_once 'php/auto-generate-trial.php';
 
 	$userid		= $_GET['user_id'];
 	$user_set	= $uc->getUser($userid);
 
 	if(isset($_POST['save'])) {
 		$password = $_POST['password'];
-		if(empty($password)){ $password = $_POST['generated']; }
-
 		$uc->updatePassword($userid, $password);
 		header("Location: reset-password.php?user_id=$userid&f=1");
 	}
 ?>
 <style>
 #dbguide { display: none; }
-td:first-child {
-    width: 500px !important;
+.generate {
+	cursor: default;
+	background: lightgray;
+	padding: 3px 7px;
+	border-radius: 5px;
 }
+.generate:hover { background: rgb(188, 188, 188); }
+table td { width: 40% !important; }
 </style>
 <div id="container">
 <a class="link" href="phpgrid/manage-students.php">&laquo; <?php echo _("Go Back"); ?></a>
 <br><br>
-<form method="post" action="" id="edit-account">
+<form method="post" action="" id="change-pw">
 	<center>
 		<table>
 			<?php if(isset($_GET['f']) && $_GET['f'] == 1) : ?>
 				<tr>
-					<td colspan="2">
+					<td colspan="3">
 						<center><span class='green'><?php echo _("You have updated the account."); ?></span></center>
 					</td>
 				</tr>
 			<?php endif; ?>
 			<tr>
-				<td colspan="2">
+				<td colspan="3">
 					<strong><center><?php echo _("Reset Password"); ?></center></strong>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<?php echo _("Generated Password"); ?>:
-				</td>
-				<td>
-					<!-- <label><?php echo generatePassword(); ?></label> -->
-					<input type="text" name="generated" value="<?php echo generatePassword(); ?>">
 				</td>
 			</tr>
 			<tr>
@@ -55,11 +47,12 @@ td:first-child {
 					<?php echo _("New Password"); ?>:
 				</td>
 				<td>
-					<input type="text" name="password" id="password" class="editable" placeholder="Enter new password">
+					<input type="text" name="password" id="password" class="editable" placeholder="Enter new password" minlength="6" required>
 				</td>
+				<td><a onclick="generatPass();" name="generate" class="generate" >Generate</a></td>
 			</tr>
 			<tr>
-				<td colspan="2">
+				<td colspan="3">
 					<br>
 					<center>
 					<div>
@@ -75,19 +68,6 @@ td:first-child {
 <script>
 var olduname = "<?php echo $user_set->getUsername(); ?>";
 $(document).ready(function() {
-	// $('#edit').click(function(e) {
-	// 	e.preventDefault();
-	// 	$('.editable').prop('disabled',false);
-	// 	$(this).hide();
-	// 	$('.hidden-btn').show();
-	// });
-	
-	// $('#cancel').click(function(e) {
-	// 	e.preventDefault();
-	// 	$('.editable').prop('disabled',true);
-	// 	$('.hidden-btn').hide();
-	// 	$('#edit').show();
-	// });
 	
 	$('#uname').focusout(function() {
 		var uid = $(this).val();
@@ -113,8 +93,8 @@ $(document).ready(function() {
 	});
 });
 
-$.validate({
-  form : '#edit-account'
-});
+function generatPass(){
+	$( "#password" ).val(Math.random().toString(36).slice(-8));
+}
 </script>
 <?php require_once "footer.php"; ?>
