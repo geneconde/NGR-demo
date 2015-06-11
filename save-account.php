@@ -29,7 +29,8 @@
 		if (isset($_POST['level'])) {
 			$level = $_POST['level'];
 		}
-		$uc->updateUser($userid, $uname, $password, $fname, $lname, $gender, $level);
+		$uc->updateUser($userid, $uname, $fname, $lname, $gender, $level);
+		$uc->updatePassword($userid, $password);
 		if (isset($_GET['ut'])) {
 			if($_GET['ut'] == "2"){
 				$uc->updateUserFL($userid);
@@ -56,7 +57,7 @@
 		}
 		$_SESSION['uname-demo'] = $uname;
 	} else{
-		$uc->updateUser($userid, $uname, $password, $fname, $lname, $gender, $level);
+		$uc->updateUser($userid, $uname, $fname, $lname, $gender, $level);
 		$squestion	= $_POST['squestion'];
 		$sanswer	= $_POST['sanswer'];
 		$securityRecord = $sc->getSecurityRecord($userid);

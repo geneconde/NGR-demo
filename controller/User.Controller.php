@@ -105,7 +105,7 @@ class UserController {
 		}
 	}
 
-	public function updateUser($userid, $uname, $password, $fname, $lname, $gender, $level) {
+	public function updateUser($userid, $uname, $fname, $lname, $gender, $level) {
 		$where = array();
 		$where['user_ID'] = $userid;
 		
@@ -113,7 +113,6 @@ class UserController {
 		$data['first_name'] = $fname;
 		$data['last_name'] 	= $lname;
 		$data['username']	= $uname;
-		$data['password']	= $password;
 		$data['gender']		= $gender;
 		$data['grade_level']= $level;
 					
@@ -153,6 +152,7 @@ class UserController {
 		$where = array();
 		$where['user_ID'] = $userid;
 		
+		$newpassword = UserController::hashPassword($newpassword);
 		$data = array();
 		$data['password'] = $newpassword;
 		
@@ -180,8 +180,7 @@ class UserController {
 		$where = array();
 		$where['user_ID'] = $userid;
 		
-		//$salt = sha1(md5($password));
-		//$password = md5($password.$salt);
+		$password = UserController::hashPassword($password);
 	
 		$data = array();
 		$data['password']           = $password;
@@ -415,6 +414,12 @@ class UserController {
 		$db->disconnect();
 
 		return $lastid;
+	}
+
+	public function hashPassword($password){
+		$salt = sha1(md5($password));
+		$password = md5($password.$salt);
+		return $password;
 	}
 	
 	private function setUserValues($values) {

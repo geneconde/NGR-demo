@@ -50,7 +50,7 @@
 	<?php }
  ?>
  <div class='lgs-container'>
-	<form action="save-account.php?ut=<?php echo $type; ?>&ret=lgs" method="post" id="edit-account">
+	<form action="save-account.php?ut=<?php echo $type; ?>&ret=lgs" method="post" id="update-account">
 		<div class="center">
  		<h1 class="lgs-text">Let's Get Started</h1>
 		<p class="lgs-text-sub welcome">Welcome to NexGenReady! This page will help you in updating and setting up your account.</p>
@@ -67,7 +67,7 @@
 		</div>
 		<div class="right">
 			<p class="input-label">Password</p>
-			<p><input class="inputText" id="Password" name="password" type="password" maxlength="50" placeholder="Password" value="<?php echo $user->getPassword(); ?>" required/></p>
+			<p><input class="inputText" id="Password" name="password" type="password" maxlength="50" placeholder="Enter new password" required minlength="6"/></p>
 		</div>
 		<p class="lgs-text-sub heading-input">About You</p>
 		<?php if ($type == 2) { ?>
@@ -183,7 +183,7 @@ $.validate({
 			<p>Update your <strong>username</strong> to something that you can easily remember. This is optional so you can leave it as it is if you prefer.</p>
 		</li>
 		<li data-id="Password" 		data-text="Next" data-options="tipLocation:top;tipAnimation:fade">
-			<p>Update your <strong>password</strong> to something that you can easily remember. This is optional so you can leave it as it is if you prefer.</p>
+			<p>Update your <strong>password</strong> to something that you can easily remember.</p>
 		</li>
 		<li data-id="FirstName" 		data-text="Next" data-options="tipLocation:top;tipAnimation:fade;">
 			<p>Enter in your first name</p>
