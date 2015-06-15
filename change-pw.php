@@ -57,13 +57,13 @@
 			<tr>
 				<td colspan="2">
 					<center>
-						<p>Please copy the password somewhere so you have a copy of it. Have you made a copy?</p>
+						<p>Please copy the password somewhere so you have a copy of it.</p>
 					</center>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<?php echo _("Enter Old Password:"); ?>
+					<label><?php echo _("Enter Old Password:"); ?></label>
 				</td>
 				<td>
 					<input type="password" name="oldpw" id="oldpw" data-validation="length" data-validation-length="min6" data-validation-error-msg="Please enter your current password">
@@ -71,7 +71,7 @@
 			</tr>
 			<tr>
 				<td>
-					<?php echo _("Enter Password:"); ?>
+					<label><?php echo _("Enter Password:"); ?></label>
 				</td>
 				<td>
 					<input type="password" name="newpw" id="newpw" data-validation="length" data-validation-length="min6" data-validation-error-msg="Please enter a minimum of 6 characters">
@@ -79,7 +79,7 @@
 			</tr>
 			<tr>
 				<td>
-					<?php echo _("Re-type Password:"); ?>
+					<label><?php echo _("Re-type Password:"); ?></label>
 				</td>
 				<td>
 					<input type="password" name="confirm" id="confirm" data-validation="confirmation">

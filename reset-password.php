@@ -20,6 +20,7 @@
 	background: lightgray;
 	padding: 3px 7px;
 	border-radius: 5px;
+	margin-left: 2px;
 }
 .generate:hover { background: rgb(188, 188, 188); }
 table td { width: 40% !important; }
@@ -44,7 +45,7 @@ table td { width: 40% !important; }
 			</tr>
 			<tr>
 				<td>
-					<?php echo _("New Password"); ?>:
+					<label><?php echo _("New Password"); ?>:</label>
 				</td>
 				<td>
 					<input type="text" name="password" id="password" class="editable" placeholder="Enter new password" minlength="6" required>
