@@ -57,7 +57,7 @@
 				</td>
 				<td>
 					<!-- <input type="text" name="username" id="uname" value="<?php echo $user_set->getUsername(); ?>" disabled class="editable"><img src="" id="check"> -->
-					<input type="text" name="username" id="uname" value="<?php echo $user_set->getUsername(); ?>" class="editable"><img src="" id="check">
+					<input type="text" name="username" id="uname" value="<?php echo $user_set->getUsername(); ?>" class="editable" data-validation="required" data-validation-error-msg="<?php echo _("You must enter a username."); ?>"><img src="" id="check">
 				</td>
 			</tr>
 			<tr>
@@ -169,7 +169,7 @@ $(document).ready(function() {
 				url		: "validate-user.php",
 				data	: {	userid: uid },
 				success : function(data) {
-					if(data == 1) { 
+					if(data == 1  && uid != '') { 
 						$('#check').attr('src','images/accept.png');
 						$('#save').prop('disabled',false);
 					} else { 

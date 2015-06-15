@@ -1445,7 +1445,7 @@ div#pdf-button img {
 }
 
 /* module description */
-.module-box h2 { margin-top: 10px; }
+.module-box h2 { margin-top: 10px; margin-bottom: 10px; }
 .grey { 
     display: none;
     position: fixed;

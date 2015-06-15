@@ -24,6 +24,7 @@
 		}
 	}
 ?>
+<style> span.form-error { position: absolute; margin-top: 3px; font-size: 12px !important; } </style>
 <div id="container">
 <a class="link" href="edit-account.php?user_id=<?php echo $userid; ?>">&laquo; <?php echo _("Go Back"); ?></a>
 <br><br>
@@ -47,14 +48,25 @@
 				} 
 			?>	
 			<tr>
-				<td colspan="2"><center><strong><?php echo _("Change Password"); ?></strong></center></td>
+				<td colspan="2">
+					<center>
+						<strong><?php echo _("Change Password"); ?></strong>
+					</center>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<center>
+						<p>Please copy the password somewhere so you have a copy of it. Have you made a copy?</p>
+					</center>
+				</td>
 			</tr>
 			<tr>
 				<td>
 					<?php echo _("Enter Old Password:"); ?>
 				</td>
 				<td>
-					<input type="password" name="oldpw" id="oldpw" data-validation="length" data-validation-length="min6">
+					<input type="password" name="oldpw" id="oldpw" data-validation="length" data-validation-length="min6" data-validation-error-msg="Please enter your current password">
 				</td>
 			</tr>
 			<tr>
@@ -62,7 +74,7 @@
 					<?php echo _("Enter Password:"); ?>
 				</td>
 				<td>
-					<input type="password" name="newpw" id="newpw" data-validation="length" data-validation-length="min6">
+					<input type="password" name="newpw" id="newpw" data-validation="length" data-validation-length="min6" data-validation-error-msg="Please enter a minimum of 6 characters">
 				</td>
 			</tr>
 			<tr>
@@ -88,9 +100,7 @@
 <script>
 $(document).ready(function() {
 	$('.button1').click(function(e) {
-		if($('#newpw').val() == $('#confirm').val()) {
-			alert('<?php echo _("Please copy the password somewhere so you have a copy of it. Have you made a copy?"); ?>');
-		} else {
+		if($('#newpw').val() != $('#confirm').val() && $('#newpw').val() != "") {
 			e.preventDefault();
 			alert('<?php echo _("Password does not match."); ?>');
 		}
