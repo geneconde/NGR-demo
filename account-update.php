@@ -60,14 +60,15 @@
 		<?php } ?>
 		
 		<p class="lgs-text-sub heading-input">Update Account</p>
-		<p class="lgs-text-sub note">Please update your username and password so you can easily remember them.</p>
 		<div class="left">
+			<p class="lgs-text-sub note">Please update your username.</p>
 			<p class="input-label">Username</p>
 			<p><input class="inputText" id="Username" name="username" type="text" maxlength="50" placeholder="Username" value="<?php echo $user->getUsername(); ?>" required/><img src="" id="check"></p></p>
 		</div>
 		<div class="right">
+			<p class="lgs-text-sub note">Enter a new password if you wish to.</p>
 			<p class="input-label">Password</p>
-			<p><input class="inputText" id="Password" name="password" type="password" maxlength="50" placeholder="Enter new password" required minlength="6"/></p>
+			<p><input class="inputText" id="Password" name="password" type="password" maxlength="50" placeholder="Enter new password" minlength="6" pattern="^(?!\s*$)[a-zA-Z0-9\-]{6,}" title="Password must be 6 characters or more and must not contain space"/></p>
 		</div>
 		<p class="lgs-text-sub heading-input">About You</p>
 		<?php if ($type == 2) { ?>
@@ -183,7 +184,7 @@ $.validate({
 			<p>Update your <strong>username</strong> to something that you can easily remember. This is optional so you can leave it as it is if you prefer.</p>
 		</li>
 		<li data-id="Password" 		data-text="Next" data-options="tipLocation:top;tipAnimation:fade">
-			<p>Update your <strong>password</strong> to something that you can easily remember.</p>
+			<p>Enter a new password. If you do not wish to change the password you used in the free trial form, leave this blank.</p>
 		</li>
 		<li data-id="FirstName" 		data-text="Next" data-options="tipLocation:top;tipAnimation:fade;">
 			<p>Enter in your first name</p>
