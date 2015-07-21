@@ -193,7 +193,8 @@ if($end == '0000-00-00 00:00:00' || $test[0]['user_id'] == $uid) : ?>
 <?php
 	if(isset($_POST['sendresults'])) {
 		$email = $_POST['emailto'];
-		$from = $_POST['emailfrom'];
+		/*$from = $_POST['emailfrom'];*/
+		$emailfrom = $_POST['emailfrom'];
 
 		if($sdt_set->getMode() == 1){
 			$message = "<h3>Student Pre-test</h3>";
@@ -205,7 +206,8 @@ if($end == '0000-00-00 00:00:00' || $test[0]['user_id'] == $uid) : ?>
 
 		$message .= $_POST['resultcontent'];
 		$headers = "From: ". 'webmaster@nexgenready.com' ." \r\n" . 
-                   "Reply-To: info@nexgenready.com \r\n" . 
+                   /*"Reply-To: info@nexgenready.com \r\n" . */
+	                   "Reply-To:". $emailfrom ." \r\n" . 
                    "Content-type: text/html; charset=UTF-8 \r\n";
 
 		$to = $email;
