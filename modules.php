@@ -77,23 +77,6 @@
 
 		$gmc->addGroupModule($values);
 	endif;
-	// $isActive = $dtc->getDiagnosticTest("fossils",$teacherID,1);
-	// echo "<pre>";
-	// print_r($isActive);
-	// echo "</pre>";
-
-	// $gmc = new GroupModuleController();
-	// $isActive = $gmc->getModuleGroupByID($groupID, "fossils");
-	// $pre_active = array();
-	// if(!empty($isActive)){
-	// 	for ($i=0; $i < sizeof($isActive); $i++) {
-	// 		// $pre_active = $isActive[0]["pre_active"];
-	// 		$pre_active[$isActive[$i]["module_id"]] = $isActive[$i]["pre_active"];
-	// 	}
-	// 	echo "<pre>";
-	// 	print_r($pre_active);
-	// 	echo "</pre>";
-	// }
 
 	$tmc = new TeacherModuleController();
 	$tm_set = $tmc->getTeacherModule($userid);
@@ -107,10 +90,6 @@
 	$modules = $mc->getAllModules();
 	$dtc = new DiagnosticTestController();
 	$testIDa = $dtc->getAllTeacherTests1($teacherID);
-
-	// echo "<pre>";
-	// print_r($testIDa);
-	// echo "</pre>";
 
 	$m1TestIDa = "";
 	$m2TestIDa = "";
@@ -134,10 +113,6 @@
 	}
 
 	$testIDb = $dtc->getAllTeacherTests2($teacherID);
-
-	// echo "<pre>";
-	// print_r($testIDb);
-	// echo "</pre>";
 
 	$m1TestIDb = "";
 	$m2TestIDb = "";
@@ -259,7 +234,8 @@
  		<h1 class="lgs-text">Let's Get Started</h1>
 		<p class="lgs-text-sub heading-input step step2">Step 3: Your Modules</p>
 		<p class="lgs-text-sub heading-input">Modules</p>
-		<p class="lgs-text-sub note">Listed below are the 3 modules available in your free trial account. You can choose to start by creating the pre and post diagnostic tests for any module (first two buttons) and then simply click on Activate (last button), or you can choose to quickly activate any or all of the modules by clicking on the Activate button (last button) and skip the pre and post diagnostic tests.</p>
+		<p class="lgs-text-sub note">Listed below are 3 of the 30 modules available in your free trial account. You can choose to start by creating the pre and post diagnostic tests for any module (first two buttons) and then simply click on Activate (last button), or you can choose to quickly activate any or all of these 3 modules by clicking on the Activate button (last button) and skip the pre and post diagnostic tests.</p>
+		<p class="lgs-text-sub note"><b>Note: </b>You also have the option to activate any of the 30 modules in the Dashboard later.</p>
 		<table class="modules">
 			<tr>
 				<td class="module-name"><?php echo _("Fossils"); ?></td>
