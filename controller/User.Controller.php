@@ -436,9 +436,9 @@ class UserController {
 		$data['grade_level'] 	= $values['grade_level'];
 		$data['teacher_id'] 	= $values['teacher_id'];
 		$data['demo_id'] 		= $values['demo_id'];
-		$data['create_date'] 	= date('Y-m-d');
-		//$data['cur_date'] 		= date('Y-m-d');
-		//$data['expire_date'] 	= date('Y-m-d', strtotime("+30 days"));
+		$data['create_date'] 	= date('Y-m-d G:i:s');
+		//$data['cur_date'] 		= date('Y-m-d G:i:s');
+		//$data['expire_date'] 	= date('Y-m-d G:i:s', strtotime("+30 days"));
 		return $data;
 	}
 	

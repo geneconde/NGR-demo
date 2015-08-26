@@ -7,8 +7,8 @@
 
 	function generateUsers($fname, $lname, $school, $tnum, $snum, $tid, $tusername, $tpassword) {
 		//$gender	   		= ['M', 'F'];
-		$create_date	= date('Y-m-d hh:mm:ss');
-		$expire_date	= date('Y-m-d', strtotime("+30 days"));
+		$create_date	= date('Y-m-d G:i:s');
+		$expire_date	= date('Y-m-d G:i:s', strtotime("+30 days"));
 
 		$uc 		= new UserController();
 		$tmc 		= new TeacherModuleController();
