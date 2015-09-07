@@ -108,6 +108,7 @@ $col["title"] = $username;
 $col["name"] = "username";
 $col["width"] = "30";
 $col["search"] = true;
+$col["searchoptions"] = array("attr"=>array("placeholder"=>'Enter Username...')); 
 $col["editable"] = true;
 $col["align"] = "center";
 $col["export"] = true; // this column will not be exported
@@ -141,6 +142,7 @@ $col["title"] = $first_name;
 $col["name"] = "first_name";
 $col["width"] = "30";
 $col["search"] = true;
+$col["searchoptions"] = array("attr"=>array("placeholder"=>'Enter First Name...')); 
 $col["editable"] = true;
 $col["align"] = "center";
 $col["export"] = true; 
@@ -151,6 +153,7 @@ $col["title"] = $last_name;
 $col["name"] = "last_name";
 $col["width"] = "30";
 $col["search"] = true;
+$col["searchoptions"] = array("attr"=>array("placeholder"=>'Enter Last Name...')); 
 $col["editable"] = true;
 $col["align"] = "center";
 $col["export"] = true; 
@@ -161,6 +164,8 @@ $col["title"] = $gender;
 $col["name"] = "gender";
 $col["width"] = "10";
 $col["search"] = true;
+$col["stype"] = "select";
+$col["searchoptions"] = array("value"=>'M:M;F:F');
 $col["editable"] = true;
 $col["align"] = "center";
 $col["export"] = true;
@@ -172,6 +177,7 @@ $cols[] = $col;
 $col = array();
 $col["title"] = $grade_level; // caption of column
 $col["name"] = "grade_level"; 
+$col["searchoptions"] = array("attr"=>array("placeholder"=>'Enter Level...')); 
 $col["width"] = "15";
 $col["editable"] = true;
 $col["align"] = "center";
@@ -329,7 +335,6 @@ $main_view = $grid->render("list1");
 	<link rel="stylesheet" type="text/css" href="../lgs.css" />
 	<link rel="stylesheet" href="../libraries/joyride/joyride-2.1.css">
 	<style>
-		.ui-search-toolbar { display: none; }
 		.fleft { margin-top: -16px; }
 		.tguide { float: left; margin-top: -15px; }
 		.guide {
