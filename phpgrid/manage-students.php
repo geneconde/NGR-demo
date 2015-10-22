@@ -293,8 +293,16 @@ $opt["reloadedit"] = true;
 $opt["export"] = array("filename"=>"Student Information", "heading"=>"Student Information", "orientation"=>"landscape", "paper"=>"a4");
 $opt["export"]["sheetname"] = "Student Information";
 $opt["export"]["range"] = "filtered";
-
 $grid->set_options($opt);
+
+$e["on_update"] = array("update_student", null, true);
+$grid->set_events($e);
+
+function update_student($data)
+{
+	$data["params"]["username"] = trim($data["params"]["username"]);
+}
+
 $grid->debug = 0;
 $grid->error_msg = "Username Already Exists.";
 $grid->set_actions(array(
@@ -356,6 +364,9 @@ $main_view = $grid->render("list1");
 		}
 		.ui-icon {
 		  display: inline-block !important;
+		}
+		.phpgrid input {
+			width: 90% !important;
 		}
 		<?php if($language == "ar_EG") { ?>
 		.tguide { float: right; }
@@ -463,7 +474,7 @@ $main_view = $grid->render("list1");
 				};	
 			</script>
 
-			<div style="margin:10px 0">
+			<div style="margin:10px 0" class="phpgrid">
 				<?php echo $main_view; ?>
 				<p><br/>* <?php echo _('Note: If the students request for a password reset, please change the student\'s password to something that\'s easy to remember. Once the spreadsheet is updated, the student will be able to use the new password.'); ?></p>
 			</div>
