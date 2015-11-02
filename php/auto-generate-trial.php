@@ -51,6 +51,8 @@
 		$pdf->Cell(90, 5, $expire_date, 0, 1, 'L');
 		$pdf->Ln(5);
 
+		$pdf->SetFont('Arial', '', 10);
+		$pdf->Cell(180, 5, 'Go to dev.jigzen.com/shymansky/demo', 0, 1, 'C');
 		for($i = 1; $i <= $tnum; $i++) {
 			//$uname = generateUsername('T', $i); //added $ctr to add extra value in username - raina 01-30-2015
 			//$pw = generatePassword();
@@ -59,7 +61,7 @@
 
 			$pdf->SetFont('Arial', 'B', 12);
 			$pdf->Cell(50, 5, ' ', 0, 0, 'L');
-			$pdf->Cell(80, 5, 'Teacher ' . $i, 0, 0, 'C');
+			$pdf->Cell(80, 5, 'Teacher Account', 0, 0, 'C');
 			$pdf->Ln(5);
 			$pdf->Cell(50, 5, ' ', 0, 0, 'L');
 			$pdf->Cell(40, 5, 'Username', 1, 0, 'C');
@@ -68,7 +70,7 @@
 			$pdf->SetFont('Arial', '', 12);
 			$pdf->Cell(50, 10, ' ', 0, 0, 'L');
 			$pdf->Cell(40, 10, $uname, 1, 0, 'L');
-			$pdf->Cell(40, 10, $pw, 1, 1, 'L');
+			$pdf->Cell(40, 10, $tpassword, 1, 1, 'L');
 			$pdf->Ln(5);
 
 			//$gender[rand(0,1)]
@@ -130,9 +132,12 @@
 			$tmc->addTeacherModule($uid, 'solar-power');
 			$tmc->addTeacherModule($uid, 'staying-alive');
 
+
+			$pdf->SetFont('Arial', '', 10);
+			$pdf->Cell(180, 5, 'Go to dev.jigzen.com/shymansky/demo', 0, 1, 'C');
 			$pdf->SetFont('Arial', 'B', 12);
 			$pdf->Cell(50, 5, ' ', 0, 0, 'L');
-			$pdf->Cell(80, 5, 'Students under Teacher ' . $i, 0, 0, 'C');
+			$pdf->Cell(80, 5, 'Student Accounts', 0, 0, 'C');
 			$pdf->Ln(5);
 			$pdf->Cell(50, 5, ' ', 0, 0, 'L');
 			$pdf->Cell(40, 5, 'Username', 1, 0, 'C');
@@ -141,13 +146,13 @@
 			for($j = 1; $j <= $snum; $j++) {
 				$suname = generateUsername('S', $j);
 				$spw = '123456';
-		        $salt = sha1(md5($spw));
-		        $spw = md5($spw.$salt);
-
+		        
 	    		$pdf->SetFont('Arial', '', 12);
 	    		$pdf->Cell(50, 10, ' ', 0, 0, 'L');
 				$pdf->Cell(40, 10, $suname, 1, 0, 'L');
 				$pdf->Cell(40, 10, $spw, 1, 1, 'L');
+
+				$spw = $uc->hashPassword($spw);
 
 				$student = array(
 					"username" 		=> $suname,

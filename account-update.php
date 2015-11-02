@@ -68,9 +68,9 @@
 			<p><input class="inputText" id="Username" name="username" type="text" maxlength="50" placeholder="Username" value="<?php echo $user->getUsername(); ?>" required/><img src="" id="check"></p></p>
 		</div>
 		<div class="right">
-			<p class="lgs-text-sub note">Enter a new password if you wish to.</p>
+			<p class="lgs-text-sub note">Enter a new password if you would like.</p>
 			<p class="input-label">Password</p>
-			<p><input class="inputText" id="Password" name="password" type="password" maxlength="50" placeholder="Enter new password" minlength="6" pattern="^(?!\s*$)[a-zA-Z0-9\-]{6,}" title="Password must be 6 characters or more and must not contain space"/></p>
+			<p><input class="inputText" id="Password" name="password" type="text" maxlength="50" placeholder="Enter new password" minlength="6" pattern="^(?!\s*$)[a-zA-Z0-9\-]{6,}" title="Password must be 6 characters or more and must not contain space"/></p>
 		</div>
 		<p class="lgs-text-sub heading-input">About You</p>
 		<?php if ($type == 2) { ?>

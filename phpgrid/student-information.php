@@ -431,7 +431,7 @@ $main_view = $grid->render("list1");
 			<p class="input-label" align="left">Default group name</p>
 			<p align="left"><input class="inputText" id="group" name="group" type="text" maxlength="60" value="<?php echo $group_name; ?>"/></p>
 			<p class="lgs-text-sub heading-input">Student List</p>
-			<p class="lgs-text-sub note">Your student accounts are listed below. You can enter your students' information now or have your students enter their information when they first log in.<br/><br/>(Note: This student spreadsheet can be accessed and updated anytime by clicking the "Student Accounts" button at the top right of the dashboard)</p>
+			<p class="lgs-text-sub note">Your student accounts are listed below. You can enter your students' information now OR have your students enter their information when they first log in (Provide the usernames and passwords to the students. These can be found in the email attachment).<br/><br/>Press the 'Enter' button on your keyboard or click on the 'disk' icon in the Actions column to save the student's information that you have entered below.<br/><br/>(Note: This student spreadsheet can be accessed and updated anytime by clicking the "Student Accounts" button at the top right of the dashboard)</p>
 
 			<script>
 				var opts = {
