@@ -65,6 +65,7 @@
 	.guide:hover {
 		background-color: orange;
 	}
+	.CToWUd {width: 312px;}
 	<?php if($language == "ar_EG") { ?>
 		.tguide { float: right; }
 	<?php } ?>

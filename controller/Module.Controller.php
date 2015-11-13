@@ -28,7 +28,7 @@ class ModuleController {
 		
 		$db = new DB();
 		$db->connect();
-		$result = $db->select("module","","*","module_name ASC");
+		$result = $db->select("module","","*","category ASC, module_name ASC");
 		$db->disconnect();
 		return $result;
 	}
@@ -109,5 +109,17 @@ class ModuleController {
 		$module->setModule_desc($row['module_desc']);
 		return $module;
 	}
+
+	public function getModuleName($moduleid) {
+		$where = array();
+		$where['module_ID'] = $moduleid;
+	
+		$db = new DB();
+		$db->connect();
+		$result = $db->select("module", $where);
+		$db->disconnect();
+		return $result[0]['module_name'];
+	}
+	
 }
 ?>

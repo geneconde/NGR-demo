@@ -152,7 +152,7 @@
 				$pdf->Cell(40, 10, $suname, 1, 0, 'L');
 				$pdf->Cell(40, 10, $spw, 1, 1, 'L');
 
-				$spw = $uc->hashPassword($spw);
+				// $spw = $uc->hashPassword($spw);
 
 				$student = array(
 					"username" 		=> $suname,

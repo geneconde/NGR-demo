@@ -92,6 +92,11 @@
 		  	margin-right: -54px;
 		}
 	<?php } ?>
+	.fleft.language { margin-top: 10px !important; }
+	div#dbguide {
+	    margin-top: -28px;
+	    float: left;
+	}
 </style>
 
 <div class="fleft language" id="gm-language">

@@ -18,8 +18,8 @@
 		
 	if(isset($_POST['newpw'])) {
 		$password	= $_POST['newpw'];
-		// $salt 		= sha1(md5($password));
-		// $password 	= md5($password.$salt);
+		$salt 		= sha1(md5($password));
+		$password 	= md5($password.$salt);
 
 		//if($match) {
 		$uc->updatePassword($userid, $password);

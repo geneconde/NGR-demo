@@ -82,7 +82,7 @@ $grid2->table = "users";
 $excel_view = $grid2->render("list2");
 
 $username = _('Username');
-$password = _('Password');
+$password = _('Student Password');
 $first_name = _('First Name');
 $last_name = _('Last Name');
 $gender = _('Gender');
@@ -115,16 +115,15 @@ $col["export"] = true; // this column will not be exported
 // $col["formoptions"] = array("elmsuffix"=>'<font color=red> *</font>');
 $cols[] = $col;
 
-/*$col = array();
+$col = array();
 $col["title"] = $password;
 $col["name"] = "password";
 $col["width"] = "30";
 $col["search"] = true;
 $col["editable"] = true;
 $col["align"] = "center";
-$col["export"] = true; // this column will not be exported
-// $col["formoptions"] = array("elmsuffix"=>'<font color=red> *</font>');
-$cols[] = $col;*/
+$col["export"] = true;
+$cols[] = $col;
 
 $col = array();
 $col["title"] = "Type";
@@ -204,18 +203,18 @@ $col["hidden"] = true;
 $col["editrules"] = array("edithidden"=>false); 
 $cols[] = $col;
 
-$col = array();
-$col["title"] = "Reset Student password";
-$col["name"] = "reset_pword";
-$col["width"] = "25";
-$col["align"] = "center";
-$col["search"] = false;
-$col["sortable"] = false;
-$col["link"] = "../reset-password.php?user_id={user_ID}"; // e.g. http://domain.com?id={id} given that, there is a column with $col["name"] = "id" exist
-// $col["linkoptions"] = "target='_blank'"; // extra params with <a> tag
-$col["default"] = "Reset password"; // default link text
-$col["export"] = false; // this column will not be exported
-$cols[] = $col;
+// $col = array();
+// $col["title"] = "Reset Student password";
+// $col["name"] = "reset_pword";
+// $col["width"] = "25";
+// $col["align"] = "center";
+// $col["search"] = false;
+// $col["sortable"] = false;
+// $col["link"] = "../reset-password.php?user_id={user_ID}"; // e.g. http://domain.com?id={id} given that, there is a column with $col["name"] = "id" exist
+// // $col["linkoptions"] = "target='_blank'"; // extra params with <a> tag
+// $col["default"] = "Reset password"; // default link text
+// $col["export"] = false; // this column will not be exported
+// $cols[] = $col;
 
 $col = array();
 $col["title"] = $student_portfolio;
@@ -356,18 +355,11 @@ $main_view = $grid->render("list1");
 			color: #000;
 			cursor: pointer;
 		}
-		.guide:hover {
-			background-color: orange;
-		}
-		.joytest2 ~ div a:nth-child(3){
-		    display: none;
-		}
-		.ui-icon {
-		  display: inline-block !important;
-		}
-		.phpgrid input {
-			width: 90% !important;
-		}
+		.guide:hover { background-color: orange; }
+		.joytest2 ~ div a:nth-child(3){ display: none; }
+		.ui-icon { display: inline-block !important; }
+		.ui-pg-input { width: 25px !important; }
+		.phpgrid input.editable { width: 90% !important; }
 		<?php if($language == "ar_EG") { ?>
 		.tguide { float: right; }
 		<?php } ?>
@@ -459,7 +451,8 @@ $main_view = $grid->render("list1");
 		<div id="wrap">
 			<div class="sub-headers">
 				<h1><?php echo _('List of Students'); ?></h1>
-				<p> * <?php echo _('Click the column title to filter it Ascending or Descending.'); ?></li></p>
+				<p> * <?php echo _("Press the 'Enter' button on your keyboard or click on the 'disk' icon in the Actions column to save the student's information that you have entered below."); ?></p>
+				<p> * <?php echo _("Click the column title to filter it (Change the order, Ascending or Descending)"); ?></p>
 			</div>
 			<script>
 				var opts = {

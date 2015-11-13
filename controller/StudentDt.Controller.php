@@ -41,8 +41,9 @@ class StudentDtController {
 		}
 	}
 
-	public function getStudentDtByEndDate($end) {
+	public function getStudentDtByEndDate($userid, $end) {
 		$where = array();
+		$where['user_id'] = $userid;
 		$where['date_ended'] = $end;
 		
 		$db = new DB();
@@ -117,6 +118,7 @@ class StudentDtController {
 		$data					= array();
 		$data['date_ended'] 	= date('Y-m-d G:i:s');
 		$data['date_started'] 	= $startdate;
+		// $data['finished']		= $finished;
 					
 		$db = new DB();
 		$db->connect();
@@ -184,6 +186,20 @@ class StudentDtController {
 		$result = $db->update("student_dt_answers", $where, $data);
 		$db->disconnect();
 	}
+
+	// public function checkFinished($userid, $finished) {
+	// 	$where = array();
+	// 	$where['user_id'] = $userid;
+	// 	$where['finished'] = $finished;
+	// 	$where['date_ended'] = '0000-00-00 00:00:00';
+
+	// 	$db = new DB();
+	// 	$db->connect();
+	// 	$result = $db->select('student_dt', $where);
+	// 	$db->disconnect();
+
+	// 	return $result;
+	// }
 	
 	public function addStudentDT($values){
 		$data = array();
@@ -233,6 +249,7 @@ class StudentDtController {
 		$st->setDTID		($row['dt_id']);
 		$st->setStartDate	($row['date_started']);
 		$st->setEndDate		($row['date_ended']);
+		// $st->setFinished	($row['finished']);
 		return $st;
 	}
 	

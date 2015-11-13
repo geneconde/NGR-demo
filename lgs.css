@@ -125,7 +125,7 @@
 .dactivatemin {
     border: none;
     background: transparent;
-    width: 234px;
+    width: 295px;
     color: #fff !important ;
     font: 18px bold;
     cursor: pointer;
@@ -187,4 +187,10 @@ table.modules {
     line-height: -10px !important;
     color: #A9A9A9 !important;
     font-weight: bold;
+}
+td.category {
+    font-size: 25px;
+    text-align: left;
+    padding-top: 25px;
+    text-transform: uppercase;
 }

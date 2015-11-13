@@ -29,6 +29,11 @@
 	$mc = new ModuleController();
 	$scc = new StudentCtController();
 
+	$file = basename($_SERVER['PHP_SELF']);
+	$num = trim($file, '.php');
+
+	$_SESSION['curPage'] = $num;
+
 	/*
 	if(isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 1800)) {
 		// last request was more than 30 minutes ago

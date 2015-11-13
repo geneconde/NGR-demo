@@ -338,6 +338,13 @@
 	        $body .= $_POST['emailmessage'].$eol.$eol;
 	        $body .= "--".$separator."--".$eol.$eol;
 
+			// $message .= "--".$separator.$eol;
+			// $message .= "Content-Type: application/octet-stream; name=\"".$filename."\"".$eol; 
+			// $message .= "Content-Transfer-Encoding: base64".$eol;
+			// $message .= "Content-Disposition: attachment".$eol.$eol;
+			// $message .= $attachment.$eol;
+			// $message .= "--".$separator."--";
+
 			$to = $email;
 			$from = "info@nexgenready.com"; 
 			$subject = 'Your Student Results';

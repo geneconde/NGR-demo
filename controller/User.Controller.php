@@ -148,11 +148,13 @@ class UserController {
 		$db->disconnect();
 	}
 
-	public function updatePassword($userid, $newpassword){
+	public function updatePassword($userid, $newpassword, $type=0){
 		$where = array();
 		$where['user_ID'] = $userid;
 		
-		$newpassword = UserController::hashPassword($newpassword);
+		if($type != 2){
+			$newpassword = UserController::hashPassword($newpassword);
+		}
 		$data = array();
 		$data['password'] = $newpassword;
 		

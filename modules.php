@@ -15,9 +15,7 @@
 	$sgc 		= new StudentGroupController();
 	$groups		= $sgc->getGroups($userid);
 
-	$stds = $uc->getAllStudents($userid);
-	$teacherID = $stds[0]["teacher_id"];
-	$groupHolder = $sgc->getGroups($teacherID);
+	$groupHolder = $sgc->getGroups($userid);
 	$groupID = $groupHolder[0]['group_id'];
 	$groupNameHolder = $sgc->getGroupName($groupID);
 	$group_name = $groupNameHolder[0]["group_name"];
@@ -26,57 +24,7 @@
 	$ct  				= $dtc->getCumulativeTest($userid);
 	$diagnostic_test  	= $dtc->getAllTeacherTests($userid);
 
-	$gmc 		= new GroupModuleController();
-	$gm			= $gmc->getModuleGroupByID($groupID,"fossils");
-	if(!$gm):
-		$values = array(
-			"group_id" 			=> $groupID,
-			"module_id"			=> "fossils",
-			"pretest_id"		=> 0,
-			"posttest_id"		=> 0,
-			"review_active"		=> 0,
-			"pre_active"		=> 0,
-			"post_active"		=> 0,
-			"timelimit_pre"		=> "00:45:00",
-			"timelimit_post"	=> "00:45:00"
-		);
-
-		$gmc->addGroupModule($values);
-	endif;
-
-	$gm2 = $gmc->getModuleGroupByID($groupID,"gathering-data");
-	if(!$gm2):
-		$values = array(
-			"group_id" 			=> $groupID,
-			"module_id"			=> "gathering-data",
-			"pretest_id"		=> 0,
-			"posttest_id"		=> 0,
-			"review_active"		=> 0,
-			"pre_active"		=> 0,
-			"post_active"		=> 0,
-			"timelimit_pre"		=> "00:45:00",
-			"timelimit_post"	=> "00:45:00"
-		);
-
-		$gmc->addGroupModule($values);
-	endif;
-
-	$gm3 = $gmc->getModuleGroupByID($groupID,"how-animals-behave");
-	if(!$gm3):
-		$values = array(
-			"group_id" 			=> $groupID,
-			"module_id"			=> "how-animals-behave",
-			"pretest_id"		=> 0,
-			"posttest_id"		=> 0,
-			"review_active"		=> 0,
-			"pre_active"		=> 0,
-			"post_active"		=> 0,
-			"timelimit_pre"		=> "00:45:00",
-			"timelimit_post"	=> "00:45:00"
-		);
-
-		$gmc->addGroupModule($values);
-	endif;
+	$gmc = new GroupModuleController();
 
 	$tmc = new TeacherModuleController();
 	$tm_set = $tmc->getTeacherModule($userid);
@@ -87,389 +35,167 @@
 	$teacher_languages = $lc->getLanguageByTeacher($userid);
 
 	$mc = new ModuleController();
-	$modules = $mc->getAllModules();
 	$dtc = new DiagnosticTestController();
-	$testIDa = $dtc->getAllTeacherTests1($teacherID);
-
-	$m1TestIDa = "";
-	$m2TestIDa = "";
-	$m3TestIDa = "";
-	for ($i = 0; $i < sizeof($testIDa); $i++) {
-		if(strpos($testIDa[$i]["module_id"],'fossils') !== false){
-			$m1a = 1;
-			$m1TestIDa = $testIDa[$i]["dt_id"];
-			$m1TestNamea = $testIDa[$i]["test_name"];
-		}
-		if(strpos($testIDa[$i]["module_id"],'gathering-data') !== false){
-			$m2a = 1;
-			$m2TestIDa = $testIDa[$i]["dt_id"];
-			$m2TestNamea = $testIDa[$i]["test_name"];
-		}
-		if(strpos($testIDa[$i]["module_id"],'how-animals-behave') !== false){
-			$m3a = 2;
-			$m3TestIDa = $testIDa[$i]["dt_id"];
-			$m3TestNamea = $testIDa[$i]["test_name"];
-		}
-	}
-
-	$testIDb = $dtc->getAllTeacherTests2($teacherID);
-
-	$m1TestIDb = "";
-	$m2TestIDb = "";
-	$m3TestIDb = "";
-	for ($i = 0; $i < sizeof($testIDb); $i++) {
-		if(strpos($testIDb[$i]["module_id"],'fossils') !== false){
-			$m1b = 1;
-			$m1TestIDb = $testIDb[$i]["dt_id"];
-			$m1TestNameb = $testIDb[$i]["test_name"];
-		}
-		if(strpos($testIDb[$i]["module_id"],'gathering-data') !== false){
-			$m2b = 1;
-			$m2TestIDb = $testIDb[$i]["dt_id"];
-			$m2TestNameb = $testIDb[$i]["test_name"];
-		}
-		if(strpos($testIDb[$i]["module_id"],'how-animals-behave') !== false){
-			$m3b = 2;
-			$m3TestIDb = $testIDb[$i]["dt_id"];
-			$m3TestNameb = $testIDb[$i]["test_name"];
-		}
-	}
-
-	if(!empty($m1TestIDa)){
-	?>
-		<script>
-			var pre = <?php echo $m1TestIDa; ?>;
-			var preact	= "1";
-		</script>
-	<?php
-	} else{
-	?>
-		<script>
-			var pre = "0";
-			var preact	= "0";
-		</script>
-	<?php
-	}
-	if(!empty($m1TestIDb)){
-	?>
-		<script>
-			var post = <?php echo $m1TestIDb; ?>;
-			var postact	= "1";
-		</script>
-	<?php
-	} else{
-	?>
-		<script>
-			var post = "0";
-			var postact	= "0";
-		</script>
-	<?php
-	}
-
-	if(!empty($m2TestIDa)){
-	?>
-		<script>
-			var pre2 = <?php echo $m2TestIDa; ?>;
-			var preact2	= "1";
-		</script>
-	<?php
-	} else{
-	?>
-		<script>
-			var pre2 = "0";
-			var preact2	= "0";
-		</script>
-	<?php
-	}
-	if(!empty($m2TestIDb)){
-	?>
-		<script>
-			var post2 = <?php echo $m2TestIDb; ?>;
-			var postact2	= "1";
-		</script>
-	<?php
-	} else{
-	?>
-		<script>
-			var post2 = "0";
-			var postact2	= "0";
-		</script>
-	<?php
-	}
-
-	if(!empty($m3TestIDa)){
-	?>
-		<script>
-			var pre3 = <?php echo $m3TestIDa; ?>;
-			var preact3	= "1";
-		</script>
-	<?php
-	} else{
-	?>
-		<script>
-			var pre3 = "0";
-			var preact3	= "0";
-		</script>
-	<?php
-	}
-	if(!empty($m3TestIDb)){
-	?>
-		<script>
-			var post3 = <?php echo $m3TestIDb; ?>;
-			var postact3	= "1";
-		</script>
-	<?php
-	} else{
-	?>
-		<script>
-			var post3 = "0";
-			var postact3	= "0";
-		</script>
-	<?php
-	}
 	
+	if(empty($tm_set)){
+		$modules = $mc->getAllModules();
+		$i = 1;
+		foreach($modules as $module){
+			$x = $module['module_ID'];
+		 	$tmc->addTeacherModule($userid, $x);	
+		}
+		header("Location: modules.php");
+	
+	}
 ?>
 <div class='lgs-container'>
  	<div class="center">
- 		<h1 class="lgs-text">Let's Get Started</h1>
-		<p class="lgs-text-sub heading-input step step2">Step 3: Your Modules</p>
-		<p class="lgs-text-sub heading-input">Modules</p>
-		<p class="lgs-text-sub note">Listed below are 3 of the 30 modules available in your free trial account. You can choose to start by creating the pre and post diagnostic tests for any module (first two buttons) and then simply click on Activate (last button), or you can choose to quickly activate any or all of these 3 modules by clicking on the Activate button (last button) and skip the pre and post diagnostic tests.</p>
+ 		<h1 class="lgs-text"><?php echo _("Let's Get Started"); ?></h1>
+		<p class="lgs-text-sub heading-input step step2"><?php echo _("Step 3: Your Modules"); ?></p>
+		<p class="lgs-text-sub heading-input"><?php echo _("Modules"); ?></p>
+		<p class="lgs-text-sub note"><?php echo _("Listed below are all the available modules in your free trial account. You can choose to start by creating the pre and post diagnostic tests for any module (first two buttons) and then simply click on Activate (last button), OR choose to skip the pre and post diagnostic tests and quickly activate any or all of these modules by clicking on the Activate button (last button)."); ?></p>
 		<p class="lgs-text-sub note"><b>Note: </b>You also have the option to activate any of the 30 modules in the Dashboard later.</p>
-		<table class="modules">
+		<table class="modules">			
+			<?php 
+			$modules = $mc->getAllModules();
+			$catTemp = 'module-category';
+			foreach ($modules as $key => $module) : ?>
+			<?php
+				$category = $module['category'];
+				$mname = $module['module_name'];
+				$gm = $gmc->getModuleGroupByID($groupID,$module['module_ID']);
+				if(!$gm):
+					$values = array(
+						"group_id" 			=> $groupID,
+						"module_id"			=> $module['module_ID'],
+						"pretest_id"		=> 0,
+						"posttest_id"		=> 0,
+						"review_active"		=> 0,
+						"pre_active"		=> 0,
+						"post_active"		=> 0,
+						"timelimit_pre"		=> "00:45:00",
+						"timelimit_post"	=> "00:45:00"
+					);
+					$gmc->addGroupModule($values);
+				endif;
+				$cea = $dtc->getDiagnosticTest($module['module_ID'], $userid, 1);
+				$ceb = $dtc->getDiagnosticTest($module['module_ID'], $userid, 2);
+				$preID = "";
+				$postID = "";
+				if ($cea) $preID = $cea->getDTID();
+				if ($ceb) $postID = $ceb->getDTID();
+				$gmActive = $gmc->getModuleGroupByID($groupID,$module['module_ID']);
+			?>
+			<?php if($catTemp != $category) { ?>
+			<tr><td class="category"><?php echo _($category); ?></td></tr>
+			<?php $catTemp = $category; ?>
+			<?php } ?>
 			<tr>
-				<td class="module-name"><?php echo _("Fossils"); ?></td>
+				<td id="module-name" class="module-name"><?php echo _($mname); ?></td>
 			</tr>
 			<tr class="lgs-modules">
 				<td class="dactivate">
-					<a id="1a"
-					<?php if(!empty($m1a)) { ?>
-						href="lgs-test.php?dtid=<?php echo $m1TestIDa; ?>&action=edit"><?php echo _("Edit Pre-Diagnostic Test"); ?>
+					<a class="pre-test"
+					<?php if($cea) { ?>
+						href="lgs-test.php?dtid=<?php echo $preID; ?>&action=edit"><?php echo _("Edit Pre-Diagnostic Test Button"); ?>
 					<?php } else { ?>
-						href="lgs-test.php?module_id=fossils&mode=pre&action=new"><?php echo _("Create Pre-Diagnostic Test"); ?>
+						href="lgs-test.php?module_id=<?php echo $module['module_ID']; ?>&mode=pre&action=new"><?php echo _("Create Pre-Diagnostic Test Button"); ?>
 					<?php } ?>
 					</a>
 				</td>
 				<td class="dactivate">
-					<a id="1b" <?php
-					if(!empty($m1b)){ ?>
-						href="lgs-test.php?dtid=<?php echo $m1TestIDb; ?>&action=edit"><?php echo _("Edit Post-Diagnostic Test"); ?>
+					<a class="post-test"
+					<?php if($ceb){ ?>
+						href="lgs-test.php?dtid=<?php echo $postID; ?>&action=edit"><?php echo _("Edit Post-Diagnostic Test Button"); ?>
 					<?php } else { ?>
-						href="lgs-test.php?module_id=fossils&mode=post&action=new"><?php echo _("Create Post-Diagnostic Test"); ?>
+						href="lgs-test.php?module_id=<?php echo $module['module_ID']; ?>&mode=post&action=new"><?php echo _("Create Post-Diagnostic Test Button"); ?>
 					<?php } ?>
 					</a>
 				</td>
-				<td class="dactivate" id="tm1">
-					<input class="dactivatemin" type="button" id="m1" value="<?php if(!empty($gm)){if($gm[0]['pre_active'] == '1' || $gm[0]['post_active'] == '1' || $gm[0]['review_active'] == '1'){ ?>Deactivate for <?php echo $group_name; ?><?php } else { ?>Activate for <?php echo $group_name; ?><?php }} else { ?>Activate for <?php echo $group_name; ?><?php } ?>" onclick="toggle1();">
-				</td>
-			</tr>
-			<tr class="rowSpace">
-				<td class="module-name"><?php echo _("Gathering Data"); ?></td>
-			</tr>
-			<tr class="lgs-modules">
+				<?php
+				$dtA = $dtc->getDiagnosticTestByID($preID);
+				$dtB = $dtc->getDiagnosticTestByID($postID);
+				$dtAn = "";
+				$dtBn = "";
+				if ($dtA) $dtAn = $dtA->getTestName();
+				if ($dtB) $dtBn = $dtB->getTestName();
+				$adActivated = 0;
+				$btnLabel = _("Activate for ") . "$group_name" . _(' Button');
+				if($gmActive){
+					if($gmActive[0]['pre_active'] == '1' || $gmActive[0]['post_active'] == '1' || $gmActive[0]['review_active'] == '1'){
+						$btnLabel = _("Deactivate for ") . "$group_name" . _(' Button');
+						$adActivated = 1;
+					}
+				}
+
+				$adc = $module['module_ID'].': '.$groupID.': '.$preID.': '.$postID.': '.$mname.': '.$dtAn.': '.$dtBn.': '.$adActivated.': '.$group_name;
+				?>
 				<td class="dactivate">
-					<a id="2a" <?php
-					if(!empty($m2a)){ ?>
-						href="lgs-test.php?dtid=<?php echo $m2TestIDa; ?>&action=edit"><?php echo _("Edit Pre-Diagnostic Test"); ?>
-					<?php } else { ?>
-						href="lgs-test.php?module_id=gathering-data&mode=pre&action=new"><?php echo _("Create Pre-Diagnostic Test"); ?>
-					<?php } ?>
-					</a>
-				</td>
-				<td class="dactivate">
-					<a id="2b" <?php
-					if(!empty($m2b)){ ?>
-						href="lgs-test.php?dtid=<?php echo $m2TestIDb; ?>&action=edit"><?php echo _("Edit Post-Diagnostic Test"); ?>
-					<?php } else { ?>
-						href="lgs-test.php?module_id=gathering-data&mode=post&action=new"><?php echo _("Create Post-Diagnostic Test"); ?>
-					<?php } ?>
-					</a>
-				</td>
-				<td class="dactivate" id="tm2">
-					<input class="dactivatemin" type="button" id="m2" value="<?php if(!empty($gm2)){if($gm2[0]['pre_active'] == '1' || $gm2[0]['post_active'] == '1' || $gm2[0]['review_active'] == '1'){ ?>Deactivate for <?php echo $group_name; ?><?php } else { ?>Activate for <?php echo $group_name; ?><?php }} else { ?>Activate for <?php echo $group_name; ?><?php } ?>" onclick="toggle2();">
+					<input class="dactivatemin" type="button" id="<?php echo $module['module_ID']; ?>" value="<?php echo $btnLabel; ?>" onclick="toggle('<?php echo $adc; ?>');">
 				</td>
 			</tr>
-			<tr class="rowSpace">
-				<td class="module-name"><?php echo _("How Animals Behave"); ?></td>
-			</tr>
-			<tr class="lgs-modules">
-				<td class="dactivate">
-					<a id="3a" <?php
-					if(!empty($m3a)){ ?>
-						href="lgs-test.php?dtid=<?php echo $m3TestIDa; ?>&action=edit"><?php echo _("Edit Pre-Diagnostic Test"); ?>
-					<?php } else { ?>
-						href="lgs-test.php?module_id=how-animals-behave&mode=pre&action=new"><?php echo _("Create Pre-Diagnostic Test"); ?>
-					<?php } ?>
-					</a>
-				</td>
-				<td class="dactivate">
-					<a id="3b" <?php
-					if(!empty($m3b)){ ?>
-						href="lgs-test.php?dtid=<?php echo $m3TestIDb; ?>&action=edit"><?php echo _("Edit Post-Diagnostic Test"); ?>
-					<?php } else { ?>
-						href="lgs-test.php?module_id=how-animals-behave&mode=post&action=new"><?php echo _("Create Post-Diagnostic Test"); ?>
-					<?php } ?>
-					</a>
-				</td>
-				<td class="dactivate" id="tm3">
-					<input class="dactivatemin" type="button" id="m3" value="<?php if(!empty($gm3)){if($gm3[0]['pre_active'] == '1' || $gm3[0]['post_active'] == '1' || $gm3[0]['review_active'] == '1'){ ?>Deactivate for <?php echo $group_name; ?><?php } else { ?>Activate for <?php echo $group_name; ?><?php }} else { ?>Activate for <?php echo $group_name; ?><?php } ?>" onclick="toggle3();">
-				</td>
-			</tr>
-			
+		<?php endforeach; ?>
 		</table>
 		<!-- <input id="skip_Submit" name="skip_Submit" class="start" type="submit" value="Next" />final-words.php -->
-		<a href="#" class="nbtn" id="next">Next</a>
-		<a class="nbtn back" href="phpgrid/student-information.php">Back</a>
+		<a href="final-words.php" class="nbtn" id="next"><?php echo _("Next"); ?></a>
+		<a class="nbtn back" href="phpgrid/student-information.php"><?php echo _("Back"); ?></a>
 	</div>
 </div>
 <script>
-	function toggle1()
+	var inputElement = document.getElementById("abtn");
+	inputElement.type = "button";
+	inputElement.addEventListener('click', function(){
+	    toggle(adc);
+	});
+	function toggle(adc)
 	{
-	  if(document.getElementById("m1").value=="Deactivate for <?php echo $group_name; ?>"){
-	   document.getElementById("m1").value="Activate for <?php echo $group_name; ?>";
-	   // $(document.getElementById("tm1")).css('background-color','#FF5B5B');
-		var review	= "0";
-		var pret	= "00:45:00";
-		var postt	= "00:45:00";
-		var msg = "The following has been deactivated for <?php echo $group_name; ?>:\n* Fossils module";
-		<?php if(!empty($m1TestNamea)) { ?> msg += "\n* The pre-diagnostic test <?php echo $m1TestNamea; ?>"; <?php } ?>
-		<?php if(!empty($m1TestNameb)) { ?> msg += "\n* The post-diagnostic test <?php echo $m1TestNameb; ?>"; <?php } ?>
-		$.ajax({
-			type	: "POST",
-			url		: "update-module-group.php?group_id=<?php echo $groupID; ?>&module_id=fossils",
-			data	: {	preid: pre, postid: post, ractive: review, preactive: "0", postactive: "0", pretl: pret, posttl: postt },
-			success	: function(json) {
-				if(json.error) return;
-				alert(msg);
-			}
-		});
-	  }
-
-	  else if(document.getElementById("m1").value=="Activate for <?php echo $group_name; ?>"){
-	  	var txt1 = document.getElementById("1a").text;
-	  	if(txt1.indexOf("Create") > -1){
-	  		var r1 = confirm("Are you sure you want to activate the module without activating the pre-test? Once your students start with the module, you won't be able to activate a pre-test.");
-	  	} else { r1 = true; }
-		if(r1 == true)
-		{
-		    document.getElementById("m1").value="Deactivate for <?php echo $group_name; ?>";
-		    // $(document.getElementById("tm1")).css({backgroundColor: "#A4A4A4"});
-			var review	= "1";
-			var pret	= "00:45:00";
-			var postt	= "00:45:00";
-			var msg = "The following has been automatically activated for <?php echo $group_name; ?>:\n* Fossils module";
-			<?php if(!empty($m1TestNamea)) { ?> msg += "\n* The pre-diagnostic test <?php echo $m1TestNamea; ?>"; <?php } ?>
-			<?php if(!empty($m1TestNameb)) { ?> msg += "\n* The post-diagnostic test <?php echo $m1TestNameb; ?>"; <?php } ?>
+		adc = adc.split(": ");
+		var mid = adc[0];
+		var gid = adc[1];
+		var preid = adc[2];
+		var postid = adc[3];
+		var module = 1;
+		var preAct = (preid == "" ? 0 : 1);
+		var postAct = (postid == "" ? 0 : 1);
+		var pre	= "00:45:00";
+		var post	= "00:45:00";
+		var mname = adc[4];
+		var preName = adc[5];
+		var postName = adc[6];
+		var adActivated = adc[7];
+		var gname = adc[8];
+		if(preid=="" && adActivated!=1 && document.getElementById(mid).value=="<?php echo _('Activate for '); ?>"+gname+"<?php echo _(' Button'); ?>"){ var conf = confirm('<?php echo _("Are you sure you want to activate the module without activating the pre-test? Once your students start with the module, you won\'t be able to activate a pre-test."); ?>');
+		}
+		if(document.getElementById(mid).value=="<?php echo _('Activate for '); ?>"+gname+"<?php echo _(' Button'); ?>" || conf == true) {
+			var msg = "<?php echo _('The following has been activated for '); ?><?php echo $group_name; ?>:\n* "+mname;
+			if(preid!="") { msg += "\n* <?php echo _('The pre-diagnostic test '); ?>"+preName; }
+			if(postid!="") { msg += "\n* <?php echo _('The post-diagnostic test '); ?>"+postName; }
 			$.ajax({
 				type	: "POST",
-				url		: "update-module-group.php?group_id=<?php echo $groupID; ?>&module_id=fossils",
-				data	: {	preid: pre, postid: post, ractive: review, preactive: preact, postactive: postact, pretl: pret, posttl: postt },
+				url		: "update-module-group.php?group_id=<?php echo $groupID; ?>&module_id="+mid,
+				data	: {	preid: preid, postid: postid, ractive: module, preactive: preAct, postactive: postAct, pretl: pre, posttl: post },
 				success	: function(json) {
 					if(json.error) return;
 					alert(msg);
 				}
 			});
+			document.getElementById(mid).value="<?php echo _('Deactivate for '); ?>"+gname+"<?php echo _(' Button'); ?>";
 		}
-	  }
-	}
-	function toggle2()
-	{
-	  if(document.getElementById("m2").value=="Deactivate for <?php echo $group_name; ?>"){
-	   document.getElementById("m2").value="Activate for <?php echo $group_name; ?>";
-	   // $(document.getElementById("tm2")).css('background-color','#FF5B5B');
-		var review	= "0";
-		var pret	= "00:45:00";
-		var postt	= "00:45:00";
-		var msg = "The following has been deactivated for <?php echo $group_name; ?>:\n* Gathering data module";
-		<?php if(!empty($m2TestNamea)) { ?> msg += "\n* The pre-diagnostic test <?php echo $m2TestNamea; ?>"; <?php } ?>
-		<?php if(!empty($m2TestNameb)) { ?> msg += "\n* The post-diagnostic test <?php echo $m2TestNameb; ?>"; <?php } ?>
-		$.ajax({
-			type	: "POST",
-			url		: "update-module-group.php?group_id=<?php echo $groupID; ?>&module_id=gathering-data",
-			data	: {	preid: pre2, postid: post2, ractive: review, preactive: "0", postactive: "0", pretl: pret, posttl: postt },
-			success	: function(json) {
-				if(json.error) return;
-				alert(msg);
-			}
-		});
-	  }
-
-	  else if(document.getElementById("m2").value=="Activate for <?php echo $group_name; ?>"){
-		var txt2 = document.getElementById("2a").text;
-	  	if(txt2.indexOf("Create") > -1){
-	  		var r2 = confirm("Are you sure you want to activate the module without activating the pre-test? Once your students start with the module, you won't be able to activate a pre-test.");
-	  	} else { r2 = true; }
-		if(r2 == true)
-		{
-		    document.getElementById("m2").value="Deactivate for <?php echo $group_name; ?>";
-		    // $(document.getElementById("tm2")).css({backgroundColor: "#A4A4A4"});
-			var review	= "1";
-			var pret	= "00:45:00";
-			var postt	= "00:45:00";
-			var msg = "The following has been automatically activated for <?php echo $group_name; ?>:\n* Gathering data module";
-			<?php if(!empty($m2TestNamea)) { ?> msg += "\n* The pre-diagnostic test <?php echo $m2TestNamea; ?>"; <?php } ?>
-			<?php if(!empty($m2TestNameb)) { ?> msg += "\n* The post-diagnostic test <?php echo $m2TestNameb; ?>"; <?php } ?>
+		else if(document.getElementById(mid).value=="<?php echo _('Deactivate for '); ?>"+gname+"<?php echo _(' Button'); ?>") {
+			var msg = "<?php echo _('The following has been deactivated for '); ?><?php echo $group_name; ?>:\n* "+mname;
+			if(preid!="") { msg += "\n* <?php echo _('The pre-diagnostic test '); ?>"+preName; }
+			if(postid!="") { msg += "\n* <?php echo _('The post-diagnostic test '); ?>"+postName; }
 			$.ajax({
 				type	: "POST",
-				url		: "update-module-group.php?group_id=<?php echo $groupID; ?>&module_id=gathering-data",
-				data	: {	preid: pre2, postid: post2, ractive: review, preactive: preact2, postactive: postact2, pretl: pret, posttl: postt },
+				url		: "update-module-group.php?group_id=<?php echo $groupID; ?>&module_id="+mid,
+				data	: {	preid: preid, postid: postid, ractive: 0, preactive: 0, postactive: 0, pretl: pre, posttl: post },
 				success	: function(json) {
 					if(json.error) return;
 					alert(msg);
 				}
 			});
+			document.getElementById(mid).value="<?php echo _('Activate for '); ?>"+gname+"<?php echo _(' Button'); ?>";
 		}
-	  }
-	}
-	function toggle3()
-	{
-	  if(document.getElementById("m3").value=="Deactivate for <?php echo $group_name; ?>"){
-	   document.getElementById("m3").value="Activate for <?php echo $group_name; ?>";
-	   // $(document.getElementById("tm3")).css('background-color','#FF5B5B');
-		var review	= "0";
-		var pret	= "00:45:00";
-		var postt	= "00:45:00";
-		var msg = "The following has been deactivated for <?php echo $group_name; ?>:\n* How animals behave module";
-		<?php if(!empty($m3TestNamea)) { ?> msg += "\n* The pre-diagnostic test <?php echo $m3TestNamea; ?>"; <?php } ?>
-		<?php if(!empty($m3TestNameb)) { ?> msg += "\n* The post-diagnostic test <?php echo $m3TestNameb; ?>"; <?php } ?>
-		$.ajax({
-			type	: "POST",
-			url		: "update-module-group.php?group_id=<?php echo $groupID; ?>&module_id=how-animals-behave",
-			data	: {	preid: pre3, postid: post3, ractive: review, preactive: "0", postactive: "0", pretl: pret, posttl: postt },
-			success	: function(json) {
-				if(json.error) return;
-				alert(msg);
-			}
-		});
-	  }
-
-	  else if(document.getElementById("m3").value=="Activate for <?php echo $group_name; ?>"){
-	  	var txt3 = document.getElementById("3a").text;
-	  	if(txt3.indexOf("Create") > -1){
-	  		var r3 = confirm("Are you sure you want to activate the module without activating the pre-test? Once your students start with the module, you won't be able to activate a pre-test.");
-	  	} else { r3 = true; }
-		if(r3 == true)
-		{
-			// && document.getElementById("3").value!="Deactivate for <?php echo $group_name; ?>"
-		    document.getElementById("m3").value="Deactivate for <?php echo $group_name; ?>";
-		    // $(document.getElementById("tm3")).css({backgroundColor: "#A4A4A4"});
-			var review	= "1";
-			var pret	= "00:45:00";
-			var postt	= "00:45:00";
-			var msg = "The following has been automatically activated for <?php echo $group_name; ?>:\n* How animals behave module";
-			<?php if(!empty($m3TestNamea)) { ?> msg += "\n* The pre-diagnostic test <?php echo $m3TestNamea; ?>"; <?php } ?>
-			<?php if(!empty($m3TestNameb)) { ?> msg += "\n* The post-diagnostic test <?php echo $m3TestNameb; ?>"; <?php } ?>
-			$.ajax({
-				type	: "POST",
-				url		: "update-module-group.php?group_id=<?php echo $groupID; ?>&module_id=how-animals-behave",
-				data	: {	preid: pre3, postid: post3, ractive: review, preactive: preact3, postactive: postact3, pretl: pret, posttl: postt },
-				success	: function(json) {
-					if(json.error) return;
-					alert(msg);
-				}
-			});
-		}
-	  }
 	}
 	$("#next" ).click(function() {
 		location.assign("final-words.php");

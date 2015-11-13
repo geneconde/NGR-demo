@@ -35,14 +35,28 @@
 	// print_r($sdt_set);
 	// echo '</pre>';
 
-	$end = $sdt_set->getEndDate();
 	$uid = $sdt_set->getUserID();
 	$mod = $sdt_set->getModuleID();
+	// $fin = $sdt_set->getFinished();
 	// echo $uid . '<br/>' . $mod;
 
-	$test = $sdt->getStudentDtByEndDate('0000-00-00 00:00:00');
+	$test = $sdt->getStudentDtByEndDate($sdt_set->getUserID(), '0000-00-00 00:00:00');
 
-if($end == '0000-00-00 00:00:00' || $test[0]['user_id'] == $uid) : ?>
+	// echo '<pre>';
+	// print_r($test);
+	// echo '</pre>';
+
+	// echo $test[0]['date_ended'];
+
+	if( !$test ) {
+		$end = '';
+		$od = '';
+	} else {
+		$end = $test[0]['date_ended'];
+		$id = $test[0]['user_id'];
+	}
+
+if($end == '0000-00-00 00:00:00' && $id == $uid) : ?>
 	</br><a class="link" href="student.php">&laquo <?php echo _("Go Back to Dashboard"); ?></a>
 	<div id="on_going">
 		<h1>This Page is temporary unavailable because you are taking  your exam.</h1>
@@ -207,7 +221,7 @@ if($end == '0000-00-00 00:00:00' || $test[0]['user_id'] == $uid) : ?>
 		$message .= $_POST['resultcontent'];
 		$headers = "From: ". 'webmaster@nexgenready.com' ." \r\n" . 
                    /*"Reply-To: info@nexgenready.com \r\n" . */
-	                   "Reply-To:". $emailfrom ." \r\n" . 
+	               "Reply-To:". $emailfrom ." \r\n" . 
                    "Content-type: text/html; charset=UTF-8 \r\n";
 
 		$to = $email;

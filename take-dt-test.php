@@ -14,7 +14,7 @@
 <?php if (isset($_GET['smid'])) {
 		$_SESSION['smid']= $_GET['smid']; 
 		$lastscreen = $_GET['s'];
-		$redirect = "modules/".$moduleid."/".$lastscreen.".php";
+		$redirect = "modules/".$moduleid."/".$lastscreen.".php?s=".$lastscreen;
 	} else {
 		$redirect = "start-module.php?m=".$moduleid;
 	}
