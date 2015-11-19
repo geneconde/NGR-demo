@@ -6,6 +6,8 @@
 	include_once 'controller/Language.Controller.php';
 	include_once 'controller/User.Controller.php';
 
+	if($user->getFirstLogin() == 0){ header("Location: index.php"); }
+
 	$sc = new SecurityController();
 	$userID = $user->getUserid();
 	$questions = $sc->getAllQuestions();
@@ -60,13 +62,12 @@
 		<?php } ?>
 		
 		<p class="lgs-text-sub heading-input">Update Account</p>
+		<p class="lgs-text-sub note">You can enter a new username and password if you would like.</p>
 		<div class="left">
-			<p class="lgs-text-sub note">Please update your username.</p>
 			<p class="input-label">Username</p>
 			<p><input class="inputText" id="Username" name="username" type="text" maxlength="50" placeholder="Username" value="<?php echo $user->getUsername(); ?>" required/><img src="" id="check"></p></p>
 		</div>
 		<div class="right">
-			<p class="lgs-text-sub note">Enter a new password if you would like.</p>
 			<p class="input-label">Password</p>
 			<p><input class="inputText" id="Password" name="password" type="text" maxlength="50" placeholder="Enter new password" minlength="6" pattern="^(?!\s*$)[a-zA-Z0-9\-]{6,}" title="Password must be 6 characters or more and must not contain space"/></p>
 		</div>
