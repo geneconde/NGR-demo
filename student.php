@@ -79,6 +79,8 @@
 	}
 	.first-timer button{
 		padding: 5px;
+		font-family: inherit;
+		margin: 0 2px;
 	}
 	.fleft { margin: 0; }
 	#gm-language {

@@ -326,7 +326,7 @@ $main_view = $grid->render("list1");
 	<style>
 		.ui-search-toolbar { display: none; }
 		.fleft { margin-top: -16px; }
-		.tguide { float: left; margin-top: 0px; }
+		.tguide { float: left; margin-top: 0px; font-family: inherit; }
 		.guide {
 			padding: 5px;
 			background-color: orange;
@@ -442,7 +442,6 @@ $main_view = $grid->render("list1");
 				<?php echo $main_view; ?>
 			</div>
 			<input name="Submit" class="nbtn next" type="submit" value="Next" />
-			<!-- <a class="nbtn skip" href="../modules.php" id="btnm">Skip</a> -->
 			<a class="nbtn back" href="../account-update.php">Back</a>
 		</div>
 	</form>
@@ -482,8 +481,8 @@ $main_view = $grid->render("list1");
 		<li data-class="ui-pg-selbox" 			data-text="Next" data-options="tipLocation:top;tipAnimation:fade">
 			<p>You can also modify the number of students you want to show in a page.</p>
 		</li>
-		<li data-id="btnm" 			data-text="Close" data-options="tipLocation:left;tipAnimation:fade">
-			<p>Click the <strong>Skip</strong> button if you have no changes. Click <strong>Next</strong> to save your changes and go to the next page.</p>
+ 		<li data-class="next" 			data-text="Close" data-options="tipLocation:left;tipAnimation:fade">
+			<p>Click <strong>Next</strong> to save your changes and go to the next page.</p>
 		</li>
     </ol>
 

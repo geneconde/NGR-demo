@@ -151,13 +151,32 @@ if($language == "ar_EG") {
 <br/>
 </div>
 <?php
-	   
+$tempChart1 = array();
 foreach($choices as $choice):
 	$ch = array($choice['order'].". "._($choice['choice']), $answers[$choice['order']]);
 	array_push($arr, $ch);
+	array_push($tempChart1, $choice['order']);
 endforeach;
 
 $piedata1 = json_encode($arr);
+$tempC = json_encode($tempChart1);
+$temp = str_replace('[["",""],', '', $tempC);
+$temp = str_replace('[', '', $temp);
+$temp = str_replace(']', '', $temp);
+$arr2 = explode(",", $temp);
+$arrTemp = array();
+
+foreach ($arr2 as $value) {
+	if(is_numeric($value)) unset($value);
+	else array_push($arrTemp, $value); 
+}
+if(in_array('"'._($answer).'"', $arrTemp)){
+	$index = array_search('"'._($answer).'"', $arrTemp);
+}
+foreach ($arr2 as $value) {
+	if(is_numeric($value)) unset($value);
+}
+
 $piedata1 = str_replace("&deg;","°",$piedata1);
 $arr	= 	array(
 				array('',''),
@@ -173,7 +192,11 @@ $piedata2 = json_encode($arr);
       function drawChart() {
         var data1 = google.visualization.arrayToDataTable(<?php echo $piedata1; ?>);
 		var data2 = google.visualization.arrayToDataTable(<?php echo $piedata2; ?>);
-        var options1 = { is3D: true };
+        var options1 = { is3D: true, colors: ['#FF0000','#FF3030','#FF4040','#FF6666','#FFC1C1'],
+	        	slices: {
+		            <?php echo $index; ?>: { color: 'green' },
+		        }
+	        };
 		var options2 = { is3D: true, colors: ['green', 'firebrick'] }
         var chart1 = new google.visualization.PieChart(document.getElementById('piechart1'));
 		var chart2 = new google.visualization.PieChart(document.getElementById('piechart2'));
