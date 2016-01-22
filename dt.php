@@ -7,7 +7,10 @@
 	require_once 'controller/DtQuestion.Controller.php';
 	require_once 'controller/StudentDt.Controller.php';
 	require_once 'controller/GroupModule.Controller.php';
-	
+	require_once 'controller/Events.Controller.php';
+
+	$ev = new EventsController();
+	$username = $user->getUsername();
 	$userid 		= $user->getUserid();
 	$dtid			= $_GET['dtid'];
 	$groupid		= $_SESSION['group'];
@@ -32,6 +35,9 @@
 	if(isset($_GET['i'])) $index = $_GET['i'];
 	else $index = 0;
 	
+	if($index==0 && !isset($_GET['i']) && $mode == 1) $ev->take_pre($userid, $username, $module->getModule_name());
+	if($index==0 && !isset($_GET['i']) && $mode == 2) $ev->take_post($userid, $username, $module->getModule_name());
+
 	$count 	= $index + 1;
 	$cq		= $questions[$index];
 	

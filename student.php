@@ -144,7 +144,7 @@
 	endif;
 ?>
 <p><?php echo _("This is your Dashboard. On this page, you can select a module to work on and view the results of the modules you have taken."); ?></p></br>
-<p id="new_note"><?php echo _("<b>NOTE:</b> We are in the process of adding an “English language voice-over” to all the modules. The voice-over will allow students to hear the module read to them in English as they read the module in any of the four language options. The “Heating & Cooling” module is a sample of how the voice-over works."); ?></p>
+<p id="new_note"><?php echo _("<b>NOTE:</b> We are in the process of adding an \"English language voice-over\" to all the modules. The voice-over will allow students to hear the module read to them in English as they read the module in any of the four language options. The \"Heating & Cooling\" module is a sample of how the voice-over works."); ?></p>
 
 <div id="dash"></div>
 <br/>

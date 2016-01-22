@@ -349,6 +349,8 @@ $(document).ready(function() {
 	$('#save').click(function() {
 		var pre 	= $('#pretest option:selected').val();
 		var post 	= $('#posttest option:selected').val();
+		var preName 	= $('#pretest option:selected').text();
+		var postName 	= $('#posttest option:selected').text();
 		var review	= ($('#myonoffswitch-module-review').is(':checked')) ? 1 : 0;
 		var preact	= ($('#myonoffswitch-module-pre').is(':checked')) ? 1 : 0;
 		var postact	= ($('#myonoffswitch-module-post').is(':checked')) ? 1 : 0;
@@ -358,7 +360,7 @@ $(document).ready(function() {
 		
 		$.ajax({
 			type	: "POST",
-			url		: "update-module-group.php?group_id=<?php echo $groupid; ?>&module_id=<?php echo $mid; ?>",
+			url		: "update-module-group.php?group_id=<?php echo $groupid; ?>&module_id=<?php echo $mid; ?>&pren="+preName+"&postn="+postName,
 			data	: {	preid: pre, postid: post, ractive: review, preactive: preact, postactive: postact, pretl: pret, posttl: postt },
 			success	: function(json) {
 				if(json.error) return;
